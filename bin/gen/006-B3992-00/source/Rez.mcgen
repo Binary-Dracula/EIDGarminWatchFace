@@ -20,6 +20,10 @@ module Rez {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
             var rez_cmp_local_custom_drawable_11939594661139614796 = new CustomBackgroundDrawable();
 
+            var rez_cmp_local_text_StepCount = new WatchUi.Text({:identifier=>"StepCount", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (24 / 100.0)), :locY=>(260 * (14 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_HeartRate = new WatchUi.Text({:identifier=>"HeartRate", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (71 / 100.0)), :locY=>(260 * (16 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
             var rez_cmp_local_text_Hour = new WatchUi.Text({:identifier=>"Hour", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (42 / 100.0)), :locY=>(260 * (64 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_NUMBER_MEDIUM});
 
             var rez_cmp_local_text_Minute = new WatchUi.Text({:identifier=>"Minute", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (58 / 100.0)), :locY=>(260 * (64 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_NUMBER_MEDIUM});
@@ -28,7 +32,7 @@ module Rez {
 
             var rez_cmp_local_text_AMPM = new WatchUi.Text({:identifier=>"AMPM", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (8 / 100.0)), :locY=>(260 * (64 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_XTINY});
 
-            return [rez_cmp_local_custom_drawable_11939594661139614796, rez_cmp_local_text_Hour, rez_cmp_local_text_Minute, rez_cmp_local_text_Second, rez_cmp_local_text_AMPM] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_11939594661139614796, rez_cmp_local_text_StepCount, rez_cmp_local_text_HeartRate, rez_cmp_local_text_Hour, rez_cmp_local_text_Minute, rez_cmp_local_text_Second, rez_cmp_local_text_AMPM] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
