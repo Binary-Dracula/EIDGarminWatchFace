@@ -1,0 +1,15 @@
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <setting propertyKey="@Properties.BackgroundImage" title="@Strings.BackgroundColorTitle">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.BackgroundWhite</listEntry>
+            <listEntry value="2">@Strings.BackgroundGreen</listEntry>
+            <listEntry value="3">@Strings.BackgroundBlue</listEntry>
+            <listEntry value="4">@Strings.BackgroundRed</listEntry>
+            <listEntry value="5">@Strings.BackgroundPurple</listEntry>
+            <listEntry value="6">@Strings.BackgroundOrange</listEntry>
+            <listEntry value="7">@Strings.BackgroundPink</listEntry>
+        </settingConfig>
+    </setting>
+
+</settings>

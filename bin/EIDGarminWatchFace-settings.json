@@ -1,0 +1,53 @@
+{
+  "settings" : [ {
+    "key" : "BackgroundImage",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "BackgroundColorTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "BackgroundWhite",
+      "value" : 1
+    }, {
+      "display" : "BackgroundGreen",
+      "value" : 2
+    }, {
+      "display" : "BackgroundBlue",
+      "value" : 3
+    }, {
+      "display" : "BackgroundRed",
+      "value" : 4
+    }, {
+      "display" : "BackgroundPurple",
+      "value" : 5
+    }, {
+      "display" : "BackgroundOrange",
+      "value" : 6
+    }, {
+      "display" : "BackgroundPink",
+      "value" : 7
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "BackgroundGreen" : "Background Green",
+      "BackgroundColorTitle" : "Background Color",
+      "BackgroundRed" : "Background Red",
+      "BackgroundOrange" : "Background Orange",
+      "BackgroundWhite" : "Background White",
+      "BackgroundPurple" : "Background Purple",
+      "BackgroundBlue" : "Background Blue",
+      "BackgroundPink" : "Background Pink",
+      "AppName" : "EIDGarminWatchFace"
+    }
+  }
+}

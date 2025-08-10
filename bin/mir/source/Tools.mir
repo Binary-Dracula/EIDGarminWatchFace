@@ -1,0 +1,193 @@
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 3; @symbol_classdef = [Tools,3,6,11]; ]
+class Tools {
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 5; @symbol_functiondef = [getAMPM,5,20,27]; @symbol_param<0> = [is24Hour,5,28,36]; @symbol_param<0>_type<0> = [Boolean,5,40,47]; @symbol_return<0> = [Lang,5,52,56]; @symbol_return<1> = [String,5,57,63]; ]
+    public
+    function getAMPM(is24Hour as Boolean) as Lang.String {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_5_64_12_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 6 8 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_5_64_12_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_5_64_12_4_stop" ]
+        %clockTime.1 = local;
+        symbol [ clockTime %clockTime.1 6 12 21 ];
+        symbol [ System %tmp.2 6 24 30 ];
+        %tmp.2 = getv ? :System;
+        symbol [ getClockTime %tmp.3 6 31 43 ];
+        %tmp.3 = getv function %tmp.2 :getClockTime;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %clockTime.1 %tmp.4;
+        symbol [ clockTime %clockTime.1 6 12 21 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 7 8 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_7_8_11_8_if_stmt:
+        %tmp.5 = lgetv %is24Hour;
+        symbol [ is24Hour %tmp.5 7 12 20 ];
+        bf %tmp.5 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_7_8_11_8_if_else_false;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_7_8_11_8_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_7_22_9_8_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 8 12 ]
+        %tmp.6 = "";
+        ret %tmp.6;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_7_22_9_8_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_7_8_11_8_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_7_8_11_8_if_else_false:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_9_15_11_8_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 10 12 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_10_19_10_49_begin:
+        %tmp.7 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.7 10 19 28 ];
+        symbol [ hour %tmp.8 10 29 33 ];
+        %tmp.8 = getv %tmp.7 :hour;
+        %tmp.9 = 12;
+        %tmp.10 = gte %tmp.8 %tmp.9;
+        bf %tmp.10 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_10_19_10_49_false;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_10_19_10_49_true:
+        %tmp.11 = "PM";
+        push %tmp.11;
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_10_19_10_49_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_10_19_10_49_false:
+        %tmp.12 = "AM";
+        push %tmp.12;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_10_19_10_49_end:
+        %tmp.13 = phi [%tmp.10 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_10_19_10_49_begin] [%tmp.11 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_10_19_10_49_true] [%tmp.12 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_10_19_10_49_false] [%tmp.13 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_10_19_10_49_end];
+        ret %tmp.13;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_9_15_11_8_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_7_8_11_8_if_end:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_5_64_12_4_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 15; @symbol_functiondef = [getSystemHour,15,11,24]; @symbol_param<0> = [is24Hour,15,25,33]; @symbol_param<0>_type<0> = [Boolean,15,37,44]; @symbol_return<0> = [Lang,15,49,53]; @symbol_return<1> = [String,15,54,60]; ]
+    function getSystemHour(is24Hour as Boolean) as Lang.String {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_15_61_26_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 16 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_15_61_26_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_15_61_26_2_stop" ]
+        %clockTime.1 = local;
+        symbol [ clockTime %clockTime.1 16 8 17 ];
+        symbol [ System %tmp.2 16 20 26 ];
+        %tmp.2 = getv ? :System;
+        symbol [ getClockTime %tmp.3 16 27 39 ];
+        %tmp.3 = getv function %tmp.2 :getClockTime;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %clockTime.1 %tmp.4;
+        symbol [ clockTime %clockTime.1 16 8 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 17 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_15_61_26_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_15_61_26_2_stop" ]
+        %hours.2 = local;
+        symbol [ hours %hours.2 17 8 13 ];
+        %tmp.5 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.5 17 16 25 ];
+        symbol [ hour %tmp.6 17 26 30 ];
+        %tmp.6 = getv %tmp.5 :hour;
+        lputv %hours.2 %tmp.6;
+        symbol [ hours %hours.2 17 8 13 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 18 4 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_18_4_25_4_if_stmt:
+        %tmp.7 = lgetv %is24Hour;
+        symbol [ is24Hour %tmp.7 18 8 16 ];
+        bf %tmp.7 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_18_4_25_4_if_else_false;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_18_4_25_4_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_18_18_20_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 19 6 ]
+        %tmp.8 = lgetv %hours.2;
+        symbol [ hours %tmp.8 19 13 18 ];
+        symbol [ format %tmp.9 19 19 25 ];
+        %tmp.9 = getv function %tmp.8 :format;
+        %tmp.10 = "%02d";
+        %tmp.11 = invoke %tmp.8 %tmp.9(%tmp.10);
+        ret %tmp.11;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_18_18_20_4_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_18_4_25_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_18_4_25_4_if_else_false:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_20_11_25_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 21 6 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_21_6_23_6_if_stmt:
+        %tmp.12 = lgetv %hours.2;
+        symbol [ hours %tmp.12 21 10 15 ];
+        %tmp.13 = 12;
+        %tmp.14 = gt %tmp.12 %tmp.13;
+        bf %tmp.14 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_21_6_23_6_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_21_6_23_6_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_21_22_23_6_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 22 8 ]
+        %tmp.15 = lgetv %hours.2;
+        symbol [ hours %tmp.15 22 16 21 ];
+        %tmp.16 = 12;
+        %tmp.17 = sub %tmp.15 %tmp.16;
+        lputv %hours.2 %tmp.17;
+        symbol [ hours %hours.2 22 8 13 ];
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_21_22_23_6_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_21_6_23_6_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_21_6_23_6_if_end:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 24 6 ]
+        %tmp.18 = lgetv %hours.2;
+        symbol [ hours %tmp.18 24 13 18 ];
+        symbol [ format %tmp.19 24 19 25 ];
+        %tmp.19 = getv function %tmp.18 :format;
+        %tmp.20 = "%02d";
+        %tmp.21 = invoke %tmp.18 %tmp.19(%tmp.20);
+        ret %tmp.21;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_20_11_25_4_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_18_4_25_4_if_end:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_15_61_26_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 29; @symbol_functiondef = [getSystemMinute,29,11,26]; @symbol_return<0> = [Lang,29,32,36]; @symbol_return<1> = [String,29,37,43]; ]
+    function getSystemMinute() as Lang.String {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_29_44_32_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 30 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_29_44_32_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_29_44_32_2_stop" ]
+        %clockTime.1 = local;
+        symbol [ clockTime %clockTime.1 30 8 17 ];
+        symbol [ System %tmp.2 30 20 26 ];
+        %tmp.2 = getv ? :System;
+        symbol [ getClockTime %tmp.3 30 27 39 ];
+        %tmp.3 = getv function %tmp.2 :getClockTime;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %clockTime.1 %tmp.4;
+        symbol [ clockTime %clockTime.1 30 8 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 31 4 ]
+        %tmp.5 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.5 31 11 20 ];
+        symbol [ min %tmp.6 31 21 24 ];
+        %tmp.6 = getv %tmp.5 :min;
+        symbol [ format %tmp.7 31 25 31 ];
+        %tmp.7 = getv function %tmp.6 :format;
+        %tmp.8 = "%02d";
+        %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
+        ret %tmp.9;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_29_44_32_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 35; @symbol_functiondef = [getSystemSecond,35,11,26]; @symbol_return<0> = [Lang,35,32,36]; @symbol_return<1> = [String,35,37,43]; ]
+    function getSystemSecond() as Lang.String {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_35_44_38_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 36 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_35_44_38_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_35_44_38_2_stop" ]
+        %clockTime.1 = local;
+        symbol [ clockTime %clockTime.1 36 8 17 ];
+        symbol [ System %tmp.2 36 20 26 ];
+        %tmp.2 = getv ? :System;
+        symbol [ getClockTime %tmp.3 36 27 39 ];
+        %tmp.3 = getv function %tmp.2 :getClockTime;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %clockTime.1 %tmp.4;
+        symbol [ clockTime %clockTime.1 36 8 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 37 4 ]
+        %tmp.5 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.5 37 11 20 ];
+        symbol [ sec %tmp.6 37 21 24 ];
+        %tmp.6 = getv %tmp.5 :sec;
+        symbol [ format %tmp.7 37 25 31 ];
+        %tmp.7 = getv function %tmp.6 :format;
+        %tmp.8 = "%02d";
+        %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
+        ret %tmp.9;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_35_44_38_2_stop:
+    }
+}
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 1; ]
+<init> {
+}

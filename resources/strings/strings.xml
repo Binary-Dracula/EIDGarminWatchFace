@@ -1,0 +1,15 @@
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <string id="AppName">EIDGarminWatchFace</string>
+
+<!-- Background Color -->
+    <string id="BackgroundColorTitle">Background Color</string>
+    <string id="BackgroundWhite">Background White</string>
+    <string id="BackgroundGreen">Background Green</string>
+    <string id="BackgroundBlue">Background Blue</string>
+    <string id="BackgroundRed">Background Red</string>
+    <string id="BackgroundPurple">Background Purple</string>
+    <string id="BackgroundOrange">Background Orange</string>
+    <string id="BackgroundPink">Background Pink</string>
+
+</strings>

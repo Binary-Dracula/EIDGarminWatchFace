@@ -1,0 +1,13 @@
+<layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+   <drawable class="CustomBackgroundDrawable"/>
+
+   <!-- 小时 -->
+   <label id="Hour" x="42%" y="64%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_NUMBER_MEDIUM" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
+   <!-- 分钟 -->
+   <label id="Minute" x="58%" y="64%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_NUMBER_MEDIUM" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
+   <!-- 秒 -->
+   <label id="Second" x="84%" y="64%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_TINY" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
+   <!-- AM / PM -->
+   <label id="AMPM" x="8%" y="64%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
+</layout>
