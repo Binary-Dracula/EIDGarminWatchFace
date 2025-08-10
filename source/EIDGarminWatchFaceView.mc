@@ -29,11 +29,15 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
         View.onUpdate(dc);
 
         setStepCount();
+        setCalories();
         setHeartRate();
+        setDate();
+        setWeekday();
         setHour();
         setMinute();
         setSecond();
         setAMPM();
+
     }
 
     // Called when this View is removed from the screen. Save the
@@ -84,5 +88,23 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
     private function setHeartRate() {
         var heartRateLabel = findDrawableById("HeartRate") as Text;
         heartRateLabel.setText(tools.getSystemHeartRate().format("%d"));
+    }
+
+    // 日期
+    private function setDate() {
+        var dateLabel = findDrawableById("Date") as Text;
+        dateLabel.setText(tools.getSystemDay());
+    }
+
+    // 星期
+    private function setWeekday() {
+        var weekdayLabel = findDrawableById("Weekday") as Text;
+        weekdayLabel.setText(tools.getSystemWeekday());
+    }
+
+    // 卡路里
+    private function setCalories() {
+        var caloriesLabel = findDrawableById("Calories") as Text;
+        caloriesLabel.setText(tools.getTodayCalories().format("%d"));
     }
 }

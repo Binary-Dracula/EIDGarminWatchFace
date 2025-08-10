@@ -3,10 +3,13 @@
    <drawable class="CustomBackgroundDrawable"/>
 
    <!-- 步数 -->
-   <label id="StepCount" x="24%" y="14%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_SMALL" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
+   <label id="StepCount" x="24%" y="14%" color="Gfx.COLOR_BLACK" font = "Graphics.FONT_SMALL" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
    <!-- 心率 -->
    <label id="HeartRate" x="71%" y="16%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_SMALL" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
+
+   <!-- 卡路里 -->
+   <label id="Calories" x="42%" y="27%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
    <!-- 小时 -->
    <label id="Hour" x="42%" y="64%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_NUMBER_MEDIUM" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
@@ -19,5 +22,11 @@
 
    <!-- AM / PM -->
    <label id="AMPM" x="8%" y="64%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
+
+   <!-- 日期 -->
+   <label id="Date" x="28%" y="38%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_TINY" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
+
+   <!-- 星期 -->
+   <label id="Weekday" x="72%" y="38%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_TINY" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
 
 </layout>
