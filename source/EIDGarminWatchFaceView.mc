@@ -4,6 +4,13 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 
+/**
+240x240
+260x260
+280x280
+416x416
+454x454
+*/
 class EIDGarminWatchFaceView extends WatchUi.WatchFace {
 
     private var tools = new Tools();
@@ -28,6 +35,7 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
 
+        setDistance();
         setStepCount();
         setCalories();
         setHeartRate();
@@ -37,6 +45,10 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
         setMinute();
         setSecond();
         setAMPM();
+        setSunsetTime();
+        setTemperature();
+        setHumidity();
+        setBattery();
 
     }
 
@@ -106,5 +118,37 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
     private function setCalories() {
         var caloriesLabel = findDrawableById("Calories") as Text;
         caloriesLabel.setText(tools.getTodayCalories().format("%d"));
+    }
+
+    // 距离
+    private function setDistance() {
+        var distanceLabel = findDrawableById("Distance") as Text;
+        distanceLabel.setText(tools.getSystemDistance());
+    }
+
+    // 日落时间
+    private function setSunsetTime() {
+        var sunsetTimeLabel = findDrawableById("SunsetTime") as Text;
+        sunsetTimeLabel.setText(tools.getSystemSunsetTime());
+    }
+
+    // 天气图标
+
+    // 当前温度
+    private function setTemperature() {
+        var temperatureLabel = findDrawableById("Temperature") as Text;
+        temperatureLabel.setText(Lang.format(WatchUi.loadResource(Rez.Strings.TemperatureValue), [tools.getSystemTemperature()]));
+    }
+
+    // 当前湿度
+    private function setHumidity() {
+        var humidityLabel = findDrawableById("Humidity") as Text;
+        humidityLabel.setText(Lang.format(WatchUi.loadResource(Rez.Strings.HumidityValue), [tools.getSystemHumidity()]));
+    }
+
+    // 电量
+    private function setBattery() {
+        var batteryLabel = findDrawableById("Battery") as Text;
+        batteryLabel.setText(Lang.format(WatchUi.loadResource(Rez.Strings.BatteryValue), [tools.getSystemBattery()]));
     }
 }

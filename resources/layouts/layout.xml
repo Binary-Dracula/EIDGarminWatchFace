@@ -1,6 +1,11 @@
 <layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
 
    <drawable class="CustomBackgroundDrawable"/>
+   <!-- 距离 -->
+   <label id="Distance" x="50%" y="2%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_TINY" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
+
+   <!-- 距离单位 -->
+   <label id="DistanceUnit" x="62%" y="4%" color="Gfx.COLOR_WHITE" text = "km" font = "Graphics.FONT_SYSTEM_XTINY" justification = "Graphics.TEXT_JUSTIFY_CENTER" />
 
    <!-- 步数 -->
    <label id="StepCount" x="24%" y="14%" color="Gfx.COLOR_BLACK" font = "Graphics.FONT_SMALL" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
@@ -27,6 +32,21 @@
    <label id="Date" x="28%" y="38%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_TINY" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
    <!-- 星期 -->
-   <label id="Weekday" x="72%" y="38%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_TINY" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
+   <label id="Weekday" x="72%" y="40%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_SYSTEM_XTINY" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
+
+   <!-- 日落时间 -->
+   <label id="SunsetTime" x="50%" y="53%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
+
+   <!-- 天气图标 -->
+   <bitmap id="WeatherIcon" x="26%" y="86%" filename="../drawables/weather/condition_clear.png" />
+
+   <!-- 当前温度 -->
+   <label id="Temperature" x="38%" y="85%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
+
+   <!-- 当前湿度 -->
+   <label id="Humidity" x="68%" y="85%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
+
+   <!-- 电量 -->
+   <label id="Battery" x="15%" y="44%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
 
 </layout>

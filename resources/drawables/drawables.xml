@@ -8,5 +8,6 @@
     <bitmap id="BackgroundPurple" filename="background_purple.png" dithering="none" />
     <bitmap id="BackgroundOrange" filename="background_orange.png" dithering="none" />
     <bitmap id="BackgroundPink" filename="background_pink.png" dithering="none" />
+    <bitmap id="ConditionClear" filename="weather/condition_clear.png" dithering="none" />
 
 </drawables>

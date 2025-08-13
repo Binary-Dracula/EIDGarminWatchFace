@@ -8,406 +8,638 @@ import Toybox.Lang;
 import Toybox.System;
 [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [WatchUi,5,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 7; @symbol_classdef = [EIDGarminWatchFaceView,7,6,28]; @symbol_extends<0> = [WatchUi,7,37,44]; @symbol_extends<1> = [WatchFace,7,45,54]; ]
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 14; @symbol_classdef = [EIDGarminWatchFaceView,14,6,28]; @symbol_extends<0> = [WatchUi,14,37,44]; @symbol_extends<1> = [WatchFace,14,45,54]; ]
 class EIDGarminWatchFaceView extends WatchUi.WatchFace {
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 7; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 14; ]
     <init> {
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 9 16 ]
-        symbol [ Tools %tmp.4 9 28 33 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 16 16 ]
+        symbol [ Tools %tmp.4 16 28 33 ];
         %tmp.4 = getv ? :Tools;
         %tmp.1 = newc %tmp.4 ();
         putv self :tools %tmp.1;
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 7; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 14; ]
     static
     <init> {
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 9; @position = 16; @symbol_vardef = [tools,9,16,21]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 16; @position = 16; @symbol_vardef = [tools,16,16,21]; ]
     private
     var tools;
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 11; @symbol_functiondef = [initialize,11,13,23]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 18; @symbol_functiondef = [initialize,18,13,23]; ]
     function initialize() as Void {
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_11_26_13_4_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 12 8 ]
-        symbol [ WatchFace %tmp.2 12 8 17 ];
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_18_26_20_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 19 8 ]
+        symbol [ WatchFace %tmp.2 19 8 17 ];
         %tmp.2 = getv ? :WatchFace;
-        symbol [ initialize %tmp.3 12 18 28 ];
+        symbol [ initialize %tmp.3 19 18 28 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_11_26_13_4_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_18_26_20_4_stop:
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 16; @symbol_functiondef = [onLayout,16,13,21]; @symbol_param<0> = [dc,16,22,24]; @symbol_param<0>_type<0> = [Dc,16,28,30]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 23; @symbol_functiondef = [onLayout,23,13,21]; @symbol_param<0> = [dc,23,22,24]; @symbol_param<0>_type<0> = [Dc,23,28,30]; ]
     function onLayout(dc as Dc) as Void {
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_16_40_18_4_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 17 8 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_23_40_25_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 24 8 ]
         %tmp.1 = self;
-        symbol [ setLayout %tmp.2 17 8 17 ];
+        symbol [ setLayout %tmp.2 24 8 17 ];
         %tmp.2 = getv function %tmp.1 :setLayout;
-        symbol [ Rez %tmp.4 17 18 21 ];
+        symbol [ Rez %tmp.4 24 18 21 ];
         %tmp.4 = getv ? :Rez;
-        symbol [ Layouts %tmp.5 17 22 29 ];
+        symbol [ Layouts %tmp.5 24 22 29 ];
         %tmp.5 = getv %tmp.4 :Layouts;
-        symbol [ WatchFace %tmp.6 17 30 39 ];
+        symbol [ WatchFace %tmp.6 24 30 39 ];
         %tmp.6 = getv function %tmp.5 :WatchFace;
         %tmp.7 = lgetv %dc;
-        symbol [ dc %tmp.7 17 40 42 ];
+        symbol [ dc %tmp.7 24 40 42 ];
         %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
         invoke %tmp.1 %tmp.2(%tmp.8);
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_16_40_18_4_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_23_40_25_4_stop:
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 23; @symbol_functiondef = [onShow,23,13,19]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 30; @symbol_functiondef = [onShow,30,13,19]; ]
     function onShow() as Void {
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 27; @symbol_functiondef = [onUpdate,27,13,21]; @symbol_param<0> = [dc,27,22,24]; @symbol_param<0>_type<0> = [Dc,27,28,30]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 34; @symbol_functiondef = [onUpdate,34,13,21]; @symbol_param<0> = [dc,34,22,24]; @symbol_param<0>_type<0> = [Dc,34,28,30]; ]
     function onUpdate(dc as Dc) as Void {
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_27_40_41_4_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 29 8 ]
-        symbol [ View %tmp.2 29 8 12 ];
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_34_40_53_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 36 8 ]
+        symbol [ View %tmp.2 36 8 12 ];
         %tmp.2 = getv ? :View;
-        symbol [ onUpdate %tmp.3 29 13 21 ];
+        symbol [ onUpdate %tmp.3 36 13 21 ];
         %tmp.3 = getv function %tmp.2 :onUpdate;
         %tmp.4 = lgetv %dc;
-        symbol [ dc %tmp.4 29 22 24 ];
+        symbol [ dc %tmp.4 36 22 24 ];
         invoke %tmp.2 %tmp.3(%tmp.4);
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 31 8 ]
-        %tmp.5 = self;
-        symbol [ setStepCount %tmp.6 31 8 20 ];
-        %tmp.6 = getv function %tmp.5 :setStepCount;
-        invoke %tmp.5 %tmp.6();
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 32 8 ]
-        %tmp.7 = self;
-        symbol [ setCalories %tmp.8 32 8 19 ];
-        %tmp.8 = getv function %tmp.7 :setCalories;
-        invoke %tmp.7 %tmp.8();
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 33 8 ]
-        %tmp.9 = self;
-        symbol [ setHeartRate %tmp.10 33 8 20 ];
-        %tmp.10 = getv function %tmp.9 :setHeartRate;
-        invoke %tmp.9 %tmp.10();
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 34 8 ]
-        %tmp.11 = self;
-        symbol [ setDate %tmp.12 34 8 15 ];
-        %tmp.12 = getv function %tmp.11 :setDate;
-        invoke %tmp.11 %tmp.12();
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 35 8 ]
-        %tmp.13 = self;
-        symbol [ setWeekday %tmp.14 35 8 18 ];
-        %tmp.14 = getv function %tmp.13 :setWeekday;
-        invoke %tmp.13 %tmp.14();
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 36 8 ]
-        %tmp.15 = self;
-        symbol [ setHour %tmp.16 36 8 15 ];
-        %tmp.16 = getv function %tmp.15 :setHour;
-        invoke %tmp.15 %tmp.16();
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 37 8 ]
-        %tmp.17 = self;
-        symbol [ setMinute %tmp.18 37 8 17 ];
-        %tmp.18 = getv function %tmp.17 :setMinute;
-        invoke %tmp.17 %tmp.18();
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 38 8 ]
-        %tmp.19 = self;
-        symbol [ setSecond %tmp.20 38 8 17 ];
-        %tmp.20 = getv function %tmp.19 :setSecond;
-        invoke %tmp.19 %tmp.20();
+        %tmp.5 = self;
+        symbol [ setDistance %tmp.6 38 8 19 ];
+        %tmp.6 = getv function %tmp.5 :setDistance;
+        invoke %tmp.5 %tmp.6();
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 39 8 ]
+        %tmp.7 = self;
+        symbol [ setStepCount %tmp.8 39 8 20 ];
+        %tmp.8 = getv function %tmp.7 :setStepCount;
+        invoke %tmp.7 %tmp.8();
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 40 8 ]
+        %tmp.9 = self;
+        symbol [ setCalories %tmp.10 40 8 19 ];
+        %tmp.10 = getv function %tmp.9 :setCalories;
+        invoke %tmp.9 %tmp.10();
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 41 8 ]
+        %tmp.11 = self;
+        symbol [ setHeartRate %tmp.12 41 8 20 ];
+        %tmp.12 = getv function %tmp.11 :setHeartRate;
+        invoke %tmp.11 %tmp.12();
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 42 8 ]
+        %tmp.13 = self;
+        symbol [ setDate %tmp.14 42 8 15 ];
+        %tmp.14 = getv function %tmp.13 :setDate;
+        invoke %tmp.13 %tmp.14();
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 43 8 ]
+        %tmp.15 = self;
+        symbol [ setWeekday %tmp.16 43 8 18 ];
+        %tmp.16 = getv function %tmp.15 :setWeekday;
+        invoke %tmp.15 %tmp.16();
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 44 8 ]
+        %tmp.17 = self;
+        symbol [ setHour %tmp.18 44 8 15 ];
+        %tmp.18 = getv function %tmp.17 :setHour;
+        invoke %tmp.17 %tmp.18();
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 45 8 ]
+        %tmp.19 = self;
+        symbol [ setMinute %tmp.20 45 8 17 ];
+        %tmp.20 = getv function %tmp.19 :setMinute;
+        invoke %tmp.19 %tmp.20();
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 46 8 ]
         %tmp.21 = self;
-        symbol [ setAMPM %tmp.22 39 8 15 ];
-        %tmp.22 = getv function %tmp.21 :setAMPM;
+        symbol [ setSecond %tmp.22 46 8 17 ];
+        %tmp.22 = getv function %tmp.21 :setSecond;
         invoke %tmp.21 %tmp.22();
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_27_40_41_4_stop:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 47 8 ]
+        %tmp.23 = self;
+        symbol [ setAMPM %tmp.24 47 8 15 ];
+        %tmp.24 = getv function %tmp.23 :setAMPM;
+        invoke %tmp.23 %tmp.24();
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 48 8 ]
+        %tmp.25 = self;
+        symbol [ setSunsetTime %tmp.26 48 8 21 ];
+        %tmp.26 = getv function %tmp.25 :setSunsetTime;
+        invoke %tmp.25 %tmp.26();
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 49 8 ]
+        %tmp.27 = self;
+        symbol [ setTemperature %tmp.28 49 8 22 ];
+        %tmp.28 = getv function %tmp.27 :setTemperature;
+        invoke %tmp.27 %tmp.28();
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 50 8 ]
+        %tmp.29 = self;
+        symbol [ setHumidity %tmp.30 50 8 19 ];
+        %tmp.30 = getv function %tmp.29 :setHumidity;
+        invoke %tmp.29 %tmp.30();
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 51 8 ]
+        %tmp.31 = self;
+        symbol [ setBattery %tmp.32 51 8 18 ];
+        %tmp.32 = getv function %tmp.31 :setBattery;
+        invoke %tmp.31 %tmp.32();
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_34_40_53_4_stop:
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 46; @symbol_functiondef = [onHide,46,13,19]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 58; @symbol_functiondef = [onHide,58,13,19]; ]
     function onHide() as Void {
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 50; @symbol_functiondef = [onExitSleep,50,13,24]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 62; @symbol_functiondef = [onExitSleep,62,13,24]; ]
     function onExitSleep() as Void {
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 54; @symbol_functiondef = [onEnterSleep,54,13,25]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 66; @symbol_functiondef = [onEnterSleep,66,13,25]; ]
     function onEnterSleep() as Void {
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 58; @symbol_functiondef = [setHour,58,21,28]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 70; @symbol_functiondef = [setHour,70,21,28]; ]
     private
     function setHour() {
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_58_31_61_4_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 59 8 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_58_31_61_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_58_31_61_4_stop" ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_70_31_73_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 71 8 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_70_31_73_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_70_31_73_4_stop" ]
         %hourLabel.1 = local;
-        symbol [ hourLabel %hourLabel.1 59 12 21 ];
+        symbol [ hourLabel %hourLabel.1 71 12 21 ];
         %tmp.1 = self;
-        symbol [ findDrawableById %tmp.2 59 24 40 ];
+        symbol [ findDrawableById %tmp.2 71 24 40 ];
         %tmp.2 = getv function %tmp.1 :findDrawableById;
         %tmp.3 = "Hour";
         %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
         %tmp.5 = as %tmp.4 Text;
-        symbol [ Text %tmp.5 59 52 56 ];
+        symbol [ Text %tmp.5 71 52 56 ];
         lputv %hourLabel.1 %tmp.5;
-        symbol [ hourLabel %hourLabel.1 59 12 21 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 60 8 ]
+        symbol [ hourLabel %hourLabel.1 71 12 21 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 72 8 ]
         %tmp.6 = lgetv %hourLabel.1;
-        symbol [ hourLabel %tmp.6 60 8 17 ];
-        symbol [ setText %tmp.7 60 18 25 ];
+        symbol [ hourLabel %tmp.6 72 8 17 ];
+        symbol [ setText %tmp.7 72 18 25 ];
         %tmp.7 = getv function %tmp.6 :setText;
-        symbol [ tools %tmp.9 60 26 31 ];
+        symbol [ tools %tmp.9 72 26 31 ];
         %tmp.9 = getv ? :tools;
-        symbol [ getSystemHour %tmp.10 60 32 45 ];
+        symbol [ getSystemHour %tmp.10 72 32 45 ];
         %tmp.10 = getv function %tmp.9 :getSystemHour;
         %tmp.11 = false;
         %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
         invoke %tmp.6 %tmp.7(%tmp.12);
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_58_31_61_4_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_70_31_73_4_stop:
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 64; @symbol_functiondef = [setMinute,64,21,30]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 76; @symbol_functiondef = [setMinute,76,21,30]; ]
     private
     function setMinute() {
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_64_33_67_4_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 65 8 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_64_33_67_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_64_33_67_4_stop" ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_76_33_79_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 77 8 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_76_33_79_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_76_33_79_4_stop" ]
         %minuteLabel.1 = local;
-        symbol [ minuteLabel %minuteLabel.1 65 12 23 ];
+        symbol [ minuteLabel %minuteLabel.1 77 12 23 ];
         %tmp.1 = self;
-        symbol [ findDrawableById %tmp.2 65 26 42 ];
+        symbol [ findDrawableById %tmp.2 77 26 42 ];
         %tmp.2 = getv function %tmp.1 :findDrawableById;
         %tmp.3 = "Minute";
         %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
         %tmp.5 = as %tmp.4 Text;
-        symbol [ Text %tmp.5 65 56 60 ];
+        symbol [ Text %tmp.5 77 56 60 ];
         lputv %minuteLabel.1 %tmp.5;
-        symbol [ minuteLabel %minuteLabel.1 65 12 23 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 66 8 ]
+        symbol [ minuteLabel %minuteLabel.1 77 12 23 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 78 8 ]
         %tmp.6 = lgetv %minuteLabel.1;
-        symbol [ minuteLabel %tmp.6 66 8 19 ];
-        symbol [ setText %tmp.7 66 20 27 ];
+        symbol [ minuteLabel %tmp.6 78 8 19 ];
+        symbol [ setText %tmp.7 78 20 27 ];
         %tmp.7 = getv function %tmp.6 :setText;
-        symbol [ tools %tmp.9 66 28 33 ];
+        symbol [ tools %tmp.9 78 28 33 ];
         %tmp.9 = getv ? :tools;
-        symbol [ getSystemMinute %tmp.10 66 34 49 ];
+        symbol [ getSystemMinute %tmp.10 78 34 49 ];
         %tmp.10 = getv function %tmp.9 :getSystemMinute;
         %tmp.11 = invoke %tmp.9 %tmp.10();
         invoke %tmp.6 %tmp.7(%tmp.11);
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_64_33_67_4_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_76_33_79_4_stop:
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 70; @symbol_functiondef = [setSecond,70,21,30]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 82; @symbol_functiondef = [setSecond,82,21,30]; ]
     private
     function setSecond() {
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_70_33_73_4_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 71 8 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_70_33_73_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_70_33_73_4_stop" ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_82_33_85_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 83 8 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_82_33_85_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_82_33_85_4_stop" ]
         %secondLabel.1 = local;
-        symbol [ secondLabel %secondLabel.1 71 12 23 ];
+        symbol [ secondLabel %secondLabel.1 83 12 23 ];
         %tmp.1 = self;
-        symbol [ findDrawableById %tmp.2 71 26 42 ];
+        symbol [ findDrawableById %tmp.2 83 26 42 ];
         %tmp.2 = getv function %tmp.1 :findDrawableById;
         %tmp.3 = "Second";
         %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
         %tmp.5 = as %tmp.4 Text;
-        symbol [ Text %tmp.5 71 56 60 ];
+        symbol [ Text %tmp.5 83 56 60 ];
         lputv %secondLabel.1 %tmp.5;
-        symbol [ secondLabel %secondLabel.1 71 12 23 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 72 8 ]
+        symbol [ secondLabel %secondLabel.1 83 12 23 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 84 8 ]
         %tmp.6 = lgetv %secondLabel.1;
-        symbol [ secondLabel %tmp.6 72 8 19 ];
-        symbol [ setText %tmp.7 72 20 27 ];
+        symbol [ secondLabel %tmp.6 84 8 19 ];
+        symbol [ setText %tmp.7 84 20 27 ];
         %tmp.7 = getv function %tmp.6 :setText;
-        symbol [ tools %tmp.9 72 28 33 ];
+        symbol [ tools %tmp.9 84 28 33 ];
         %tmp.9 = getv ? :tools;
-        symbol [ getSystemSecond %tmp.10 72 34 49 ];
+        symbol [ getSystemSecond %tmp.10 84 34 49 ];
         %tmp.10 = getv function %tmp.9 :getSystemSecond;
         %tmp.11 = invoke %tmp.9 %tmp.10();
         invoke %tmp.6 %tmp.7(%tmp.11);
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_70_33_73_4_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_82_33_85_4_stop:
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 76; @symbol_functiondef = [setAMPM,76,21,28]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 88; @symbol_functiondef = [setAMPM,88,21,28]; ]
     private
     function setAMPM() {
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_76_31_79_4_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 77 8 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_76_31_79_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_76_31_79_4_stop" ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_88_31_91_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 89 8 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_88_31_91_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_88_31_91_4_stop" ]
         %ampmLabel.1 = local;
-        symbol [ ampmLabel %ampmLabel.1 77 12 21 ];
+        symbol [ ampmLabel %ampmLabel.1 89 12 21 ];
         %tmp.1 = self;
-        symbol [ findDrawableById %tmp.2 77 24 40 ];
+        symbol [ findDrawableById %tmp.2 89 24 40 ];
         %tmp.2 = getv function %tmp.1 :findDrawableById;
         %tmp.3 = "AMPM";
         %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
         %tmp.5 = as %tmp.4 Text;
-        symbol [ Text %tmp.5 77 52 56 ];
+        symbol [ Text %tmp.5 89 52 56 ];
         lputv %ampmLabel.1 %tmp.5;
-        symbol [ ampmLabel %ampmLabel.1 77 12 21 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 78 8 ]
+        symbol [ ampmLabel %ampmLabel.1 89 12 21 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 90 8 ]
         %tmp.6 = lgetv %ampmLabel.1;
-        symbol [ ampmLabel %tmp.6 78 8 17 ];
-        symbol [ setText %tmp.7 78 18 25 ];
+        symbol [ ampmLabel %tmp.6 90 8 17 ];
+        symbol [ setText %tmp.7 90 18 25 ];
         %tmp.7 = getv function %tmp.6 :setText;
-        symbol [ tools %tmp.9 78 26 31 ];
+        symbol [ tools %tmp.9 90 26 31 ];
         %tmp.9 = getv ? :tools;
-        symbol [ getAMPM %tmp.10 78 32 39 ];
+        symbol [ getAMPM %tmp.10 90 32 39 ];
         %tmp.10 = getv function %tmp.9 :getAMPM;
         %tmp.11 = false;
         %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
         invoke %tmp.6 %tmp.7(%tmp.12);
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_76_31_79_4_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_88_31_91_4_stop:
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 82; @symbol_functiondef = [setStepCount,82,21,33]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 94; @symbol_functiondef = [setStepCount,94,21,33]; ]
     private
     function setStepCount() {
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_82_36_85_4_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 83 8 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_82_36_85_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_82_36_85_4_stop" ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_94_36_97_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 95 8 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_94_36_97_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_94_36_97_4_stop" ]
         %stepLabel.1 = local;
-        symbol [ stepLabel %stepLabel.1 83 12 21 ];
+        symbol [ stepLabel %stepLabel.1 95 12 21 ];
         %tmp.1 = self;
-        symbol [ findDrawableById %tmp.2 83 24 40 ];
+        symbol [ findDrawableById %tmp.2 95 24 40 ];
         %tmp.2 = getv function %tmp.1 :findDrawableById;
         %tmp.3 = "StepCount";
         %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
         %tmp.5 = as %tmp.4 Text;
-        symbol [ Text %tmp.5 83 57 61 ];
+        symbol [ Text %tmp.5 95 57 61 ];
         lputv %stepLabel.1 %tmp.5;
-        symbol [ stepLabel %stepLabel.1 83 12 21 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 84 8 ]
-        %tmp.6 = lgetv %stepLabel.1;
-        symbol [ stepLabel %tmp.6 84 8 17 ];
-        symbol [ setText %tmp.7 84 18 25 ];
-        %tmp.7 = getv function %tmp.6 :setText;
-        symbol [ tools %tmp.9 84 26 31 ];
-        %tmp.9 = getv ? :tools;
-        symbol [ getSystemStepCount %tmp.10 84 32 50 ];
-        %tmp.10 = getv function %tmp.9 :getSystemStepCount;
-        %tmp.11 = invoke %tmp.9 %tmp.10();
-        symbol [ format %tmp.12 84 53 59 ];
-        %tmp.12 = getv function %tmp.11 :format;
-        %tmp.13 = "%d";
-        %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
-        invoke %tmp.6 %tmp.7(%tmp.14);
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_82_36_85_4_stop:
-    }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 88; @symbol_functiondef = [setHeartRate,88,21,33]; ]
-    private
-    function setHeartRate() {
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_88_36_91_4_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 89 8 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_88_36_91_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_88_36_91_4_stop" ]
-        %heartRateLabel.1 = local;
-        symbol [ heartRateLabel %heartRateLabel.1 89 12 26 ];
-        %tmp.1 = self;
-        symbol [ findDrawableById %tmp.2 89 29 45 ];
-        %tmp.2 = getv function %tmp.1 :findDrawableById;
-        %tmp.3 = "HeartRate";
-        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
-        %tmp.5 = as %tmp.4 Text;
-        symbol [ Text %tmp.5 89 62 66 ];
-        lputv %heartRateLabel.1 %tmp.5;
-        symbol [ heartRateLabel %heartRateLabel.1 89 12 26 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 90 8 ]
-        %tmp.6 = lgetv %heartRateLabel.1;
-        symbol [ heartRateLabel %tmp.6 90 8 22 ];
-        symbol [ setText %tmp.7 90 23 30 ];
-        %tmp.7 = getv function %tmp.6 :setText;
-        symbol [ tools %tmp.9 90 31 36 ];
-        %tmp.9 = getv ? :tools;
-        symbol [ getSystemHeartRate %tmp.10 90 37 55 ];
-        %tmp.10 = getv function %tmp.9 :getSystemHeartRate;
-        %tmp.11 = invoke %tmp.9 %tmp.10();
-        symbol [ format %tmp.12 90 58 64 ];
-        %tmp.12 = getv function %tmp.11 :format;
-        %tmp.13 = "%d";
-        %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
-        invoke %tmp.6 %tmp.7(%tmp.14);
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_88_36_91_4_stop:
-    }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 94; @symbol_functiondef = [setDate,94,21,28]; ]
-    private
-    function setDate() {
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_94_31_97_4_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 95 8 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_94_31_97_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_94_31_97_4_stop" ]
-        %dateLabel.1 = local;
-        symbol [ dateLabel %dateLabel.1 95 12 21 ];
-        %tmp.1 = self;
-        symbol [ findDrawableById %tmp.2 95 24 40 ];
-        %tmp.2 = getv function %tmp.1 :findDrawableById;
-        %tmp.3 = "Date";
-        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
-        %tmp.5 = as %tmp.4 Text;
-        symbol [ Text %tmp.5 95 52 56 ];
-        lputv %dateLabel.1 %tmp.5;
-        symbol [ dateLabel %dateLabel.1 95 12 21 ];
+        symbol [ stepLabel %stepLabel.1 95 12 21 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 96 8 ]
-        %tmp.6 = lgetv %dateLabel.1;
-        symbol [ dateLabel %tmp.6 96 8 17 ];
+        %tmp.6 = lgetv %stepLabel.1;
+        symbol [ stepLabel %tmp.6 96 8 17 ];
         symbol [ setText %tmp.7 96 18 25 ];
         %tmp.7 = getv function %tmp.6 :setText;
         symbol [ tools %tmp.9 96 26 31 ];
         %tmp.9 = getv ? :tools;
-        symbol [ getSystemDay %tmp.10 96 32 44 ];
-        %tmp.10 = getv function %tmp.9 :getSystemDay;
+        symbol [ getSystemStepCount %tmp.10 96 32 50 ];
+        %tmp.10 = getv function %tmp.9 :getSystemStepCount;
         %tmp.11 = invoke %tmp.9 %tmp.10();
-        invoke %tmp.6 %tmp.7(%tmp.11);
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_94_31_97_4_stop:
-    }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 100; @symbol_functiondef = [setWeekday,100,21,31]; ]
-    private
-    function setWeekday() {
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_100_34_103_4_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 101 8 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_100_34_103_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_100_34_103_4_stop" ]
-        %weekdayLabel.1 = local;
-        symbol [ weekdayLabel %weekdayLabel.1 101 12 24 ];
-        %tmp.1 = self;
-        symbol [ findDrawableById %tmp.2 101 27 43 ];
-        %tmp.2 = getv function %tmp.1 :findDrawableById;
-        %tmp.3 = "Weekday";
-        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
-        %tmp.5 = as %tmp.4 Text;
-        symbol [ Text %tmp.5 101 58 62 ];
-        lputv %weekdayLabel.1 %tmp.5;
-        symbol [ weekdayLabel %weekdayLabel.1 101 12 24 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 102 8 ]
-        %tmp.6 = lgetv %weekdayLabel.1;
-        symbol [ weekdayLabel %tmp.6 102 8 20 ];
-        symbol [ setText %tmp.7 102 21 28 ];
-        %tmp.7 = getv function %tmp.6 :setText;
-        symbol [ tools %tmp.9 102 29 34 ];
-        %tmp.9 = getv ? :tools;
-        symbol [ getSystemWeekday %tmp.10 102 35 51 ];
-        %tmp.10 = getv function %tmp.9 :getSystemWeekday;
-        %tmp.11 = invoke %tmp.9 %tmp.10();
-        invoke %tmp.6 %tmp.7(%tmp.11);
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_100_34_103_4_stop:
-    }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 106; @symbol_functiondef = [setCalories,106,21,32]; ]
-    private
-    function setCalories() {
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_106_35_109_4_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 107 8 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_106_35_109_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_106_35_109_4_stop" ]
-        %caloriesLabel.1 = local;
-        symbol [ caloriesLabel %caloriesLabel.1 107 12 25 ];
-        %tmp.1 = self;
-        symbol [ findDrawableById %tmp.2 107 28 44 ];
-        %tmp.2 = getv function %tmp.1 :findDrawableById;
-        %tmp.3 = "Calories";
-        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
-        %tmp.5 = as %tmp.4 Text;
-        symbol [ Text %tmp.5 107 60 64 ];
-        lputv %caloriesLabel.1 %tmp.5;
-        symbol [ caloriesLabel %caloriesLabel.1 107 12 25 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 108 8 ]
-        %tmp.6 = lgetv %caloriesLabel.1;
-        symbol [ caloriesLabel %tmp.6 108 8 21 ];
-        symbol [ setText %tmp.7 108 22 29 ];
-        %tmp.7 = getv function %tmp.6 :setText;
-        symbol [ tools %tmp.9 108 30 35 ];
-        %tmp.9 = getv ? :tools;
-        symbol [ getTodayCalories %tmp.10 108 36 52 ];
-        %tmp.10 = getv function %tmp.9 :getTodayCalories;
-        %tmp.11 = invoke %tmp.9 %tmp.10();
-        symbol [ format %tmp.12 108 55 61 ];
+        symbol [ format %tmp.12 96 53 59 ];
         %tmp.12 = getv function %tmp.11 :format;
         %tmp.13 = "%d";
         %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
         invoke %tmp.6 %tmp.7(%tmp.14);
-_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_106_35_109_4_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_94_36_97_4_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 100; @symbol_functiondef = [setHeartRate,100,21,33]; ]
+    private
+    function setHeartRate() {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_100_36_103_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 101 8 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_100_36_103_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_100_36_103_4_stop" ]
+        %heartRateLabel.1 = local;
+        symbol [ heartRateLabel %heartRateLabel.1 101 12 26 ];
+        %tmp.1 = self;
+        symbol [ findDrawableById %tmp.2 101 29 45 ];
+        %tmp.2 = getv function %tmp.1 :findDrawableById;
+        %tmp.3 = "HeartRate";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        %tmp.5 = as %tmp.4 Text;
+        symbol [ Text %tmp.5 101 62 66 ];
+        lputv %heartRateLabel.1 %tmp.5;
+        symbol [ heartRateLabel %heartRateLabel.1 101 12 26 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 102 8 ]
+        %tmp.6 = lgetv %heartRateLabel.1;
+        symbol [ heartRateLabel %tmp.6 102 8 22 ];
+        symbol [ setText %tmp.7 102 23 30 ];
+        %tmp.7 = getv function %tmp.6 :setText;
+        symbol [ tools %tmp.9 102 31 36 ];
+        %tmp.9 = getv ? :tools;
+        symbol [ getSystemHeartRate %tmp.10 102 37 55 ];
+        %tmp.10 = getv function %tmp.9 :getSystemHeartRate;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        symbol [ format %tmp.12 102 58 64 ];
+        %tmp.12 = getv function %tmp.11 :format;
+        %tmp.13 = "%d";
+        %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
+        invoke %tmp.6 %tmp.7(%tmp.14);
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_100_36_103_4_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 106; @symbol_functiondef = [setDate,106,21,28]; ]
+    private
+    function setDate() {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_106_31_109_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 107 8 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_106_31_109_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_106_31_109_4_stop" ]
+        %dateLabel.1 = local;
+        symbol [ dateLabel %dateLabel.1 107 12 21 ];
+        %tmp.1 = self;
+        symbol [ findDrawableById %tmp.2 107 24 40 ];
+        %tmp.2 = getv function %tmp.1 :findDrawableById;
+        %tmp.3 = "Date";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        %tmp.5 = as %tmp.4 Text;
+        symbol [ Text %tmp.5 107 52 56 ];
+        lputv %dateLabel.1 %tmp.5;
+        symbol [ dateLabel %dateLabel.1 107 12 21 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 108 8 ]
+        %tmp.6 = lgetv %dateLabel.1;
+        symbol [ dateLabel %tmp.6 108 8 17 ];
+        symbol [ setText %tmp.7 108 18 25 ];
+        %tmp.7 = getv function %tmp.6 :setText;
+        symbol [ tools %tmp.9 108 26 31 ];
+        %tmp.9 = getv ? :tools;
+        symbol [ getSystemDay %tmp.10 108 32 44 ];
+        %tmp.10 = getv function %tmp.9 :getSystemDay;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        invoke %tmp.6 %tmp.7(%tmp.11);
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_106_31_109_4_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 112; @symbol_functiondef = [setWeekday,112,21,31]; ]
+    private
+    function setWeekday() {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_112_34_115_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 113 8 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_112_34_115_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_112_34_115_4_stop" ]
+        %weekdayLabel.1 = local;
+        symbol [ weekdayLabel %weekdayLabel.1 113 12 24 ];
+        %tmp.1 = self;
+        symbol [ findDrawableById %tmp.2 113 27 43 ];
+        %tmp.2 = getv function %tmp.1 :findDrawableById;
+        %tmp.3 = "Weekday";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        %tmp.5 = as %tmp.4 Text;
+        symbol [ Text %tmp.5 113 58 62 ];
+        lputv %weekdayLabel.1 %tmp.5;
+        symbol [ weekdayLabel %weekdayLabel.1 113 12 24 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 114 8 ]
+        %tmp.6 = lgetv %weekdayLabel.1;
+        symbol [ weekdayLabel %tmp.6 114 8 20 ];
+        symbol [ setText %tmp.7 114 21 28 ];
+        %tmp.7 = getv function %tmp.6 :setText;
+        symbol [ tools %tmp.9 114 29 34 ];
+        %tmp.9 = getv ? :tools;
+        symbol [ getSystemWeekday %tmp.10 114 35 51 ];
+        %tmp.10 = getv function %tmp.9 :getSystemWeekday;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        invoke %tmp.6 %tmp.7(%tmp.11);
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_112_34_115_4_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 118; @symbol_functiondef = [setCalories,118,21,32]; ]
+    private
+    function setCalories() {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_118_35_121_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 119 8 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_118_35_121_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_118_35_121_4_stop" ]
+        %caloriesLabel.1 = local;
+        symbol [ caloriesLabel %caloriesLabel.1 119 12 25 ];
+        %tmp.1 = self;
+        symbol [ findDrawableById %tmp.2 119 28 44 ];
+        %tmp.2 = getv function %tmp.1 :findDrawableById;
+        %tmp.3 = "Calories";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        %tmp.5 = as %tmp.4 Text;
+        symbol [ Text %tmp.5 119 60 64 ];
+        lputv %caloriesLabel.1 %tmp.5;
+        symbol [ caloriesLabel %caloriesLabel.1 119 12 25 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 120 8 ]
+        %tmp.6 = lgetv %caloriesLabel.1;
+        symbol [ caloriesLabel %tmp.6 120 8 21 ];
+        symbol [ setText %tmp.7 120 22 29 ];
+        %tmp.7 = getv function %tmp.6 :setText;
+        symbol [ tools %tmp.9 120 30 35 ];
+        %tmp.9 = getv ? :tools;
+        symbol [ getTodayCalories %tmp.10 120 36 52 ];
+        %tmp.10 = getv function %tmp.9 :getTodayCalories;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        symbol [ format %tmp.12 120 55 61 ];
+        %tmp.12 = getv function %tmp.11 :format;
+        %tmp.13 = "%d";
+        %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
+        invoke %tmp.6 %tmp.7(%tmp.14);
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_118_35_121_4_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 124; @symbol_functiondef = [setDistance,124,21,32]; ]
+    private
+    function setDistance() {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_124_35_127_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 125 8 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_124_35_127_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_124_35_127_4_stop" ]
+        %distanceLabel.1 = local;
+        symbol [ distanceLabel %distanceLabel.1 125 12 25 ];
+        %tmp.1 = self;
+        symbol [ findDrawableById %tmp.2 125 28 44 ];
+        %tmp.2 = getv function %tmp.1 :findDrawableById;
+        %tmp.3 = "Distance";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        %tmp.5 = as %tmp.4 Text;
+        symbol [ Text %tmp.5 125 60 64 ];
+        lputv %distanceLabel.1 %tmp.5;
+        symbol [ distanceLabel %distanceLabel.1 125 12 25 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 126 8 ]
+        %tmp.6 = lgetv %distanceLabel.1;
+        symbol [ distanceLabel %tmp.6 126 8 21 ];
+        symbol [ setText %tmp.7 126 22 29 ];
+        %tmp.7 = getv function %tmp.6 :setText;
+        symbol [ tools %tmp.9 126 30 35 ];
+        %tmp.9 = getv ? :tools;
+        symbol [ getSystemDistance %tmp.10 126 36 53 ];
+        %tmp.10 = getv function %tmp.9 :getSystemDistance;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        invoke %tmp.6 %tmp.7(%tmp.11);
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_124_35_127_4_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 130; @symbol_functiondef = [setSunsetTime,130,21,34]; ]
+    private
+    function setSunsetTime() {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_130_37_133_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 131 8 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_130_37_133_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_130_37_133_4_stop" ]
+        %sunsetTimeLabel.1 = local;
+        symbol [ sunsetTimeLabel %sunsetTimeLabel.1 131 12 27 ];
+        %tmp.1 = self;
+        symbol [ findDrawableById %tmp.2 131 30 46 ];
+        %tmp.2 = getv function %tmp.1 :findDrawableById;
+        %tmp.3 = "SunsetTime";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        %tmp.5 = as %tmp.4 Text;
+        symbol [ Text %tmp.5 131 64 68 ];
+        lputv %sunsetTimeLabel.1 %tmp.5;
+        symbol [ sunsetTimeLabel %sunsetTimeLabel.1 131 12 27 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 132 8 ]
+        %tmp.6 = lgetv %sunsetTimeLabel.1;
+        symbol [ sunsetTimeLabel %tmp.6 132 8 23 ];
+        symbol [ setText %tmp.7 132 24 31 ];
+        %tmp.7 = getv function %tmp.6 :setText;
+        symbol [ tools %tmp.9 132 32 37 ];
+        %tmp.9 = getv ? :tools;
+        symbol [ getSystemSunsetTime %tmp.10 132 38 57 ];
+        %tmp.10 = getv function %tmp.9 :getSystemSunsetTime;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        invoke %tmp.6 %tmp.7(%tmp.11);
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_130_37_133_4_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 138; @symbol_functiondef = [setTemperature,138,21,35]; ]
+    private
+    function setTemperature() {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_138_38_141_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 139 8 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_138_38_141_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_138_38_141_4_stop" ]
+        %temperatureLabel.1 = local;
+        symbol [ temperatureLabel %temperatureLabel.1 139 12 28 ];
+        %tmp.1 = self;
+        symbol [ findDrawableById %tmp.2 139 31 47 ];
+        %tmp.2 = getv function %tmp.1 :findDrawableById;
+        %tmp.3 = "Temperature";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        %tmp.5 = as %tmp.4 Text;
+        symbol [ Text %tmp.5 139 66 70 ];
+        lputv %temperatureLabel.1 %tmp.5;
+        symbol [ temperatureLabel %temperatureLabel.1 139 12 28 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 140 8 ]
+        %tmp.6 = lgetv %temperatureLabel.1;
+        symbol [ temperatureLabel %tmp.6 140 8 24 ];
+        symbol [ setText %tmp.7 140 25 32 ];
+        %tmp.7 = getv function %tmp.6 :setText;
+        symbol [ Lang %tmp.8 140 33 37 ];
+        %tmp.8 = getm $.Toybox.Lang;
+        symbol [ format %tmp.9 140 38 44 ];
+        %tmp.9 = getv function %tmp.8 :format;
+        symbol [ WatchUi %tmp.10 140 45 52 ];
+        %tmp.10 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.11 140 53 65 ];
+        %tmp.11 = getv function %tmp.10 :loadResource;
+        symbol [ Rez %tmp.13 140 66 69 ];
+        %tmp.13 = getv ? :Rez;
+        symbol [ Strings %tmp.14 140 70 77 ];
+        %tmp.14 = getv %tmp.13 :Strings;
+        symbol [ TemperatureValue %tmp.15 140 78 94 ];
+        %tmp.15 = getv %tmp.14 :TemperatureValue;
+        %tmp.16 = invoke %tmp.10 %tmp.11(%tmp.15);
+        %tmp.17 = newa 1;
+        symbol [ tools %tmp.19 140 98 103 ];
+        %tmp.19 = getv ? :tools;
+        symbol [ getSystemTemperature %tmp.20 140 104 124 ];
+        %tmp.20 = getv function %tmp.19 :getSystemTemperature;
+        %tmp.21 = invoke %tmp.19 %tmp.20();
+        %tmp.22 = dup %tmp.17;
+        %tmp.23 = aputv %tmp.22 0 %tmp.21;
+        %tmp.24 = invoke %tmp.8 %tmp.9(%tmp.16, %tmp.23);
+        invoke %tmp.6 %tmp.7(%tmp.24);
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_138_38_141_4_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 144; @symbol_functiondef = [setHumidity,144,21,32]; ]
+    private
+    function setHumidity() {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_144_35_147_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 145 8 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_144_35_147_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_144_35_147_4_stop" ]
+        %humidityLabel.1 = local;
+        symbol [ humidityLabel %humidityLabel.1 145 12 25 ];
+        %tmp.1 = self;
+        symbol [ findDrawableById %tmp.2 145 28 44 ];
+        %tmp.2 = getv function %tmp.1 :findDrawableById;
+        %tmp.3 = "Humidity";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        %tmp.5 = as %tmp.4 Text;
+        symbol [ Text %tmp.5 145 60 64 ];
+        lputv %humidityLabel.1 %tmp.5;
+        symbol [ humidityLabel %humidityLabel.1 145 12 25 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 146 8 ]
+        %tmp.6 = lgetv %humidityLabel.1;
+        symbol [ humidityLabel %tmp.6 146 8 21 ];
+        symbol [ setText %tmp.7 146 22 29 ];
+        %tmp.7 = getv function %tmp.6 :setText;
+        symbol [ Lang %tmp.8 146 30 34 ];
+        %tmp.8 = getm $.Toybox.Lang;
+        symbol [ format %tmp.9 146 35 41 ];
+        %tmp.9 = getv function %tmp.8 :format;
+        symbol [ WatchUi %tmp.10 146 42 49 ];
+        %tmp.10 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.11 146 50 62 ];
+        %tmp.11 = getv function %tmp.10 :loadResource;
+        symbol [ Rez %tmp.13 146 63 66 ];
+        %tmp.13 = getv ? :Rez;
+        symbol [ Strings %tmp.14 146 67 74 ];
+        %tmp.14 = getv %tmp.13 :Strings;
+        symbol [ HumidityValue %tmp.15 146 75 88 ];
+        %tmp.15 = getv %tmp.14 :HumidityValue;
+        %tmp.16 = invoke %tmp.10 %tmp.11(%tmp.15);
+        %tmp.17 = newa 1;
+        symbol [ tools %tmp.19 146 92 97 ];
+        %tmp.19 = getv ? :tools;
+        symbol [ getSystemHumidity %tmp.20 146 98 115 ];
+        %tmp.20 = getv function %tmp.19 :getSystemHumidity;
+        %tmp.21 = invoke %tmp.19 %tmp.20();
+        %tmp.22 = dup %tmp.17;
+        %tmp.23 = aputv %tmp.22 0 %tmp.21;
+        %tmp.24 = invoke %tmp.8 %tmp.9(%tmp.16, %tmp.23);
+        invoke %tmp.6 %tmp.7(%tmp.24);
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_144_35_147_4_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 150; @symbol_functiondef = [setBattery,150,21,31]; ]
+    private
+    function setBattery() {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_150_34_153_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 151 8 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_150_34_153_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_150_34_153_4_stop" ]
+        %batteryLabel.1 = local;
+        symbol [ batteryLabel %batteryLabel.1 151 12 24 ];
+        %tmp.1 = self;
+        symbol [ findDrawableById %tmp.2 151 27 43 ];
+        %tmp.2 = getv function %tmp.1 :findDrawableById;
+        %tmp.3 = "Battery";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        %tmp.5 = as %tmp.4 Text;
+        symbol [ Text %tmp.5 151 58 62 ];
+        lputv %batteryLabel.1 %tmp.5;
+        symbol [ batteryLabel %batteryLabel.1 151 12 24 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" 152 8 ]
+        %tmp.6 = lgetv %batteryLabel.1;
+        symbol [ batteryLabel %tmp.6 152 8 20 ];
+        symbol [ setText %tmp.7 152 21 28 ];
+        %tmp.7 = getv function %tmp.6 :setText;
+        symbol [ Lang %tmp.8 152 29 33 ];
+        %tmp.8 = getm $.Toybox.Lang;
+        symbol [ format %tmp.9 152 34 40 ];
+        %tmp.9 = getv function %tmp.8 :format;
+        symbol [ WatchUi %tmp.10 152 41 48 ];
+        %tmp.10 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.11 152 49 61 ];
+        %tmp.11 = getv function %tmp.10 :loadResource;
+        symbol [ Rez %tmp.13 152 62 65 ];
+        %tmp.13 = getv ? :Rez;
+        symbol [ Strings %tmp.14 152 66 73 ];
+        %tmp.14 = getv %tmp.13 :Strings;
+        symbol [ BatteryValue %tmp.15 152 74 86 ];
+        %tmp.15 = getv %tmp.14 :BatteryValue;
+        %tmp.16 = invoke %tmp.10 %tmp.11(%tmp.15);
+        %tmp.17 = newa 1;
+        symbol [ tools %tmp.19 152 90 95 ];
+        %tmp.19 = getv ? :tools;
+        symbol [ getSystemBattery %tmp.20 152 96 112 ];
+        %tmp.20 = getv function %tmp.19 :getSystemBattery;
+        %tmp.21 = invoke %tmp.19 %tmp.20();
+        %tmp.22 = dup %tmp.17;
+        %tmp.23 = aputv %tmp.22 0 %tmp.21;
+        %tmp.24 = invoke %tmp.8 %tmp.9(%tmp.16, %tmp.23);
+        invoke %tmp.6 %tmp.7(%tmp.24);
+_Users_summer_work_garmin_EIDGarminWatchFace_source_EIDGarminWatchFaceView_mc_150_34_153_4_stop:
     }
 }
 [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc"; @line = 1; ]

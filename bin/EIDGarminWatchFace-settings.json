@@ -39,15 +39,18 @@
   "supportsLiveValidation" : false,
   "languages" : {
     "valyrian" : {
-      "BackgroundGreen" : "Background Green",
       "BackgroundColorTitle" : "Background Color",
       "BackgroundRed" : "Background Red",
+      "HumidityValue" : "$1$%",
+      "AppName" : "EIDGarminWatchFace",
+      "BackgroundGreen" : "Background Green",
       "BackgroundOrange" : "Background Orange",
       "BackgroundWhite" : "Background White",
+      "TemperatureValue" : "$1$°",
+      "BatteryValue" : "$1$%",
       "BackgroundPurple" : "Background Purple",
       "BackgroundBlue" : "Background Blue",
-      "BackgroundPink" : "Background Pink",
-      "AppName" : "EIDGarminWatchFace"
+      "BackgroundPink" : "Background Pink"
     }
   }
 }
