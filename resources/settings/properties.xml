@@ -1,5 +1,7 @@
 <properties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
 
     <property id="BackgroundImage" type="number">1</property>
-    
+    <!-- 目标卡路里默认值 -->
+    <property id="TargetCalories" type="number">2000</property>
+
 </properties>

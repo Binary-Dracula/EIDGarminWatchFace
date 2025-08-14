@@ -21,4 +21,7 @@
     <string id="BackgroundOrange">Background Orange</string>
     <string id="BackgroundPink">Background Pink</string>
 
+    <!-- 目标卡路里 -->
+    <string id="TargetCaloriesTitle">Target Calories</string>
+
 </strings>

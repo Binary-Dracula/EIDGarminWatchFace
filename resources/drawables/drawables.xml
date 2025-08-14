@@ -1,13 +1,19 @@
 <drawables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
     <bitmap id="LauncherIcon" filename="launcher_icon.svg" dithering="none" />
 
-    <bitmap id="BackgroundWhite" filename="background_white.png" dithering="none" />
-    <bitmap id="BackgroundGreen" filename="background_green.png" dithering="none" />
-    <bitmap id="BackgroundBlue" filename="background_blue.png" dithering="none" />
-    <bitmap id="BackgroundRed" filename="background_red.png" dithering="none" />
-    <bitmap id="BackgroundPurple" filename="background_purple.png" dithering="none" />
-    <bitmap id="BackgroundOrange" filename="background_orange.png" dithering="none" />
-    <bitmap id="BackgroundPink" filename="background_pink.png" dithering="none" />
-    <bitmap id="ConditionClear" filename="weather/condition_clear.png" dithering="none" />
+    <!-- 表盘背景图 -->
+    <bitmap id="BackgroundWhite" filename="background/background_white.png" dithering="none" />
+    <bitmap id="BackgroundGreen" filename="background/background_green.png" dithering="none" />
+    <bitmap id="BackgroundBlue" filename="background/background_blue.png" dithering="none" />
+    <bitmap id="BackgroundRed" filename="background/background_red.png" dithering="none" />
+    <bitmap id="BackgroundPurple" filename="background/background_purple.png" dithering="none" />
+    <bitmap id="BackgroundOrange" filename="background/background_orange.png" dithering="none" />
+    <bitmap id="BackgroundPink" filename="background/background_pink.png" dithering="none" />
+
+    <!-- 天气icon -->
+    <!-- 晴天 CONDITION_CLEAR 0 Clear-->
+    <bitmap id="WeatherConditionClear" filename="weather/weather_condition_clear.png" dithering="none" />
+    <!-- 未知 CONDITION_UNKNOWN 53 Unknown-->
+    <bitmap id="WeatherConditionUnknown" filename="weather/weather_condition_unknown.png" dithering="none" />
 
 </drawables>

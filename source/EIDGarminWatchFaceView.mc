@@ -12,143 +12,162 @@ import Toybox.WatchUi;
 454x454
 */
 class EIDGarminWatchFaceView extends WatchUi.WatchFace {
+  private var tools = new Tools();
 
-    private var tools = new Tools();
+  function initialize() {
+    WatchFace.initialize();
+  }
 
-    function initialize() {
-        WatchFace.initialize();
-    }
+  // Load your resources here
+  function onLayout(dc as Dc) as Void {
+    setLayout(Rez.Layouts.WatchFace(dc));
+  }
 
-    // Load your resources here
-    function onLayout(dc as Dc) as Void {
-        setLayout(Rez.Layouts.WatchFace(dc));
-    }
+  // Called when this View is brought to the foreground. Restore
+  // the state of this View and prepare it to be shown. This includes
+  // loading resources into memory.
+  function onShow() as Void {}
 
-    // Called when this View is brought to the foreground. Restore
-    // the state of this View and prepare it to be shown. This includes
-    // loading resources into memory.
-    function onShow() as Void {
-    }
+  // Update the view
+  function onUpdate(dc as Dc) as Void {
+    // Call the parent onUpdate function to redraw the layout
+    View.onUpdate(dc);
 
-    // Update the view
-    function onUpdate(dc as Dc) as Void {
-        // Call the parent onUpdate function to redraw the layout
-        View.onUpdate(dc);
+    setDistance();
+    setStepCount();
+    setHeartRate();
+    setCalories();
+    setBattery();
+    setDate();
+    setWeekday();
+    setStress();
+    setSunsetTime();
+    setAMPM();
+    setHour();
+    setMinute();
+    setSecond();
+    setWeatherIcon();
+    setTemperature();
+    setHumidity();
+  }
 
-        setDistance();
-        setStepCount();
-        setCalories();
-        setHeartRate();
-        setDate();
-        setWeekday();
-        setHour();
-        setMinute();
-        setSecond();
-        setAMPM();
-        setSunsetTime();
-        setTemperature();
-        setHumidity();
-        setBattery();
+  // Called when this View is removed from the screen. Save the
+  // state of this View here. This includes freeing resources from
+  // memory.
+  function onHide() as Void {}
 
-    }
+  // The user has just looked at their watch. Timers and animations may be started here.
+  function onExitSleep() as Void {}
 
-    // Called when this View is removed from the screen. Save the
-    // state of this View here. This includes freeing resources from
-    // memory.
-    function onHide() as Void {
-    }
+  // Terminate any active timers and prepare for slow updates.
+  function onEnterSleep() as Void {}
 
-    // The user has just looked at their watch. Timers and animations may be started here.
-    function onExitSleep() as Void {
-    }
+  // 距离
+  private function setDistance() {
+    var distanceLabel = findDrawableById("Distance") as Text;
+    distanceLabel.setText(tools.getSystemDistance());
+  }
 
-    // Terminate any active timers and prepare for slow updates.
-    function onEnterSleep() as Void {
-    }
+  // 设置步数
+  private function setStepCount() {
+    var stepLabel = findDrawableById("StepCount") as Text;
+    stepLabel.setText(tools.getSystemStepCount().format("%d"));
+  }
 
-    // 设置小时
-    private function setHour() {
-        var hourLabel = findDrawableById("Hour") as Text;
-        hourLabel.setText(tools.getSystemHour(false));
-    }
+  // 设置心率
+  private function setHeartRate() {
+    var heartRateLabel = findDrawableById("HeartRate") as Text;
+    heartRateLabel.setText(tools.getSystemHeartRate().format("%d"));
+  }
 
-    // 设置分钟
-    private function setMinute() {
-        var minuteLabel = findDrawableById("Minute") as Text;
-        minuteLabel.setText(tools.getSystemMinute());
-    }
+  // 卡路里
+  private function setCalories() {
+    var caloriesLabel = findDrawableById("Calories") as Text;
+    caloriesLabel.setText(tools.getTodayCalories().format("%d"));
+  }
 
-    // 设置秒
-    private function setSecond() {
-        var secondLabel = findDrawableById("Second") as Text;
-        secondLabel.setText(tools.getSystemSecond());
-    }
+  // 电量
+  private function setBattery() {
+    var batteryLabel = findDrawableById("Battery") as Text;
+    batteryLabel.setText(
+      Lang.format(WatchUi.loadResource(Rez.Strings.BatteryValue), [
+        tools.getSystemBattery(),
+      ])
+    );
+  }
 
-    // 设置 AM/PM
-    private function setAMPM() {
-        var ampmLabel = findDrawableById("AMPM") as Text;
-        ampmLabel.setText(tools.getAMPM(false));
-    }
+  // 日期
+  private function setDate() {
+    var dateLabel = findDrawableById("Date") as Text;
+    dateLabel.setText(tools.getSystemDay());
+  }
 
-    // 设置步数
-    private function setStepCount() {
-        var stepLabel = findDrawableById("StepCount") as Text;
-        stepLabel.setText(tools.getSystemStepCount().format("%d"));
-    }
+  // 星期
+  private function setWeekday() {
+    var weekdayLabel = findDrawableById("Weekday") as Text;
+    weekdayLabel.setText(tools.getSystemWeekday());
+  }
 
-    // 设置心率
-    private function setHeartRate() {
-        var heartRateLabel = findDrawableById("HeartRate") as Text;
-        heartRateLabel.setText(tools.getSystemHeartRate().format("%d"));
-    }
+  // 身体压力值
+  private function setStress() {
+    var stressLabel = findDrawableById("Stress") as Text;
+    stressLabel.setText(tools.getStress().format("%d"));
+  }
 
-    // 日期
-    private function setDate() {
-        var dateLabel = findDrawableById("Date") as Text;
-        dateLabel.setText(tools.getSystemDay());
-    }
+  // 日落时间
+  private function setSunsetTime() {
+    var sunsetTimeLabel = findDrawableById("SunsetTime") as Text;
+    sunsetTimeLabel.setText(tools.getSystemSunsetTime());
+  }
 
-    // 星期
-    private function setWeekday() {
-        var weekdayLabel = findDrawableById("Weekday") as Text;
-        weekdayLabel.setText(tools.getSystemWeekday());
-    }
+  // 设置 AM/PM
+  private function setAMPM() {
+    var ampmLabel = findDrawableById("AMPM") as Text;
+    ampmLabel.setText(tools.getAMPM(false));
+  }
 
-    // 卡路里
-    private function setCalories() {
-        var caloriesLabel = findDrawableById("Calories") as Text;
-        caloriesLabel.setText(tools.getTodayCalories().format("%d"));
-    }
+  // 设置小时
+  private function setHour() {
+    var hourLabel = findDrawableById("Hour") as Text;
+    hourLabel.setText(tools.getSystemHour(false));
+  }
 
-    // 距离
-    private function setDistance() {
-        var distanceLabel = findDrawableById("Distance") as Text;
-        distanceLabel.setText(tools.getSystemDistance());
-    }
+  // 设置分钟
+  private function setMinute() {
+    var minuteLabel = findDrawableById("Minute") as Text;
+    minuteLabel.setText(tools.getSystemMinute());
+  }
 
-    // 日落时间
-    private function setSunsetTime() {
-        var sunsetTimeLabel = findDrawableById("SunsetTime") as Text;
-        sunsetTimeLabel.setText(tools.getSystemSunsetTime());
-    }
+  // 设置秒
+  private function setSecond() {
+    var secondLabel = findDrawableById("Second") as Text;
+    secondLabel.setText(tools.getSystemSecond());
+  }
 
-    // 天气图标
+  // 天气图标
+  private function setWeatherIcon() {
+    var weatherIconResource = tools.getWeatherIcon() as BitmapResource;
+    var weatherIcon = findDrawableById("WeatherIcon") as Bitmap;
+    weatherIcon.setBitmap(weatherIconResource);
+  }
 
-    // 当前温度
-    private function setTemperature() {
-        var temperatureLabel = findDrawableById("Temperature") as Text;
-        temperatureLabel.setText(Lang.format(WatchUi.loadResource(Rez.Strings.TemperatureValue), [tools.getSystemTemperature()]));
-    }
+  // 当前温度
+  private function setTemperature() {
+    var temperatureLabel = findDrawableById("Temperature") as Text;
+    temperatureLabel.setText(
+      Lang.format(WatchUi.loadResource(Rez.Strings.TemperatureValue), [
+        tools.getSystemTemperature(),
+      ])
+    );
+  }
 
-    // 当前湿度
-    private function setHumidity() {
-        var humidityLabel = findDrawableById("Humidity") as Text;
-        humidityLabel.setText(Lang.format(WatchUi.loadResource(Rez.Strings.HumidityValue), [tools.getSystemHumidity()]));
-    }
-
-    // 电量
-    private function setBattery() {
-        var batteryLabel = findDrawableById("Battery") as Text;
-        batteryLabel.setText(Lang.format(WatchUi.loadResource(Rez.Strings.BatteryValue), [tools.getSystemBattery()]));
-    }
+  // 当前湿度
+  private function setHumidity() {
+    var humidityLabel = findDrawableById("Humidity") as Text;
+    humidityLabel.setText(
+      Lang.format(WatchUi.loadResource(Rez.Strings.HumidityValue), [
+        tools.getSystemHumidity(),
+      ])
+    );
+  }
 }

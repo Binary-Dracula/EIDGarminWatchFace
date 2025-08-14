@@ -13,7 +13,8 @@ module Rez {
         (:initialized) var BackgroundPurple as ResourceId;
         (:initialized) var BackgroundOrange as ResourceId;
         (:initialized) var BackgroundPink as ResourceId;
-        (:initialized) var ConditionClear as ResourceId;
+        (:initialized) var WeatherConditionClear as ResourceId;
+        (:initialized) var WeatherConditionUnknown as ResourceId;
         (:initialized) var WeatherIcon as ResourceId;
         (:initialized) var LauncherIcon as ResourceId;
     } // Drawables
@@ -24,13 +25,23 @@ module Rez {
 
             var rez_cmp_local_text_Distance = new WatchUi.Text({:identifier=>"Distance", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (50 / 100.0)), :locY=>(260 * (2 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
 
-            var rez_cmp_local_text_DistanceUnit = new WatchUi.Text({:identifier=>"DistanceUnit", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (62 / 100.0)), :locY=>(260 * (4 / 100.0)), :text=>"km", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SYSTEM_XTINY});
-
             var rez_cmp_local_text_StepCount = new WatchUi.Text({:identifier=>"StepCount", :color=>Gfx.COLOR_BLACK, :locX=>(260 * (24 / 100.0)), :locY=>(260 * (14 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_SMALL});
 
             var rez_cmp_local_text_HeartRate = new WatchUi.Text({:identifier=>"HeartRate", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (71 / 100.0)), :locY=>(260 * (16 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
             var rez_cmp_local_text_Calories = new WatchUi.Text({:identifier=>"Calories", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (42 / 100.0)), :locY=>(260 * (27 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_XTINY});
+
+            var rez_cmp_local_text_Battery = new WatchUi.Text({:identifier=>"Battery", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (15 / 100.0)), :locY=>(260 * (44 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
+
+            var rez_cmp_local_text_Date = new WatchUi.Text({:identifier=>"Date", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (28 / 100.0)), :locY=>(260 * (38 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_Weekday = new WatchUi.Text({:identifier=>"Weekday", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (72 / 100.0)), :locY=>(260 * (40 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_SYSTEM_XTINY});
+
+            var rez_cmp_local_text_Stress = new WatchUi.Text({:identifier=>"Stress", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (85 / 100.0)), :locY=>(260 * (44 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
+
+            var rez_cmp_local_text_SunsetTime = new WatchUi.Text({:identifier=>"SunsetTime", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (50 / 100.0)), :locY=>(260 * (53 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
+
+            var rez_cmp_local_text_AMPM = new WatchUi.Text({:identifier=>"AMPM", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (8 / 100.0)), :locY=>(260 * (64 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_XTINY});
 
             var rez_cmp_local_text_Hour = new WatchUi.Text({:identifier=>"Hour", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (42 / 100.0)), :locY=>(260 * (64 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_NUMBER_MEDIUM});
 
@@ -38,40 +49,31 @@ module Rez {
 
             var rez_cmp_local_text_Second = new WatchUi.Text({:identifier=>"Second", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (84 / 100.0)), :locY=>(260 * (64 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
 
-            var rez_cmp_local_text_AMPM = new WatchUi.Text({:identifier=>"AMPM", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (8 / 100.0)), :locY=>(260 * (64 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_XTINY});
+            var rez_cmp_local_bitmap_WeatherIcon = new WatchUi.Bitmap({:identifier=>"WeatherIcon", :rezId=>$.Rez.Drawables.WeatherIcon, :locX=>(260 * (26 / 100.0)), :locY=>(260 * (85 / 100.0))});
+            rez_cmp_local_bitmap_WeatherIcon.setLocation((260 * (26 / 100.0)), (260 * (85 / 100.0)));
 
-            var rez_cmp_local_text_Date = new WatchUi.Text({:identifier=>"Date", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (28 / 100.0)), :locY=>(260 * (38 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
-
-            var rez_cmp_local_text_Weekday = new WatchUi.Text({:identifier=>"Weekday", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (72 / 100.0)), :locY=>(260 * (40 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_SYSTEM_XTINY});
-
-            var rez_cmp_local_text_SunsetTime = new WatchUi.Text({:identifier=>"SunsetTime", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (50 / 100.0)), :locY=>(260 * (53 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
-
-            var rez_cmp_local_bitmap_WeatherIcon = new WatchUi.Bitmap({:identifier=>"WeatherIcon", :rezId=>$.Rez.Drawables.WeatherIcon, :locX=>(260 * (26 / 100.0)), :locY=>(260 * (86 / 100.0))});
-            rez_cmp_local_bitmap_WeatherIcon.setLocation((260 * (26 / 100.0)), (260 * (86 / 100.0)));
-
-            var rez_cmp_local_text_Temperature = new WatchUi.Text({:identifier=>"Temperature", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (38 / 100.0)), :locY=>(260 * (85 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
+            var rez_cmp_local_text_Temperature = new WatchUi.Text({:identifier=>"Temperature", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (39 / 100.0)), :locY=>(260 * (85 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
 
             var rez_cmp_local_text_Humidity = new WatchUi.Text({:identifier=>"Humidity", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (68 / 100.0)), :locY=>(260 * (85 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
 
-            var rez_cmp_local_text_Battery = new WatchUi.Text({:identifier=>"Battery", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (15 / 100.0)), :locY=>(260 * (44 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
-
-            return [rez_cmp_local_custom_drawable_11939594661139614796, rez_cmp_local_text_Distance, rez_cmp_local_text_DistanceUnit, rez_cmp_local_text_StepCount, rez_cmp_local_text_HeartRate, rez_cmp_local_text_Calories, rez_cmp_local_text_Hour, rez_cmp_local_text_Minute, rez_cmp_local_text_Second, rez_cmp_local_text_AMPM, rez_cmp_local_text_Date, rez_cmp_local_text_Weekday, rez_cmp_local_text_SunsetTime, rez_cmp_local_bitmap_WeatherIcon, rez_cmp_local_text_Temperature, rez_cmp_local_text_Humidity, rez_cmp_local_text_Battery] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_11939594661139614796, rez_cmp_local_text_Distance, rez_cmp_local_text_StepCount, rez_cmp_local_text_HeartRate, rez_cmp_local_text_Calories, rez_cmp_local_text_Battery, rez_cmp_local_text_Date, rez_cmp_local_text_Weekday, rez_cmp_local_text_Stress, rez_cmp_local_text_SunsetTime, rez_cmp_local_text_AMPM, rez_cmp_local_text_Hour, rez_cmp_local_text_Minute, rez_cmp_local_text_Second, rez_cmp_local_bitmap_WeatherIcon, rez_cmp_local_text_Temperature, rez_cmp_local_text_Humidity] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
     module Strings {
-        (:initialized) var BackgroundGreen as ResourceId;
         (:initialized) var BackgroundColorTitle as ResourceId;
         (:initialized) var BackgroundRed as ResourceId;
-        (:initialized) var BackgroundOrange as ResourceId;
         (:initialized) var HumidityValue as ResourceId;
+        (:initialized) var AppName as ResourceId;
+        (:initialized) var BackgroundGreen as ResourceId;
+        (:initialized) var BackgroundOrange as ResourceId;
         (:initialized) var BackgroundWhite as ResourceId;
         (:initialized) var TemperatureValue as ResourceId;
         (:initialized) var BatteryValue as ResourceId;
         (:initialized) var BackgroundPurple as ResourceId;
+        (:initialized) var TargetCaloriesTitle as ResourceId;
         (:initialized) var BackgroundBlue as ResourceId;
         (:initialized) var BackgroundPink as ResourceId;
-        (:initialized) var AppName as ResourceId;
     } // Strings
 
     module Styles {

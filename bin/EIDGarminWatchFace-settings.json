@@ -35,6 +35,21 @@
     "configMin" : null,
     "configMax" : null,
     "configMaxLength" : null
+  }, {
+    "key" : "TargetCalories",
+    "valueType" : "number",
+    "defaultValue" : 2000,
+    "configTitle" : "TargetCaloriesTitle",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
   } ],
   "supportsLiveValidation" : false,
   "languages" : {
@@ -49,6 +64,7 @@
       "TemperatureValue" : "$1$°",
       "BatteryValue" : "$1$%",
       "BackgroundPurple" : "Background Purple",
+      "TargetCaloriesTitle" : "Target Calories",
       "BackgroundBlue" : "Background Blue",
       "BackgroundPink" : "Background Pink"
     }

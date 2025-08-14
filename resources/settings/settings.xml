@@ -12,4 +12,9 @@
         </settingConfig>
     </setting>
 
+    <!-- 设置卡路里 -->
+    <setting propertyKey="@Properties.TargetCalories" title="@Strings.TargetCaloriesTitle">
+       <settingConfig type="numeric" />
+    </setting>
+
 </settings>

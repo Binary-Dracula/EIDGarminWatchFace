@@ -4,9 +4,6 @@
    <!-- 距离 -->
    <label id="Distance" x="50%" y="2%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_TINY" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
 
-   <!-- 距离单位 -->
-   <label id="DistanceUnit" x="62%" y="4%" color="Gfx.COLOR_WHITE" text = "km" font = "Graphics.FONT_SYSTEM_XTINY" justification = "Graphics.TEXT_JUSTIFY_CENTER" />
-
    <!-- 步数 -->
    <label id="StepCount" x="24%" y="14%" color="Gfx.COLOR_BLACK" font = "Graphics.FONT_SMALL" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
@@ -15,6 +12,24 @@
 
    <!-- 卡路里 -->
    <label id="Calories" x="42%" y="27%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
+
+   <!-- 电量 -->
+   <label id="Battery" x="15%" y="44%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
+
+   <!-- 日期 -->
+   <label id="Date" x="28%" y="38%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_TINY" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
+
+   <!-- 星期 -->
+   <label id="Weekday" x="72%" y="40%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_SYSTEM_XTINY" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
+
+   <!-- 身体压力值 -->
+   <label id="Stress" x="85%" y="44%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
+
+   <!-- 日落时间 -->
+   <label id="SunsetTime" x="50%" y="53%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
+
+   <!-- AM / PM -->
+   <label id="AMPM" x="8%" y="64%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
    <!-- 小时 -->
    <label id="Hour" x="42%" y="64%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_NUMBER_MEDIUM" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
@@ -25,28 +40,13 @@
    <!-- 秒 -->
    <label id="Second" x="84%" y="64%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_TINY" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
-   <!-- AM / PM -->
-   <label id="AMPM" x="8%" y="64%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
-
-   <!-- 日期 -->
-   <label id="Date" x="28%" y="38%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_TINY" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
-
-   <!-- 星期 -->
-   <label id="Weekday" x="72%" y="40%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_SYSTEM_XTINY" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
-
-   <!-- 日落时间 -->
-   <label id="SunsetTime" x="50%" y="53%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
-
    <!-- 天气图标 -->
-   <bitmap id="WeatherIcon" x="26%" y="86%" filename="../drawables/weather/condition_clear.png" />
+   <bitmap id="WeatherIcon" x="26%" y="85%" filename="../drawables/weather/weather_condition_unknown.png" />
 
    <!-- 当前温度 -->
-   <label id="Temperature" x="38%" y="85%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
+   <label id="Temperature" x="39%" y="85%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
 
    <!-- 当前湿度 -->
    <label id="Humidity" x="68%" y="85%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
-
-   <!-- 电量 -->
-   <label id="Battery" x="15%" y="44%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
 
 </layout>
