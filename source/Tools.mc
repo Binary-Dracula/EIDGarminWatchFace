@@ -58,15 +58,43 @@ class Tools {
   function getSystemBattery() as Lang.String {
     // 只取整数位
     var battery = System.getSystemStats().battery as Lang.Float;
-    return battery.format("%0d");
+    return battery.format("%d");
   }
 
   // 绘制电量弧形
   function drawBatteryArc(dc as Dc) as Void {
-    // var batteryLevel = getSystemBattery();
-    // var startAngle = 0;
-    // var endAngle = batteryLevel * 3.6; // 将电量转换为角度
-    // Graphics.drawArc(dc, 10, 10, 20, startAngle, endAngle, Gfx.COLOR_GREEN);
+    // x坐标
+    var centerX = 38;
+    // y坐标
+    var centerY = 130;
+    // 半径
+    var radius = 24;
+    // 粗细
+    var thickness = 3;
+    // 前景色
+    var foregroundColor = Graphics.createColor(1, 195, 195, 195);
+    // 背景色
+    var backgroundColor = Graphics.COLOR_TRANSPARENT;
+    // 系统电量
+    var batteryPercent = System.getSystemStats().battery / 100;
+    // 固定起点 (0% 位置)
+    var startAngle = 124;
+    // 总弧长
+    var totalAngleSpan = 288;
+    // --- 3. 根据公式计算终点 ---
+    var endAngle = startAngle + totalAngleSpan * batteryPercent;
+
+    drawRoundedArc(
+      dc,
+      centerX,
+      centerY,
+      radius,
+      thickness,
+      foregroundColor,
+      backgroundColor,
+      startAngle,
+      endAngle.toNumber()
+    );
   }
 
   // 获取日期
@@ -108,6 +136,40 @@ class Tools {
   }
 
   // 绘制压力弧形
+  function drawStressArc(dc as Dc) as Void {
+    // x坐标
+    var centerX = 222;
+    // y坐标
+    var centerY = 130;
+    // 半径
+    var radius = 24;
+    // 粗细
+    var thickness = 3;
+    // 前景色
+    var foregroundColor = Graphics.createColor(1, 195, 195, 195);
+    // 背景色
+    var backgroundColor = Graphics.COLOR_TRANSPARENT;
+    // 系统压力值
+    var stressPercent = getStress() / 100.0;
+    // 固定起点 (0% 位置)
+    var startAngle = 124;
+    // 总弧长
+    var totalAngleSpan = 288;
+    // --- 3. 根据公式计算终点 ---
+    var endAngle = startAngle + totalAngleSpan * stressPercent;
+
+    drawRoundedArc(
+      dc,
+      centerX,
+      centerY,
+      radius,
+      thickness,
+      foregroundColor,
+      backgroundColor,
+      startAngle,
+      endAngle.toNumber()
+    );
+  }
 
   // 获取当前太阳落山时间
   function getSystemSunsetTime() as Lang.String {
@@ -201,5 +263,67 @@ class Tools {
       return currentWeatherConditions.relativeHumidity.format("%d");
     }
     return "60";
+  }
+
+  using Toybox.Graphics;
+  using Toybox.Math;
+  using Toybox.System;
+
+  // ... 在你的 View class 内部或外部添加这个函数
+
+  /**
+   * 绘制一个两端为圆角的圆弧
+   * @param dc a a             - 图形上下文 (Dc)
+   * @param centerX a a        - 圆心 X 坐标
+   * @param centerY a a        - 圆心 Y 坐标
+   * @param radius a a         - 圆弧半径
+   * @param penWidth a a       - 圆弧线宽
+   * @param startAngle a a     - 起始角度 (0度在3点钟方向)
+   * @param endAngle a a       - 结束角度
+   */
+  function drawRoundedArc(
+    dc as Dc,
+    centerX as Number,
+    centerY as Number,
+    radius as Number,
+    penWidth as Number,
+    foregroundColor as Graphics.ColorType,
+    backgroudColor as Graphics.ColorType,
+    startAngle as Number,
+    endAngle as Number
+  ) as Void {
+    // 步骤 1: 设置画笔宽度和颜色
+    dc.setPenWidth(penWidth);
+    // 颜色可以作为参数传入，这里为了演示设为橙色
+    dc.setColor(foregroundColor, backgroudColor);
+
+    // 步骤 2: 绘制基础弧线
+    // 注意：这里的角度方向是逆时针 (ARC_COUNTER_CLOCKWISE)
+    dc.drawArc(
+      centerX,
+      centerY,
+      radius,
+      Graphics.ARC_COUNTER_CLOCKWISE,
+      startAngle,
+      endAngle
+    );
+
+    // 步骤 3: 计算起点和终点的坐标
+    // 将角度从度转换为弧度，因为 Math.cos/sin 需要弧度
+    var startRad = Math.toRadians(startAngle.toFloat());
+    var endRad = Math.toRadians(endAngle.toFloat());
+
+    // 起点坐标
+    var startX = centerX + radius * Math.cos(startRad);
+    var startY = centerY - radius * Math.sin(startRad); // Y 坐标系是向下的，所以用减法
+
+    // 终点坐标
+    var endX = centerX + radius * Math.cos(endRad);
+    var endY = centerY - radius * Math.sin(endRad); // Y 坐标系是向下的，所以用减法
+
+    // 步骤 4: 在起点和终点绘制实心圆作为圆角
+    var capRadius = penWidth / 2.0;
+    //dc.fillCircle(startX, startY, capRadius);
+    //dc.fillCircle(endX, endY, capRadius);
   }
 }

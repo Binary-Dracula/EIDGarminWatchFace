@@ -38,9 +38,11 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
     setHeartRate();
     setCalories();
     setBattery();
+    drawBatteryArc(dc);
     setDate();
     setWeekday();
     setStress();
+    drawStressArc(dc);
     setSunsetTime();
     setAMPM();
     setHour();
@@ -95,6 +97,11 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
       ])
     );
   }
+  
+  // 绘制电量圆弧
+  private function drawBatteryArc(dc as Dc) as Void {
+    tools.drawBatteryArc(dc);
+  }
 
   // 日期
   private function setDate() {
@@ -112,6 +119,11 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
   private function setStress() {
     var stressLabel = findDrawableById("Stress") as Text;
     stressLabel.setText(tools.getStress().format("%d"));
+  }
+
+  // 绘制压力弧形
+  private function drawStressArc(dc as Dc) as Void {
+    tools.drawStressArc(dc);
   }
 
   // 日落时间

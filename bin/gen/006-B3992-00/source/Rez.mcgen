@@ -21,8 +21,6 @@ module Rez {
 
     module Fonts {
         (:initialized) var rubik_f13_white as ResourceId;
-        (:initialized) var rubik_f65_white as ResourceId;
-        (:initialized) var rubik_f65_grey as ResourceId;
     } // Fonts
 
     module Layouts {
