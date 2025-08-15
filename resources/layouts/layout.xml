@@ -20,7 +20,7 @@
    <label id="Date" x="28%" y="38%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_TINY" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
    <!-- 星期 -->
-   <label id="Weekday" x="72%" y="40%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_SYSTEM_XTINY" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
+   <label id="Weekday" x="72%" y="40%" font = "@Fonts.rubik_f13_white" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
 
    <!-- 身体压力值 -->
    <label id="Stress" x="85%" y="44%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
@@ -32,7 +32,7 @@
    <label id="AMPM" x="8%" y="64%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
    <!-- 小时 -->
-   <label id="Hour" x="42%" y="64%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_NUMBER_MEDIUM" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
+   <label id="Hour" x="42%" y="64%" font = "Graphics.FONT_NUMBER_MEDIUM" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
 
    <!-- 分钟 -->
    <label id="Minute" x="58%" y="64%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_NUMBER_MEDIUM" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>

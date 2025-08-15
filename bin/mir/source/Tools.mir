@@ -422,31 +422,31 @@ _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_81_4_98_4_switchStm
         goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_81_4_98_4_defaultCodeBegin;
 _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_82_6_83_23_switchCase:
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 83 8 ]
-        %tmp.39 = "Sunday";
+        %tmp.39 = "SUNDAY";
         ret %tmp.39;
 _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_84_6_85_23_switchCase:
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 85 8 ]
-        %tmp.40 = "Monday";
+        %tmp.40 = "MONDAY";
         ret %tmp.40;
 _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_86_6_87_24_switchCase:
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 87 8 ]
-        %tmp.41 = "Tuesday";
+        %tmp.41 = "TUESDAY";
         ret %tmp.41;
 _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_88_6_89_26_switchCase:
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 89 8 ]
-        %tmp.42 = "Wednesday";
+        %tmp.42 = "WEDNESDAY";
         ret %tmp.42;
 _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_90_6_91_25_switchCase:
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 91 8 ]
-        %tmp.43 = "Thursday";
+        %tmp.43 = "THURSDAY";
         ret %tmp.43;
 _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_92_6_93_23_switchCase:
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 93 8 ]
-        %tmp.44 = "Friday";
+        %tmp.44 = "FRIDAY";
         ret %tmp.44;
 _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_94_6_95_25_switchCase:
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 95 8 ]
-        %tmp.45 = "Saturday";
+        %tmp.45 = "SATURDAY";
         ret %tmp.45;
 _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_96_6_97_17_switchCase:
 _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_81_4_98_4_defaultCodeBegin:
