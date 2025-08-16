@@ -153,6 +153,30 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
   // 设置秒
   private function setSecond() {
     var secondLabel = findDrawableById("Second") as Text;
+    // 根据当前选择的背景色, 设置秒的颜色
+    var backgroundType = Application.Properties.getValue("BackgroundImage") as Number;
+    switch (backgroundType) {
+      case 2: // Green
+        secondLabel.setColor(Graphics.createColor(1, 8, 153, 117));
+        break;
+      case 3: // Blue
+        secondLabel.setColor(Graphics.createColor(1, 7, 176, 201));
+        break;
+      case 4: // Red
+        secondLabel.setColor(Graphics.createColor(1, 238, 68, 81));
+        break;
+      case 5: // Purple
+        secondLabel.setColor(Graphics.createColor(1, 223, 168, 255));
+        break;
+      case 6: // Orange
+        secondLabel.setColor(Graphics.createColor(1, 255, 135, 1));
+        break;
+      case 7: // Pink
+        secondLabel.setColor(Graphics.createColor(1, 245, 73, 115));
+        break;
+      default: // White
+        secondLabel.setColor(Graphics.COLOR_WHITE);
+    }
     secondLabel.setText(tools.getSystemSecond());
   }
 

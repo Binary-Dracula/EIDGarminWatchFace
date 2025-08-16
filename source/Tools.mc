@@ -14,7 +14,7 @@ class Tools {
       // distance 的单位是 cm, 要转成 km
       return (distance / 100000.0).format("%0.2f");
     }
-    return "5.5";
+    return "5.50";
   }
 
   // 获取当前步数

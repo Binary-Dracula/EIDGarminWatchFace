@@ -75,7 +75,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_13_43_16_4_stop:
         goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_13_4_16_4_if_end;
 _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_13_4_16_4_if_end:
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 17 4 ]
-        %tmp.22 = "5.5";
+        %tmp.22 = "5.50";
         ret %tmp.22;
 _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_11_46_18_2_stop:
     }

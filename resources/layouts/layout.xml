@@ -2,13 +2,13 @@
 
    <drawable class="CustomBackgroundDrawable"/>
    <!-- 距离 -->
-   <label id="Distance" x="50%" y="2%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_TINY" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
+   <label id="Distance" x="50%" y="6%" font = "@Fonts.rubik_f14_grey" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
 
    <!-- 步数 -->
-   <label id="StepCount" x="24%" y="14%" color="Gfx.COLOR_BLACK" font = "Graphics.FONT_SMALL" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
+   <label id="StepCount" x="24%" y="16%" color="Gfx.COLOR_BLACK" font = "@Fonts.rubik_f19_white" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
    <!-- 心率 -->
-   <label id="HeartRate" x="71%" y="16%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_SMALL" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
+   <label id="HeartRate" x="71%" y="17%" color="Gfx.COLOR_WHITE" font = "@Fonts.rubik_f19_white" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
 
    <!-- 卡路里 -->
    <label id="Calories" x="42%" y="27%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_XTINY" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
@@ -38,7 +38,7 @@
    <label id="Minute" x="58%" y="64%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_NUMBER_MEDIUM" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
    <!-- 秒 -->
-   <label id="Second" x="84%" y="64%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_TINY" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
+   <label id="Second" x="82%" y="64%" font="@Fonts.rubik_f19_white" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
    <!-- 天气图标 -->
    <bitmap id="WeatherIcon" x="26%" y="85%" filename="../drawables/weather/weather_condition_unknown.png" />
