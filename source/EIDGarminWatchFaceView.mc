@@ -37,6 +37,7 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
     setStepCount();
     setHeartRate();
     setCalories();
+    drawTotalCaloriesProgressBar(dc);
     setBattery();
     drawBatteryArc(dc);
     setDate();
@@ -88,6 +89,11 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
     caloriesLabel.setText(tools.getTodayCalories().format("%d"));
   }
 
+  // 卡路里进度
+  private function drawTotalCaloriesProgressBar(dc as Dc) as Void {
+    tools.drawTotalCaloriesProgressBar(dc);
+  }
+
   // 电量
   private function setBattery() {
     var batteryLabel = findDrawableById("Battery") as Text;
@@ -97,7 +103,7 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
       ])
     );
   }
-  
+
   // 绘制电量圆弧
   private function drawBatteryArc(dc as Dc) as Void {
     tools.drawBatteryArc(dc);
@@ -154,7 +160,8 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
   private function setSecond() {
     var secondLabel = findDrawableById("Second") as Text;
     // 根据当前选择的背景色, 设置秒的颜色
-    var backgroundType = Application.Properties.getValue("BackgroundImage") as Number;
+    var backgroundType =
+      Application.Properties.getValue("BackgroundImage") as Number;
     switch (backgroundType) {
       case 2: // Green
         secondLabel.setColor(Graphics.createColor(1, 8, 153, 117));
@@ -175,7 +182,7 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
         secondLabel.setColor(Graphics.createColor(1, 245, 73, 115));
         break;
       default: // White
-        secondLabel.setColor(Graphics.COLOR_WHITE);
+        secondLabel.setColor(Graphics.createColor(1, 233, 236, 217));
     }
     secondLabel.setText(tools.getSystemSecond());
   }
@@ -190,11 +197,7 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
   // 当前温度
   private function setTemperature() {
     var temperatureLabel = findDrawableById("Temperature") as Text;
-    temperatureLabel.setText(
-      Lang.format(WatchUi.loadResource(Rez.Strings.TemperatureValue), [
-        tools.getSystemTemperature(),
-      ])
-    );
+    temperatureLabel.setText(tools.getSystemTemperature());
   }
 
   // 当前湿度

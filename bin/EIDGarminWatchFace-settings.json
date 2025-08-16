@@ -56,12 +56,12 @@
     "valyrian" : {
       "BackgroundColorTitle" : "Background Color",
       "BackgroundRed" : "Background Red",
+      "TemperatureUnit" : "°",
       "HumidityValue" : "$1$%",
       "AppName" : "EIDGarminWatchFace",
       "BackgroundGreen" : "Background Green",
       "BackgroundOrange" : "Background Orange",
       "BackgroundWhite" : "Background White",
-      "TemperatureValue" : "$1$°",
       "BatteryValue" : "$1$%",
       "BackgroundPurple" : "Background Purple",
       "TargetCaloriesTitle" : "Target Calories",

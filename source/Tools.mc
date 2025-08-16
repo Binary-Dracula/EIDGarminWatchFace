@@ -5,6 +5,8 @@ import Toybox.Time.Gregorian;
 import Toybox.Weather;
 import Toybox.Graphics;
 import Toybox.Position;
+import Toybox.Math;
+import Toybox.System;
 
 class Tools {
   // 获取当前距离
@@ -49,9 +51,14 @@ class Tools {
     var targetCalories =
       Application.Properties.getValue("TargetCalories") as Number;
     var currentCalories = getTodayCalories();
-    var progress = currentCalories / targetCalories;
-    // Graphics.drawRect(dc, 10, 10, 220, 20, Gfx.COLOR_WHITE);
-    // Graphics.fillRect(dc, 10, 10, 220 * progress, 20, Gfx.COLOR_GREEN);
+    var progress = currentCalories / targetCalories.toFloat();
+    var startX = 44;
+    var startY = 79;
+    var totalLength = 53 * progress;
+    dc.clear();
+    dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+    dc.setPenWidth(4);
+    dc.drawLine(startX, startY, startX + totalLength, startY);
   }
 
   // 获取当前电量百分比
@@ -265,12 +272,6 @@ class Tools {
     return "60";
   }
 
-  using Toybox.Graphics;
-  using Toybox.Math;
-  using Toybox.System;
-
-  // ... 在你的 View class 内部或外部添加这个函数
-
   /**
    * 绘制一个两端为圆角的圆弧
    * @param dc a a             - 图形上下文 (Dc)
@@ -292,6 +293,7 @@ class Tools {
     startAngle as Number,
     endAngle as Number
   ) as Void {
+    dc.clear();
     // 步骤 1: 设置画笔宽度和颜色
     dc.setPenWidth(penWidth);
     // 颜色可以作为参数传入，这里为了演示设为橙色

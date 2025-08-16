@@ -6,7 +6,7 @@
     <string id="HumidityValue">$1$%</string>
 
     <!-- 温度单位 -->
-    <string id="TemperatureValue">$1$°</string>
+    <string id="TemperatureUnit">°</string>
 
     <!-- 电量 -->
     <string id="BatteryValue">$1$%</string>
