@@ -68,6 +68,7 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
   // 距离
   private function setDistance() {
     var distanceLabel = findDrawableById("Distance") as Text;
+    distanceLabel.setColor(tools.getGrayColor());
     distanceLabel.setText(tools.getSystemDistance());
   }
 
@@ -86,6 +87,7 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
   // 卡路里
   private function setCalories() {
     var caloriesLabel = findDrawableById("Calories") as Text;
+    caloriesLabel.setColor(tools.getGrayColor());
     caloriesLabel.setText(tools.getTodayCalories().format("%d"));
   }
 
@@ -97,6 +99,7 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
   // 电量
   private function setBattery() {
     var batteryLabel = findDrawableById("Battery") as Text;
+    batteryLabel.setColor(tools.getGrayColor());
     batteryLabel.setText(
       Lang.format(WatchUi.loadResource(Rez.Strings.BatteryValue), [
         tools.getSystemBattery(),
@@ -124,6 +127,7 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
   // 身体压力值
   private function setStress() {
     var stressLabel = findDrawableById("Stress") as Text;
+    stressLabel.setColor(tools.getGrayColor());
     stressLabel.setText(tools.getStress().format("%d"));
   }
 
@@ -135,6 +139,7 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
   // 日落时间
   private function setSunsetTime() {
     var sunsetTimeLabel = findDrawableById("SunsetTime") as Text;
+    sunsetTimeLabel.setColor(tools.getGrayColor());
     sunsetTimeLabel.setText(tools.getSystemSunsetTime());
   }
 
@@ -147,6 +152,7 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
   // 设置小时
   private function setHour() {
     var hourLabel = findDrawableById("Hour") as Text;
+    hourLabel.setColor(tools.getGrayColor());
     hourLabel.setText(tools.getSystemHour(false));
   }
 
@@ -197,12 +203,14 @@ class EIDGarminWatchFaceView extends WatchUi.WatchFace {
   // 当前温度
   private function setTemperature() {
     var temperatureLabel = findDrawableById("Temperature") as Text;
+    temperatureLabel.setColor(tools.getGrayColor());
     temperatureLabel.setText(tools.getSystemTemperature());
   }
 
   // 当前湿度
   private function setHumidity() {
     var humidityLabel = findDrawableById("Humidity") as Text;
+    humidityLabel.setColor(tools.getGrayColor());
     humidityLabel.setText(
       Lang.format(WatchUi.loadResource(Rez.Strings.HumidityValue), [
         tools.getSystemHumidity(),

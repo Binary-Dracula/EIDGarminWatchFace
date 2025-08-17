@@ -33,6 +33,7 @@ module Rez {
         (:initialized) var rubik_f13_white as ResourceId;
         (:initialized) var rubik_f14_grey as ResourceId;
         (:initialized) var rubik_f19_white as ResourceId;
+        (:initialized) var rubik_f65_grey as ResourceId;
     } // Fonts
 
     module Layouts {
@@ -41,6 +42,7 @@ module Rez {
             var local_Rez_Fonts_rubik_f11_white = (WatchUi.loadResource($.Rez.Fonts.rubik_f11_white) as Graphics.FontReference);
             var local_Rez_Fonts_rubik_f14_grey = (WatchUi.loadResource($.Rez.Fonts.rubik_f14_grey) as Graphics.FontReference);
             var local_Rez_Fonts_rubik_f13_white = (WatchUi.loadResource($.Rez.Fonts.rubik_f13_white) as Graphics.FontReference);
+            var local_Rez_Fonts_rubik_f65_grey = (WatchUi.loadResource($.Rez.Fonts.rubik_f65_grey) as Graphics.FontReference);
             var rez_cmp_local_custom_drawable_11939594661139614796 = new CustomBackgroundDrawable();
 
             var rez_cmp_local_text_Distance = new WatchUi.Text({:identifier=>"Distance", :locX=>(260 * (50 / 100.0)), :locY=>(260 * (6 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_rubik_f14_grey});
@@ -63,11 +65,11 @@ module Rez {
 
             var rez_cmp_local_text_AMPM = new WatchUi.Text({:identifier=>"AMPM", :locX=>(260 * (8 / 100.0)), :locY=>(260 * (66 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f11_white});
 
-            var rez_cmp_local_text_Hour = new WatchUi.Text({:identifier=>"Hour", :locX=>(260 * (42 / 100.0)), :locY=>(260 * (64 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_NUMBER_MEDIUM});
+            var rez_cmp_local_text_Hour = new WatchUi.Text({:identifier=>"Hour", :locX=>(260 * (46 / 100.0)), :locY=>(260 * (64 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>local_Rez_Fonts_rubik_f65_grey});
 
-            var rez_cmp_local_text_Minute = new WatchUi.Text({:identifier=>"Minute", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (58 / 100.0)), :locY=>(260 * (64 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_NUMBER_MEDIUM});
+            var rez_cmp_local_text_Minute = new WatchUi.Text({:identifier=>"Minute", :color=>Gfx.COLOR_WHITE, :locX=>(260 * (54 / 100.0)), :locY=>(260 * (64 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f65_grey});
 
-            var rez_cmp_local_text_Second = new WatchUi.Text({:identifier=>"Second", :locX=>(260 * (82 / 100.0)), :locY=>(260 * (64 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f19_white});
+            var rez_cmp_local_text_Second = new WatchUi.Text({:identifier=>"Second", :locX=>(260 * (84 / 100.0)), :locY=>(260 * (64 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f19_white});
 
             var rez_cmp_local_bitmap_WeatherIcon = new WatchUi.Bitmap({:identifier=>"WeatherIcon", :rezId=>$.Rez.Drawables.WeatherIcon, :locX=>(260 * (25 / 100.0)), :locY=>(260 * (84 / 100.0))});
             rez_cmp_local_bitmap_WeatherIcon.setLocation((260 * (25 / 100.0)), (260 * (84 / 100.0)));

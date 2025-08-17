@@ -416,96 +416,91 @@ _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_72_44_105_2_start:
         [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_72_44_105_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_72_44_105_2_stop" ]
         %foregroundColor.5 = local;
         symbol [ foregroundColor %foregroundColor.5 82 8 23 ];
-        symbol [ Graphics %tmp.5 82 26 34 ];
-        %tmp.5 = getm $.Toybox.Graphics;
-        symbol [ createColor %tmp.6 82 35 46 ];
-        %tmp.6 = getv function %tmp.5 :createColor;
-        %tmp.7 = 1;
-        %tmp.8 = 195;
-        %tmp.9 = 195;
-        %tmp.10 = 195;
-        %tmp.11 = invoke %tmp.5 %tmp.6(%tmp.7, %tmp.8, %tmp.9, %tmp.10);
-        lputv %foregroundColor.5 %tmp.11;
+        %tmp.5 = self;
+        symbol [ getGrayColor %tmp.6 82 26 38 ];
+        %tmp.6 = getv function %tmp.5 :getGrayColor;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        lputv %foregroundColor.5 %tmp.7;
         symbol [ foregroundColor %foregroundColor.5 82 8 23 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 84 4 ]
         [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_72_44_105_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_72_44_105_2_stop" ]
         %backgroundColor.6 = local;
         symbol [ backgroundColor %backgroundColor.6 84 8 23 ];
-        symbol [ Graphics %tmp.12 84 26 34 ];
-        %tmp.12 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.13 84 35 52 ];
-        %tmp.13 = getv %tmp.12 :COLOR_TRANSPARENT;
-        lputv %backgroundColor.6 %tmp.13;
+        symbol [ Graphics %tmp.8 84 26 34 ];
+        %tmp.8 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.9 84 35 52 ];
+        %tmp.9 = getv %tmp.8 :COLOR_TRANSPARENT;
+        lputv %backgroundColor.6 %tmp.9;
         symbol [ backgroundColor %backgroundColor.6 84 8 23 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 86 4 ]
         [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_72_44_105_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_72_44_105_2_stop" ]
         %batteryPercent.7 = local;
         symbol [ batteryPercent %batteryPercent.7 86 8 22 ];
-        symbol [ System %tmp.14 86 25 31 ];
-        %tmp.14 = getm $.Toybox.System;
-        symbol [ getSystemStats %tmp.15 86 32 46 ];
-        %tmp.15 = getv function %tmp.14 :getSystemStats;
-        %tmp.16 = invoke %tmp.14 %tmp.15();
-        symbol [ battery %tmp.17 86 49 56 ];
-        %tmp.17 = getv %tmp.16 :battery;
-        %tmp.18 = 100;
-        %tmp.19 = div %tmp.17 %tmp.18;
-        lputv %batteryPercent.7 %tmp.19;
+        symbol [ System %tmp.10 86 25 31 ];
+        %tmp.10 = getm $.Toybox.System;
+        symbol [ getSystemStats %tmp.11 86 32 46 ];
+        %tmp.11 = getv function %tmp.10 :getSystemStats;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        symbol [ battery %tmp.13 86 49 56 ];
+        %tmp.13 = getv %tmp.12 :battery;
+        %tmp.14 = 100;
+        %tmp.15 = div %tmp.13 %tmp.14;
+        lputv %batteryPercent.7 %tmp.15;
         symbol [ batteryPercent %batteryPercent.7 86 8 22 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 88 4 ]
         [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_72_44_105_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_72_44_105_2_stop" ]
         %startAngle.8 = local;
         symbol [ startAngle %startAngle.8 88 8 18 ];
-        %tmp.20 = 124;
-        lputv %startAngle.8 %tmp.20;
+        %tmp.16 = 124;
+        lputv %startAngle.8 %tmp.16;
         symbol [ startAngle %startAngle.8 88 8 18 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 90 4 ]
         [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_72_44_105_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_72_44_105_2_stop" ]
         %totalAngleSpan.9 = local;
         symbol [ totalAngleSpan %totalAngleSpan.9 90 8 22 ];
-        %tmp.21 = 288;
-        lputv %totalAngleSpan.9 %tmp.21;
+        %tmp.17 = 288;
+        lputv %totalAngleSpan.9 %tmp.17;
         symbol [ totalAngleSpan %totalAngleSpan.9 90 8 22 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 92 4 ]
         [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_72_44_105_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_72_44_105_2_stop" ]
         %endAngle.10 = local;
         symbol [ endAngle %endAngle.10 92 8 16 ];
-        %tmp.22 = lgetv %startAngle.8;
-        symbol [ startAngle %tmp.22 92 19 29 ];
-        %tmp.23 = lgetv %totalAngleSpan.9;
-        symbol [ totalAngleSpan %tmp.23 92 32 46 ];
-        %tmp.24 = lgetv %batteryPercent.7;
-        symbol [ batteryPercent %tmp.24 92 49 63 ];
-        %tmp.25 = mul %tmp.23 %tmp.24;
-        %tmp.26 = add %tmp.22 %tmp.25;
-        lputv %endAngle.10 %tmp.26;
+        %tmp.18 = lgetv %startAngle.8;
+        symbol [ startAngle %tmp.18 92 19 29 ];
+        %tmp.19 = lgetv %totalAngleSpan.9;
+        symbol [ totalAngleSpan %tmp.19 92 32 46 ];
+        %tmp.20 = lgetv %batteryPercent.7;
+        symbol [ batteryPercent %tmp.20 92 49 63 ];
+        %tmp.21 = mul %tmp.19 %tmp.20;
+        %tmp.22 = add %tmp.18 %tmp.21;
+        lputv %endAngle.10 %tmp.22;
         symbol [ endAngle %endAngle.10 92 8 16 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 94 4 ]
-        %tmp.27 = self;
-        symbol [ drawRoundedArc %tmp.28 94 4 18 ];
-        %tmp.28 = getv function %tmp.27 :drawRoundedArc;
-        %tmp.29 = lgetv %dc;
-        symbol [ dc %tmp.29 95 6 8 ];
-        %tmp.30 = lgetv %centerX.1;
-        symbol [ centerX %tmp.30 96 6 13 ];
-        %tmp.31 = lgetv %centerY.2;
-        symbol [ centerY %tmp.31 97 6 13 ];
-        %tmp.32 = lgetv %radius.3;
-        symbol [ radius %tmp.32 98 6 12 ];
-        %tmp.33 = lgetv %thickness.4;
-        symbol [ thickness %tmp.33 99 6 15 ];
-        %tmp.34 = lgetv %foregroundColor.5;
-        symbol [ foregroundColor %tmp.34 100 6 21 ];
-        %tmp.35 = lgetv %backgroundColor.6;
-        symbol [ backgroundColor %tmp.35 101 6 21 ];
-        %tmp.36 = lgetv %startAngle.8;
-        symbol [ startAngle %tmp.36 102 6 16 ];
-        %tmp.37 = lgetv %endAngle.10;
-        symbol [ endAngle %tmp.37 103 6 14 ];
-        symbol [ toNumber %tmp.38 103 15 23 ];
-        %tmp.38 = getv function %tmp.37 :toNumber;
-        %tmp.39 = invoke %tmp.37 %tmp.38();
-        invoke %tmp.27 %tmp.28(%tmp.29, %tmp.30, %tmp.31, %tmp.32, %tmp.33, %tmp.34, %tmp.35, %tmp.36, %tmp.39);
+        %tmp.23 = self;
+        symbol [ drawRoundedArc %tmp.24 94 4 18 ];
+        %tmp.24 = getv function %tmp.23 :drawRoundedArc;
+        %tmp.25 = lgetv %dc;
+        symbol [ dc %tmp.25 95 6 8 ];
+        %tmp.26 = lgetv %centerX.1;
+        symbol [ centerX %tmp.26 96 6 13 ];
+        %tmp.27 = lgetv %centerY.2;
+        symbol [ centerY %tmp.27 97 6 13 ];
+        %tmp.28 = lgetv %radius.3;
+        symbol [ radius %tmp.28 98 6 12 ];
+        %tmp.29 = lgetv %thickness.4;
+        symbol [ thickness %tmp.29 99 6 15 ];
+        %tmp.30 = lgetv %foregroundColor.5;
+        symbol [ foregroundColor %tmp.30 100 6 21 ];
+        %tmp.31 = lgetv %backgroundColor.6;
+        symbol [ backgroundColor %tmp.31 101 6 21 ];
+        %tmp.32 = lgetv %startAngle.8;
+        symbol [ startAngle %tmp.32 102 6 16 ];
+        %tmp.33 = lgetv %endAngle.10;
+        symbol [ endAngle %tmp.33 103 6 14 ];
+        symbol [ toNumber %tmp.34 103 15 23 ];
+        %tmp.34 = getv function %tmp.33 :toNumber;
+        %tmp.35 = invoke %tmp.33 %tmp.34();
+        invoke %tmp.23 %tmp.24(%tmp.25, %tmp.26, %tmp.27, %tmp.28, %tmp.29, %tmp.30, %tmp.31, %tmp.32, %tmp.35);
 _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_72_44_105_2_stop:
     }
     [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 108; @symbol_functiondef = [getSystemDay,108,11,23]; @symbol_return<0> = [Lang,108,29,33]; @symbol_return<1> = [String,108,34,40]; ]
@@ -732,93 +727,88 @@ _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_146_43_179_2_start:
         [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_146_43_179_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_146_43_179_2_stop" ]
         %foregroundColor.5 = local;
         symbol [ foregroundColor %foregroundColor.5 156 8 23 ];
-        symbol [ Graphics %tmp.5 156 26 34 ];
-        %tmp.5 = getm $.Toybox.Graphics;
-        symbol [ createColor %tmp.6 156 35 46 ];
-        %tmp.6 = getv function %tmp.5 :createColor;
-        %tmp.7 = 1;
-        %tmp.8 = 195;
-        %tmp.9 = 195;
-        %tmp.10 = 195;
-        %tmp.11 = invoke %tmp.5 %tmp.6(%tmp.7, %tmp.8, %tmp.9, %tmp.10);
-        lputv %foregroundColor.5 %tmp.11;
+        %tmp.5 = self;
+        symbol [ getGrayColor %tmp.6 156 26 38 ];
+        %tmp.6 = getv function %tmp.5 :getGrayColor;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        lputv %foregroundColor.5 %tmp.7;
         symbol [ foregroundColor %foregroundColor.5 156 8 23 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 158 4 ]
         [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_146_43_179_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_146_43_179_2_stop" ]
         %backgroundColor.6 = local;
         symbol [ backgroundColor %backgroundColor.6 158 8 23 ];
-        symbol [ Graphics %tmp.12 158 26 34 ];
-        %tmp.12 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.13 158 35 52 ];
-        %tmp.13 = getv %tmp.12 :COLOR_TRANSPARENT;
-        lputv %backgroundColor.6 %tmp.13;
+        symbol [ Graphics %tmp.8 158 26 34 ];
+        %tmp.8 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.9 158 35 52 ];
+        %tmp.9 = getv %tmp.8 :COLOR_TRANSPARENT;
+        lputv %backgroundColor.6 %tmp.9;
         symbol [ backgroundColor %backgroundColor.6 158 8 23 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 160 4 ]
         [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_146_43_179_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_146_43_179_2_stop" ]
         %stressPercent.7 = local;
         symbol [ stressPercent %stressPercent.7 160 8 21 ];
-        %tmp.14 = self;
-        symbol [ getStress %tmp.15 160 24 33 ];
-        %tmp.15 = getv function %tmp.14 :getStress;
-        %tmp.16 = invoke %tmp.14 %tmp.15();
-        %tmp.17 = 100.0;
-        %tmp.18 = div %tmp.16 %tmp.17;
-        lputv %stressPercent.7 %tmp.18;
+        %tmp.10 = self;
+        symbol [ getStress %tmp.11 160 24 33 ];
+        %tmp.11 = getv function %tmp.10 :getStress;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        %tmp.13 = 100.0;
+        %tmp.14 = div %tmp.12 %tmp.13;
+        lputv %stressPercent.7 %tmp.14;
         symbol [ stressPercent %stressPercent.7 160 8 21 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 162 4 ]
         [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_146_43_179_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_146_43_179_2_stop" ]
         %startAngle.8 = local;
         symbol [ startAngle %startAngle.8 162 8 18 ];
-        %tmp.19 = 124;
-        lputv %startAngle.8 %tmp.19;
+        %tmp.15 = 124;
+        lputv %startAngle.8 %tmp.15;
         symbol [ startAngle %startAngle.8 162 8 18 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 164 4 ]
         [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_146_43_179_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_146_43_179_2_stop" ]
         %totalAngleSpan.9 = local;
         symbol [ totalAngleSpan %totalAngleSpan.9 164 8 22 ];
-        %tmp.20 = 288;
-        lputv %totalAngleSpan.9 %tmp.20;
+        %tmp.16 = 288;
+        lputv %totalAngleSpan.9 %tmp.16;
         symbol [ totalAngleSpan %totalAngleSpan.9 164 8 22 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 166 4 ]
         [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_146_43_179_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_146_43_179_2_stop" ]
         %endAngle.10 = local;
         symbol [ endAngle %endAngle.10 166 8 16 ];
-        %tmp.21 = lgetv %startAngle.8;
-        symbol [ startAngle %tmp.21 166 19 29 ];
-        %tmp.22 = lgetv %totalAngleSpan.9;
-        symbol [ totalAngleSpan %tmp.22 166 32 46 ];
-        %tmp.23 = lgetv %stressPercent.7;
-        symbol [ stressPercent %tmp.23 166 49 62 ];
-        %tmp.24 = mul %tmp.22 %tmp.23;
-        %tmp.25 = add %tmp.21 %tmp.24;
-        lputv %endAngle.10 %tmp.25;
+        %tmp.17 = lgetv %startAngle.8;
+        symbol [ startAngle %tmp.17 166 19 29 ];
+        %tmp.18 = lgetv %totalAngleSpan.9;
+        symbol [ totalAngleSpan %tmp.18 166 32 46 ];
+        %tmp.19 = lgetv %stressPercent.7;
+        symbol [ stressPercent %tmp.19 166 49 62 ];
+        %tmp.20 = mul %tmp.18 %tmp.19;
+        %tmp.21 = add %tmp.17 %tmp.20;
+        lputv %endAngle.10 %tmp.21;
         symbol [ endAngle %endAngle.10 166 8 16 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 168 4 ]
-        %tmp.26 = self;
-        symbol [ drawRoundedArc %tmp.27 168 4 18 ];
-        %tmp.27 = getv function %tmp.26 :drawRoundedArc;
-        %tmp.28 = lgetv %dc;
-        symbol [ dc %tmp.28 169 6 8 ];
-        %tmp.29 = lgetv %centerX.1;
-        symbol [ centerX %tmp.29 170 6 13 ];
-        %tmp.30 = lgetv %centerY.2;
-        symbol [ centerY %tmp.30 171 6 13 ];
-        %tmp.31 = lgetv %radius.3;
-        symbol [ radius %tmp.31 172 6 12 ];
-        %tmp.32 = lgetv %thickness.4;
-        symbol [ thickness %tmp.32 173 6 15 ];
-        %tmp.33 = lgetv %foregroundColor.5;
-        symbol [ foregroundColor %tmp.33 174 6 21 ];
-        %tmp.34 = lgetv %backgroundColor.6;
-        symbol [ backgroundColor %tmp.34 175 6 21 ];
-        %tmp.35 = lgetv %startAngle.8;
-        symbol [ startAngle %tmp.35 176 6 16 ];
-        %tmp.36 = lgetv %endAngle.10;
-        symbol [ endAngle %tmp.36 177 6 14 ];
-        symbol [ toNumber %tmp.37 177 15 23 ];
-        %tmp.37 = getv function %tmp.36 :toNumber;
-        %tmp.38 = invoke %tmp.36 %tmp.37();
-        invoke %tmp.26 %tmp.27(%tmp.28, %tmp.29, %tmp.30, %tmp.31, %tmp.32, %tmp.33, %tmp.34, %tmp.35, %tmp.38);
+        %tmp.22 = self;
+        symbol [ drawRoundedArc %tmp.23 168 4 18 ];
+        %tmp.23 = getv function %tmp.22 :drawRoundedArc;
+        %tmp.24 = lgetv %dc;
+        symbol [ dc %tmp.24 169 6 8 ];
+        %tmp.25 = lgetv %centerX.1;
+        symbol [ centerX %tmp.25 170 6 13 ];
+        %tmp.26 = lgetv %centerY.2;
+        symbol [ centerY %tmp.26 171 6 13 ];
+        %tmp.27 = lgetv %radius.3;
+        symbol [ radius %tmp.27 172 6 12 ];
+        %tmp.28 = lgetv %thickness.4;
+        symbol [ thickness %tmp.28 173 6 15 ];
+        %tmp.29 = lgetv %foregroundColor.5;
+        symbol [ foregroundColor %tmp.29 174 6 21 ];
+        %tmp.30 = lgetv %backgroundColor.6;
+        symbol [ backgroundColor %tmp.30 175 6 21 ];
+        %tmp.31 = lgetv %startAngle.8;
+        symbol [ startAngle %tmp.31 176 6 16 ];
+        %tmp.32 = lgetv %endAngle.10;
+        symbol [ endAngle %tmp.32 177 6 14 ];
+        symbol [ toNumber %tmp.33 177 15 23 ];
+        %tmp.33 = getv function %tmp.32 :toNumber;
+        %tmp.34 = invoke %tmp.32 %tmp.33();
+        invoke %tmp.22 %tmp.23(%tmp.24, %tmp.25, %tmp.26, %tmp.27, %tmp.28, %tmp.29, %tmp.30, %tmp.31, %tmp.34);
 _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_146_43_179_2_stop:
     }
     [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 182; @symbol_functiondef = [getSystemSunsetTime,182,11,30]; @symbol_return<0> = [Lang,182,36,40]; @symbol_return<1> = [String,182,41,47]; ]
@@ -2147,6 +2137,22 @@ _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_start:
         lputv %capRadius.7 %tmp.65;
         symbol [ capRadius %capRadius.7 449 8 17 ];
 _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 455; @symbol_functiondef = [getGrayColor,455,11,23]; @symbol_return<0> = [Lang,455,29,33]; @symbol_return<1> = [Number,455,34,40]; ]
+    function getGrayColor() as Lang.Number {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_455_41_457_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 456 4 ]
+        symbol [ Graphics %tmp.1 456 11 19 ];
+        %tmp.1 = getm $.Toybox.Graphics;
+        symbol [ createColor %tmp.2 456 20 31 ];
+        %tmp.2 = getv function %tmp.1 :createColor;
+        %tmp.3 = 1;
+        %tmp.4 = 195;
+        %tmp.5 = 195;
+        %tmp.6 = 195;
+        %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4, %tmp.5, %tmp.6);
+        ret %tmp.7;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_455_41_457_2_stop:
     }
 }
 [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 1; ]

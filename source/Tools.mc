@@ -79,7 +79,7 @@ class Tools {
     // 粗细
     var thickness = 3;
     // 前景色
-    var foregroundColor = Graphics.createColor(1, 195, 195, 195);
+    var foregroundColor = getGrayColor();
     // 背景色
     var backgroundColor = Graphics.COLOR_TRANSPARENT;
     // 系统电量
@@ -153,7 +153,7 @@ class Tools {
     // 粗细
     var thickness = 3;
     // 前景色
-    var foregroundColor = Graphics.createColor(1, 195, 195, 195);
+    var foregroundColor = getGrayColor();
     // 背景色
     var backgroundColor = Graphics.COLOR_TRANSPARENT;
     // 系统压力值
@@ -450,4 +450,10 @@ class Tools {
     //dc.fillCircle(startX, startY, capRadius);
     //dc.fillCircle(endX, endY, capRadius);
   }
+
+  // 获取灰色字体
+  function getGrayColor() as Lang.Number {
+    return Graphics.createColor(1, 195, 195, 195);
+  }
+
 }

@@ -32,13 +32,13 @@
    <label id="AMPM" x="8%" y="66%" font = "@Fonts.rubik_f11_white" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
    <!-- 小时 -->
-   <label id="Hour" x="42%" y="64%" font = "Graphics.FONT_NUMBER_MEDIUM" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
+   <label id="Hour" x="46%" y="64%" font = "@Fonts.rubik_f65_grey" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
 
    <!-- 分钟 -->
-   <label id="Minute" x="58%" y="64%" color="Gfx.COLOR_WHITE" font = "Graphics.FONT_NUMBER_MEDIUM" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
+   <label id="Minute" x="54%" y="64%" color="Gfx.COLOR_WHITE" font = "@Fonts.rubik_f65_grey" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
    <!-- 秒 -->
-   <label id="Second" x="82%" y="64%" font="@Fonts.rubik_f19_white" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
+   <label id="Second" x="84%" y="64%" font="@Fonts.rubik_f19_white" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
    <!-- 天气图标 -->
    <bitmap id="WeatherIcon" x="25%" y="84%" filename="../drawables/weather/weather_condition_unknown.png" />
