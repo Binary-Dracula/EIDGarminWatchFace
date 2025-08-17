@@ -1115,9 +1115,9 @@ _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_228_44_231_2_stop:
     }
     [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 234; @symbol_functiondef = [getWeatherIcon,234,11,25]; @symbol_return<0> = [BitmapResource,234,31,45]; ]
     function getWeatherIcon() as BitmapResource {
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_234_46_375_2_start:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_234_46_253_2_start:
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 235 4 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_234_46_375_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_234_46_375_2_stop" ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_234_46_253_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_234_46_253_2_stop" ]
         %currentWeatherConditions.1 = local;
         symbol [ currentWeatherConditions %currentWeatherConditions.1 235 8 32 ];
         symbol [ Weather %tmp.1 236 6 13 ];
@@ -1131,7 +1131,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_234_46_375_2_start:
         lputv %currentWeatherConditions.1 %tmp.4;
         symbol [ currentWeatherConditions %currentWeatherConditions.1 235 8 32 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 238 4 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_234_46_375_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_234_46_375_2_stop" ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_234_46_253_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_234_46_253_2_stop" ]
         %weatherIconResource.2 = local;
         symbol [ weatherIconResource %weatherIconResource.2 238 8 27 ];
         symbol [ Application %tmp.6 238 30 41 ];
@@ -1148,16 +1148,16 @@ _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_234_46_375_2_start:
         lputv %weatherIconResource.2 %tmp.12;
         symbol [ weatherIconResource %weatherIconResource.2 238 8 27 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 241 4 ]
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_4_373_4_if_stmt:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_4_251_4_if_stmt:
         %tmp.13 = lgetv %currentWeatherConditions.1;
         symbol [ currentWeatherConditions %tmp.13 241 8 32 ];
         %tmp.14 = null;
         %tmp.15 = ne %tmp.13 %tmp.14;
-        bf %tmp.15 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_4_373_4_if_end;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_4_373_4_if_true:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_42_373_4_start:
+        bf %tmp.15 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_4_251_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_4_251_4_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_42_251_4_start:
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 242 6 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_42_373_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_42_373_4_stop" ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_42_251_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_42_251_4_stop" ]
         %condition.3 = local;
         symbol [ condition %condition.3 242 10 19 ];
         %tmp.16 = lgetv %currentWeatherConditions.1;
@@ -1171,982 +1171,306 @@ _Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_42_373_4_start:
         %tmp.19 = lgetv %condition.3;
         symbol [ condition %tmp.19 243 14 23 ];
         push %tmp.19;
-        switch %tmp.19 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_372_6_switchStmtEnd;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_372_6_switchStmtBegin:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 245 8 ]
+        switch %tmp.19 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_250_6_switchStmtEnd;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_250_6_switchStmtBegin:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 244 8 ]
         %tmp.20 = dup %tmp.19;
-        symbol [ Weather %tmp.21 245 13 20 ];
+        symbol [ Weather %tmp.21 244 13 20 ];
         %tmp.21 = getm $.Toybox.Weather;
-        symbol [ CONDITION_CLEAR %tmp.22 245 21 36 ];
+        symbol [ CONDITION_CLEAR %tmp.22 244 21 36 ];
         %tmp.22 = getv %tmp.21 :CONDITION_CLEAR;
         %tmp.23 = getv function %tmp.20 :equals;
         %tmp.24 = invoke %tmp.20 %tmp.23 (%tmp.22);
-        bt %tmp.24 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_245_8_245_36_switchCase;
+        bt %tmp.24 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_244_8_245_15_switchCase;
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 246 8 ]
         %tmp.25 = dup %tmp.19;
         symbol [ Weather %tmp.26 246 13 20 ];
         %tmp.26 = getm $.Toybox.Weather;
-        symbol [ CONDITION_PARTLY_CLEAR %tmp.27 246 21 43 ];
-        %tmp.27 = getv %tmp.26 :CONDITION_PARTLY_CLEAR;
+        symbol [ CONDITION_PARTLY_CLOUDY %tmp.27 246 21 44 ];
+        %tmp.27 = getv %tmp.26 :CONDITION_PARTLY_CLOUDY;
         %tmp.28 = getv function %tmp.25 :equals;
         %tmp.29 = invoke %tmp.25 %tmp.28 (%tmp.27);
-        bt %tmp.29 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_246_8_246_43_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 247 8 ]
-        %tmp.30 = dup %tmp.19;
-        symbol [ Weather %tmp.31 247 13 20 ];
-        %tmp.31 = getm $.Toybox.Weather;
-        symbol [ CONDITION_MOSTLY_CLEAR %tmp.32 247 21 43 ];
-        %tmp.32 = getv %tmp.31 :CONDITION_MOSTLY_CLEAR;
-        %tmp.33 = getv function %tmp.30 :equals;
-        %tmp.34 = invoke %tmp.30 %tmp.33 (%tmp.32);
-        bt %tmp.34 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_247_8_247_43_switchCase;
+        bt %tmp.29 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_246_8_247_15_switchCase;
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 248 8 ]
-        %tmp.35 = dup %tmp.19;
-        symbol [ Weather %tmp.36 248 13 20 ];
-        %tmp.36 = getm $.Toybox.Weather;
-        symbol [ CONDITION_FAIR %tmp.37 248 21 35 ];
-        %tmp.37 = getv %tmp.36 :CONDITION_FAIR;
-        %tmp.38 = getv function %tmp.35 :equals;
-        %tmp.39 = invoke %tmp.35 %tmp.38 (%tmp.37);
-        bt %tmp.39 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_248_8_248_35_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 249 8 ]
-        %tmp.40 = dup %tmp.19;
-        symbol [ Weather %tmp.41 249 13 20 ];
-        %tmp.41 = getm $.Toybox.Weather;
-        symbol [ CONDITION_THIN_CLOUDS %tmp.42 249 21 42 ];
-        %tmp.42 = getv %tmp.41 :CONDITION_THIN_CLOUDS;
-        %tmp.43 = getv function %tmp.40 :equals;
-        %tmp.44 = invoke %tmp.40 %tmp.43 (%tmp.42);
-        bt %tmp.44 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_249_8_254_15_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 257 8 ]
-        %tmp.45 = dup %tmp.19;
-        symbol [ Weather %tmp.46 257 13 20 ];
-        %tmp.46 = getm $.Toybox.Weather;
-        symbol [ CONDITION_CLOUDY %tmp.47 257 21 37 ];
-        %tmp.47 = getv %tmp.46 :CONDITION_CLOUDY;
-        %tmp.48 = getv function %tmp.45 :equals;
-        %tmp.49 = invoke %tmp.45 %tmp.48 (%tmp.47);
-        bt %tmp.49 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_257_8_257_37_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 258 8 ]
-        %tmp.50 = dup %tmp.19;
-        symbol [ Weather %tmp.51 258 13 20 ];
-        %tmp.51 = getm $.Toybox.Weather;
-        symbol [ CONDITION_PARTLY_CLOUDY %tmp.52 258 21 44 ];
-        %tmp.52 = getv %tmp.51 :CONDITION_PARTLY_CLOUDY;
-        %tmp.53 = getv function %tmp.50 :equals;
-        %tmp.54 = invoke %tmp.50 %tmp.53 (%tmp.52);
-        bt %tmp.54 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_258_8_258_44_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 259 8 ]
-        %tmp.55 = dup %tmp.19;
-        symbol [ Weather %tmp.56 259 13 20 ];
-        %tmp.56 = getm $.Toybox.Weather;
-        symbol [ CONDITION_MOSTLY_CLOUDY %tmp.57 259 21 44 ];
-        %tmp.57 = getv %tmp.56 :CONDITION_MOSTLY_CLOUDY;
-        %tmp.58 = getv function %tmp.55 :equals;
-        %tmp.59 = invoke %tmp.55 %tmp.58 (%tmp.57);
-        bt %tmp.59 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_259_8_264_15_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 267 8 ]
-        %tmp.60 = dup %tmp.19;
-        symbol [ Weather %tmp.61 267 13 20 ];
-        %tmp.61 = getm $.Toybox.Weather;
-        symbol [ CONDITION_RAIN %tmp.62 267 21 35 ];
-        %tmp.62 = getv %tmp.61 :CONDITION_RAIN;
-        %tmp.63 = getv function %tmp.60 :equals;
-        %tmp.64 = invoke %tmp.60 %tmp.63 (%tmp.62);
-        bt %tmp.64 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_267_8_267_35_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 268 8 ]
-        %tmp.65 = dup %tmp.19;
-        symbol [ Weather %tmp.66 268 13 20 ];
-        %tmp.66 = getm $.Toybox.Weather;
-        symbol [ CONDITION_LIGHT_RAIN %tmp.67 268 21 41 ];
-        %tmp.67 = getv %tmp.66 :CONDITION_LIGHT_RAIN;
-        %tmp.68 = getv function %tmp.65 :equals;
-        %tmp.69 = invoke %tmp.65 %tmp.68 (%tmp.67);
-        bt %tmp.69 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_268_8_268_41_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 269 8 ]
-        %tmp.70 = dup %tmp.19;
-        symbol [ Weather %tmp.71 269 13 20 ];
-        %tmp.71 = getm $.Toybox.Weather;
-        symbol [ CONDITION_HEAVY_RAIN %tmp.72 269 21 41 ];
-        %tmp.72 = getv %tmp.71 :CONDITION_HEAVY_RAIN;
-        %tmp.73 = getv function %tmp.70 :equals;
-        %tmp.74 = invoke %tmp.70 %tmp.73 (%tmp.72);
-        bt %tmp.74 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_269_8_269_41_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 270 8 ]
-        %tmp.75 = dup %tmp.19;
-        symbol [ Weather %tmp.76 270 13 20 ];
-        %tmp.76 = getm $.Toybox.Weather;
-        symbol [ CONDITION_SCATTERED_SHOWERS %tmp.77 270 21 48 ];
-        %tmp.77 = getv %tmp.76 :CONDITION_SCATTERED_SHOWERS;
-        %tmp.78 = getv function %tmp.75 :equals;
-        %tmp.79 = invoke %tmp.75 %tmp.78 (%tmp.77);
-        bt %tmp.79 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_270_8_270_48_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 271 8 ]
-        %tmp.80 = dup %tmp.19;
-        symbol [ Weather %tmp.81 271 13 20 ];
-        %tmp.81 = getm $.Toybox.Weather;
-        symbol [ CONDITION_LIGHT_SHOWERS %tmp.82 271 21 44 ];
-        %tmp.82 = getv %tmp.81 :CONDITION_LIGHT_SHOWERS;
-        %tmp.83 = getv function %tmp.80 :equals;
-        %tmp.84 = invoke %tmp.80 %tmp.83 (%tmp.82);
-        bt %tmp.84 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_271_8_271_44_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 272 8 ]
-        %tmp.85 = dup %tmp.19;
-        symbol [ Weather %tmp.86 272 13 20 ];
-        %tmp.86 = getm $.Toybox.Weather;
-        symbol [ CONDITION_SHOWERS %tmp.87 272 21 38 ];
-        %tmp.87 = getv %tmp.86 :CONDITION_SHOWERS;
-        %tmp.88 = getv function %tmp.85 :equals;
-        %tmp.89 = invoke %tmp.85 %tmp.88 (%tmp.87);
-        bt %tmp.89 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_272_8_272_38_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 273 8 ]
-        %tmp.90 = dup %tmp.19;
-        symbol [ Weather %tmp.91 273 13 20 ];
-        %tmp.91 = getm $.Toybox.Weather;
-        symbol [ CONDITION_HEAVY_SHOWERS %tmp.92 273 21 44 ];
-        %tmp.92 = getv %tmp.91 :CONDITION_HEAVY_SHOWERS;
-        %tmp.93 = getv function %tmp.90 :equals;
-        %tmp.94 = invoke %tmp.90 %tmp.93 (%tmp.92);
-        bt %tmp.94 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_273_8_273_44_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 274 8 ]
-        %tmp.95 = dup %tmp.19;
-        symbol [ Weather %tmp.96 274 13 20 ];
-        %tmp.96 = getm $.Toybox.Weather;
-        symbol [ CONDITION_CHANCE_OF_SHOWERS %tmp.97 274 21 48 ];
-        %tmp.97 = getv %tmp.96 :CONDITION_CHANCE_OF_SHOWERS;
-        %tmp.98 = getv function %tmp.95 :equals;
-        %tmp.99 = invoke %tmp.95 %tmp.98 (%tmp.97);
-        bt %tmp.99 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_274_8_274_48_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 275 8 ]
-        %tmp.100 = dup %tmp.19;
-        symbol [ Weather %tmp.101 275 13 20 ];
-        %tmp.101 = getm $.Toybox.Weather;
-        symbol [ CONDITION_CLOUDY_CHANCE_OF_RAIN %tmp.102 275 21 52 ];
-        %tmp.102 = getv %tmp.101 :CONDITION_CLOUDY_CHANCE_OF_RAIN;
-        %tmp.103 = getv function %tmp.100 :equals;
-        %tmp.104 = invoke %tmp.100 %tmp.103 (%tmp.102);
-        bt %tmp.104 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_275_8_275_52_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 276 8 ]
-        %tmp.105 = dup %tmp.19;
-        symbol [ Weather %tmp.106 276 13 20 ];
-        %tmp.106 = getm $.Toybox.Weather;
-        symbol [ CONDITION_DRIZZLE %tmp.107 276 21 38 ];
-        %tmp.107 = getv %tmp.106 :CONDITION_DRIZZLE;
-        %tmp.108 = getv function %tmp.105 :equals;
-        %tmp.109 = invoke %tmp.105 %tmp.108 (%tmp.107);
-        bt %tmp.109 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_276_8_281_15_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 284 8 ]
-        %tmp.110 = dup %tmp.19;
-        symbol [ Weather %tmp.111 284 13 20 ];
-        %tmp.111 = getm $.Toybox.Weather;
-        symbol [ CONDITION_THUNDERSTORMS %tmp.112 284 21 44 ];
-        %tmp.112 = getv %tmp.111 :CONDITION_THUNDERSTORMS;
-        %tmp.113 = getv function %tmp.110 :equals;
-        %tmp.114 = invoke %tmp.110 %tmp.113 (%tmp.112);
-        bt %tmp.114 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_284_8_284_44_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 285 8 ]
-        %tmp.115 = dup %tmp.19;
-        symbol [ Weather %tmp.116 285 13 20 ];
-        %tmp.116 = getm $.Toybox.Weather;
-        symbol [ CONDITION_SCATTERED_THUNDERSTORMS %tmp.117 285 21 54 ];
-        %tmp.117 = getv %tmp.116 :CONDITION_SCATTERED_THUNDERSTORMS;
-        %tmp.118 = getv function %tmp.115 :equals;
-        %tmp.119 = invoke %tmp.115 %tmp.118 (%tmp.117);
-        bt %tmp.119 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_285_8_285_54_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 286 8 ]
-        %tmp.120 = dup %tmp.19;
-        symbol [ Weather %tmp.121 286 13 20 ];
-        %tmp.121 = getm $.Toybox.Weather;
-        symbol [ CONDITION_CHANCE_OF_THUNDERSTORMS %tmp.122 286 21 54 ];
-        %tmp.122 = getv %tmp.121 :CONDITION_CHANCE_OF_THUNDERSTORMS;
-        %tmp.123 = getv function %tmp.120 :equals;
-        %tmp.124 = invoke %tmp.120 %tmp.123 (%tmp.122);
-        bt %tmp.124 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_286_8_288_15_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 291 8 ]
-        %tmp.125 = dup %tmp.19;
-        symbol [ Weather %tmp.126 291 13 20 ];
-        %tmp.126 = getm $.Toybox.Weather;
-        symbol [ CONDITION_SNOW %tmp.127 291 21 35 ];
-        %tmp.127 = getv %tmp.126 :CONDITION_SNOW;
-        %tmp.128 = getv function %tmp.125 :equals;
-        %tmp.129 = invoke %tmp.125 %tmp.128 (%tmp.127);
-        bt %tmp.129 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_291_8_291_35_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 292 8 ]
-        %tmp.130 = dup %tmp.19;
-        symbol [ Weather %tmp.131 292 13 20 ];
-        %tmp.131 = getm $.Toybox.Weather;
-        symbol [ CONDITION_LIGHT_SNOW %tmp.132 292 21 41 ];
-        %tmp.132 = getv %tmp.131 :CONDITION_LIGHT_SNOW;
-        %tmp.133 = getv function %tmp.130 :equals;
-        %tmp.134 = invoke %tmp.130 %tmp.133 (%tmp.132);
-        bt %tmp.134 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_292_8_292_41_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 293 8 ]
-        %tmp.135 = dup %tmp.19;
-        symbol [ Weather %tmp.136 293 13 20 ];
-        %tmp.136 = getm $.Toybox.Weather;
-        symbol [ CONDITION_HEAVY_SNOW %tmp.137 293 21 41 ];
-        %tmp.137 = getv %tmp.136 :CONDITION_HEAVY_SNOW;
-        %tmp.138 = getv function %tmp.135 :equals;
-        %tmp.139 = invoke %tmp.135 %tmp.138 (%tmp.137);
-        bt %tmp.139 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_293_8_293_41_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 294 8 ]
-        %tmp.140 = dup %tmp.19;
-        symbol [ Weather %tmp.141 294 13 20 ];
-        %tmp.141 = getm $.Toybox.Weather;
-        symbol [ CONDITION_CHANCE_OF_SNOW %tmp.142 294 21 45 ];
-        %tmp.142 = getv %tmp.141 :CONDITION_CHANCE_OF_SNOW;
-        %tmp.143 = getv function %tmp.140 :equals;
-        %tmp.144 = invoke %tmp.140 %tmp.143 (%tmp.142);
-        bt %tmp.144 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_294_8_294_45_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 295 8 ]
-        %tmp.145 = dup %tmp.19;
-        symbol [ Weather %tmp.146 295 13 20 ];
-        %tmp.146 = getm $.Toybox.Weather;
-        symbol [ CONDITION_CLOUDY_CHANCE_OF_SNOW %tmp.147 295 21 52 ];
-        %tmp.147 = getv %tmp.146 :CONDITION_CLOUDY_CHANCE_OF_SNOW;
-        %tmp.148 = getv function %tmp.145 :equals;
-        %tmp.149 = invoke %tmp.145 %tmp.148 (%tmp.147);
-        bt %tmp.149 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_8_295_52_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 296 8 ]
-        %tmp.150 = dup %tmp.19;
-        symbol [ Weather %tmp.151 296 13 20 ];
-        %tmp.151 = getm $.Toybox.Weather;
-        symbol [ CONDITION_FLURRIES %tmp.152 296 21 39 ];
-        %tmp.152 = getv %tmp.151 :CONDITION_FLURRIES;
-        %tmp.153 = getv function %tmp.150 :equals;
-        %tmp.154 = invoke %tmp.150 %tmp.153 (%tmp.152);
-        bt %tmp.154 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_296_8_301_15_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 304 8 ]
-        %tmp.155 = dup %tmp.19;
-        symbol [ Weather %tmp.156 304 13 20 ];
-        %tmp.156 = getm $.Toybox.Weather;
-        symbol [ CONDITION_WINTRY_MIX %tmp.157 304 21 41 ];
-        %tmp.157 = getv %tmp.156 :CONDITION_WINTRY_MIX;
-        %tmp.158 = getv function %tmp.155 :equals;
-        %tmp.159 = invoke %tmp.155 %tmp.158 (%tmp.157);
-        bt %tmp.159 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_304_8_304_41_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 305 8 ]
-        %tmp.160 = dup %tmp.19;
-        symbol [ Weather %tmp.161 305 13 20 ];
-        %tmp.161 = getm $.Toybox.Weather;
-        symbol [ CONDITION_LIGHT_RAIN_SNOW %tmp.162 305 21 46 ];
-        %tmp.162 = getv %tmp.161 :CONDITION_LIGHT_RAIN_SNOW;
-        %tmp.163 = getv function %tmp.160 :equals;
-        %tmp.164 = invoke %tmp.160 %tmp.163 (%tmp.162);
-        bt %tmp.164 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_305_8_305_46_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 306 8 ]
-        %tmp.165 = dup %tmp.19;
-        symbol [ Weather %tmp.166 306 13 20 ];
-        %tmp.166 = getm $.Toybox.Weather;
-        symbol [ CONDITION_HEAVY_RAIN_SNOW %tmp.167 306 21 46 ];
-        %tmp.167 = getv %tmp.166 :CONDITION_HEAVY_RAIN_SNOW;
-        %tmp.168 = getv function %tmp.165 :equals;
-        %tmp.169 = invoke %tmp.165 %tmp.168 (%tmp.167);
-        bt %tmp.169 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_306_8_306_46_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 307 8 ]
-        %tmp.170 = dup %tmp.19;
-        symbol [ Weather %tmp.171 307 13 20 ];
-        %tmp.171 = getm $.Toybox.Weather;
-        symbol [ CONDITION_RAIN_SNOW %tmp.172 307 21 40 ];
-        %tmp.172 = getv %tmp.171 :CONDITION_RAIN_SNOW;
-        %tmp.173 = getv function %tmp.170 :equals;
-        %tmp.174 = invoke %tmp.170 %tmp.173 (%tmp.172);
-        bt %tmp.174 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_307_8_307_40_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 308 8 ]
-        %tmp.175 = dup %tmp.19;
-        symbol [ Weather %tmp.176 308 13 20 ];
-        %tmp.176 = getm $.Toybox.Weather;
-        symbol [ CONDITION_CHANCE_OF_RAIN_SNOW %tmp.177 308 21 50 ];
-        %tmp.177 = getv %tmp.176 :CONDITION_CHANCE_OF_RAIN_SNOW;
-        %tmp.178 = getv function %tmp.175 :equals;
-        %tmp.179 = invoke %tmp.175 %tmp.178 (%tmp.177);
-        bt %tmp.179 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_308_8_308_50_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 309 8 ]
-        %tmp.180 = dup %tmp.19;
-        symbol [ Weather %tmp.181 309 13 20 ];
-        %tmp.181 = getm $.Toybox.Weather;
-        symbol [ CONDITION_CLOUDY_CHANCE_OF_RAIN_SNOW %tmp.182 309 21 57 ];
-        %tmp.182 = getv %tmp.181 :CONDITION_CLOUDY_CHANCE_OF_RAIN_SNOW;
-        %tmp.183 = getv function %tmp.180 :equals;
-        %tmp.184 = invoke %tmp.180 %tmp.183 (%tmp.182);
-        bt %tmp.184 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_309_8_309_57_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 310 8 ]
-        %tmp.185 = dup %tmp.19;
-        symbol [ Weather %tmp.186 310 13 20 ];
-        %tmp.186 = getm $.Toybox.Weather;
-        symbol [ CONDITION_FREEZING_RAIN %tmp.187 310 21 44 ];
-        %tmp.187 = getv %tmp.186 :CONDITION_FREEZING_RAIN;
-        %tmp.188 = getv function %tmp.185 :equals;
-        %tmp.189 = invoke %tmp.185 %tmp.188 (%tmp.187);
-        bt %tmp.189 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_310_8_310_44_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 311 8 ]
-        %tmp.190 = dup %tmp.19;
-        symbol [ Weather %tmp.191 311 13 20 ];
-        %tmp.191 = getm $.Toybox.Weather;
-        symbol [ CONDITION_SLEET %tmp.192 311 21 36 ];
-        %tmp.192 = getv %tmp.191 :CONDITION_SLEET;
-        %tmp.193 = getv function %tmp.190 :equals;
-        %tmp.194 = invoke %tmp.190 %tmp.193 (%tmp.192);
-        bt %tmp.194 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_311_8_311_36_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 312 8 ]
-        %tmp.195 = dup %tmp.19;
-        symbol [ Weather %tmp.196 312 13 20 ];
-        %tmp.196 = getm $.Toybox.Weather;
-        symbol [ CONDITION_ICE_SNOW %tmp.197 312 21 39 ];
-        %tmp.197 = getv %tmp.196 :CONDITION_ICE_SNOW;
-        %tmp.198 = getv function %tmp.195 :equals;
-        %tmp.199 = invoke %tmp.195 %tmp.198 (%tmp.197);
-        bt %tmp.199 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_312_8_317_15_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 320 8 ]
-        %tmp.200 = dup %tmp.19;
-        symbol [ Weather %tmp.201 320 13 20 ];
-        %tmp.201 = getm $.Toybox.Weather;
-        symbol [ CONDITION_FOG %tmp.202 320 21 34 ];
-        %tmp.202 = getv %tmp.201 :CONDITION_FOG;
-        %tmp.203 = getv function %tmp.200 :equals;
-        %tmp.204 = invoke %tmp.200 %tmp.203 (%tmp.202);
-        bt %tmp.204 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_320_8_320_34_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 321 8 ]
-        %tmp.205 = dup %tmp.19;
-        symbol [ Weather %tmp.206 321 13 20 ];
-        %tmp.206 = getm $.Toybox.Weather;
-        symbol [ CONDITION_MIST %tmp.207 321 21 35 ];
-        %tmp.207 = getv %tmp.206 :CONDITION_MIST;
-        %tmp.208 = getv function %tmp.205 :equals;
-        %tmp.209 = invoke %tmp.205 %tmp.208 (%tmp.207);
-        bt %tmp.209 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_321_8_321_35_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 322 8 ]
-        %tmp.210 = dup %tmp.19;
-        symbol [ Weather %tmp.211 322 13 20 ];
-        %tmp.211 = getm $.Toybox.Weather;
-        symbol [ CONDITION_HAZY %tmp.212 322 21 35 ];
-        %tmp.212 = getv %tmp.211 :CONDITION_HAZY;
-        %tmp.213 = getv function %tmp.210 :equals;
-        %tmp.214 = invoke %tmp.210 %tmp.213 (%tmp.212);
-        bt %tmp.214 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_322_8_322_35_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 323 8 ]
-        %tmp.215 = dup %tmp.19;
-        symbol [ Weather %tmp.216 323 13 20 ];
-        %tmp.216 = getm $.Toybox.Weather;
-        symbol [ CONDITION_HAZE %tmp.217 323 21 35 ];
-        %tmp.217 = getv %tmp.216 :CONDITION_HAZE;
-        %tmp.218 = getv function %tmp.215 :equals;
-        %tmp.219 = invoke %tmp.215 %tmp.218 (%tmp.217);
-        bt %tmp.219 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_323_8_323_35_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 324 8 ]
-        %tmp.220 = dup %tmp.19;
-        symbol [ Weather %tmp.221 324 13 20 ];
-        %tmp.221 = getm $.Toybox.Weather;
-        symbol [ CONDITION_SMOKE %tmp.222 324 21 36 ];
-        %tmp.222 = getv %tmp.221 :CONDITION_SMOKE;
-        %tmp.223 = getv function %tmp.220 :equals;
-        %tmp.224 = invoke %tmp.220 %tmp.223 (%tmp.222);
-        bt %tmp.224 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_324_8_324_36_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 325 8 ]
-        %tmp.225 = dup %tmp.19;
-        symbol [ Weather %tmp.226 325 13 20 ];
-        %tmp.226 = getm $.Toybox.Weather;
-        symbol [ CONDITION_VOLCANIC_ASH %tmp.227 325 21 43 ];
-        %tmp.227 = getv %tmp.226 :CONDITION_VOLCANIC_ASH;
-        %tmp.228 = getv function %tmp.225 :equals;
-        %tmp.229 = invoke %tmp.225 %tmp.228 (%tmp.227);
-        bt %tmp.229 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_325_8_330_15_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 333 8 ]
-        %tmp.230 = dup %tmp.19;
-        symbol [ Weather %tmp.231 333 13 20 ];
-        %tmp.231 = getm $.Toybox.Weather;
-        symbol [ CONDITION_WINDY %tmp.232 333 21 36 ];
-        %tmp.232 = getv %tmp.231 :CONDITION_WINDY;
-        %tmp.233 = getv function %tmp.230 :equals;
-        %tmp.234 = invoke %tmp.230 %tmp.233 (%tmp.232);
-        bt %tmp.234 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_333_8_333_36_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 334 8 ]
-        %tmp.235 = dup %tmp.19;
-        symbol [ Weather %tmp.236 334 13 20 ];
-        %tmp.236 = getm $.Toybox.Weather;
-        symbol [ CONDITION_TORNADO %tmp.237 334 21 38 ];
-        %tmp.237 = getv %tmp.236 :CONDITION_TORNADO;
-        %tmp.238 = getv function %tmp.235 :equals;
-        %tmp.239 = invoke %tmp.235 %tmp.238 (%tmp.237);
-        bt %tmp.239 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_334_8_334_38_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 335 8 ]
-        %tmp.240 = dup %tmp.19;
-        symbol [ Weather %tmp.241 335 13 20 ];
-        %tmp.241 = getm $.Toybox.Weather;
-        symbol [ CONDITION_SQUALL %tmp.242 335 21 37 ];
-        %tmp.242 = getv %tmp.241 :CONDITION_SQUALL;
-        %tmp.243 = getv function %tmp.240 :equals;
-        %tmp.244 = invoke %tmp.240 %tmp.243 (%tmp.242);
-        bt %tmp.244 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_335_8_335_37_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 336 8 ]
-        %tmp.245 = dup %tmp.19;
-        symbol [ Weather %tmp.246 336 13 20 ];
-        %tmp.246 = getm $.Toybox.Weather;
-        symbol [ CONDITION_HURRICANE %tmp.247 336 21 40 ];
-        %tmp.247 = getv %tmp.246 :CONDITION_HURRICANE;
-        %tmp.248 = getv function %tmp.245 :equals;
-        %tmp.249 = invoke %tmp.245 %tmp.248 (%tmp.247);
-        bt %tmp.249 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_336_8_336_40_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 337 8 ]
-        %tmp.250 = dup %tmp.19;
-        symbol [ Weather %tmp.251 337 13 20 ];
-        %tmp.251 = getm $.Toybox.Weather;
-        symbol [ CONDITION_TROPICAL_STORM %tmp.252 337 21 45 ];
-        %tmp.252 = getv %tmp.251 :CONDITION_TROPICAL_STORM;
-        %tmp.253 = getv function %tmp.250 :equals;
-        %tmp.254 = invoke %tmp.250 %tmp.253 (%tmp.252);
-        bt %tmp.254 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_337_8_342_15_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 345 8 ]
-        %tmp.255 = dup %tmp.19;
-        symbol [ Weather %tmp.256 345 13 20 ];
-        %tmp.256 = getm $.Toybox.Weather;
-        symbol [ CONDITION_HAIL %tmp.257 345 21 35 ];
-        %tmp.257 = getv %tmp.256 :CONDITION_HAIL;
-        %tmp.258 = getv function %tmp.255 :equals;
-        %tmp.259 = invoke %tmp.255 %tmp.258 (%tmp.257);
-        bt %tmp.259 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_345_8_345_35_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 346 8 ]
-        %tmp.260 = dup %tmp.19;
-        symbol [ Weather %tmp.261 346 13 20 ];
-        %tmp.261 = getm $.Toybox.Weather;
-        symbol [ CONDITION_ICE %tmp.262 346 21 34 ];
-        %tmp.262 = getv %tmp.261 :CONDITION_ICE;
-        %tmp.263 = getv function %tmp.260 :equals;
-        %tmp.264 = invoke %tmp.260 %tmp.263 (%tmp.262);
-        bt %tmp.264 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_346_8_351_15_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 354 8 ]
-        %tmp.265 = dup %tmp.19;
-        symbol [ Weather %tmp.266 354 13 20 ];
-        %tmp.266 = getm $.Toybox.Weather;
-        symbol [ CONDITION_DUST %tmp.267 354 21 35 ];
-        %tmp.267 = getv %tmp.266 :CONDITION_DUST;
-        %tmp.268 = getv function %tmp.265 :equals;
-        %tmp.269 = invoke %tmp.265 %tmp.268 (%tmp.267);
-        bt %tmp.269 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_354_8_354_35_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 355 8 ]
-        %tmp.270 = dup %tmp.19;
-        symbol [ Weather %tmp.271 355 13 20 ];
-        %tmp.271 = getm $.Toybox.Weather;
-        symbol [ CONDITION_SAND %tmp.272 355 21 35 ];
-        %tmp.272 = getv %tmp.271 :CONDITION_SAND;
-        %tmp.273 = getv function %tmp.270 :equals;
-        %tmp.274 = invoke %tmp.270 %tmp.273 (%tmp.272);
-        bt %tmp.274 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_355_8_355_35_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 356 8 ]
-        %tmp.275 = dup %tmp.19;
-        symbol [ Weather %tmp.276 356 13 20 ];
-        %tmp.276 = getm $.Toybox.Weather;
-        symbol [ CONDITION_SANDSTORM %tmp.277 356 21 40 ];
-        %tmp.277 = getv %tmp.276 :CONDITION_SANDSTORM;
-        %tmp.278 = getv function %tmp.275 :equals;
-        %tmp.279 = invoke %tmp.275 %tmp.278 (%tmp.277);
-        bt %tmp.279 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_356_8_361_15_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 364 8 ]
-        %tmp.280 = dup %tmp.19;
-        symbol [ Weather %tmp.281 364 13 20 ];
-        %tmp.281 = getm $.Toybox.Weather;
-        symbol [ CONDITION_UNKNOWN_PRECIPITATION %tmp.282 364 21 52 ];
-        %tmp.282 = getv %tmp.281 :CONDITION_UNKNOWN_PRECIPITATION;
-        %tmp.283 = getv function %tmp.280 :equals;
-        %tmp.284 = invoke %tmp.280 %tmp.283 (%tmp.282);
-        bt %tmp.284 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_364_8_364_52_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 365 8 ]
-        %tmp.285 = dup %tmp.19;
-        symbol [ Weather %tmp.286 365 13 20 ];
-        %tmp.286 = getm $.Toybox.Weather;
-        symbol [ CONDITION_UNKNOWN %tmp.287 365 21 38 ];
-        %tmp.287 = getv %tmp.286 :CONDITION_UNKNOWN;
-        %tmp.288 = getv function %tmp.285 :equals;
-        %tmp.289 = invoke %tmp.285 %tmp.288 (%tmp.287);
-        bt %tmp.289 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_365_8_365_38_switchCase;
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 366 8 ]
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_372_6_switchStmtDefault:
-        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_372_6_defaultCodeBegin;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_245_8_245_36_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_246_8_246_43_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_247_8_247_43_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_248_8_248_35_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_249_8_254_15_switchCase:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 251 10 ]
-        symbol [ Application %tmp.291 251 32 43 ];
-        %tmp.291 = getv ? :Application;
-        symbol [ loadResource %tmp.292 251 44 56 ];
-        %tmp.292 = getv function %tmp.291 :loadResource;
-        symbol [ Rez %tmp.294 252 12 15 ];
-        %tmp.294 = getv ? :Rez;
-        symbol [ Drawables %tmp.295 252 16 25 ];
-        %tmp.295 = getv %tmp.294 :Drawables;
-        symbol [ WeatherConditionClear %tmp.296 252 26 47 ];
-        %tmp.296 = getv %tmp.295 :WeatherConditionClear;
-        %tmp.297 = invoke %tmp.291 %tmp.292(%tmp.296);
-        lputv %weatherIconResource.2 %tmp.297;
-        symbol [ weatherIconResource %weatherIconResource.2 251 10 29 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 254 10 ]
-        goto break @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_372_6_switchStmtEnd;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_257_8_257_37_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_258_8_258_44_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_259_8_264_15_switchCase:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 261 10 ]
-        symbol [ Application %tmp.299 261 32 43 ];
-        %tmp.299 = getv ? :Application;
-        symbol [ loadResource %tmp.300 261 44 56 ];
-        %tmp.300 = getv function %tmp.299 :loadResource;
-        symbol [ Rez %tmp.302 262 12 15 ];
-        %tmp.302 = getv ? :Rez;
-        symbol [ Drawables %tmp.303 262 16 25 ];
-        %tmp.303 = getv %tmp.302 :Drawables;
-        symbol [ WeatherConditionCloudy %tmp.304 262 26 48 ];
-        %tmp.304 = getv %tmp.303 :WeatherConditionCloudy;
-        %tmp.305 = invoke %tmp.299 %tmp.300(%tmp.304);
-        lputv %weatherIconResource.2 %tmp.305;
-        symbol [ weatherIconResource %weatherIconResource.2 261 10 29 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 264 10 ]
-        goto break @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_372_6_switchStmtEnd;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_267_8_267_35_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_268_8_268_41_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_269_8_269_41_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_270_8_270_48_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_271_8_271_44_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_272_8_272_38_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_273_8_273_44_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_274_8_274_48_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_275_8_275_52_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_276_8_281_15_switchCase:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 278 10 ]
-        symbol [ Application %tmp.307 278 32 43 ];
-        %tmp.307 = getv ? :Application;
-        symbol [ loadResource %tmp.308 278 44 56 ];
-        %tmp.308 = getv function %tmp.307 :loadResource;
-        symbol [ Rez %tmp.310 279 12 15 ];
-        %tmp.310 = getv ? :Rez;
-        symbol [ Drawables %tmp.311 279 16 25 ];
-        %tmp.311 = getv %tmp.310 :Drawables;
-        symbol [ WeatherConditionRain %tmp.312 279 26 46 ];
-        %tmp.312 = getv %tmp.311 :WeatherConditionRain;
-        %tmp.313 = invoke %tmp.307 %tmp.308(%tmp.312);
-        lputv %weatherIconResource.2 %tmp.313;
-        symbol [ weatherIconResource %weatherIconResource.2 278 10 29 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 281 10 ]
-        goto break @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_372_6_switchStmtEnd;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_284_8_284_44_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_285_8_285_54_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_286_8_288_15_switchCase:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 288 10 ]
-        goto break @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_372_6_switchStmtEnd;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_291_8_291_35_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_292_8_292_41_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_293_8_293_41_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_294_8_294_45_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_8_295_52_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_296_8_301_15_switchCase:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 298 10 ]
-        symbol [ Application %tmp.315 298 32 43 ];
-        %tmp.315 = getv ? :Application;
-        symbol [ loadResource %tmp.316 298 44 56 ];
-        %tmp.316 = getv function %tmp.315 :loadResource;
-        symbol [ Rez %tmp.318 299 12 15 ];
-        %tmp.318 = getv ? :Rez;
-        symbol [ Drawables %tmp.319 299 16 25 ];
-        %tmp.319 = getv %tmp.318 :Drawables;
-        symbol [ WeatherConditionSnow %tmp.320 299 26 46 ];
-        %tmp.320 = getv %tmp.319 :WeatherConditionSnow;
-        %tmp.321 = invoke %tmp.315 %tmp.316(%tmp.320);
-        lputv %weatherIconResource.2 %tmp.321;
-        symbol [ weatherIconResource %weatherIconResource.2 298 10 29 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 301 10 ]
-        goto break @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_372_6_switchStmtEnd;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_304_8_304_41_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_305_8_305_46_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_306_8_306_46_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_307_8_307_40_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_308_8_308_50_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_309_8_309_57_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_310_8_310_44_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_311_8_311_36_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_312_8_317_15_switchCase:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 314 10 ]
-        symbol [ Application %tmp.323 314 32 43 ];
-        %tmp.323 = getv ? :Application;
-        symbol [ loadResource %tmp.324 314 44 56 ];
-        %tmp.324 = getv function %tmp.323 :loadResource;
-        symbol [ Rez %tmp.326 315 12 15 ];
-        %tmp.326 = getv ? :Rez;
-        symbol [ Drawables %tmp.327 315 16 25 ];
-        %tmp.327 = getv %tmp.326 :Drawables;
-        symbol [ WeatherConditionLightRainSnow %tmp.328 315 26 55 ];
-        %tmp.328 = getv %tmp.327 :WeatherConditionLightRainSnow;
-        %tmp.329 = invoke %tmp.323 %tmp.324(%tmp.328);
-        lputv %weatherIconResource.2 %tmp.329;
-        symbol [ weatherIconResource %weatherIconResource.2 314 10 29 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 317 10 ]
-        goto break @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_372_6_switchStmtEnd;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_320_8_320_34_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_321_8_321_35_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_322_8_322_35_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_323_8_323_35_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_324_8_324_36_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_325_8_330_15_switchCase:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 327 10 ]
-        symbol [ Application %tmp.331 327 32 43 ];
-        %tmp.331 = getv ? :Application;
-        symbol [ loadResource %tmp.332 327 44 56 ];
-        %tmp.332 = getv function %tmp.331 :loadResource;
-        symbol [ Rez %tmp.334 328 12 15 ];
-        %tmp.334 = getv ? :Rez;
-        symbol [ Drawables %tmp.335 328 16 25 ];
-        %tmp.335 = getv %tmp.334 :Drawables;
-        symbol [ WeatherConditionFog %tmp.336 328 26 45 ];
-        %tmp.336 = getv %tmp.335 :WeatherConditionFog;
-        %tmp.337 = invoke %tmp.331 %tmp.332(%tmp.336);
-        lputv %weatherIconResource.2 %tmp.337;
-        symbol [ weatherIconResource %weatherIconResource.2 327 10 29 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 330 10 ]
-        goto break @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_372_6_switchStmtEnd;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_333_8_333_36_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_334_8_334_38_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_335_8_335_37_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_336_8_336_40_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_337_8_342_15_switchCase:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 339 10 ]
-        symbol [ Application %tmp.339 339 32 43 ];
-        %tmp.339 = getv ? :Application;
-        symbol [ loadResource %tmp.340 339 44 56 ];
-        %tmp.340 = getv function %tmp.339 :loadResource;
-        symbol [ Rez %tmp.342 340 12 15 ];
-        %tmp.342 = getv ? :Rez;
-        symbol [ Drawables %tmp.343 340 16 25 ];
-        %tmp.343 = getv %tmp.342 :Drawables;
-        symbol [ WeatherConditionWindy %tmp.344 340 26 47 ];
-        %tmp.344 = getv %tmp.343 :WeatherConditionWindy;
-        %tmp.345 = invoke %tmp.339 %tmp.340(%tmp.344);
-        lputv %weatherIconResource.2 %tmp.345;
-        symbol [ weatherIconResource %weatherIconResource.2 339 10 29 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 342 10 ]
-        goto break @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_372_6_switchStmtEnd;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_345_8_345_35_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_346_8_351_15_switchCase:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 348 10 ]
-        symbol [ Application %tmp.347 348 32 43 ];
-        %tmp.347 = getv ? :Application;
-        symbol [ loadResource %tmp.348 348 44 56 ];
-        %tmp.348 = getv function %tmp.347 :loadResource;
-        symbol [ Rez %tmp.350 349 12 15 ];
-        %tmp.350 = getv ? :Rez;
-        symbol [ Drawables %tmp.351 349 16 25 ];
-        %tmp.351 = getv %tmp.350 :Drawables;
-        symbol [ WeatherConditionHail %tmp.352 349 26 46 ];
-        %tmp.352 = getv %tmp.351 :WeatherConditionHail;
-        %tmp.353 = invoke %tmp.347 %tmp.348(%tmp.352);
-        lputv %weatherIconResource.2 %tmp.353;
-        symbol [ weatherIconResource %weatherIconResource.2 348 10 29 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 351 10 ]
-        goto break @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_372_6_switchStmtEnd;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_354_8_354_35_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_355_8_355_35_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_356_8_361_15_switchCase:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 358 10 ]
-        symbol [ Application %tmp.355 358 32 43 ];
-        %tmp.355 = getv ? :Application;
-        symbol [ loadResource %tmp.356 358 44 56 ];
-        %tmp.356 = getv function %tmp.355 :loadResource;
-        symbol [ Rez %tmp.358 359 12 15 ];
-        %tmp.358 = getv ? :Rez;
-        symbol [ Drawables %tmp.359 359 16 25 ];
-        %tmp.359 = getv %tmp.358 :Drawables;
-        symbol [ WeatherConditionDust %tmp.360 359 26 46 ];
-        %tmp.360 = getv %tmp.359 :WeatherConditionDust;
-        %tmp.361 = invoke %tmp.355 %tmp.356(%tmp.360);
-        lputv %weatherIconResource.2 %tmp.361;
-        symbol [ weatherIconResource %weatherIconResource.2 358 10 29 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 361 10 ]
-        goto break @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_372_6_switchStmtEnd;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_364_8_364_52_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_365_8_365_38_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_366_8_371_15_switchCase:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_372_6_defaultCodeBegin:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 368 10 ]
-        symbol [ Application %tmp.363 368 32 43 ];
-        %tmp.363 = getv ? :Application;
-        symbol [ loadResource %tmp.364 368 44 56 ];
-        %tmp.364 = getv function %tmp.363 :loadResource;
-        symbol [ Rez %tmp.366 369 12 15 ];
-        %tmp.366 = getv ? :Rez;
-        symbol [ Drawables %tmp.367 369 16 25 ];
-        %tmp.367 = getv %tmp.366 :Drawables;
-        symbol [ WeatherConditionUnknown %tmp.368 369 26 49 ];
-        %tmp.368 = getv %tmp.367 :WeatherConditionUnknown;
-        %tmp.369 = invoke %tmp.363 %tmp.364(%tmp.368);
-        lputv %weatherIconResource.2 %tmp.369;
-        symbol [ weatherIconResource %weatherIconResource.2 368 10 29 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 371 10 ]
-        goto break @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_372_6_switchStmtEnd;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_372_6_switchStmtEnd:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_250_6_switchStmtDefault:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_250_6_defaultCodeBegin;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_244_8_245_15_switchCase:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 245 10 ]
+        goto break @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_250_6_switchStmtEnd;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_246_8_247_15_switchCase:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 247 10 ]
+        goto break @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_250_6_switchStmtEnd;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_248_8_249_15_switchCase:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_250_6_defaultCodeBegin:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 249 10 ]
+        goto break @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_250_6_switchStmtEnd;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_243_6_250_6_switchStmtEnd:
         pop;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_42_373_4_stop:
-        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_4_373_4_if_end;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_4_373_4_if_end:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 374 4 ]
-        %tmp.370 = lgetv %weatherIconResource.2;
-        symbol [ weatherIconResource %tmp.370 374 11 30 ];
-        ret %tmp.370;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_234_46_375_2_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_42_251_4_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_4_251_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_241_4_251_4_if_end:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 252 4 ]
+        %tmp.30 = lgetv %weatherIconResource.2;
+        symbol [ weatherIconResource %tmp.30 252 11 30 ];
+        ret %tmp.30;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_234_46_253_2_stop:
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 378; @symbol_functiondef = [getSystemTemperature,378,11,31]; @symbol_return<0> = [Lang,378,37,41]; @symbol_return<1> = [String,378,42,48]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 256; @symbol_functiondef = [getSystemTemperature,256,11,31]; @symbol_return<0> = [Lang,256,37,41]; @symbol_return<1> = [String,256,42,48]; ]
     function getSystemTemperature() as Lang.String {
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_378_49_385_2_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 379 4 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_378_49_385_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_378_49_385_2_stop" ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_256_49_263_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 257 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_256_49_263_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_256_49_263_2_stop" ]
         %currentWeatherConditions.1 = local;
-        symbol [ currentWeatherConditions %currentWeatherConditions.1 379 8 32 ];
-        symbol [ Weather %tmp.1 380 6 13 ];
+        symbol [ currentWeatherConditions %currentWeatherConditions.1 257 8 32 ];
+        symbol [ Weather %tmp.1 258 6 13 ];
         %tmp.1 = getm $.Toybox.Weather;
-        symbol [ getCurrentConditions %tmp.2 380 14 34 ];
+        symbol [ getCurrentConditions %tmp.2 258 14 34 ];
         %tmp.2 = getv function %tmp.1 :getCurrentConditions;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = as %tmp.3 Weather.CurrentConditions or Null;
-        symbol [ Weather %tmp.4 380 40 47 ];
-        symbol [ CurrentConditions %tmp.4 380 48 65 ];
+        symbol [ Weather %tmp.4 258 40 47 ];
+        symbol [ CurrentConditions %tmp.4 258 48 65 ];
         lputv %currentWeatherConditions.1 %tmp.4;
-        symbol [ currentWeatherConditions %currentWeatherConditions.1 379 8 32 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 381 4 ]
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_381_4_383_4_if_stmt:
+        symbol [ currentWeatherConditions %currentWeatherConditions.1 257 8 32 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 259 4 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_259_4_261_4_if_stmt:
         %tmp.5 = lgetv %currentWeatherConditions.1;
-        symbol [ currentWeatherConditions %tmp.5 381 8 32 ];
+        symbol [ currentWeatherConditions %tmp.5 259 8 32 ];
         %tmp.6 = null;
         %tmp.7 = ne %tmp.5 %tmp.6;
-        bf %tmp.7 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_381_4_383_4_if_end;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_381_4_383_4_if_true:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_381_42_383_4_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 382 6 ]
+        bf %tmp.7 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_259_4_261_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_259_4_261_4_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_259_42_261_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 260 6 ]
         %tmp.8 = lgetv %currentWeatherConditions.1;
-        symbol [ currentWeatherConditions %tmp.8 382 13 37 ];
+        symbol [ currentWeatherConditions %tmp.8 260 13 37 ];
         %tmp.9 = as %tmp.8 { (!Null) };
-        symbol [ temperature %tmp.10 382 38 49 ];
+        symbol [ temperature %tmp.10 260 38 49 ];
         %tmp.10 = getv %tmp.9 :temperature;
-        symbol [ format %tmp.11 382 50 56 ];
+        symbol [ format %tmp.11 260 50 56 ];
         %tmp.11 = getv function %tmp.10 :format;
         %tmp.12 = "%d";
         %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
         ret %tmp.13;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_381_42_383_4_stop:
-        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_381_4_383_4_if_end;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_381_4_383_4_if_end:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 384 4 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_259_42_261_4_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_259_4_261_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_259_4_261_4_if_end:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 262 4 ]
         %tmp.14 = "25";
         ret %tmp.14;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_378_49_385_2_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_256_49_263_2_stop:
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 388; @symbol_functiondef = [getSystemHumidity,388,11,28]; @symbol_return<0> = [Lang,388,34,38]; @symbol_return<1> = [String,388,39,45]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 266; @symbol_functiondef = [getSystemHumidity,266,11,28]; @symbol_return<0> = [Lang,266,34,38]; @symbol_return<1> = [String,266,39,45]; ]
     function getSystemHumidity() as Lang.String {
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_388_46_395_2_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 389 4 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_388_46_395_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_388_46_395_2_stop" ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_266_46_273_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 267 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_266_46_273_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_266_46_273_2_stop" ]
         %currentWeatherConditions.1 = local;
-        symbol [ currentWeatherConditions %currentWeatherConditions.1 389 8 32 ];
-        symbol [ Weather %tmp.1 390 6 13 ];
+        symbol [ currentWeatherConditions %currentWeatherConditions.1 267 8 32 ];
+        symbol [ Weather %tmp.1 268 6 13 ];
         %tmp.1 = getm $.Toybox.Weather;
-        symbol [ getCurrentConditions %tmp.2 390 14 34 ];
+        symbol [ getCurrentConditions %tmp.2 268 14 34 ];
         %tmp.2 = getv function %tmp.1 :getCurrentConditions;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = as %tmp.3 Weather.CurrentConditions or Null;
-        symbol [ Weather %tmp.4 390 40 47 ];
-        symbol [ CurrentConditions %tmp.4 390 48 65 ];
+        symbol [ Weather %tmp.4 268 40 47 ];
+        symbol [ CurrentConditions %tmp.4 268 48 65 ];
         lputv %currentWeatherConditions.1 %tmp.4;
-        symbol [ currentWeatherConditions %currentWeatherConditions.1 389 8 32 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 391 4 ]
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_391_4_393_4_if_stmt:
+        symbol [ currentWeatherConditions %currentWeatherConditions.1 267 8 32 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 269 4 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_269_4_271_4_if_stmt:
         %tmp.5 = lgetv %currentWeatherConditions.1;
-        symbol [ currentWeatherConditions %tmp.5 391 8 32 ];
+        symbol [ currentWeatherConditions %tmp.5 269 8 32 ];
         %tmp.6 = null;
         %tmp.7 = ne %tmp.5 %tmp.6;
-        bf %tmp.7 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_391_4_393_4_if_end;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_391_4_393_4_if_true:
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_391_42_393_4_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 392 6 ]
+        bf %tmp.7 @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_269_4_271_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_269_4_271_4_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_269_42_271_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 270 6 ]
         %tmp.8 = lgetv %currentWeatherConditions.1;
-        symbol [ currentWeatherConditions %tmp.8 392 13 37 ];
+        symbol [ currentWeatherConditions %tmp.8 270 13 37 ];
         %tmp.9 = as %tmp.8 { (!Null) };
-        symbol [ relativeHumidity %tmp.10 392 38 54 ];
+        symbol [ relativeHumidity %tmp.10 270 38 54 ];
         %tmp.10 = getv %tmp.9 :relativeHumidity;
-        symbol [ format %tmp.11 392 55 61 ];
+        symbol [ format %tmp.11 270 55 61 ];
         %tmp.11 = getv function %tmp.10 :format;
         %tmp.12 = "%d";
         %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
         ret %tmp.13;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_391_42_393_4_stop:
-        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_391_4_393_4_if_end;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_391_4_393_4_if_end:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 394 4 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_269_42_271_4_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_269_4_271_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_269_4_271_4_if_end:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 272 4 ]
         %tmp.14 = "60";
         ret %tmp.14;
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_388_46_395_2_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_266_46_273_2_stop:
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 407; @symbol_functiondef = [drawRoundedArc,407,11,25]; @symbol_param<0> = [dc,408,4,6]; @symbol_param<0>_type<0> = [Dc,408,10,12]; @symbol_param<1> = [centerX,409,4,11]; @symbol_param<1>_type<0> = [Number,409,15,21]; @symbol_param<2> = [centerY,410,4,11]; @symbol_param<2>_type<0> = [Number,410,15,21]; @symbol_param<3> = [radius,411,4,10]; @symbol_param<3>_type<0> = [Number,411,14,20]; @symbol_param<4> = [penWidth,412,4,12]; @symbol_param<4>_type<0> = [Number,412,16,22]; @symbol_param<5> = [foregroundColor,413,4,19]; @symbol_param<5>_type<0> = [Graphics,413,23,31]; @symbol_param<5>_type<1> = [ColorType,413,32,41]; @symbol_param<6> = [backgroudColor,414,4,18]; @symbol_param<6>_type<0> = [Graphics,414,22,30]; @symbol_param<6>_type<1> = [ColorType,414,31,40]; @symbol_param<7> = [startAngle,415,4,14]; @symbol_param<7>_type<0> = [Number,415,18,24]; @symbol_param<8> = [endAngle,416,4,12]; @symbol_param<8>_type<0> = [Number,416,16,22]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 285; @symbol_functiondef = [drawRoundedArc,285,11,25]; @symbol_param<0> = [dc,286,4,6]; @symbol_param<0>_type<0> = [Dc,286,10,12]; @symbol_param<1> = [centerX,287,4,11]; @symbol_param<1>_type<0> = [Number,287,15,21]; @symbol_param<2> = [centerY,288,4,11]; @symbol_param<2>_type<0> = [Number,288,15,21]; @symbol_param<3> = [radius,289,4,10]; @symbol_param<3>_type<0> = [Number,289,14,20]; @symbol_param<4> = [penWidth,290,4,12]; @symbol_param<4>_type<0> = [Number,290,16,22]; @symbol_param<5> = [foregroundColor,291,4,19]; @symbol_param<5>_type<0> = [Graphics,291,23,31]; @symbol_param<5>_type<1> = [ColorType,291,32,41]; @symbol_param<6> = [backgroudColor,292,4,18]; @symbol_param<6>_type<0> = [Graphics,292,22,30]; @symbol_param<6>_type<1> = [ColorType,292,31,40]; @symbol_param<7> = [startAngle,293,4,14]; @symbol_param<7>_type<0> = [Number,293,18,24]; @symbol_param<8> = [endAngle,294,4,12]; @symbol_param<8>_type<0> = [Number,294,16,22]; ]
     function drawRoundedArc(dc as Dc, centerX as Number, centerY as Number, radius as Number, penWidth as Number, foregroundColor as Graphics.ColorType, backgroudColor as Graphics.ColorType, startAngle as Number, endAngle as Number) as Void {
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 418 4 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_12_330_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 296 4 ]
         %tmp.1 = lgetv %dc;
-        symbol [ dc %tmp.1 418 4 6 ];
-        symbol [ clear %tmp.2 418 7 12 ];
+        symbol [ dc %tmp.1 296 4 6 ];
+        symbol [ clear %tmp.2 296 7 12 ];
         %tmp.2 = getv function %tmp.1 :clear;
         invoke %tmp.1 %tmp.2();
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 420 4 ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 298 4 ]
         %tmp.3 = lgetv %dc;
-        symbol [ dc %tmp.3 420 4 6 ];
-        symbol [ setPenWidth %tmp.4 420 7 18 ];
+        symbol [ dc %tmp.3 298 4 6 ];
+        symbol [ setPenWidth %tmp.4 298 7 18 ];
         %tmp.4 = getv function %tmp.3 :setPenWidth;
         %tmp.5 = lgetv %penWidth;
-        symbol [ penWidth %tmp.5 420 19 27 ];
+        symbol [ penWidth %tmp.5 298 19 27 ];
         invoke %tmp.3 %tmp.4(%tmp.5);
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 422 4 ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 300 4 ]
         %tmp.6 = lgetv %dc;
-        symbol [ dc %tmp.6 422 4 6 ];
-        symbol [ setColor %tmp.7 422 7 15 ];
+        symbol [ dc %tmp.6 300 4 6 ];
+        symbol [ setColor %tmp.7 300 7 15 ];
         %tmp.7 = getv function %tmp.6 :setColor;
         %tmp.8 = lgetv %foregroundColor;
-        symbol [ foregroundColor %tmp.8 422 16 31 ];
+        symbol [ foregroundColor %tmp.8 300 16 31 ];
         %tmp.9 = lgetv %backgroudColor;
-        symbol [ backgroudColor %tmp.9 422 33 47 ];
+        symbol [ backgroudColor %tmp.9 300 33 47 ];
         invoke %tmp.6 %tmp.7(%tmp.8, %tmp.9);
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 426 4 ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 304 4 ]
         %tmp.10 = lgetv %dc;
-        symbol [ dc %tmp.10 426 4 6 ];
-        symbol [ drawArc %tmp.11 426 7 14 ];
+        symbol [ dc %tmp.10 304 4 6 ];
+        symbol [ drawArc %tmp.11 304 7 14 ];
         %tmp.11 = getv function %tmp.10 :drawArc;
         %tmp.12 = lgetv %centerX;
-        symbol [ centerX %tmp.12 427 6 13 ];
+        symbol [ centerX %tmp.12 305 6 13 ];
         %tmp.13 = lgetv %centerY;
-        symbol [ centerY %tmp.13 428 6 13 ];
+        symbol [ centerY %tmp.13 306 6 13 ];
         %tmp.14 = lgetv %radius;
-        symbol [ radius %tmp.14 429 6 12 ];
-        symbol [ Graphics %tmp.15 430 6 14 ];
+        symbol [ radius %tmp.14 307 6 12 ];
+        symbol [ Graphics %tmp.15 308 6 14 ];
         %tmp.15 = getm $.Toybox.Graphics;
-        symbol [ ARC_COUNTER_CLOCKWISE %tmp.16 430 15 36 ];
+        symbol [ ARC_COUNTER_CLOCKWISE %tmp.16 308 15 36 ];
         %tmp.16 = getv %tmp.15 :ARC_COUNTER_CLOCKWISE;
         %tmp.17 = lgetv %startAngle;
-        symbol [ startAngle %tmp.17 431 6 16 ];
+        symbol [ startAngle %tmp.17 309 6 16 ];
         %tmp.18 = lgetv %endAngle;
-        symbol [ endAngle %tmp.18 432 6 14 ];
+        symbol [ endAngle %tmp.18 310 6 14 ];
         invoke %tmp.10 %tmp.11(%tmp.12, %tmp.13, %tmp.14, %tmp.16, %tmp.17, %tmp.18);
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 437 4 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 315 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_12_330_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_12_330_2_stop" ]
         %startRad.1 = local;
-        symbol [ startRad %startRad.1 437 8 16 ];
-        symbol [ Math %tmp.19 437 19 23 ];
+        symbol [ startRad %startRad.1 315 8 16 ];
+        symbol [ Math %tmp.19 315 19 23 ];
         %tmp.19 = getm $.Toybox.Math;
-        symbol [ toRadians %tmp.20 437 24 33 ];
+        symbol [ toRadians %tmp.20 315 24 33 ];
         %tmp.20 = getv function %tmp.19 :toRadians;
         %tmp.21 = lgetv %startAngle;
-        symbol [ startAngle %tmp.21 437 34 44 ];
-        symbol [ toFloat %tmp.22 437 45 52 ];
+        symbol [ startAngle %tmp.21 315 34 44 ];
+        symbol [ toFloat %tmp.22 315 45 52 ];
         %tmp.22 = getv function %tmp.21 :toFloat;
         %tmp.23 = invoke %tmp.21 %tmp.22();
         %tmp.24 = invoke %tmp.19 %tmp.20(%tmp.23);
         lputv %startRad.1 %tmp.24;
-        symbol [ startRad %startRad.1 437 8 16 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 438 4 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_stop" ]
+        symbol [ startRad %startRad.1 315 8 16 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 316 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_12_330_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_12_330_2_stop" ]
         %endRad.2 = local;
-        symbol [ endRad %endRad.2 438 8 14 ];
-        symbol [ Math %tmp.25 438 17 21 ];
+        symbol [ endRad %endRad.2 316 8 14 ];
+        symbol [ Math %tmp.25 316 17 21 ];
         %tmp.25 = getm $.Toybox.Math;
-        symbol [ toRadians %tmp.26 438 22 31 ];
+        symbol [ toRadians %tmp.26 316 22 31 ];
         %tmp.26 = getv function %tmp.25 :toRadians;
         %tmp.27 = lgetv %endAngle;
-        symbol [ endAngle %tmp.27 438 32 40 ];
-        symbol [ toFloat %tmp.28 438 41 48 ];
+        symbol [ endAngle %tmp.27 316 32 40 ];
+        symbol [ toFloat %tmp.28 316 41 48 ];
         %tmp.28 = getv function %tmp.27 :toFloat;
         %tmp.29 = invoke %tmp.27 %tmp.28();
         %tmp.30 = invoke %tmp.25 %tmp.26(%tmp.29);
         lputv %endRad.2 %tmp.30;
-        symbol [ endRad %endRad.2 438 8 14 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 441 4 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_stop" ]
+        symbol [ endRad %endRad.2 316 8 14 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 319 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_12_330_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_12_330_2_stop" ]
         %startX.3 = local;
-        symbol [ startX %startX.3 441 8 14 ];
+        symbol [ startX %startX.3 319 8 14 ];
         %tmp.31 = lgetv %centerX;
-        symbol [ centerX %tmp.31 441 17 24 ];
+        symbol [ centerX %tmp.31 319 17 24 ];
         %tmp.32 = lgetv %radius;
-        symbol [ radius %tmp.32 441 27 33 ];
-        symbol [ Math %tmp.33 441 36 40 ];
+        symbol [ radius %tmp.32 319 27 33 ];
+        symbol [ Math %tmp.33 319 36 40 ];
         %tmp.33 = getm $.Toybox.Math;
-        symbol [ cos %tmp.34 441 41 44 ];
+        symbol [ cos %tmp.34 319 41 44 ];
         %tmp.34 = getv function %tmp.33 :cos;
         %tmp.35 = lgetv %startRad.1;
-        symbol [ startRad %tmp.35 441 45 53 ];
+        symbol [ startRad %tmp.35 319 45 53 ];
         %tmp.36 = invoke %tmp.33 %tmp.34(%tmp.35);
         %tmp.37 = mul %tmp.32 %tmp.36;
         %tmp.38 = add %tmp.31 %tmp.37;
         lputv %startX.3 %tmp.38;
-        symbol [ startX %startX.3 441 8 14 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 442 4 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_stop" ]
+        symbol [ startX %startX.3 319 8 14 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 320 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_12_330_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_12_330_2_stop" ]
         %startY.4 = local;
-        symbol [ startY %startY.4 442 8 14 ];
+        symbol [ startY %startY.4 320 8 14 ];
         %tmp.39 = lgetv %centerY;
-        symbol [ centerY %tmp.39 442 17 24 ];
+        symbol [ centerY %tmp.39 320 17 24 ];
         %tmp.40 = lgetv %radius;
-        symbol [ radius %tmp.40 442 27 33 ];
-        symbol [ Math %tmp.41 442 36 40 ];
+        symbol [ radius %tmp.40 320 27 33 ];
+        symbol [ Math %tmp.41 320 36 40 ];
         %tmp.41 = getm $.Toybox.Math;
-        symbol [ sin %tmp.42 442 41 44 ];
+        symbol [ sin %tmp.42 320 41 44 ];
         %tmp.42 = getv function %tmp.41 :sin;
         %tmp.43 = lgetv %startRad.1;
-        symbol [ startRad %tmp.43 442 45 53 ];
+        symbol [ startRad %tmp.43 320 45 53 ];
         %tmp.44 = invoke %tmp.41 %tmp.42(%tmp.43);
         %tmp.45 = mul %tmp.40 %tmp.44;
         %tmp.46 = sub %tmp.39 %tmp.45;
         lputv %startY.4 %tmp.46;
-        symbol [ startY %startY.4 442 8 14 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 445 4 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_stop" ]
+        symbol [ startY %startY.4 320 8 14 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 323 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_12_330_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_12_330_2_stop" ]
         %endX.5 = local;
-        symbol [ endX %endX.5 445 8 12 ];
+        symbol [ endX %endX.5 323 8 12 ];
         %tmp.47 = lgetv %centerX;
-        symbol [ centerX %tmp.47 445 15 22 ];
+        symbol [ centerX %tmp.47 323 15 22 ];
         %tmp.48 = lgetv %radius;
-        symbol [ radius %tmp.48 445 25 31 ];
-        symbol [ Math %tmp.49 445 34 38 ];
+        symbol [ radius %tmp.48 323 25 31 ];
+        symbol [ Math %tmp.49 323 34 38 ];
         %tmp.49 = getm $.Toybox.Math;
-        symbol [ cos %tmp.50 445 39 42 ];
+        symbol [ cos %tmp.50 323 39 42 ];
         %tmp.50 = getv function %tmp.49 :cos;
         %tmp.51 = lgetv %endRad.2;
-        symbol [ endRad %tmp.51 445 43 49 ];
+        symbol [ endRad %tmp.51 323 43 49 ];
         %tmp.52 = invoke %tmp.49 %tmp.50(%tmp.51);
         %tmp.53 = mul %tmp.48 %tmp.52;
         %tmp.54 = add %tmp.47 %tmp.53;
         lputv %endX.5 %tmp.54;
-        symbol [ endX %endX.5 445 8 12 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 446 4 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_stop" ]
+        symbol [ endX %endX.5 323 8 12 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 324 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_12_330_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_12_330_2_stop" ]
         %endY.6 = local;
-        symbol [ endY %endY.6 446 8 12 ];
+        symbol [ endY %endY.6 324 8 12 ];
         %tmp.55 = lgetv %centerY;
-        symbol [ centerY %tmp.55 446 15 22 ];
+        symbol [ centerY %tmp.55 324 15 22 ];
         %tmp.56 = lgetv %radius;
-        symbol [ radius %tmp.56 446 25 31 ];
-        symbol [ Math %tmp.57 446 34 38 ];
+        symbol [ radius %tmp.56 324 25 31 ];
+        symbol [ Math %tmp.57 324 34 38 ];
         %tmp.57 = getm $.Toybox.Math;
-        symbol [ sin %tmp.58 446 39 42 ];
+        symbol [ sin %tmp.58 324 39 42 ];
         %tmp.58 = getv function %tmp.57 :sin;
         %tmp.59 = lgetv %endRad.2;
-        symbol [ endRad %tmp.59 446 43 49 ];
+        symbol [ endRad %tmp.59 324 43 49 ];
         %tmp.60 = invoke %tmp.57 %tmp.58(%tmp.59);
         %tmp.61 = mul %tmp.56 %tmp.60;
         %tmp.62 = sub %tmp.55 %tmp.61;
         lputv %endY.6 %tmp.62;
-        symbol [ endY %endY.6 446 8 12 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 449 4 ]
-        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_stop" ]
+        symbol [ endY %endY.6 324 8 12 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" 327 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_12_330_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_12_330_2_stop" ]
         %capRadius.7 = local;
-        symbol [ capRadius %capRadius.7 449 8 17 ];
+        symbol [ capRadius %capRadius.7 327 8 17 ];
         %tmp.63 = lgetv %penWidth;
-        symbol [ penWidth %tmp.63 449 20 28 ];
+        symbol [ penWidth %tmp.63 327 20 28 ];
         %tmp.64 = 2.0;
         %tmp.65 = div %tmp.63 %tmp.64;
         lputv %capRadius.7 %tmp.65;
-        symbol [ capRadius %capRadius.7 449 8 17 ];
-_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_417_12_452_2_stop:
+        symbol [ capRadius %capRadius.7 327 8 17 ];
+_Users_summer_work_garmin_EIDGarminWatchFace_source_Tools_mc_295_12_330_2_stop:
     }
 }
 [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc"; @line = 1; ]

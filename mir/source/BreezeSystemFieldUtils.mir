@@ -1,0 +1,2010 @@
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Time,1,14,18]; ]
+import Toybox.Time;
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Time,2,14,18]; @symbol_importdef<2> = [Gregorian,2,19,28]; ]
+import Toybox.Time.Gregorian;
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Lang,3,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Activity,4,14,22]; ]
+import Toybox.Activity;
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [ActivityMonitor,5,14,29]; ]
+import Toybox.ActivityMonitor;
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Graphics,6,14,22]; ]
+import Toybox.Graphics;
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Math,7,14,18]; ]
+import Toybox.Math;
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [SensorHistory,8,14,27]; ]
+import Toybox.SensorHistory;
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 9; @symbol_importdef<0> = [Toybox,9,7,13]; @symbol_importdef<1> = [Application,9,14,25]; ]
+import Toybox.Application;
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 11; @symbol_classdef = [BreezeSystemFieldUtils,11,6,28]; ]
+class BreezeSystemFieldUtils {
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 11; ]
+    <init> {
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 11; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 13; @symbol_functiondef = [getSystemHour12,13,11,26]; @symbol_param<0> = [is24Hour,13,27,35]; @symbol_param<0>_type<0> = [Boolean,13,39,46]; @symbol_return<0> = [Lang,13,51,55]; @symbol_return<1> = [String,13,56,62]; ]
+    function getSystemHour12(is24Hour as Boolean) as Lang.String {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_13_63_24_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 14 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_13_63_24_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_13_63_24_2_stop" ]
+        %clockTime.1 = local;
+        symbol [ clockTime %clockTime.1 14 8 17 ];
+        symbol [ System %tmp.2 14 20 26 ];
+        %tmp.2 = getv ? :System;
+        symbol [ getClockTime %tmp.3 14 27 39 ];
+        %tmp.3 = getv function %tmp.2 :getClockTime;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %clockTime.1 %tmp.4;
+        symbol [ clockTime %clockTime.1 14 8 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 15 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_13_63_24_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_13_63_24_2_stop" ]
+        %hours.2 = local;
+        symbol [ hours %hours.2 15 8 13 ];
+        %tmp.5 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.5 15 16 25 ];
+        symbol [ hour %tmp.6 15 26 30 ];
+        %tmp.6 = getv %tmp.5 :hour;
+        lputv %hours.2 %tmp.6;
+        symbol [ hours %hours.2 15 8 13 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 16 4 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_16_4_23_4_if_stmt:
+        %tmp.7 = lgetv %is24Hour;
+        symbol [ is24Hour %tmp.7 16 8 16 ];
+        bf %tmp.7 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_16_4_23_4_if_else_false;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_16_4_23_4_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_16_18_18_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 17 6 ]
+        %tmp.8 = lgetv %hours.2;
+        symbol [ hours %tmp.8 17 13 18 ];
+        symbol [ format %tmp.9 17 19 25 ];
+        %tmp.9 = getv function %tmp.8 :format;
+        %tmp.10 = "%02d";
+        %tmp.11 = invoke %tmp.8 %tmp.9(%tmp.10);
+        ret %tmp.11;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_16_18_18_4_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_16_4_23_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_16_4_23_4_if_else_false:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_18_11_23_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 19 6 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_19_6_21_6_if_stmt:
+        %tmp.12 = lgetv %hours.2;
+        symbol [ hours %tmp.12 19 10 15 ];
+        %tmp.13 = 12;
+        %tmp.14 = gt %tmp.12 %tmp.13;
+        bf %tmp.14 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_19_6_21_6_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_19_6_21_6_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_19_22_21_6_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 20 8 ]
+        %tmp.15 = lgetv %hours.2;
+        symbol [ hours %tmp.15 20 16 21 ];
+        %tmp.16 = 12;
+        %tmp.17 = sub %tmp.15 %tmp.16;
+        lputv %hours.2 %tmp.17;
+        symbol [ hours %hours.2 20 8 13 ];
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_19_22_21_6_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_19_6_21_6_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_19_6_21_6_if_end:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 22 6 ]
+        %tmp.18 = lgetv %hours.2;
+        symbol [ hours %tmp.18 22 13 18 ];
+        symbol [ format %tmp.19 22 19 25 ];
+        %tmp.19 = getv function %tmp.18 :format;
+        %tmp.20 = "%02d";
+        %tmp.21 = invoke %tmp.18 %tmp.19(%tmp.20);
+        ret %tmp.21;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_18_11_23_4_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_16_4_23_4_if_end:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_13_63_24_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 27; @symbol_functiondef = [getSystemMinute,27,11,26]; @symbol_return<0> = [Lang,27,32,36]; @symbol_return<1> = [String,27,37,43]; ]
+    function getSystemMinute() as Lang.String {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_27_44_30_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 28 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_27_44_30_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_27_44_30_2_stop" ]
+        %clockTime.1 = local;
+        symbol [ clockTime %clockTime.1 28 8 17 ];
+        symbol [ System %tmp.2 28 20 26 ];
+        %tmp.2 = getv ? :System;
+        symbol [ getClockTime %tmp.3 28 27 39 ];
+        %tmp.3 = getv function %tmp.2 :getClockTime;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %clockTime.1 %tmp.4;
+        symbol [ clockTime %clockTime.1 28 8 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 29 4 ]
+        %tmp.5 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.5 29 11 20 ];
+        symbol [ min %tmp.6 29 21 24 ];
+        %tmp.6 = getv %tmp.5 :min;
+        symbol [ format %tmp.7 29 25 31 ];
+        %tmp.7 = getv function %tmp.6 :format;
+        %tmp.8 = "%02d";
+        %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
+        ret %tmp.9;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_27_44_30_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 33; @symbol_functiondef = [getSystemSecond,33,11,26]; @symbol_return<0> = [Lang,33,32,36]; @symbol_return<1> = [String,33,37,43]; ]
+    function getSystemSecond() as Lang.String {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_33_44_36_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 34 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_33_44_36_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_33_44_36_2_stop" ]
+        %clockTime.1 = local;
+        symbol [ clockTime %clockTime.1 34 8 17 ];
+        symbol [ System %tmp.2 34 20 26 ];
+        %tmp.2 = getv ? :System;
+        symbol [ getClockTime %tmp.3 34 27 39 ];
+        %tmp.3 = getv function %tmp.2 :getClockTime;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %clockTime.1 %tmp.4;
+        symbol [ clockTime %clockTime.1 34 8 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 35 4 ]
+        %tmp.5 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.5 35 11 20 ];
+        symbol [ sec %tmp.6 35 21 24 ];
+        %tmp.6 = getv %tmp.5 :sec;
+        symbol [ format %tmp.7 35 25 31 ];
+        %tmp.7 = getv function %tmp.6 :format;
+        %tmp.8 = "%02d";
+        %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
+        ret %tmp.9;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_33_44_36_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 39; @symbol_functiondef = [getSystemTime,39,11,24]; @symbol_return<0> = [Lang,39,30,34]; @symbol_return<1> = [String,39,35,41]; ]
+    function getSystemTime() as Lang.String {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_39_42_60_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 40 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_39_42_60_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_39_42_60_2_stop" ]
+        %timeFormat.1 = local;
+        symbol [ timeFormat %timeFormat.1 40 8 18 ];
+        %tmp.1 = "$1$:$2$:$3$";
+        lputv %timeFormat.1 %tmp.1;
+        symbol [ timeFormat %timeFormat.1 40 8 18 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 41 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_39_42_60_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_39_42_60_2_stop" ]
+        %clockTime.2 = local;
+        symbol [ clockTime %clockTime.2 41 8 17 ];
+        symbol [ System %tmp.3 41 20 26 ];
+        %tmp.3 = getv ? :System;
+        symbol [ getClockTime %tmp.4 41 27 39 ];
+        %tmp.4 = getv function %tmp.3 :getClockTime;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        lputv %clockTime.2 %tmp.5;
+        symbol [ clockTime %clockTime.2 41 8 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 42 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_39_42_60_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_39_42_60_2_stop" ]
+        %hours.3 = local;
+        symbol [ hours %hours.3 42 8 13 ];
+        %tmp.6 = lgetv %clockTime.2;
+        symbol [ clockTime %tmp.6 42 16 25 ];
+        symbol [ hour %tmp.7 42 26 30 ];
+        %tmp.7 = getv %tmp.6 :hour;
+        lputv %hours.3 %tmp.7;
+        symbol [ hours %hours.3 42 8 13 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 45 4 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_45_4_53_4_if_stmt:
+        symbol [ System %tmp.9 45 9 15 ];
+        %tmp.9 = getv ? :System;
+        symbol [ getDeviceSettings %tmp.10 45 16 33 ];
+        %tmp.10 = getv function %tmp.9 :getDeviceSettings;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        symbol [ is24Hour %tmp.12 45 36 44 ];
+        %tmp.12 = getv %tmp.11 :is24Hour;
+        %tmp.13 = not %tmp.12;
+        bf %tmp.13 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_45_4_53_4_if_else_false;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_45_4_53_4_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_45_46_50_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 47 6 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_47_6_49_6_if_stmt:
+        %tmp.14 = lgetv %hours.3;
+        symbol [ hours %tmp.14 47 10 15 ];
+        %tmp.15 = 12;
+        %tmp.16 = gt %tmp.14 %tmp.15;
+        bf %tmp.16 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_47_6_49_6_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_47_6_49_6_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_47_22_49_6_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 48 8 ]
+        %tmp.17 = lgetv %hours.3;
+        symbol [ hours %tmp.17 48 16 21 ];
+        %tmp.18 = 12;
+        %tmp.19 = sub %tmp.17 %tmp.18;
+        lputv %hours.3 %tmp.19;
+        symbol [ hours %hours.3 48 8 13 ];
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_47_22_49_6_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_47_6_49_6_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_47_6_49_6_if_end:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_45_46_50_4_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_45_4_53_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_45_4_53_4_if_else_false:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_50_11_53_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 52 6 ]
+        %tmp.20 = lgetv %hours.3;
+        symbol [ hours %tmp.20 52 14 19 ];
+        symbol [ format %tmp.21 52 20 26 ];
+        %tmp.21 = getv function %tmp.20 :format;
+        %tmp.22 = "%02d";
+        %tmp.23 = invoke %tmp.20 %tmp.21(%tmp.22);
+        lputv %hours.3 %tmp.23;
+        symbol [ hours %hours.3 52 6 11 ];
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_50_11_53_4_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_45_4_53_4_if_end:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 55 4 ]
+        symbol [ Lang %tmp.24 55 11 15 ];
+        %tmp.24 = getm $.Toybox.Lang;
+        symbol [ format %tmp.25 55 16 22 ];
+        %tmp.25 = getv function %tmp.24 :format;
+        %tmp.26 = lgetv %timeFormat.1;
+        symbol [ timeFormat %tmp.26 55 23 33 ];
+        %tmp.27 = newa 3;
+        %tmp.28 = lgetv %hours.3;
+        symbol [ hours %tmp.28 56 6 11 ];
+        %tmp.29 = dup %tmp.27;
+        %tmp.30 = aputv %tmp.29 0 %tmp.28;
+        %tmp.31 = lgetv %clockTime.2;
+        symbol [ clockTime %tmp.31 57 6 15 ];
+        symbol [ min %tmp.32 57 16 19 ];
+        %tmp.32 = getv %tmp.31 :min;
+        symbol [ format %tmp.33 57 20 26 ];
+        %tmp.33 = getv function %tmp.32 :format;
+        %tmp.34 = "%02d";
+        %tmp.35 = invoke %tmp.32 %tmp.33(%tmp.34);
+        %tmp.36 = dup %tmp.30;
+        %tmp.37 = aputv %tmp.36 1 %tmp.35;
+        %tmp.38 = lgetv %clockTime.2;
+        symbol [ clockTime %tmp.38 58 6 15 ];
+        symbol [ sec %tmp.39 58 16 19 ];
+        %tmp.39 = getv %tmp.38 :sec;
+        symbol [ format %tmp.40 58 20 26 ];
+        %tmp.40 = getv function %tmp.39 :format;
+        %tmp.41 = "%02d";
+        %tmp.42 = invoke %tmp.39 %tmp.40(%tmp.41);
+        %tmp.43 = dup %tmp.37;
+        %tmp.44 = aputv %tmp.43 2 %tmp.42;
+        %tmp.45 = invoke %tmp.24 %tmp.25(%tmp.26, %tmp.44);
+        ret %tmp.45;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_39_42_60_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 63; @symbol_functiondef = [getSystemTimeWithoutSecond,63,11,37]; @symbol_return<0> = [Lang,63,43,47]; @symbol_return<1> = [String,63,48,54]; ]
+    function getSystemTimeWithoutSecond() as Lang.String {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_63_55_83_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 64 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_63_55_83_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_63_55_83_2_stop" ]
+        %timeFormat.1 = local;
+        symbol [ timeFormat %timeFormat.1 64 8 18 ];
+        %tmp.1 = "$1$:$2$";
+        lputv %timeFormat.1 %tmp.1;
+        symbol [ timeFormat %timeFormat.1 64 8 18 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 65 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_63_55_83_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_63_55_83_2_stop" ]
+        %clockTime.2 = local;
+        symbol [ clockTime %clockTime.2 65 8 17 ];
+        symbol [ System %tmp.3 65 20 26 ];
+        %tmp.3 = getv ? :System;
+        symbol [ getClockTime %tmp.4 65 27 39 ];
+        %tmp.4 = getv function %tmp.3 :getClockTime;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        lputv %clockTime.2 %tmp.5;
+        symbol [ clockTime %clockTime.2 65 8 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 66 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_63_55_83_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_63_55_83_2_stop" ]
+        %hours.3 = local;
+        symbol [ hours %hours.3 66 8 13 ];
+        %tmp.6 = lgetv %clockTime.2;
+        symbol [ clockTime %tmp.6 66 16 25 ];
+        symbol [ hour %tmp.7 66 26 30 ];
+        %tmp.7 = getv %tmp.6 :hour;
+        lputv %hours.3 %tmp.7;
+        symbol [ hours %hours.3 66 8 13 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 69 4 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_69_4_77_4_if_stmt:
+        symbol [ System %tmp.9 69 9 15 ];
+        %tmp.9 = getv ? :System;
+        symbol [ getDeviceSettings %tmp.10 69 16 33 ];
+        %tmp.10 = getv function %tmp.9 :getDeviceSettings;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        symbol [ is24Hour %tmp.12 69 36 44 ];
+        %tmp.12 = getv %tmp.11 :is24Hour;
+        %tmp.13 = not %tmp.12;
+        bf %tmp.13 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_69_4_77_4_if_else_false;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_69_4_77_4_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_69_46_74_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 71 6 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_71_6_73_6_if_stmt:
+        %tmp.14 = lgetv %hours.3;
+        symbol [ hours %tmp.14 71 10 15 ];
+        %tmp.15 = 12;
+        %tmp.16 = gt %tmp.14 %tmp.15;
+        bf %tmp.16 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_71_6_73_6_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_71_6_73_6_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_71_22_73_6_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 72 8 ]
+        %tmp.17 = lgetv %hours.3;
+        symbol [ hours %tmp.17 72 16 21 ];
+        %tmp.18 = 12;
+        %tmp.19 = sub %tmp.17 %tmp.18;
+        lputv %hours.3 %tmp.19;
+        symbol [ hours %hours.3 72 8 13 ];
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_71_22_73_6_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_71_6_73_6_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_71_6_73_6_if_end:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_69_46_74_4_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_69_4_77_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_69_4_77_4_if_else_false:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_74_11_77_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 76 6 ]
+        %tmp.20 = lgetv %hours.3;
+        symbol [ hours %tmp.20 76 14 19 ];
+        symbol [ format %tmp.21 76 20 26 ];
+        %tmp.21 = getv function %tmp.20 :format;
+        %tmp.22 = "%02d";
+        %tmp.23 = invoke %tmp.20 %tmp.21(%tmp.22);
+        lputv %hours.3 %tmp.23;
+        symbol [ hours %hours.3 76 6 11 ];
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_74_11_77_4_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_69_4_77_4_if_end:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 79 4 ]
+        symbol [ Lang %tmp.24 79 11 15 ];
+        %tmp.24 = getm $.Toybox.Lang;
+        symbol [ format %tmp.25 79 16 22 ];
+        %tmp.25 = getv function %tmp.24 :format;
+        %tmp.26 = lgetv %timeFormat.1;
+        symbol [ timeFormat %tmp.26 79 23 33 ];
+        %tmp.27 = newa 2;
+        %tmp.28 = lgetv %hours.3;
+        symbol [ hours %tmp.28 80 6 11 ];
+        %tmp.29 = dup %tmp.27;
+        %tmp.30 = aputv %tmp.29 0 %tmp.28;
+        %tmp.31 = lgetv %clockTime.2;
+        symbol [ clockTime %tmp.31 81 6 15 ];
+        symbol [ min %tmp.32 81 16 19 ];
+        %tmp.32 = getv %tmp.31 :min;
+        symbol [ format %tmp.33 81 20 26 ];
+        %tmp.33 = getv function %tmp.32 :format;
+        %tmp.34 = "%02d";
+        %tmp.35 = invoke %tmp.32 %tmp.33(%tmp.34);
+        %tmp.36 = dup %tmp.30;
+        %tmp.37 = aputv %tmp.36 1 %tmp.35;
+        %tmp.38 = invoke %tmp.24 %tmp.25(%tmp.26, %tmp.37);
+        ret %tmp.38;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_63_55_83_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 86; @symbol_functiondef = [getSystemDayOfWeek,86,11,29]; @symbol_return<0> = [Lang,86,35,39]; @symbol_return<1> = [String,86,40,46]; ]
+    function getSystemDayOfWeek() as Lang.String {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_86_47_89_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 87 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_86_47_89_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_86_47_89_2_stop" ]
+        %today.1 = local;
+        symbol [ today %today.1 87 8 13 ];
+        symbol [ Gregorian %tmp.1 87 16 25 ];
+        %tmp.1 = getm $.Toybox.Time.Gregorian;
+        symbol [ info %tmp.2 87 26 30 ];
+        %tmp.2 = getv function %tmp.1 :info;
+        symbol [ Time %tmp.3 87 31 35 ];
+        %tmp.3 = getm $.Toybox.Time;
+        symbol [ now %tmp.4 87 36 39 ];
+        %tmp.4 = getv function %tmp.3 :now;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        symbol [ Time %tmp.6 87 43 47 ];
+        %tmp.6 = getm $.Toybox.Time;
+        symbol [ FORMAT_SHORT %tmp.7 87 48 60 ];
+        %tmp.7 = getv %tmp.6 :FORMAT_SHORT;
+        %tmp.8 = invoke %tmp.1 %tmp.2(%tmp.5, %tmp.7);
+        lputv %today.1 %tmp.8;
+        symbol [ today %today.1 87 8 13 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 88 4 ]
+        %tmp.9 = lgetv %today.1;
+        symbol [ today %tmp.9 88 11 16 ];
+        symbol [ day_of_week %tmp.10 88 17 28 ];
+        %tmp.10 = getv %tmp.9 :day_of_week;
+        symbol [ toString %tmp.11 88 29 37 ];
+        %tmp.11 = getv function %tmp.10 :toString;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        ret %tmp.12;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_86_47_89_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 92; @symbol_functiondef = [getSystemDayOfWeekEn,92,11,31]; @symbol_return<0> = [Lang,92,37,41]; @symbol_return<1> = [String,92,42,48]; ]
+    function getSystemDayOfWeekEn() as Lang.String {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_92_49_95_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 93 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_92_49_95_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_92_49_95_2_stop" ]
+        %today.1 = local;
+        symbol [ today %today.1 93 8 13 ];
+        symbol [ Gregorian %tmp.1 93 16 25 ];
+        %tmp.1 = getm $.Toybox.Time.Gregorian;
+        symbol [ info %tmp.2 93 26 30 ];
+        %tmp.2 = getv function %tmp.1 :info;
+        symbol [ Time %tmp.3 93 31 35 ];
+        %tmp.3 = getm $.Toybox.Time;
+        symbol [ now %tmp.4 93 36 39 ];
+        %tmp.4 = getv function %tmp.3 :now;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        symbol [ Time %tmp.6 93 43 47 ];
+        %tmp.6 = getm $.Toybox.Time;
+        symbol [ FORMAT_MEDIUM %tmp.7 93 48 61 ];
+        %tmp.7 = getv %tmp.6 :FORMAT_MEDIUM;
+        %tmp.8 = invoke %tmp.1 %tmp.2(%tmp.5, %tmp.7);
+        lputv %today.1 %tmp.8;
+        symbol [ today %today.1 93 8 13 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 94 4 ]
+        %tmp.9 = lgetv %today.1;
+        symbol [ today %tmp.9 94 11 16 ];
+        symbol [ day_of_week %tmp.10 94 17 28 ];
+        %tmp.10 = getv %tmp.9 :day_of_week;
+        symbol [ toString %tmp.11 94 29 37 ];
+        %tmp.11 = getv function %tmp.10 :toString;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        ret %tmp.12;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_92_49_95_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 98; @symbol_functiondef = [getSystemDate,98,11,24]; @symbol_return<0> = [Array,98,30,35]; @symbol_return<1> = [Lang,98,36,40]; @symbol_return<2> = [Number,98,41,47]; ]
+    function getSystemDate() as Array<Lang.Number> {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_98_48_101_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 99 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_98_48_101_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_98_48_101_2_stop" ]
+        %today.1 = local;
+        symbol [ today %today.1 99 8 13 ];
+        symbol [ Gregorian %tmp.1 99 16 25 ];
+        %tmp.1 = getm $.Toybox.Time.Gregorian;
+        symbol [ info %tmp.2 99 26 30 ];
+        %tmp.2 = getv function %tmp.1 :info;
+        symbol [ Time %tmp.3 99 31 35 ];
+        %tmp.3 = getm $.Toybox.Time;
+        symbol [ now %tmp.4 99 36 39 ];
+        %tmp.4 = getv function %tmp.3 :now;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        symbol [ Time %tmp.6 99 43 47 ];
+        %tmp.6 = getm $.Toybox.Time;
+        symbol [ FORMAT_SHORT %tmp.7 99 48 60 ];
+        %tmp.7 = getv %tmp.6 :FORMAT_SHORT;
+        %tmp.8 = invoke %tmp.1 %tmp.2(%tmp.5, %tmp.7);
+        lputv %today.1 %tmp.8;
+        symbol [ today %today.1 99 8 13 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 100 4 ]
+        %tmp.9 = newa 3;
+        %tmp.10 = lgetv %today.1;
+        symbol [ today %tmp.10 100 12 17 ];
+        symbol [ year %tmp.11 100 18 22 ];
+        %tmp.11 = getv %tmp.10 :year;
+        %tmp.12 = dup %tmp.9;
+        %tmp.13 = aputv %tmp.12 0 %tmp.11;
+        %tmp.14 = lgetv %today.1;
+        symbol [ today %tmp.14 100 24 29 ];
+        symbol [ month %tmp.15 100 30 35 ];
+        %tmp.15 = getv %tmp.14 :month;
+        %tmp.16 = dup %tmp.13;
+        %tmp.17 = aputv %tmp.16 1 %tmp.15;
+        %tmp.18 = lgetv %today.1;
+        symbol [ today %tmp.18 100 37 42 ];
+        symbol [ day %tmp.19 100 43 46 ];
+        %tmp.19 = getv %tmp.18 :day;
+        %tmp.20 = dup %tmp.17;
+        %tmp.21 = aputv %tmp.20 2 %tmp.19;
+        ret %tmp.21;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_98_48_101_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 104; @symbol_functiondef = [getSystemYearMonthDay,104,11,32]; @symbol_return<0> = [Lang,104,38,42]; @symbol_return<1> = [String,104,43,49]; ]
+    function getSystemYearMonthDay() as Lang.String {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_104_50_107_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 105 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_104_50_107_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_104_50_107_2_stop" ]
+        %today.1 = local;
+        symbol [ today %today.1 105 8 13 ];
+        symbol [ Gregorian %tmp.1 105 16 25 ];
+        %tmp.1 = getm $.Toybox.Time.Gregorian;
+        symbol [ info %tmp.2 105 26 30 ];
+        %tmp.2 = getv function %tmp.1 :info;
+        symbol [ Time %tmp.3 105 31 35 ];
+        %tmp.3 = getm $.Toybox.Time;
+        symbol [ now %tmp.4 105 36 39 ];
+        %tmp.4 = getv function %tmp.3 :now;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        symbol [ Time %tmp.6 105 43 47 ];
+        %tmp.6 = getm $.Toybox.Time;
+        symbol [ FORMAT_SHORT %tmp.7 105 48 60 ];
+        %tmp.7 = getv %tmp.6 :FORMAT_SHORT;
+        %tmp.8 = invoke %tmp.1 %tmp.2(%tmp.5, %tmp.7);
+        lputv %today.1 %tmp.8;
+        symbol [ today %today.1 105 8 13 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 106 4 ]
+        %tmp.9 = lgetv %today.1;
+        symbol [ today %tmp.9 106 11 16 ];
+        symbol [ year %tmp.10 106 17 21 ];
+        %tmp.10 = getv %tmp.9 :year;
+        %tmp.11 = "-";
+        %tmp.12 = add %tmp.10 %tmp.11;
+        %tmp.13 = lgetv %today.1;
+        symbol [ today %tmp.13 106 30 35 ];
+        symbol [ month %tmp.14 106 36 41 ];
+        %tmp.14 = getv %tmp.13 :month;
+        %tmp.15 = add %tmp.12 %tmp.14;
+        %tmp.16 = "-";
+        %tmp.17 = add %tmp.15 %tmp.16;
+        %tmp.18 = lgetv %today.1;
+        symbol [ today %tmp.18 106 50 55 ];
+        symbol [ day %tmp.19 106 56 59 ];
+        %tmp.19 = getv %tmp.18 :day;
+        %tmp.20 = add %tmp.17 %tmp.19;
+        ret %tmp.20;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_104_50_107_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 110; @symbol_functiondef = [getSystemHeartRate,110,11,29]; @symbol_return<0> = [Lang,110,35,39]; @symbol_return<1> = [Number,110,40,46]; ]
+    function getSystemHeartRate() as Lang.Number {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_110_47_116_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 111 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_110_47_116_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_110_47_116_2_stop" ]
+        %heartRate.1 = local;
+        symbol [ heartRate %heartRate.1 111 8 17 ];
+        symbol [ Activity %tmp.1 111 20 28 ];
+        %tmp.1 = getm $.Toybox.Activity;
+        symbol [ getActivityInfo %tmp.2 111 29 44 ];
+        %tmp.2 = getv function %tmp.1 :getActivityInfo;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ currentHeartRate %tmp.4 111 47 63 ];
+        %tmp.4 = getv %tmp.3 :currentHeartRate;
+        %tmp.5 = as %tmp.4 Lang.Number or Null;
+        symbol [ Lang %tmp.5 111 67 71 ];
+        symbol [ Number %tmp.5 111 72 78 ];
+        lputv %heartRate.1 %tmp.5;
+        symbol [ heartRate %heartRate.1 111 8 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 112 4 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_112_4_114_4_if_stmt:
+        %tmp.6 = lgetv %heartRate.1;
+        symbol [ heartRate %tmp.6 112 8 17 ];
+        %tmp.7 = null;
+        %tmp.8 = ne %tmp.6 %tmp.7;
+        bf %tmp.8 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_112_4_114_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_112_4_114_4_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_112_27_114_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 113 6 ]
+        %tmp.9 = lgetv %heartRate.1;
+        symbol [ heartRate %tmp.9 113 13 22 ];
+        %tmp.10 = as %tmp.9 { (!Null) };
+        ret %tmp.10;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_112_27_114_4_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_112_4_114_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_112_4_114_4_if_end:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 115 4 ]
+        %tmp.11 = 0;
+        ret %tmp.11;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_110_47_116_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 119; @symbol_functiondef = [getBodyBattery,119,11,25]; @symbol_return<0> = [Lang,119,31,35]; @symbol_return<1> = [Number,119,36,42]; ]
+    function getBodyBattery() as Lang.Number {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_119_43_131_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 120 4 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_120_4_129_4_if_stmt:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_120_8_120_87_begin:
+        symbol [ Toybox %tmp.2 120 9 15 ];
+        %tmp.2 = getv ? :Toybox;
+        %tmp.4 = const :SensorHistory;
+        symbol [ SensorHistory %tmp.4 120 21 34 const ];
+        %tmp.5 = canhazplz %tmp.2 %tmp.4;
+        bf %tmp.5 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_120_4_129_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_120_39_120_87_true:
+        symbol [ Toybox %tmp.7 120 40 46 ];
+        %tmp.7 = getv ? :Toybox;
+        %tmp.8 = as %tmp.7 { (interface { var SensorHistory; }) };
+        symbol [ SensorHistory %tmp.9 120 47 60 ];
+        %tmp.9 = getv %tmp.8 :SensorHistory;
+        %tmp.11 = const :getBodyBatteryHistory;
+        symbol [ getBodyBatteryHistory %tmp.11 120 66 87 const ];
+        %tmp.12 = canhazplz %tmp.9 %tmp.11;
+        push %tmp.12;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_120_39_120_87_end:
+        %tmp.13 = phi [%tmp.5 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_120_8_120_87_begin] [%tmp.12 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_120_39_120_87_true] [%tmp.13 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_120_39_120_87_end];
+        bf %tmp.13 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_120_4_129_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_120_4_129_4_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_120_90_129_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 121 6 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_120_90_129_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_120_90_129_4_stop" ]
+        %bodyBatteryHistory.1 = local;
+        symbol [ bodyBatteryHistory %bodyBatteryHistory.1 121 10 28 ];
+        symbol [ SensorHistory %tmp.14 121 31 44 ];
+        %tmp.14 = getm $.Toybox.SensorHistory;
+        symbol [ getBodyBatteryHistory %tmp.15 121 45 66 ];
+        %tmp.15 = getv function %tmp.14 :getBodyBatteryHistory;
+        %tmp.16 = newd 0;
+        %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
+        lputv %bodyBatteryHistory.1 %tmp.17;
+        symbol [ bodyBatteryHistory %bodyBatteryHistory.1 121 10 28 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 122 6 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_122_6_128_6_if_stmt:
+        %tmp.18 = lgetv %bodyBatteryHistory.1;
+        symbol [ bodyBatteryHistory %tmp.18 122 10 28 ];
+        %tmp.19 = null;
+        %tmp.20 = ne %tmp.18 %tmp.19;
+        bf %tmp.20 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_122_6_128_6_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_122_6_128_6_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_122_38_128_6_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 123 8 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_122_38_128_6_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_122_38_128_6_stop" ]
+        %sample.2 = local;
+        symbol [ sample %sample.2 123 12 18 ];
+        %tmp.21 = lgetv %bodyBatteryHistory.1;
+        symbol [ bodyBatteryHistory %tmp.21 123 21 39 ];
+        %tmp.22 = as %tmp.21 { (!Null) };
+        symbol [ next %tmp.23 123 40 44 ];
+        %tmp.23 = getv function %tmp.22 :next;
+        %tmp.24 = invoke %tmp.22 %tmp.23();
+        %tmp.25 = as %tmp.24 SensorHistory.SensorSample;
+        symbol [ SensorHistory %tmp.25 123 50 63 ];
+        symbol [ SensorSample %tmp.25 123 64 76 ];
+        lputv %sample.2 %tmp.25;
+        symbol [ sample %sample.2 123 12 18 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 124 8 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_124_8_127_8_if_stmt:
+        %tmp.26 = lgetv %sample.2;
+        symbol [ sample %tmp.26 124 12 18 ];
+        %tmp.27 = null;
+        %tmp.28 = ne %tmp.26 %tmp.27;
+        bf %tmp.28 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_124_8_127_8_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_124_8_127_8_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_124_28_127_8_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 125 10 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_124_28_127_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_124_28_127_8_stop" ]
+        %bodyBattery.3 = local;
+        symbol [ bodyBattery %bodyBattery.3 125 14 25 ];
+        %tmp.29 = lgetv %sample.2;
+        symbol [ sample %tmp.29 125 28 34 ];
+        %tmp.30 = as %tmp.29 { (!Null) };
+        symbol [ data %tmp.31 125 35 39 ];
+        %tmp.31 = getv %tmp.30 :data;
+        %tmp.32 = as %tmp.31 Lang.Number;
+        symbol [ Lang %tmp.32 125 43 47 ];
+        symbol [ Number %tmp.32 125 48 54 ];
+        lputv %bodyBattery.3 %tmp.32;
+        symbol [ bodyBattery %bodyBattery.3 125 14 25 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 126 10 ]
+        %tmp.33 = lgetv %bodyBattery.3;
+        symbol [ bodyBattery %tmp.33 126 17 28 ];
+        ret %tmp.33;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_124_28_127_8_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_124_8_127_8_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_124_8_127_8_if_end:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_122_38_128_6_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_122_6_128_6_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_122_6_128_6_if_end:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_120_90_129_4_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_120_4_129_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_120_4_129_4_if_end:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 130 4 ]
+        %tmp.34 = 50;
+        ret %tmp.34;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_119_43_131_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 134; @symbol_functiondef = [getStressData,134,11,24]; @symbol_return<0> = [Lang,134,30,34]; @symbol_return<1> = [Number,134,35,41]; ]
+    function getStressData() as Lang.Number {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_134_42_146_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 135 4 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_135_4_144_4_if_stmt:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_135_8_135_75_begin:
+        symbol [ Toybox %tmp.2 135 9 15 ];
+        %tmp.2 = getv ? :Toybox;
+        %tmp.4 = const :SensorHistory;
+        symbol [ SensorHistory %tmp.4 135 21 34 const ];
+        %tmp.5 = canhazplz %tmp.2 %tmp.4;
+        bf %tmp.5 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_135_4_144_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_135_39_135_75_true:
+        symbol [ SensorHistory %tmp.6 135 40 53 ];
+        %tmp.6 = getm $.Toybox.SensorHistory;
+        %tmp.8 = const :getStressHistory;
+        symbol [ getStressHistory %tmp.8 135 59 75 const ];
+        %tmp.9 = canhazplz %tmp.6 %tmp.8;
+        push %tmp.9;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_135_39_135_75_end:
+        %tmp.10 = phi [%tmp.5 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_135_8_135_75_begin] [%tmp.9 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_135_39_135_75_true] [%tmp.10 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_135_39_135_75_end];
+        bf %tmp.10 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_135_4_144_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_135_4_144_4_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_135_78_144_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 136 6 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_135_78_144_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_135_78_144_4_stop" ]
+        %stressHistory.1 = local;
+        symbol [ stressHistory %stressHistory.1 136 10 23 ];
+        symbol [ SensorHistory %tmp.11 136 26 39 ];
+        %tmp.11 = getm $.Toybox.SensorHistory;
+        symbol [ getStressHistory %tmp.12 136 40 56 ];
+        %tmp.12 = getv function %tmp.11 :getStressHistory;
+        %tmp.13 = newd 0;
+        %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
+        lputv %stressHistory.1 %tmp.14;
+        symbol [ stressHistory %stressHistory.1 136 10 23 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 137 6 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_137_6_143_6_if_stmt:
+        %tmp.15 = lgetv %stressHistory.1;
+        symbol [ stressHistory %tmp.15 137 10 23 ];
+        %tmp.16 = null;
+        %tmp.17 = ne %tmp.15 %tmp.16;
+        bf %tmp.17 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_137_6_143_6_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_137_6_143_6_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_137_33_143_6_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 138 10 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_137_33_143_6_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_137_33_143_6_stop" ]
+        %sample.2 = local;
+        symbol [ sample %sample.2 138 14 20 ];
+        %tmp.18 = lgetv %stressHistory.1;
+        symbol [ stressHistory %tmp.18 138 23 36 ];
+        %tmp.19 = as %tmp.18 { (!Null) };
+        symbol [ next %tmp.20 138 37 41 ];
+        %tmp.20 = getv function %tmp.19 :next;
+        %tmp.21 = invoke %tmp.19 %tmp.20();
+        %tmp.22 = as %tmp.21 SensorHistory.SensorSample;
+        symbol [ SensorHistory %tmp.22 138 47 60 ];
+        symbol [ SensorSample %tmp.22 138 61 73 ];
+        lputv %sample.2 %tmp.22;
+        symbol [ sample %sample.2 138 14 20 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 139 10 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_139_10_142_10_if_stmt:
+        %tmp.23 = lgetv %sample.2;
+        symbol [ sample %tmp.23 139 14 20 ];
+        %tmp.24 = null;
+        %tmp.25 = ne %tmp.23 %tmp.24;
+        bf %tmp.25 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_139_10_142_10_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_139_10_142_10_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_139_30_142_10_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 140 14 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_139_30_142_10_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_139_30_142_10_stop" ]
+        %stress.3 = local;
+        symbol [ stress %stress.3 140 18 24 ];
+        %tmp.26 = lgetv %sample.2;
+        symbol [ sample %tmp.26 140 27 33 ];
+        %tmp.27 = as %tmp.26 { (!Null) };
+        symbol [ data %tmp.28 140 34 38 ];
+        %tmp.28 = getv %tmp.27 :data;
+        %tmp.29 = as %tmp.28 Lang.Number;
+        symbol [ Lang %tmp.29 140 42 46 ];
+        symbol [ Number %tmp.29 140 47 53 ];
+        lputv %stress.3 %tmp.29;
+        symbol [ stress %stress.3 140 18 24 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 141 14 ]
+        %tmp.30 = lgetv %stress.3;
+        symbol [ stress %tmp.30 141 21 27 ];
+        ret %tmp.30;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_139_30_142_10_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_139_10_142_10_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_139_10_142_10_if_end:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_137_33_143_6_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_137_6_143_6_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_137_6_143_6_if_end:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_135_78_144_4_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_135_4_144_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_135_4_144_4_if_end:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 145 4 ]
+        %tmp.31 = 50;
+        ret %tmp.31;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_134_42_146_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 149; @symbol_functiondef = [getTodayCalories,149,11,27]; @symbol_return<0> = [Lang,149,33,37]; @symbol_return<1> = [Number,149,38,44]; ]
+    function getTodayCalories() as Lang.Number {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_149_45_155_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 150 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_149_45_155_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_149_45_155_2_stop" ]
+        %calories.1 = local;
+        symbol [ calories %calories.1 150 8 16 ];
+        symbol [ ActivityMonitor %tmp.1 150 19 34 ];
+        %tmp.1 = getm $.Toybox.ActivityMonitor;
+        symbol [ getInfo %tmp.2 150 35 42 ];
+        %tmp.2 = getv function %tmp.1 :getInfo;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ calories %tmp.4 150 45 53 ];
+        %tmp.4 = getv %tmp.3 :calories;
+        %tmp.5 = as %tmp.4 Lang.Number or Null;
+        symbol [ Lang %tmp.5 150 57 61 ];
+        symbol [ Number %tmp.5 150 62 68 ];
+        lputv %calories.1 %tmp.5;
+        symbol [ calories %calories.1 150 8 16 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 151 4 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_151_4_153_4_if_stmt:
+        %tmp.6 = lgetv %calories.1;
+        symbol [ calories %tmp.6 151 8 16 ];
+        %tmp.7 = null;
+        %tmp.8 = ne %tmp.6 %tmp.7;
+        bf %tmp.8 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_151_4_153_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_151_4_153_4_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_151_26_153_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 152 6 ]
+        %tmp.9 = lgetv %calories.1;
+        symbol [ calories %tmp.9 152 13 21 ];
+        %tmp.10 = as %tmp.9 { (!Null) };
+        ret %tmp.10;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_151_26_153_4_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_151_4_153_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_151_4_153_4_if_end:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 154 4 ]
+        %tmp.11 = 0;
+        ret %tmp.11;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_149_45_155_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 158; @symbol_functiondef = [getSystemStepCount,158,11,29]; @symbol_return<0> = [Lang,158,35,39]; @symbol_return<1> = [Number,158,40,46]; ]
+    function getSystemStepCount() as Lang.Number {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_158_47_164_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 159 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_158_47_164_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_158_47_164_2_stop" ]
+        %steps.1 = local;
+        symbol [ steps %steps.1 159 8 13 ];
+        symbol [ ActivityMonitor %tmp.1 159 16 31 ];
+        %tmp.1 = getm $.Toybox.ActivityMonitor;
+        symbol [ getInfo %tmp.2 159 32 39 ];
+        %tmp.2 = getv function %tmp.1 :getInfo;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ steps %tmp.4 159 42 47 ];
+        %tmp.4 = getv %tmp.3 :steps;
+        %tmp.5 = as %tmp.4 Lang.Number or Null;
+        symbol [ Lang %tmp.5 159 51 55 ];
+        symbol [ Number %tmp.5 159 56 62 ];
+        lputv %steps.1 %tmp.5;
+        symbol [ steps %steps.1 159 8 13 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 160 4 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_160_4_162_4_if_stmt:
+        %tmp.6 = lgetv %steps.1;
+        symbol [ steps %tmp.6 160 8 13 ];
+        %tmp.7 = null;
+        %tmp.8 = ne %tmp.6 %tmp.7;
+        bf %tmp.8 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_160_4_162_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_160_4_162_4_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_160_23_162_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 161 6 ]
+        %tmp.9 = lgetv %steps.1;
+        symbol [ steps %tmp.9 161 13 18 ];
+        %tmp.10 = as %tmp.9 { (!Null) };
+        ret %tmp.10;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_160_23_162_4_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_160_4_162_4_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_160_4_162_4_if_end:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 163 4 ]
+        %tmp.11 = 0;
+        ret %tmp.11;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_158_47_164_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 167; @symbol_functiondef = [getSystemBattery,167,11,27]; @symbol_return<0> = [Lang,167,33,37]; @symbol_return<1> = [Float,167,38,43]; ]
+    function getSystemBattery() as Lang.Float {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_167_44_169_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 168 4 ]
+        symbol [ System %tmp.2 168 11 17 ];
+        %tmp.2 = getv ? :System;
+        symbol [ getSystemStats %tmp.3 168 18 32 ];
+        %tmp.3 = getv function %tmp.2 :getSystemStats;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        symbol [ battery %tmp.5 168 35 42 ];
+        %tmp.5 = getv %tmp.4 :battery;
+        %tmp.6 = as %tmp.5 Lang.Float;
+        symbol [ Lang %tmp.6 168 46 50 ];
+        symbol [ Float %tmp.6 168 51 56 ];
+        ret %tmp.6;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_167_44_169_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 172; @symbol_functiondef = [getSystemBatteryLife,172,11,31]; @symbol_return<0> = [Lang,172,37,41]; @symbol_return<1> = [Float,172,42,47]; ]
+    function getSystemBatteryLife() as Lang.Float {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_172_48_174_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 173 4 ]
+        symbol [ System %tmp.2 173 11 17 ];
+        %tmp.2 = getv ? :System;
+        symbol [ getSystemStats %tmp.3 173 18 32 ];
+        %tmp.3 = getv function %tmp.2 :getSystemStats;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        symbol [ batteryInDays %tmp.5 173 35 48 ];
+        %tmp.5 = getv %tmp.4 :batteryInDays;
+        %tmp.6 = as %tmp.5 Lang.Float;
+        symbol [ Lang %tmp.6 173 52 56 ];
+        symbol [ Float %tmp.6 173 57 62 ];
+        ret %tmp.6;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_172_48_174_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 177; @symbol_functiondef = [getSystemCharging,177,11,28]; @symbol_return<0> = [Lang,177,34,38]; @symbol_return<1> = [Boolean,177,39,46]; ]
+    function getSystemCharging() as Lang.Boolean {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_177_47_179_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 178 4 ]
+        symbol [ System %tmp.2 178 11 17 ];
+        %tmp.2 = getv ? :System;
+        symbol [ getSystemStats %tmp.3 178 18 32 ];
+        %tmp.3 = getv function %tmp.2 :getSystemStats;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        symbol [ charging %tmp.5 178 35 43 ];
+        %tmp.5 = getv %tmp.4 :charging;
+        ret %tmp.5;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_177_47_179_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 182; @symbol_functiondef = [getSystemWidth,182,11,25]; @symbol_param<0> = [dc,182,26,28]; @symbol_param<0>_type<0> = [Graphics,182,32,40]; @symbol_param<0>_type<1> = [Dc,182,41,43]; @symbol_return<0> = [Lang,182,48,52]; @symbol_return<1> = [String,182,53,59]; ]
+    function getSystemWidth(dc as Graphics.Dc) as Lang.String {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_182_60_184_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 183 4 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 183 11 13 ];
+        symbol [ getWidth %tmp.2 183 14 22 ];
+        %tmp.2 = getv function %tmp.1 :getWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ format %tmp.4 183 25 31 ];
+        %tmp.4 = getv function %tmp.3 :format;
+        %tmp.5 = "%d";
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        ret %tmp.6;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_182_60_184_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 187; @symbol_functiondef = [getSystemHeight,187,11,26]; @symbol_param<0> = [dc,187,27,29]; @symbol_param<0>_type<0> = [Graphics,187,33,41]; @symbol_param<0>_type<1> = [Dc,187,42,44]; @symbol_return<0> = [Lang,187,49,53]; @symbol_return<1> = [String,187,54,60]; ]
+    function getSystemHeight(dc as Graphics.Dc) as Lang.String {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_187_61_189_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 188 4 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 188 11 13 ];
+        symbol [ getHeight %tmp.2 188 14 23 ];
+        %tmp.2 = getv function %tmp.1 :getHeight;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ format %tmp.4 188 26 32 ];
+        %tmp.4 = getv function %tmp.3 :format;
+        %tmp.5 = "%d";
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        ret %tmp.6;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_187_61_189_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 192; @symbol_functiondef = [getSystemConnected,192,11,29]; @symbol_return<0> = [Lang,192,35,39]; @symbol_return<1> = [Boolean,192,40,47]; ]
+    function getSystemConnected() as Lang.Boolean {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_192_48_194_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 193 4 ]
+        symbol [ System %tmp.2 193 11 17 ];
+        %tmp.2 = getv ? :System;
+        symbol [ getDeviceSettings %tmp.3 193 18 35 ];
+        %tmp.3 = getv function %tmp.2 :getDeviceSettings;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        symbol [ phoneConnected %tmp.5 193 38 52 ];
+        %tmp.5 = getv %tmp.4 :phoneConnected;
+        ret %tmp.5;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_192_48_194_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 197; @symbol_functiondef = [drawSecondBalls,197,11,26]; @symbol_param<0> = [dc,197,27,29]; ]
+    function drawSecondBalls(dc) {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 199 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_stop" ]
+        %secondColor.1 = local;
+        symbol [ secondColor %secondColor.1 199 8 19 ];
+        symbol [ Application %tmp.1 199 22 33 ];
+        %tmp.1 = getm $.Toybox.Application;
+        symbol [ Properties %tmp.2 199 34 44 ];
+        %tmp.2 = getv %tmp.1 :Properties;
+        symbol [ getValue %tmp.3 199 45 53 ];
+        %tmp.3 = getv function %tmp.2 :getValue;
+        %tmp.4 = "SecondColor";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        %tmp.6 = as %tmp.5 Number;
+        symbol [ Number %tmp.6 199 72 78 ];
+        lputv %secondColor.1 %tmp.6;
+        symbol [ secondColor %secondColor.1 199 8 19 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 201 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_stop" ]
+        %secondRadius.2 = local;
+        symbol [ secondRadius %secondRadius.2 201 8 20 ];
+        %tmp.7 = 4;
+        lputv %secondRadius.2 %tmp.7;
+        symbol [ secondRadius %secondRadius.2 201 8 20 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 203 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_stop" ]
+        %centerX.3 = local;
+        symbol [ centerX %centerX.3 203 8 15 ];
+        %tmp.8 = lgetv %dc;
+        symbol [ dc %tmp.8 203 18 20 ];
+        symbol [ getWidth %tmp.9 203 21 29 ];
+        %tmp.9 = getv function %tmp.8 :getWidth;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        %tmp.11 = 2;
+        %tmp.12 = div %tmp.10 %tmp.11;
+        lputv %centerX.3 %tmp.12;
+        symbol [ centerX %centerX.3 203 8 15 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 204 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_stop" ]
+        %centerY.4 = local;
+        symbol [ centerY %centerY.4 204 8 15 ];
+        %tmp.13 = lgetv %dc;
+        symbol [ dc %tmp.13 204 18 20 ];
+        symbol [ getHeight %tmp.14 204 21 30 ];
+        %tmp.14 = getv function %tmp.13 :getHeight;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        %tmp.16 = 2;
+        %tmp.17 = div %tmp.15 %tmp.16;
+        lputv %centerY.4 %tmp.17;
+        symbol [ centerY %centerY.4 204 8 15 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 205 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_stop" ]
+        %radius.5 = local;
+        symbol [ radius %radius.5 205 8 14 ];
+        %tmp.18 = lgetv %dc;
+        symbol [ dc %tmp.18 205 17 19 ];
+        symbol [ getWidth %tmp.19 205 20 28 ];
+        %tmp.19 = getv function %tmp.18 :getWidth;
+        %tmp.20 = invoke %tmp.18 %tmp.19();
+        %tmp.21 = 2;
+        %tmp.22 = div %tmp.20 %tmp.21;
+        lputv %radius.5 %tmp.22;
+        symbol [ radius %radius.5 205 8 14 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 206 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_stop" ]
+        %secondHandLength.6 = local;
+        symbol [ secondHandLength %secondHandLength.6 206 8 24 ];
+        %tmp.23 = lgetv %radius.5;
+        symbol [ radius %tmp.23 206 27 33 ];
+        %tmp.24 = lgetv %secondRadius.2;
+        symbol [ secondRadius %tmp.24 206 36 48 ];
+        %tmp.25 = sub %tmp.23 %tmp.24;
+        lputv %secondHandLength.6 %tmp.25;
+        symbol [ secondHandLength %secondHandLength.6 206 8 24 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 209 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_stop" ]
+        %clockTime.7 = local;
+        symbol [ clockTime %clockTime.7 209 8 17 ];
+        symbol [ System %tmp.27 209 20 26 ];
+        %tmp.27 = getv ? :System;
+        symbol [ getClockTime %tmp.28 209 27 39 ];
+        %tmp.28 = getv function %tmp.27 :getClockTime;
+        %tmp.29 = invoke %tmp.27 %tmp.28();
+        lputv %clockTime.7 %tmp.29;
+        symbol [ clockTime %clockTime.7 209 8 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 210 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_stop" ]
+        %seconds.8 = local;
+        symbol [ seconds %seconds.8 210 8 15 ];
+        %tmp.30 = lgetv %clockTime.7;
+        symbol [ clockTime %tmp.30 210 18 27 ];
+        symbol [ sec %tmp.31 210 28 31 ];
+        %tmp.31 = getv %tmp.30 :sec;
+        lputv %seconds.8 %tmp.31;
+        symbol [ seconds %seconds.8 210 8 15 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 213 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_stop" ]
+        %secondAngle.9 = local;
+        symbol [ secondAngle %secondAngle.9 213 8 19 ];
+        %tmp.32 = lgetv %seconds.8;
+        symbol [ seconds %tmp.32 213 23 30 ];
+        symbol [ Math %tmp.33 213 33 37 ];
+        %tmp.33 = getm $.Toybox.Math;
+        symbol [ PI %tmp.34 213 38 40 ];
+        %tmp.34 = getv %tmp.33 :PI;
+        %tmp.35 = mul %tmp.32 %tmp.34;
+        %tmp.36 = 30;
+        %tmp.37 = div %tmp.35 %tmp.36;
+        lputv %secondAngle.9 %tmp.37;
+        symbol [ secondAngle %secondAngle.9 213 8 19 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 216 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_stop" ]
+        %secondX.10 = local;
+        symbol [ secondX %secondX.10 216 8 15 ];
+        %tmp.38 = lgetv %centerX.3;
+        symbol [ centerX %tmp.38 216 18 25 ];
+        %tmp.39 = lgetv %secondHandLength.6;
+        symbol [ secondHandLength %tmp.39 216 28 44 ];
+        symbol [ Math %tmp.40 216 47 51 ];
+        %tmp.40 = getm $.Toybox.Math;
+        symbol [ sin %tmp.41 216 52 55 ];
+        %tmp.41 = getv function %tmp.40 :sin;
+        %tmp.42 = lgetv %secondAngle.9;
+        symbol [ secondAngle %tmp.42 216 56 67 ];
+        %tmp.43 = invoke %tmp.40 %tmp.41(%tmp.42);
+        %tmp.44 = mul %tmp.39 %tmp.43;
+        %tmp.45 = add %tmp.38 %tmp.44;
+        lputv %secondX.10 %tmp.45;
+        symbol [ secondX %secondX.10 216 8 15 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 217 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_stop" ]
+        %secondY.11 = local;
+        symbol [ secondY %secondY.11 217 8 15 ];
+        %tmp.46 = lgetv %centerY.4;
+        symbol [ centerY %tmp.46 217 18 25 ];
+        %tmp.47 = lgetv %secondHandLength.6;
+        symbol [ secondHandLength %tmp.47 217 28 44 ];
+        symbol [ Math %tmp.48 217 47 51 ];
+        %tmp.48 = getm $.Toybox.Math;
+        symbol [ cos %tmp.49 217 52 55 ];
+        %tmp.49 = getv function %tmp.48 :cos;
+        %tmp.50 = lgetv %secondAngle.9;
+        symbol [ secondAngle %tmp.50 217 56 67 ];
+        %tmp.51 = invoke %tmp.48 %tmp.49(%tmp.50);
+        %tmp.52 = mul %tmp.47 %tmp.51;
+        %tmp.53 = sub %tmp.46 %tmp.52;
+        lputv %secondY.11 %tmp.53;
+        symbol [ secondY %secondY.11 217 8 15 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 220 4 ]
+        %tmp.54 = lgetv %dc;
+        symbol [ dc %tmp.54 220 4 6 ];
+        symbol [ setColor %tmp.55 220 7 15 ];
+        %tmp.55 = getv function %tmp.54 :setColor;
+        %tmp.56 = lgetv %secondColor.1;
+        symbol [ secondColor %tmp.56 220 16 27 ];
+        symbol [ Graphics %tmp.57 220 29 37 ];
+        %tmp.57 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.58 220 38 55 ];
+        %tmp.58 = getv %tmp.57 :COLOR_TRANSPARENT;
+        invoke %tmp.54 %tmp.55(%tmp.56, %tmp.58);
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 221 4 ]
+        %tmp.59 = lgetv %dc;
+        symbol [ dc %tmp.59 221 4 6 ];
+        symbol [ fillCircle %tmp.60 221 7 17 ];
+        %tmp.60 = getv function %tmp.59 :fillCircle;
+        %tmp.61 = lgetv %secondX.10;
+        symbol [ secondX %tmp.61 221 18 25 ];
+        %tmp.62 = lgetv %secondY.11;
+        symbol [ secondY %tmp.62 221 27 34 ];
+        %tmp.63 = lgetv %secondRadius.2;
+        symbol [ secondRadius %tmp.63 221 36 48 ];
+        invoke %tmp.59 %tmp.60(%tmp.61, %tmp.62, %tmp.63);
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_197_31_222_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 225; @symbol_functiondef = [drawTimeBalls,225,11,24]; @symbol_param<0> = [dc,225,25,27]; ]
+    function drawTimeBalls(dc) {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 227 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %hourColor.1 = local;
+        symbol [ hourColor %hourColor.1 227 8 17 ];
+        symbol [ Application %tmp.1 227 20 31 ];
+        %tmp.1 = getm $.Toybox.Application;
+        symbol [ Properties %tmp.2 227 32 42 ];
+        %tmp.2 = getv %tmp.1 :Properties;
+        symbol [ getValue %tmp.3 227 43 51 ];
+        %tmp.3 = getv function %tmp.2 :getValue;
+        %tmp.4 = "HourColor";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        %tmp.6 = as %tmp.5 Number;
+        symbol [ Number %tmp.6 227 68 74 ];
+        lputv %hourColor.1 %tmp.6;
+        symbol [ hourColor %hourColor.1 227 8 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 229 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %hourRadius.2 = local;
+        symbol [ hourRadius %hourRadius.2 229 8 18 ];
+        %tmp.7 = 4;
+        lputv %hourRadius.2 %tmp.7;
+        symbol [ hourRadius %hourRadius.2 229 8 18 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 231 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %minuteColor.3 = local;
+        symbol [ minuteColor %minuteColor.3 231 8 19 ];
+        symbol [ Application %tmp.8 231 22 33 ];
+        %tmp.8 = getm $.Toybox.Application;
+        symbol [ Properties %tmp.9 231 34 44 ];
+        %tmp.9 = getv %tmp.8 :Properties;
+        symbol [ getValue %tmp.10 231 45 53 ];
+        %tmp.10 = getv function %tmp.9 :getValue;
+        %tmp.11 = "MinuteColor";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        %tmp.13 = as %tmp.12 Number;
+        symbol [ Number %tmp.13 231 72 78 ];
+        lputv %minuteColor.3 %tmp.13;
+        symbol [ minuteColor %minuteColor.3 231 8 19 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 233 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %minuteRadius.4 = local;
+        symbol [ minuteRadius %minuteRadius.4 233 8 20 ];
+        %tmp.14 = 4;
+        lputv %minuteRadius.4 %tmp.14;
+        symbol [ minuteRadius %minuteRadius.4 233 8 20 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 235 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %secondColor.5 = local;
+        symbol [ secondColor %secondColor.5 235 8 19 ];
+        symbol [ Application %tmp.15 235 22 33 ];
+        %tmp.15 = getm $.Toybox.Application;
+        symbol [ Properties %tmp.16 235 34 44 ];
+        %tmp.16 = getv %tmp.15 :Properties;
+        symbol [ getValue %tmp.17 235 45 53 ];
+        %tmp.17 = getv function %tmp.16 :getValue;
+        %tmp.18 = "SecondColor";
+        %tmp.19 = invoke %tmp.16 %tmp.17(%tmp.18);
+        %tmp.20 = as %tmp.19 Number;
+        symbol [ Number %tmp.20 235 72 78 ];
+        lputv %secondColor.5 %tmp.20;
+        symbol [ secondColor %secondColor.5 235 8 19 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 237 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %secondRadius.6 = local;
+        symbol [ secondRadius %secondRadius.6 237 8 20 ];
+        %tmp.21 = 4;
+        lputv %secondRadius.6 %tmp.21;
+        symbol [ secondRadius %secondRadius.6 237 8 20 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 239 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %centerX.7 = local;
+        symbol [ centerX %centerX.7 239 8 15 ];
+        %tmp.22 = lgetv %dc;
+        symbol [ dc %tmp.22 239 18 20 ];
+        symbol [ getWidth %tmp.23 239 21 29 ];
+        %tmp.23 = getv function %tmp.22 :getWidth;
+        %tmp.24 = invoke %tmp.22 %tmp.23();
+        %tmp.25 = 2;
+        %tmp.26 = div %tmp.24 %tmp.25;
+        lputv %centerX.7 %tmp.26;
+        symbol [ centerX %centerX.7 239 8 15 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 240 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %centerY.8 = local;
+        symbol [ centerY %centerY.8 240 8 15 ];
+        %tmp.27 = lgetv %dc;
+        symbol [ dc %tmp.27 240 18 20 ];
+        symbol [ getHeight %tmp.28 240 21 30 ];
+        %tmp.28 = getv function %tmp.27 :getHeight;
+        %tmp.29 = invoke %tmp.27 %tmp.28();
+        %tmp.30 = 2;
+        %tmp.31 = div %tmp.29 %tmp.30;
+        lputv %centerY.8 %tmp.31;
+        symbol [ centerY %centerY.8 240 8 15 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 241 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %radius.9 = local;
+        symbol [ radius %radius.9 241 8 14 ];
+        %tmp.32 = lgetv %dc;
+        symbol [ dc %tmp.32 241 17 19 ];
+        symbol [ getWidth %tmp.33 241 20 28 ];
+        %tmp.33 = getv function %tmp.32 :getWidth;
+        %tmp.34 = invoke %tmp.32 %tmp.33();
+        %tmp.35 = 2;
+        %tmp.36 = div %tmp.34 %tmp.35;
+        lputv %radius.9 %tmp.36;
+        symbol [ radius %radius.9 241 8 14 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 242 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %hourHandLength.10 = local;
+        symbol [ hourHandLength %hourHandLength.10 242 8 22 ];
+        %tmp.37 = lgetv %radius.9;
+        symbol [ radius %tmp.37 242 25 31 ];
+        %tmp.38 = lgetv %hourRadius.2;
+        symbol [ hourRadius %tmp.38 242 34 44 ];
+        %tmp.39 = sub %tmp.37 %tmp.38;
+        lputv %hourHandLength.10 %tmp.39;
+        symbol [ hourHandLength %hourHandLength.10 242 8 22 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 243 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %minuteHandLength.11 = local;
+        symbol [ minuteHandLength %minuteHandLength.11 243 8 24 ];
+        %tmp.40 = lgetv %radius.9;
+        symbol [ radius %tmp.40 243 27 33 ];
+        %tmp.41 = lgetv %minuteRadius.4;
+        symbol [ minuteRadius %tmp.41 243 36 48 ];
+        %tmp.42 = sub %tmp.40 %tmp.41;
+        lputv %minuteHandLength.11 %tmp.42;
+        symbol [ minuteHandLength %minuteHandLength.11 243 8 24 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 244 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %secondHandLength.12 = local;
+        symbol [ secondHandLength %secondHandLength.12 244 8 24 ];
+        %tmp.43 = lgetv %radius.9;
+        symbol [ radius %tmp.43 244 27 33 ];
+        %tmp.44 = lgetv %secondRadius.6;
+        symbol [ secondRadius %tmp.44 244 36 48 ];
+        %tmp.45 = sub %tmp.43 %tmp.44;
+        lputv %secondHandLength.12 %tmp.45;
+        symbol [ secondHandLength %secondHandLength.12 244 8 24 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 247 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %clockTime.13 = local;
+        symbol [ clockTime %clockTime.13 247 8 17 ];
+        symbol [ System %tmp.47 247 20 26 ];
+        %tmp.47 = getv ? :System;
+        symbol [ getClockTime %tmp.48 247 27 39 ];
+        %tmp.48 = getv function %tmp.47 :getClockTime;
+        %tmp.49 = invoke %tmp.47 %tmp.48();
+        lputv %clockTime.13 %tmp.49;
+        symbol [ clockTime %clockTime.13 247 8 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 248 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %hours.14 = local;
+        symbol [ hours %hours.14 248 8 13 ];
+        %tmp.50 = lgetv %clockTime.13;
+        symbol [ clockTime %tmp.50 248 16 25 ];
+        symbol [ hour %tmp.51 248 26 30 ];
+        %tmp.51 = getv %tmp.50 :hour;
+        lputv %hours.14 %tmp.51;
+        symbol [ hours %hours.14 248 8 13 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 249 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %minutes.15 = local;
+        symbol [ minutes %minutes.15 249 8 15 ];
+        %tmp.52 = lgetv %clockTime.13;
+        symbol [ clockTime %tmp.52 249 18 27 ];
+        symbol [ min %tmp.53 249 28 31 ];
+        %tmp.53 = getv %tmp.52 :min;
+        lputv %minutes.15 %tmp.53;
+        symbol [ minutes %minutes.15 249 8 15 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 250 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %seconds.16 = local;
+        symbol [ seconds %seconds.16 250 8 15 ];
+        %tmp.54 = lgetv %clockTime.13;
+        symbol [ clockTime %tmp.54 250 18 27 ];
+        symbol [ sec %tmp.55 250 28 31 ];
+        %tmp.55 = getv %tmp.54 :sec;
+        lputv %seconds.16 %tmp.55;
+        symbol [ seconds %seconds.16 250 8 15 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 254 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %minuteRatio.17 = local;
+        symbol [ minuteRatio %minuteRatio.17 254 8 19 ];
+        symbol [ Math %tmp.56 254 22 26 ];
+        %tmp.56 = getm $.Toybox.Math;
+        symbol [ floor %tmp.57 254 27 32 ];
+        %tmp.57 = getv function %tmp.56 :floor;
+        %tmp.58 = lgetv %minutes.15;
+        symbol [ minutes %tmp.58 254 33 40 ];
+        %tmp.59 = 12;
+        %tmp.60 = div %tmp.58 %tmp.59;
+        %tmp.61 = invoke %tmp.56 %tmp.57(%tmp.60);
+        lputv %minuteRatio.17 %tmp.61;
+        symbol [ minuteRatio %minuteRatio.17 254 8 19 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 256 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %hour.18 = local;
+        symbol [ hour %hour.18 256 8 12 ];
+        %tmp.62 = lgetv %hours.14;
+        symbol [ hours %tmp.62 256 16 21 ];
+        %tmp.63 = 12;
+        %tmp.64 = mod %tmp.62 %tmp.63;
+        %tmp.65 = lgetv %minuteRatio.17;
+        symbol [ minuteRatio %tmp.65 256 30 41 ];
+        %tmp.66 = 5.0;
+        %tmp.67 = div %tmp.65 %tmp.66;
+        %tmp.68 = add %tmp.64 %tmp.67;
+        lputv %hour.18 %tmp.68;
+        symbol [ hour %hour.18 256 8 12 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 258 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %hourAngle.19 = local;
+        symbol [ hourAngle %hourAngle.19 258 8 17 ];
+        %tmp.69 = lgetv %hour.18;
+        symbol [ hour %tmp.69 258 21 25 ];
+        symbol [ Math %tmp.70 258 28 32 ];
+        %tmp.70 = getm $.Toybox.Math;
+        symbol [ PI %tmp.71 258 33 35 ];
+        %tmp.71 = getv %tmp.70 :PI;
+        %tmp.72 = mul %tmp.69 %tmp.71;
+        %tmp.73 = 6;
+        %tmp.74 = div %tmp.72 %tmp.73;
+        lputv %hourAngle.19 %tmp.74;
+        symbol [ hourAngle %hourAngle.19 258 8 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 261 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %minuteAngle.20 = local;
+        symbol [ minuteAngle %minuteAngle.20 261 8 19 ];
+        %tmp.75 = lgetv %minutes.15;
+        symbol [ minutes %tmp.75 261 23 30 ];
+        symbol [ Math %tmp.76 261 33 37 ];
+        %tmp.76 = getm $.Toybox.Math;
+        symbol [ PI %tmp.77 261 38 40 ];
+        %tmp.77 = getv %tmp.76 :PI;
+        %tmp.78 = mul %tmp.75 %tmp.77;
+        %tmp.79 = 30;
+        %tmp.80 = div %tmp.78 %tmp.79;
+        lputv %minuteAngle.20 %tmp.80;
+        symbol [ minuteAngle %minuteAngle.20 261 8 19 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 264 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %secondAngle.21 = local;
+        symbol [ secondAngle %secondAngle.21 264 8 19 ];
+        %tmp.81 = lgetv %seconds.16;
+        symbol [ seconds %tmp.81 264 23 30 ];
+        symbol [ Math %tmp.82 264 33 37 ];
+        %tmp.82 = getm $.Toybox.Math;
+        symbol [ PI %tmp.83 264 38 40 ];
+        %tmp.83 = getv %tmp.82 :PI;
+        %tmp.84 = mul %tmp.81 %tmp.83;
+        %tmp.85 = 30;
+        %tmp.86 = div %tmp.84 %tmp.85;
+        lputv %secondAngle.21 %tmp.86;
+        symbol [ secondAngle %secondAngle.21 264 8 19 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 267 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %hourX.22 = local;
+        symbol [ hourX %hourX.22 267 8 13 ];
+        %tmp.87 = lgetv %centerX.7;
+        symbol [ centerX %tmp.87 267 16 23 ];
+        %tmp.88 = lgetv %hourHandLength.10;
+        symbol [ hourHandLength %tmp.88 267 26 40 ];
+        symbol [ Math %tmp.89 267 43 47 ];
+        %tmp.89 = getm $.Toybox.Math;
+        symbol [ sin %tmp.90 267 48 51 ];
+        %tmp.90 = getv function %tmp.89 :sin;
+        %tmp.91 = lgetv %hourAngle.19;
+        symbol [ hourAngle %tmp.91 267 52 61 ];
+        %tmp.92 = invoke %tmp.89 %tmp.90(%tmp.91);
+        %tmp.93 = mul %tmp.88 %tmp.92;
+        %tmp.94 = add %tmp.87 %tmp.93;
+        lputv %hourX.22 %tmp.94;
+        symbol [ hourX %hourX.22 267 8 13 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 268 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %hourY.23 = local;
+        symbol [ hourY %hourY.23 268 8 13 ];
+        %tmp.95 = lgetv %centerY.8;
+        symbol [ centerY %tmp.95 268 16 23 ];
+        %tmp.96 = lgetv %hourHandLength.10;
+        symbol [ hourHandLength %tmp.96 268 26 40 ];
+        symbol [ Math %tmp.97 268 43 47 ];
+        %tmp.97 = getm $.Toybox.Math;
+        symbol [ cos %tmp.98 268 48 51 ];
+        %tmp.98 = getv function %tmp.97 :cos;
+        %tmp.99 = lgetv %hourAngle.19;
+        symbol [ hourAngle %tmp.99 268 52 61 ];
+        %tmp.100 = invoke %tmp.97 %tmp.98(%tmp.99);
+        %tmp.101 = mul %tmp.96 %tmp.100;
+        %tmp.102 = sub %tmp.95 %tmp.101;
+        lputv %hourY.23 %tmp.102;
+        symbol [ hourY %hourY.23 268 8 13 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 271 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %minuteX.24 = local;
+        symbol [ minuteX %minuteX.24 271 8 15 ];
+        %tmp.103 = lgetv %centerX.7;
+        symbol [ centerX %tmp.103 271 18 25 ];
+        %tmp.104 = lgetv %minuteHandLength.11;
+        symbol [ minuteHandLength %tmp.104 271 28 44 ];
+        symbol [ Math %tmp.105 271 47 51 ];
+        %tmp.105 = getm $.Toybox.Math;
+        symbol [ sin %tmp.106 271 52 55 ];
+        %tmp.106 = getv function %tmp.105 :sin;
+        %tmp.107 = lgetv %minuteAngle.20;
+        symbol [ minuteAngle %tmp.107 271 56 67 ];
+        %tmp.108 = invoke %tmp.105 %tmp.106(%tmp.107);
+        %tmp.109 = mul %tmp.104 %tmp.108;
+        %tmp.110 = add %tmp.103 %tmp.109;
+        lputv %minuteX.24 %tmp.110;
+        symbol [ minuteX %minuteX.24 271 8 15 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 272 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %minuteY.25 = local;
+        symbol [ minuteY %minuteY.25 272 8 15 ];
+        %tmp.111 = lgetv %centerY.8;
+        symbol [ centerY %tmp.111 272 18 25 ];
+        %tmp.112 = lgetv %minuteHandLength.11;
+        symbol [ minuteHandLength %tmp.112 272 28 44 ];
+        symbol [ Math %tmp.113 272 47 51 ];
+        %tmp.113 = getm $.Toybox.Math;
+        symbol [ cos %tmp.114 272 52 55 ];
+        %tmp.114 = getv function %tmp.113 :cos;
+        %tmp.115 = lgetv %minuteAngle.20;
+        symbol [ minuteAngle %tmp.115 272 56 67 ];
+        %tmp.116 = invoke %tmp.113 %tmp.114(%tmp.115);
+        %tmp.117 = mul %tmp.112 %tmp.116;
+        %tmp.118 = sub %tmp.111 %tmp.117;
+        lputv %minuteY.25 %tmp.118;
+        symbol [ minuteY %minuteY.25 272 8 15 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 275 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %secondX.26 = local;
+        symbol [ secondX %secondX.26 275 8 15 ];
+        %tmp.119 = lgetv %centerX.7;
+        symbol [ centerX %tmp.119 275 18 25 ];
+        %tmp.120 = lgetv %secondHandLength.12;
+        symbol [ secondHandLength %tmp.120 275 28 44 ];
+        symbol [ Math %tmp.121 275 47 51 ];
+        %tmp.121 = getm $.Toybox.Math;
+        symbol [ sin %tmp.122 275 52 55 ];
+        %tmp.122 = getv function %tmp.121 :sin;
+        %tmp.123 = lgetv %secondAngle.21;
+        symbol [ secondAngle %tmp.123 275 56 67 ];
+        %tmp.124 = invoke %tmp.121 %tmp.122(%tmp.123);
+        %tmp.125 = mul %tmp.120 %tmp.124;
+        %tmp.126 = add %tmp.119 %tmp.125;
+        lputv %secondX.26 %tmp.126;
+        symbol [ secondX %secondX.26 275 8 15 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 276 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop" ]
+        %secondY.27 = local;
+        symbol [ secondY %secondY.27 276 8 15 ];
+        %tmp.127 = lgetv %centerY.8;
+        symbol [ centerY %tmp.127 276 18 25 ];
+        %tmp.128 = lgetv %secondHandLength.12;
+        symbol [ secondHandLength %tmp.128 276 28 44 ];
+        symbol [ Math %tmp.129 276 47 51 ];
+        %tmp.129 = getm $.Toybox.Math;
+        symbol [ cos %tmp.130 276 52 55 ];
+        %tmp.130 = getv function %tmp.129 :cos;
+        %tmp.131 = lgetv %secondAngle.21;
+        symbol [ secondAngle %tmp.131 276 56 67 ];
+        %tmp.132 = invoke %tmp.129 %tmp.130(%tmp.131);
+        %tmp.133 = mul %tmp.128 %tmp.132;
+        %tmp.134 = sub %tmp.127 %tmp.133;
+        lputv %secondY.27 %tmp.134;
+        symbol [ secondY %secondY.27 276 8 15 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 279 4 ]
+        %tmp.135 = lgetv %dc;
+        symbol [ dc %tmp.135 279 4 6 ];
+        symbol [ setColor %tmp.136 279 7 15 ];
+        %tmp.136 = getv function %tmp.135 :setColor;
+        %tmp.137 = lgetv %hourColor.1;
+        symbol [ hourColor %tmp.137 279 16 25 ];
+        symbol [ Graphics %tmp.138 279 27 35 ];
+        %tmp.138 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.139 279 36 53 ];
+        %tmp.139 = getv %tmp.138 :COLOR_TRANSPARENT;
+        invoke %tmp.135 %tmp.136(%tmp.137, %tmp.139);
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 280 4 ]
+        %tmp.140 = lgetv %dc;
+        symbol [ dc %tmp.140 280 4 6 ];
+        symbol [ fillCircle %tmp.141 280 7 17 ];
+        %tmp.141 = getv function %tmp.140 :fillCircle;
+        %tmp.142 = lgetv %hourX.22;
+        symbol [ hourX %tmp.142 280 18 23 ];
+        %tmp.143 = lgetv %hourY.23;
+        symbol [ hourY %tmp.143 280 25 30 ];
+        %tmp.144 = lgetv %hourRadius.2;
+        symbol [ hourRadius %tmp.144 280 32 42 ];
+        invoke %tmp.140 %tmp.141(%tmp.142, %tmp.143, %tmp.144);
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 283 4 ]
+        %tmp.145 = lgetv %dc;
+        symbol [ dc %tmp.145 283 4 6 ];
+        symbol [ setColor %tmp.146 283 7 15 ];
+        %tmp.146 = getv function %tmp.145 :setColor;
+        %tmp.147 = lgetv %minuteColor.3;
+        symbol [ minuteColor %tmp.147 283 16 27 ];
+        symbol [ Graphics %tmp.148 283 29 37 ];
+        %tmp.148 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.149 283 38 55 ];
+        %tmp.149 = getv %tmp.148 :COLOR_TRANSPARENT;
+        invoke %tmp.145 %tmp.146(%tmp.147, %tmp.149);
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 284 4 ]
+        %tmp.150 = lgetv %dc;
+        symbol [ dc %tmp.150 284 4 6 ];
+        symbol [ fillCircle %tmp.151 284 7 17 ];
+        %tmp.151 = getv function %tmp.150 :fillCircle;
+        %tmp.152 = lgetv %minuteX.24;
+        symbol [ minuteX %tmp.152 284 18 25 ];
+        %tmp.153 = lgetv %minuteY.25;
+        symbol [ minuteY %tmp.153 284 27 34 ];
+        %tmp.154 = lgetv %minuteRadius.4;
+        symbol [ minuteRadius %tmp.154 284 36 48 ];
+        invoke %tmp.150 %tmp.151(%tmp.152, %tmp.153, %tmp.154);
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 287 4 ]
+        %tmp.155 = lgetv %dc;
+        symbol [ dc %tmp.155 287 4 6 ];
+        symbol [ setColor %tmp.156 287 7 15 ];
+        %tmp.156 = getv function %tmp.155 :setColor;
+        %tmp.157 = lgetv %secondColor.5;
+        symbol [ secondColor %tmp.157 287 16 27 ];
+        symbol [ Graphics %tmp.158 287 29 37 ];
+        %tmp.158 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.159 287 38 55 ];
+        %tmp.159 = getv %tmp.158 :COLOR_TRANSPARENT;
+        invoke %tmp.155 %tmp.156(%tmp.157, %tmp.159);
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 288 4 ]
+        %tmp.160 = lgetv %dc;
+        symbol [ dc %tmp.160 288 4 6 ];
+        symbol [ fillCircle %tmp.161 288 7 17 ];
+        %tmp.161 = getv function %tmp.160 :fillCircle;
+        %tmp.162 = lgetv %secondX.26;
+        symbol [ secondX %tmp.162 288 18 25 ];
+        %tmp.163 = lgetv %secondY.27;
+        symbol [ secondY %tmp.163 288 27 34 ];
+        %tmp.164 = lgetv %secondRadius.6;
+        symbol [ secondRadius %tmp.164 288 36 48 ];
+        invoke %tmp.160 %tmp.161(%tmp.162, %tmp.163, %tmp.164);
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_225_29_289_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 292; @symbol_functiondef = [drawMinuteBalls,292,11,26]; @symbol_param<0> = [dc,292,27,29]; ]
+    function drawMinuteBalls(dc) {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 294 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_stop" ]
+        %hourColor.1 = local;
+        symbol [ hourColor %hourColor.1 294 8 17 ];
+        symbol [ Application %tmp.1 294 20 31 ];
+        %tmp.1 = getm $.Toybox.Application;
+        symbol [ Properties %tmp.2 294 32 42 ];
+        %tmp.2 = getv %tmp.1 :Properties;
+        symbol [ getValue %tmp.3 294 43 51 ];
+        %tmp.3 = getv function %tmp.2 :getValue;
+        %tmp.4 = "StaticHourColor";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        %tmp.6 = as %tmp.5 Number;
+        symbol [ Number %tmp.6 294 74 80 ];
+        lputv %hourColor.1 %tmp.6;
+        symbol [ hourColor %hourColor.1 294 8 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 297 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_stop" ]
+        %minuteColor.2 = local;
+        symbol [ minuteColor %minuteColor.2 297 8 19 ];
+        symbol [ Graphics %tmp.7 297 22 30 ];
+        %tmp.7 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.8 297 31 48 ];
+        %tmp.8 = getv %tmp.7 :COLOR_TRANSPARENT;
+        lputv %minuteColor.2 %tmp.8;
+        symbol [ minuteColor %minuteColor.2 297 8 19 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 299 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_stop" ]
+        %minuteRadius.3 = local;
+        symbol [ minuteRadius %minuteRadius.3 299 8 20 ];
+        %tmp.9 = 4;
+        lputv %minuteRadius.3 %tmp.9;
+        symbol [ minuteRadius %minuteRadius.3 299 8 20 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 301 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_stop" ]
+        %centerX.4 = local;
+        symbol [ centerX %centerX.4 301 8 15 ];
+        %tmp.10 = lgetv %dc;
+        symbol [ dc %tmp.10 301 18 20 ];
+        symbol [ getWidth %tmp.11 301 21 29 ];
+        %tmp.11 = getv function %tmp.10 :getWidth;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        %tmp.13 = 2;
+        %tmp.14 = div %tmp.12 %tmp.13;
+        lputv %centerX.4 %tmp.14;
+        symbol [ centerX %centerX.4 301 8 15 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 302 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_stop" ]
+        %centerY.5 = local;
+        symbol [ centerY %centerY.5 302 8 15 ];
+        %tmp.15 = lgetv %dc;
+        symbol [ dc %tmp.15 302 18 20 ];
+        symbol [ getHeight %tmp.16 302 21 30 ];
+        %tmp.16 = getv function %tmp.15 :getHeight;
+        %tmp.17 = invoke %tmp.15 %tmp.16();
+        %tmp.18 = 2;
+        %tmp.19 = div %tmp.17 %tmp.18;
+        lputv %centerY.5 %tmp.19;
+        symbol [ centerY %centerY.5 302 8 15 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 303 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_stop" ]
+        %radius.6 = local;
+        symbol [ radius %radius.6 303 8 14 ];
+        %tmp.20 = lgetv %dc;
+        symbol [ dc %tmp.20 303 17 19 ];
+        symbol [ getWidth %tmp.21 303 20 28 ];
+        %tmp.21 = getv function %tmp.20 :getWidth;
+        %tmp.22 = invoke %tmp.20 %tmp.21();
+        %tmp.23 = 2;
+        %tmp.24 = div %tmp.22 %tmp.23;
+        lputv %radius.6 %tmp.24;
+        symbol [ radius %radius.6 303 8 14 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 304 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_stop" ]
+        %minuteHandLength.7 = local;
+        symbol [ minuteHandLength %minuteHandLength.7 304 8 24 ];
+        %tmp.25 = lgetv %radius.6;
+        symbol [ radius %tmp.25 304 27 33 ];
+        %tmp.26 = lgetv %minuteRadius.3;
+        symbol [ minuteRadius %tmp.26 304 36 48 ];
+        %tmp.27 = sub %tmp.25 %tmp.26;
+        lputv %minuteHandLength.7 %tmp.27;
+        symbol [ minuteHandLength %minuteHandLength.7 304 8 24 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 307 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_stop" ]
+        %minuteBalls.8 = local;
+        symbol [ minuteBalls %minuteBalls.8 307 8 19 ];
+        %tmp.28 = newa 0 Array<Array<Float>>;
+        symbol [ Array %tmp.28 307 28 33 ];
+        symbol [ Array %tmp.28 307 34 39 ];
+        symbol [ Float %tmp.28 307 40 45 ];
+        lputv %minuteBalls.8 %tmp.28;
+        symbol [ minuteBalls %minuteBalls.8 307 8 19 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 308 4 ]
+        for @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_4_313_4_for_test @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_4_313_4_for_incr @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_4_313_4_for_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_4_313_4_for_init:
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_4_313_4_for_begin" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_4_313_4_for_end" ]
+        %i.9 = local;
+        symbol [ i %i.9 308 13 14 ];
+        %tmp.29 = 0;
+        lputv %i.9 %tmp.29;
+        symbol [ i %i.9 308 13 14 ];
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_4_313_4_for_test:
+        %tmp.30 = lgetv %i.9;
+        symbol [ i %tmp.30 308 20 21 ];
+        %tmp.31 = 60;
+        %tmp.32 = lt %tmp.30 %tmp.31;
+        bf %tmp.32 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_4_313_4_for_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_4_313_4_for_begin:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_33_313_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 309 6 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_33_313_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_33_313_4_stop" ]
+        %minuteAngle.10 = local;
+        symbol [ minuteAngle %minuteAngle.10 309 10 21 ];
+        %tmp.33 = lgetv %i.9;
+        symbol [ i %tmp.33 309 25 26 ];
+        symbol [ Math %tmp.34 309 29 33 ];
+        %tmp.34 = getm $.Toybox.Math;
+        symbol [ PI %tmp.35 309 34 36 ];
+        %tmp.35 = getv %tmp.34 :PI;
+        %tmp.36 = mul %tmp.33 %tmp.35;
+        %tmp.37 = 30;
+        %tmp.38 = div %tmp.36 %tmp.37;
+        lputv %minuteAngle.10 %tmp.38;
+        symbol [ minuteAngle %minuteAngle.10 309 10 21 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 310 6 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_33_313_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_33_313_4_stop" ]
+        %minuteX.11 = local;
+        symbol [ minuteX %minuteX.11 310 10 17 ];
+        %tmp.39 = lgetv %centerX.4;
+        symbol [ centerX %tmp.39 310 20 27 ];
+        %tmp.40 = lgetv %minuteHandLength.7;
+        symbol [ minuteHandLength %tmp.40 310 30 46 ];
+        symbol [ Math %tmp.41 310 49 53 ];
+        %tmp.41 = getm $.Toybox.Math;
+        symbol [ sin %tmp.42 310 54 57 ];
+        %tmp.42 = getv function %tmp.41 :sin;
+        %tmp.43 = lgetv %minuteAngle.10;
+        symbol [ minuteAngle %tmp.43 310 58 69 ];
+        %tmp.44 = invoke %tmp.41 %tmp.42(%tmp.43);
+        %tmp.45 = mul %tmp.40 %tmp.44;
+        %tmp.46 = add %tmp.39 %tmp.45;
+        lputv %minuteX.11 %tmp.46;
+        symbol [ minuteX %minuteX.11 310 10 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 311 6 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_33_313_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_33_313_4_stop" ]
+        %minuteY.12 = local;
+        symbol [ minuteY %minuteY.12 311 10 17 ];
+        %tmp.47 = lgetv %centerY.5;
+        symbol [ centerY %tmp.47 311 20 27 ];
+        %tmp.48 = lgetv %minuteHandLength.7;
+        symbol [ minuteHandLength %tmp.48 311 30 46 ];
+        symbol [ Math %tmp.49 311 49 53 ];
+        %tmp.49 = getm $.Toybox.Math;
+        symbol [ cos %tmp.50 311 54 57 ];
+        %tmp.50 = getv function %tmp.49 :cos;
+        %tmp.51 = lgetv %minuteAngle.10;
+        symbol [ minuteAngle %tmp.51 311 58 69 ];
+        %tmp.52 = invoke %tmp.49 %tmp.50(%tmp.51);
+        %tmp.53 = mul %tmp.48 %tmp.52;
+        %tmp.54 = sub %tmp.47 %tmp.53;
+        lputv %minuteY.12 %tmp.54;
+        symbol [ minuteY %minuteY.12 311 10 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 312 6 ]
+        %tmp.55 = lgetv %minuteBalls.8;
+        symbol [ minuteBalls %tmp.55 312 6 17 ];
+        symbol [ add %tmp.56 312 18 21 ];
+        %tmp.56 = getv function %tmp.55 :add;
+        %tmp.57 = newa 2;
+        %tmp.58 = lgetv %minuteX.11;
+        symbol [ minuteX %tmp.58 312 23 30 ];
+        %tmp.59 = dup %tmp.57;
+        %tmp.60 = aputv %tmp.59 0 %tmp.58;
+        %tmp.61 = lgetv %minuteY.12;
+        symbol [ minuteY %tmp.61 312 32 39 ];
+        %tmp.62 = dup %tmp.60;
+        %tmp.63 = aputv %tmp.62 1 %tmp.61;
+        invoke %tmp.55 %tmp.56(%tmp.63);
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_33_313_4_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_4_313_4_for_incr:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 308 ]
+        %tmp.66 = lgetv %i.9;
+        symbol [ i %tmp.66 308 28 29 ];
+        %tmp.67 = add %tmp.66 1;
+        lputv %i.9 %tmp.67;
+        symbol [ i %i.9 308 28 29 ];
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_4_313_4_for_test;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_308_4_313_4_for_end:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 315 4 ]
+        for @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_4_324_4_for_test @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_4_324_4_for_incr @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_4_324_4_for_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_4_324_4_for_init:
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_4_324_4_for_begin" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_4_324_4_for_end" ]
+        %i.13 = local;
+        symbol [ i %i.13 315 13 14 ];
+        %tmp.68 = 0;
+        lputv %i.13 %tmp.68;
+        symbol [ i %i.13 315 13 14 ];
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_4_324_4_for_test:
+        %tmp.69 = lgetv %i.13;
+        symbol [ i %tmp.69 315 20 21 ];
+        %tmp.70 = lgetv %minuteBalls.8;
+        symbol [ minuteBalls %tmp.70 315 24 35 ];
+        symbol [ size %tmp.71 315 36 40 ];
+        %tmp.71 = getv function %tmp.70 :size;
+        %tmp.72 = invoke %tmp.70 %tmp.71();
+        %tmp.73 = lt %tmp.69 %tmp.72;
+        bf %tmp.73 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_4_324_4_for_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_4_324_4_for_begin:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_49_324_4_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 316 6 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_49_324_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_49_324_4_stop" ]
+        %minuteX.14 = local;
+        symbol [ minuteX %minuteX.14 316 10 17 ];
+        %tmp.74 = lgetv %minuteBalls.8;
+        symbol [ minuteBalls %tmp.74 316 20 31 ];
+        %tmp.75 = lgetv %i.13;
+        symbol [ i %tmp.75 316 32 33 ];
+        %tmp.76 = agetv %tmp.74 %tmp.75;
+        %tmp.77 = 0;
+        %tmp.78 = agetv %tmp.76 %tmp.77;
+        lputv %minuteX.14 %tmp.78;
+        symbol [ minuteX %minuteX.14 316 10 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 317 6 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_49_324_4_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_49_324_4_stop" ]
+        %minuteY.15 = local;
+        symbol [ minuteY %minuteY.15 317 10 17 ];
+        %tmp.79 = lgetv %minuteBalls.8;
+        symbol [ minuteBalls %tmp.79 317 20 31 ];
+        %tmp.80 = lgetv %i.13;
+        symbol [ i %tmp.80 317 32 33 ];
+        %tmp.81 = agetv %tmp.79 %tmp.80;
+        %tmp.82 = 1;
+        %tmp.83 = agetv %tmp.81 %tmp.82;
+        lputv %minuteY.15 %tmp.83;
+        symbol [ minuteY %minuteY.15 317 10 17 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 318 6 ]
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_318_6_322_6_if_stmt:
+        %tmp.84 = lgetv %i.13;
+        symbol [ i %tmp.84 318 10 11 ];
+        %tmp.85 = 5;
+        %tmp.86 = mod %tmp.84 %tmp.85;
+        %tmp.87 = 0;
+        %tmp.88 = eq %tmp.86 %tmp.87;
+        bf %tmp.88 @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_318_6_322_6_if_else_false;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_318_6_322_6_if_true:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_318_22_320_6_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 319 8 ]
+        %tmp.89 = lgetv %dc;
+        symbol [ dc %tmp.89 319 8 10 ];
+        symbol [ setColor %tmp.90 319 11 19 ];
+        %tmp.90 = getv function %tmp.89 :setColor;
+        %tmp.91 = lgetv %hourColor.1;
+        symbol [ hourColor %tmp.91 319 20 29 ];
+        symbol [ Graphics %tmp.92 319 31 39 ];
+        %tmp.92 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.93 319 40 57 ];
+        %tmp.93 = getv %tmp.92 :COLOR_TRANSPARENT;
+        invoke %tmp.89 %tmp.90(%tmp.91, %tmp.93);
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_318_22_320_6_stop:
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_318_6_322_6_if_end;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_318_6_322_6_if_else_false:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_320_13_322_6_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 321 8 ]
+        %tmp.94 = lgetv %dc;
+        symbol [ dc %tmp.94 321 8 10 ];
+        symbol [ setColor %tmp.95 321 11 19 ];
+        %tmp.95 = getv function %tmp.94 :setColor;
+        %tmp.96 = lgetv %minuteColor.2;
+        symbol [ minuteColor %tmp.96 321 20 31 ];
+        symbol [ Graphics %tmp.97 321 33 41 ];
+        %tmp.97 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.98 321 42 59 ];
+        %tmp.98 = getv %tmp.97 :COLOR_TRANSPARENT;
+        invoke %tmp.94 %tmp.95(%tmp.96, %tmp.98);
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_320_13_322_6_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_318_6_322_6_if_end:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 323 6 ]
+        %tmp.99 = lgetv %dc;
+        symbol [ dc %tmp.99 323 6 8 ];
+        symbol [ fillCircle %tmp.100 323 9 19 ];
+        %tmp.100 = getv function %tmp.99 :fillCircle;
+        %tmp.101 = lgetv %minuteX.14;
+        symbol [ minuteX %tmp.101 323 20 27 ];
+        %tmp.102 = lgetv %minuteY.15;
+        symbol [ minuteY %tmp.102 323 29 36 ];
+        %tmp.103 = lgetv %minuteRadius.3;
+        symbol [ minuteRadius %tmp.103 323 38 50 ];
+        invoke %tmp.99 %tmp.100(%tmp.101, %tmp.102, %tmp.103);
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_49_324_4_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_4_324_4_for_incr:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 315 ]
+        %tmp.106 = lgetv %i.13;
+        symbol [ i %tmp.106 315 44 45 ];
+        %tmp.107 = add %tmp.106 1;
+        lputv %i.13 %tmp.107;
+        symbol [ i %i.13 315 44 45 ];
+        goto @_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_4_324_4_for_test;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_315_4_324_4_for_end:
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_292_31_325_2_stop:
+    }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 328; @symbol_functiondef = [getPosition,328,11,22]; @symbol_param<0> = [x,328,23,24]; @symbol_param<0>_type<0> = [Float,328,28,33]; @symbol_param<1> = [y,328,35,36]; @symbol_param<1>_type<0> = [Float,328,40,45]; @symbol_param<2> = [radius,328,47,53]; @symbol_param<2>_type<0> = [Float,328,57,62]; @symbol_param<3> = [angle,328,64,69]; @symbol_param<3>_type<0> = [Float,328,74,79]; @symbol_param<4> = [offset,328,81,87]; @symbol_param<4>_type<0> = [Float,328,91,96]; @symbol_return<0> = [Lang,328,101,105]; @symbol_return<1> = [Array,328,106,111]; @symbol_return<2> = [Lang,328,112,116]; @symbol_return<3> = [Array,328,117,122]; @symbol_return<4> = [Float,328,123,128]; ]
+    function getPosition(x as Float, y as Float, radius as Float, angle as Float, offset as Float) as Lang.Array<Lang.Array<Float>> {
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_328_131_336_2_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 330 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_328_131_336_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_328_131_336_2_stop" ]
+        %radian.1 = local;
+        symbol [ radian %radian.1 330 8 14 ];
+        %tmp.1 = lgetv %angle;
+        symbol [ angle %tmp.1 330 17 22 ];
+        symbol [ Math %tmp.2 330 25 29 ];
+        %tmp.2 = getm $.Toybox.Math;
+        symbol [ PI %tmp.3 330 30 32 ];
+        %tmp.3 = getv %tmp.2 :PI;
+        %tmp.4 = mul %tmp.1 %tmp.3;
+        %tmp.5 = 180;
+        %tmp.6 = div %tmp.4 %tmp.5;
+        lputv %radian.1 %tmp.6;
+        symbol [ radian %radian.1 330 8 14 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 331 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_328_131_336_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_328_131_336_2_stop" ]
+        %x1.2 = local;
+        symbol [ x1 %x1.2 331 8 10 ];
+        %tmp.7 = lgetv %x;
+        symbol [ x %tmp.7 331 13 14 ];
+        %tmp.8 = lgetv %radius;
+        symbol [ radius %tmp.8 331 17 23 ];
+        symbol [ Math %tmp.9 331 26 30 ];
+        %tmp.9 = getm $.Toybox.Math;
+        symbol [ cos %tmp.10 331 31 34 ];
+        %tmp.10 = getv function %tmp.9 :cos;
+        %tmp.11 = lgetv %radian.1;
+        symbol [ radian %tmp.11 331 35 41 ];
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        %tmp.13 = mul %tmp.8 %tmp.12;
+        %tmp.14 = add %tmp.7 %tmp.13;
+        lputv %x1.2 %tmp.14;
+        symbol [ x1 %x1.2 331 8 10 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 332 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_328_131_336_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_328_131_336_2_stop" ]
+        %y1.3 = local;
+        symbol [ y1 %y1.3 332 8 10 ];
+        %tmp.15 = lgetv %y;
+        symbol [ y %tmp.15 332 13 14 ];
+        %tmp.16 = lgetv %radius;
+        symbol [ radius %tmp.16 332 17 23 ];
+        symbol [ Math %tmp.17 332 26 30 ];
+        %tmp.17 = getm $.Toybox.Math;
+        symbol [ sin %tmp.18 332 31 34 ];
+        %tmp.18 = getv function %tmp.17 :sin;
+        %tmp.19 = lgetv %radian.1;
+        symbol [ radian %tmp.19 332 35 41 ];
+        %tmp.20 = invoke %tmp.17 %tmp.18(%tmp.19);
+        %tmp.21 = mul %tmp.16 %tmp.20;
+        %tmp.22 = add %tmp.15 %tmp.21;
+        lputv %y1.3 %tmp.22;
+        symbol [ y1 %y1.3 332 8 10 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 333 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_328_131_336_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_328_131_336_2_stop" ]
+        %x2.4 = local;
+        symbol [ x2 %x2.4 333 8 10 ];
+        %tmp.23 = lgetv %x;
+        symbol [ x %tmp.23 333 13 14 ];
+        %tmp.24 = lgetv %radius;
+        symbol [ radius %tmp.24 333 18 24 ];
+        %tmp.25 = lgetv %offset;
+        symbol [ offset %tmp.25 333 27 33 ];
+        %tmp.26 = sub %tmp.24 %tmp.25;
+        symbol [ Math %tmp.27 333 37 41 ];
+        %tmp.27 = getm $.Toybox.Math;
+        symbol [ cos %tmp.28 333 42 45 ];
+        %tmp.28 = getv function %tmp.27 :cos;
+        %tmp.29 = lgetv %radian.1;
+        symbol [ radian %tmp.29 333 46 52 ];
+        %tmp.30 = invoke %tmp.27 %tmp.28(%tmp.29);
+        %tmp.31 = mul %tmp.26 %tmp.30;
+        %tmp.32 = add %tmp.23 %tmp.31;
+        lputv %x2.4 %tmp.32;
+        symbol [ x2 %x2.4 333 8 10 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 334 4 ]
+        [ "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_328_131_336_2_start" "_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_328_131_336_2_stop" ]
+        %y2.5 = local;
+        symbol [ y2 %y2.5 334 8 10 ];
+        %tmp.33 = lgetv %y;
+        symbol [ y %tmp.33 334 13 14 ];
+        %tmp.34 = lgetv %radius;
+        symbol [ radius %tmp.34 334 18 24 ];
+        %tmp.35 = lgetv %offset;
+        symbol [ offset %tmp.35 334 27 33 ];
+        %tmp.36 = sub %tmp.34 %tmp.35;
+        symbol [ Math %tmp.37 334 37 41 ];
+        %tmp.37 = getm $.Toybox.Math;
+        symbol [ sin %tmp.38 334 42 45 ];
+        %tmp.38 = getv function %tmp.37 :sin;
+        %tmp.39 = lgetv %radian.1;
+        symbol [ radian %tmp.39 334 46 52 ];
+        %tmp.40 = invoke %tmp.37 %tmp.38(%tmp.39);
+        %tmp.41 = mul %tmp.36 %tmp.40;
+        %tmp.42 = add %tmp.33 %tmp.41;
+        lputv %y2.5 %tmp.42;
+        symbol [ y2 %y2.5 334 8 10 ];
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc" 335 4 ]
+        %tmp.43 = newa 2;
+        %tmp.44 = newa 2;
+        %tmp.45 = lgetv %x1.2;
+        symbol [ x1 %tmp.45 335 13 15 ];
+        %tmp.46 = dup %tmp.44;
+        %tmp.47 = aputv %tmp.46 0 %tmp.45;
+        %tmp.48 = lgetv %y1.3;
+        symbol [ y1 %tmp.48 335 17 19 ];
+        %tmp.49 = dup %tmp.47;
+        %tmp.50 = aputv %tmp.49 1 %tmp.48;
+        %tmp.51 = dup %tmp.43;
+        %tmp.52 = aputv %tmp.51 0 %tmp.50;
+        %tmp.53 = newa 2;
+        %tmp.54 = lgetv %x2.4;
+        symbol [ x2 %tmp.54 335 23 25 ];
+        %tmp.55 = dup %tmp.53;
+        %tmp.56 = aputv %tmp.55 0 %tmp.54;
+        %tmp.57 = lgetv %y2.5;
+        symbol [ y2 %tmp.57 335 27 29 ];
+        %tmp.58 = dup %tmp.56;
+        %tmp.59 = aputv %tmp.58 1 %tmp.57;
+        %tmp.60 = dup %tmp.52;
+        %tmp.61 = aputv %tmp.60 1 %tmp.59;
+        ret %tmp.61;
+_Users_summer_work_garmin_EIDGarminWatchFace_source_BreezeSystemFieldUtils_mc_328_131_336_2_stop:
+    }
+}
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/source/BreezeSystemFieldUtils.mc"; @line = 1; ]
+<init> {
+}

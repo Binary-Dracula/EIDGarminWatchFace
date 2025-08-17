@@ -241,11 +241,133 @@ class Tools {
     if (currentWeatherConditions != null) {
       var condition = currentWeatherConditions.condition;
       switch (condition) {
+        // -- 晴朗 / 少云 --
         case Weather.CONDITION_CLEAR:
+        case Weather.CONDITION_PARTLY_CLEAR:
+        case Weather.CONDITION_MOSTLY_CLEAR:
+        case Weather.CONDITION_FAIR:
+        case Weather.CONDITION_THIN_CLOUDS:
+          // 晴天
+          weatherIconResource = Application.loadResource(
+            Rez.Drawables.WeatherConditionClear
+          );
           break;
+
+        // -- 多云 / 阴天 --
+        case Weather.CONDITION_CLOUDY:
         case Weather.CONDITION_PARTLY_CLOUDY:
+        case Weather.CONDITION_MOSTLY_CLOUDY:
+          // 多云
+          weatherIconResource = Application.loadResource(
+            Rez.Drawables.WeatherConditionCloudy
+          );
           break;
+
+        // -- 下雨 / 阵雨 --
+        case Weather.CONDITION_RAIN:
+        case Weather.CONDITION_LIGHT_RAIN:
+        case Weather.CONDITION_HEAVY_RAIN:
+        case Weather.CONDITION_SCATTERED_SHOWERS:
+        case Weather.CONDITION_LIGHT_SHOWERS:
+        case Weather.CONDITION_SHOWERS:
+        case Weather.CONDITION_HEAVY_SHOWERS:
+        case Weather.CONDITION_CHANCE_OF_SHOWERS:
+        case Weather.CONDITION_CLOUDY_CHANCE_OF_RAIN:
+        case Weather.CONDITION_DRIZZLE:
+          // 下雨
+          weatherIconResource = Application.loadResource(
+            Rez.Drawables.WeatherConditionRain
+          );
+          break;
+
+        // -- 雷暴 --
+        case Weather.CONDITION_THUNDERSTORMS:
+        case Weather.CONDITION_SCATTERED_THUNDERSTORMS:
+        case Weather.CONDITION_CHANCE_OF_THUNDERSTORMS:
+          // 雷暴
+          break;
+
+        // -- 下雪 --
+        case Weather.CONDITION_SNOW:
+        case Weather.CONDITION_LIGHT_SNOW:
+        case Weather.CONDITION_HEAVY_SNOW:
+        case Weather.CONDITION_CHANCE_OF_SNOW:
+        case Weather.CONDITION_CLOUDY_CHANCE_OF_SNOW:
+        case Weather.CONDITION_FLURRIES:
+          // 下雪
+          weatherIconResource = Application.loadResource(
+            Rez.Drawables.WeatherConditionSnow
+          );
+          break;
+
+        // -- 雨夹雪 / 混合天气 --
+        case Weather.CONDITION_WINTRY_MIX:
+        case Weather.CONDITION_LIGHT_RAIN_SNOW:
+        case Weather.CONDITION_HEAVY_RAIN_SNOW:
+        case Weather.CONDITION_RAIN_SNOW:
+        case Weather.CONDITION_CHANCE_OF_RAIN_SNOW:
+        case Weather.CONDITION_CLOUDY_CHANCE_OF_RAIN_SNOW:
+        case Weather.CONDITION_FREEZING_RAIN:
+        case Weather.CONDITION_SLEET:
+        case Weather.CONDITION_ICE_SNOW:
+          // 混合天气
+          weatherIconResource = Application.loadResource(
+            Rez.Drawables.WeatherConditionLightRainSnow
+          );
+          break;
+
+        // -- 雾 / 霾 / 朦胧 --
+        case Weather.CONDITION_FOG:
+        case Weather.CONDITION_MIST:
+        case Weather.CONDITION_HAZY:
+        case Weather.CONDITION_HAZE:
+        case Weather.CONDITION_SMOKE:
+        case Weather.CONDITION_VOLCANIC_ASH:
+          // 雾或霾
+          weatherIconResource = Application.loadResource(
+            Rez.Drawables.WeatherConditionFog
+          );
+          break;
+
+        // -- 大风 / 风暴 --
+        case Weather.CONDITION_WINDY:
+        case Weather.CONDITION_TORNADO:
+        case Weather.CONDITION_SQUALL:
+        case Weather.CONDITION_HURRICANE:
+        case Weather.CONDITION_TROPICAL_STORM:
+          // 有风
+          weatherIconResource = Application.loadResource(
+            Rez.Drawables.WeatherConditionWindy
+          );
+          break;
+
+        // -- 冰雹 / 冰 --
+        case Weather.CONDITION_HAIL:
+        case Weather.CONDITION_ICE:
+          // 冰雹
+          weatherIconResource = Application.loadResource(
+            Rez.Drawables.WeatherConditionHail
+          );
+          break;
+
+        // -- 沙尘 --
+        case Weather.CONDITION_DUST:
+        case Weather.CONDITION_SAND:
+        case Weather.CONDITION_SANDSTORM:
+          // 沙尘
+          weatherIconResource = Application.loadResource(
+            Rez.Drawables.WeatherConditionDust
+          );
+          break;
+
+        // -- 未知情况 --
+        case Weather.CONDITION_UNKNOWN_PRECIPITATION:
+        case Weather.CONDITION_UNKNOWN:
         default:
+          // 未知
+          weatherIconResource = Application.loadResource(
+            Rez.Drawables.WeatherConditionUnknown
+          );
           break;
       }
     }

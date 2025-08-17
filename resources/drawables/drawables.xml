@@ -11,9 +11,15 @@
     <bitmap id="BackgroundPink" filename="background/background_pink.png" dithering="none" />
 
     <!-- 天气icon -->
-    <!-- 晴天 CONDITION_CLEAR 0 Clear-->
     <bitmap id="WeatherConditionClear" filename="weather/weather_condition_clear.png" dithering="none" />
-    <!-- 未知 CONDITION_UNKNOWN 53 Unknown-->
+    <bitmap id="WeatherConditionCloudy" filename="weather/weather_condition_cloudy.png" dithering="none" />
+    <bitmap id="WeatherConditionRain" filename="weather/weather_condition_rain.png" dithering="none" />
+    <bitmap id="WeatherConditionSnow" filename="weather/weather_condition_snow.png" dithering="none" />
+    <bitmap id="WeatherConditionLightRainSnow" filename="weather/weather_condition_light_rain_snow.png" dithering="none" />
+    <bitmap id="WeatherConditionFog" filename="weather/weather_condition_fog.png" dithering="none" />
+    <bitmap id="WeatherConditionWindy" filename="weather/weather_condition_windy.png" dithering="none" />
+    <bitmap id="WeatherConditionHail" filename="weather/weather_condition_hail.png" dithering="none" />
+    <bitmap id="WeatherConditionDust" filename="weather/weather_condition_dust.png" dithering="none" />
     <bitmap id="WeatherConditionUnknown" filename="weather/weather_condition_unknown.png" dithering="none" />
 
 </drawables>

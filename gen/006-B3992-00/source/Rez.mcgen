@@ -14,14 +14,6 @@ module Rez {
         (:initialized) var BackgroundOrange as ResourceId;
         (:initialized) var BackgroundPink as ResourceId;
         (:initialized) var WeatherConditionClear as ResourceId;
-        (:initialized) var WeatherConditionCloudy as ResourceId;
-        (:initialized) var WeatherConditionRain as ResourceId;
-        (:initialized) var WeatherConditionSnow as ResourceId;
-        (:initialized) var WeatherConditionLightRainSnow as ResourceId;
-        (:initialized) var WeatherConditionFog as ResourceId;
-        (:initialized) var WeatherConditionWindy as ResourceId;
-        (:initialized) var WeatherConditionHail as ResourceId;
-        (:initialized) var WeatherConditionDust as ResourceId;
         (:initialized) var WeatherConditionUnknown as ResourceId;
         (:initialized) var WeatherIcon as ResourceId;
         (:initialized) var LauncherIcon as ResourceId;
