@@ -591,7 +591,7 @@
         <entry id="8391839" method="true" symbol="getBodyBatteryHistory"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry id="21" method="true" symbol="getSystemConnected"/>
-        <entry field="true" id="95" symbol="rubik_f19_white"/>
+        <entry field="true" id="96" symbol="rubik_f19_white"/>
         <entry id="64" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setMinute&gt;"/>
         <entry field="true" id="78" symbol="BackgroundRed"/>
         <entry id="56" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setAMPM&gt;"/>
@@ -620,7 +620,7 @@
         <entry field="true" id="8389064" symbol="locX"/>
         <entry id="54" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawStressArc&gt;"/>
         <entry id="65" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry field="true" id="94" symbol="rubik_f14_grey"/>
+        <entry field="true" id="95" symbol="rubik_f14_grey"/>
         <entry id="8391489" module="true" symbol="Weather"/>
         <entry id="40" method="true" symbol="drawTotalCaloriesProgressBar"/>
         <entry field="true" id="84" symbol="WeatherConditionFog"/>
@@ -629,7 +629,7 @@
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
         <entry id="8389275" method="true" symbol="getApp"/>
-        <entry field="true" id="92" symbol="rubik_f11_white"/>
+        <entry field="true" id="93" symbol="rubik_f11_white"/>
         <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="16" method="true" symbol="getPosition"/>
         <entry id="50" method="true" symbol="getSystemWeekday"/>
@@ -640,7 +640,6 @@
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="31" method="true" symbol="getSystemTime"/>
         <entry id="8389349" symbol="justification"/>
-        <entry field="true" id="96" symbol="rubik_f65_grey"/>
         <entry id="13" method="true" symbol="drawSecondBalls"/>
         <entry id="59" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDate&gt;"/>
         <entry id="52" method="true" symbol="getBackgroundBitmap"/>
@@ -668,7 +667,7 @@
         <entry id="46" method="true" symbol="getSystemHour"/>
         <entry field="true" id="97" symbol="rubik_f8_grey"/>
         <entry id="42" method="true" symbol="getGrayColor"/>
-        <entry field="true" id="93" symbol="rubik_f13_white"/>
+        <entry field="true" id="94" symbol="rubik_f13_white"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8389068" method="true" symbol="draw"/>
         <entry id="69" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setTemperature&gt;"/>
@@ -703,6 +702,7 @@
         <entry id="8388642" module="true" symbol="Position"/>
         <entry id="29" method="true" symbol="getSystemSecond"/>
         <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="92" symbol="rubik65"/>
         <entry id="55" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawTotalCaloriesProgressBar&gt;"/>
         <entry id="38" method="true" symbol="drawRoundedArc"/>
         <entry id="8389125" method="true" symbol="onHide"/>
@@ -899,11 +899,11 @@
         <entry endPc="268442503" name="stepLabel" stackId="1" startPc="268442455"/>
         <entry endPc="268442564" name="sunsetTimeLabel" stackId="1" startPc="268442508"/>
         <entry arg="true" endPc="268444266" name="dc" stackId="1" startPc="268442566"/>
-        <entry endPc="268444266" name="local_Rez_Fonts_rubik_f19_white" stackId="2" startPc="268442577"/>
-        <entry endPc="268444266" name="local_Rez_Fonts_rubik_f11_white" stackId="3" startPc="268442577"/>
-        <entry endPc="268444266" name="local_Rez_Fonts_rubik_f14_grey" stackId="4" startPc="268442577"/>
-        <entry endPc="268444266" name="local_Rez_Fonts_rubik_f13_white" stackId="5" startPc="268442577"/>
-        <entry endPc="268444266" name="local_Rez_Fonts_rubik_f65_grey" stackId="6" startPc="268442577"/>
+        <entry endPc="268444266" name="local_Rez_Fonts_rubik65" stackId="2" startPc="268442577"/>
+        <entry endPc="268444266" name="local_Rez_Fonts_rubik_f19_white" stackId="3" startPc="268442577"/>
+        <entry endPc="268444266" name="local_Rez_Fonts_rubik_f11_white" stackId="4" startPc="268442577"/>
+        <entry endPc="268444266" name="local_Rez_Fonts_rubik_f14_grey" stackId="5" startPc="268442577"/>
+        <entry endPc="268444266" name="local_Rez_Fonts_rubik_f13_white" stackId="6" startPc="268442577"/>
         <entry endPc="268444266" name="rez_cmp_local_custom_drawable_11939594661139614796" stackId="7" startPc="268442577"/>
         <entry endPc="268444266" name="rez_cmp_local_text_Distance" stackId="8" startPc="268442577"/>
         <entry endPc="268444266" name="rez_cmp_local_text_StepCount" stackId="9" startPc="268442577"/>
@@ -925,7 +925,6 @@
     </localVars>
     <deviceInfo deviceVersion="0ed082a335bbf00c12e5da810e92d4f89288090c" partNumber="006-B3992-00"/>
     <annotations>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rubik_f65_grey"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="WeatherConditionClear"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="WeatherIcon"/>
@@ -935,6 +934,7 @@
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BackgroundPurple"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BackgroundBlue"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rubik65"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="WeatherConditionCloudy"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="WeatherConditionHail"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>

@@ -72,8 +72,8 @@ module Rez {
         var rubik_f14_grey as ResourceId;
         [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 35; @position = 27; initialized = true; @symbol_vardef = [rubik_f19_white,35,27,42]; @symbol_type<0> = [ResourceId,35,46,56]; ]
         var rubik_f19_white as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 36; @position = 27; initialized = true; @symbol_vardef = [rubik_f65_grey,36,27,41]; @symbol_type<0> = [ResourceId,36,45,55]; ]
-        var rubik_f65_grey as ResourceId;
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 36; @position = 27; initialized = true; @symbol_vardef = [rubik65,36,27,34]; @symbol_type<0> = [ResourceId,36,38,48]; ]
+        var rubik65 as ResourceId;
     }
     [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 39; @symbol_moduledef = [Layouts,39,11,18]; ]
     module Layouts {
@@ -85,30 +85,30 @@ module Rez {
 _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_40_73_84_8_start:
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 41 12 ]
             [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_40_73_84_8_stop" ]
-            %local_Rez_Fonts_rubik_f19_white.1 = local;
-            symbol [ local_Rez_Fonts_rubik_f19_white %local_Rez_Fonts_rubik_f19_white.1 41 16 47 ];
-            symbol [ WatchUi %tmp.1 41 51 58 ];
+            %local_Rez_Fonts_rubik65.1 = local;
+            symbol [ local_Rez_Fonts_rubik65 %local_Rez_Fonts_rubik65.1 41 16 39 ];
+            symbol [ WatchUi %tmp.1 41 43 50 ];
             %tmp.1 = getm $.Toybox.WatchUi;
-            symbol [ loadResource %tmp.2 41 59 71 ];
+            symbol [ loadResource %tmp.2 41 51 63 ];
             %tmp.2 = getv function %tmp.1 :loadResource;
-            symbol [ $ %tmp.3 41 72 73 ];
+            symbol [ $ %tmp.3 41 64 65 ];
             %tmp.3 = getm $;
-            symbol [ Rez %tmp.4 41 74 77 ];
+            symbol [ Rez %tmp.4 41 66 69 ];
             %tmp.4 = getv %tmp.3 :Rez;
-            symbol [ Fonts %tmp.5 41 78 83 ];
+            symbol [ Fonts %tmp.5 41 70 75 ];
             %tmp.5 = getv %tmp.4 :Fonts;
-            symbol [ rubik_f19_white %tmp.6 41 84 99 ];
-            %tmp.6 = getv %tmp.5 :rubik_f19_white;
+            symbol [ rubik65 %tmp.6 41 76 83 ];
+            %tmp.6 = getv %tmp.5 :rubik65;
             %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
             %tmp.8 = as %tmp.7 Graphics.FontReference;
-            symbol [ Graphics %tmp.8 41 104 112 ];
-            symbol [ FontReference %tmp.8 41 113 126 ];
-            lputv %local_Rez_Fonts_rubik_f19_white.1 %tmp.8;
-            symbol [ local_Rez_Fonts_rubik_f19_white %local_Rez_Fonts_rubik_f19_white.1 41 16 47 ];
+            symbol [ Graphics %tmp.8 41 88 96 ];
+            symbol [ FontReference %tmp.8 41 97 110 ];
+            lputv %local_Rez_Fonts_rubik65.1 %tmp.8;
+            symbol [ local_Rez_Fonts_rubik65 %local_Rez_Fonts_rubik65.1 41 16 39 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 42 12 ]
             [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_40_73_84_8_stop" ]
-            %local_Rez_Fonts_rubik_f11_white.2 = local;
-            symbol [ local_Rez_Fonts_rubik_f11_white %local_Rez_Fonts_rubik_f11_white.2 42 16 47 ];
+            %local_Rez_Fonts_rubik_f19_white.2 = local;
+            symbol [ local_Rez_Fonts_rubik_f19_white %local_Rez_Fonts_rubik_f19_white.2 42 16 47 ];
             symbol [ WatchUi %tmp.9 42 51 58 ];
             %tmp.9 = getm $.Toybox.WatchUi;
             symbol [ loadResource %tmp.10 42 59 71 ];
@@ -119,80 +119,80 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.12 = getv %tmp.11 :Rez;
             symbol [ Fonts %tmp.13 42 78 83 ];
             %tmp.13 = getv %tmp.12 :Fonts;
-            symbol [ rubik_f11_white %tmp.14 42 84 99 ];
-            %tmp.14 = getv %tmp.13 :rubik_f11_white;
+            symbol [ rubik_f19_white %tmp.14 42 84 99 ];
+            %tmp.14 = getv %tmp.13 :rubik_f19_white;
             %tmp.15 = invoke %tmp.9 %tmp.10(%tmp.14);
             %tmp.16 = as %tmp.15 Graphics.FontReference;
             symbol [ Graphics %tmp.16 42 104 112 ];
             symbol [ FontReference %tmp.16 42 113 126 ];
-            lputv %local_Rez_Fonts_rubik_f11_white.2 %tmp.16;
-            symbol [ local_Rez_Fonts_rubik_f11_white %local_Rez_Fonts_rubik_f11_white.2 42 16 47 ];
+            lputv %local_Rez_Fonts_rubik_f19_white.2 %tmp.16;
+            symbol [ local_Rez_Fonts_rubik_f19_white %local_Rez_Fonts_rubik_f19_white.2 42 16 47 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 43 12 ]
             [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_40_73_84_8_stop" ]
-            %local_Rez_Fonts_rubik_f14_grey.3 = local;
-            symbol [ local_Rez_Fonts_rubik_f14_grey %local_Rez_Fonts_rubik_f14_grey.3 43 16 46 ];
-            symbol [ WatchUi %tmp.17 43 50 57 ];
+            %local_Rez_Fonts_rubik_f11_white.3 = local;
+            symbol [ local_Rez_Fonts_rubik_f11_white %local_Rez_Fonts_rubik_f11_white.3 43 16 47 ];
+            symbol [ WatchUi %tmp.17 43 51 58 ];
             %tmp.17 = getm $.Toybox.WatchUi;
-            symbol [ loadResource %tmp.18 43 58 70 ];
+            symbol [ loadResource %tmp.18 43 59 71 ];
             %tmp.18 = getv function %tmp.17 :loadResource;
-            symbol [ $ %tmp.19 43 71 72 ];
+            symbol [ $ %tmp.19 43 72 73 ];
             %tmp.19 = getm $;
-            symbol [ Rez %tmp.20 43 73 76 ];
+            symbol [ Rez %tmp.20 43 74 77 ];
             %tmp.20 = getv %tmp.19 :Rez;
-            symbol [ Fonts %tmp.21 43 77 82 ];
+            symbol [ Fonts %tmp.21 43 78 83 ];
             %tmp.21 = getv %tmp.20 :Fonts;
-            symbol [ rubik_f14_grey %tmp.22 43 83 97 ];
-            %tmp.22 = getv %tmp.21 :rubik_f14_grey;
+            symbol [ rubik_f11_white %tmp.22 43 84 99 ];
+            %tmp.22 = getv %tmp.21 :rubik_f11_white;
             %tmp.23 = invoke %tmp.17 %tmp.18(%tmp.22);
             %tmp.24 = as %tmp.23 Graphics.FontReference;
-            symbol [ Graphics %tmp.24 43 102 110 ];
-            symbol [ FontReference %tmp.24 43 111 124 ];
-            lputv %local_Rez_Fonts_rubik_f14_grey.3 %tmp.24;
-            symbol [ local_Rez_Fonts_rubik_f14_grey %local_Rez_Fonts_rubik_f14_grey.3 43 16 46 ];
+            symbol [ Graphics %tmp.24 43 104 112 ];
+            symbol [ FontReference %tmp.24 43 113 126 ];
+            lputv %local_Rez_Fonts_rubik_f11_white.3 %tmp.24;
+            symbol [ local_Rez_Fonts_rubik_f11_white %local_Rez_Fonts_rubik_f11_white.3 43 16 47 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 44 12 ]
             [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_40_73_84_8_stop" ]
-            %local_Rez_Fonts_rubik_f13_white.4 = local;
-            symbol [ local_Rez_Fonts_rubik_f13_white %local_Rez_Fonts_rubik_f13_white.4 44 16 47 ];
-            symbol [ WatchUi %tmp.25 44 51 58 ];
+            %local_Rez_Fonts_rubik_f14_grey.4 = local;
+            symbol [ local_Rez_Fonts_rubik_f14_grey %local_Rez_Fonts_rubik_f14_grey.4 44 16 46 ];
+            symbol [ WatchUi %tmp.25 44 50 57 ];
             %tmp.25 = getm $.Toybox.WatchUi;
-            symbol [ loadResource %tmp.26 44 59 71 ];
+            symbol [ loadResource %tmp.26 44 58 70 ];
             %tmp.26 = getv function %tmp.25 :loadResource;
-            symbol [ $ %tmp.27 44 72 73 ];
+            symbol [ $ %tmp.27 44 71 72 ];
             %tmp.27 = getm $;
-            symbol [ Rez %tmp.28 44 74 77 ];
+            symbol [ Rez %tmp.28 44 73 76 ];
             %tmp.28 = getv %tmp.27 :Rez;
-            symbol [ Fonts %tmp.29 44 78 83 ];
+            symbol [ Fonts %tmp.29 44 77 82 ];
             %tmp.29 = getv %tmp.28 :Fonts;
-            symbol [ rubik_f13_white %tmp.30 44 84 99 ];
-            %tmp.30 = getv %tmp.29 :rubik_f13_white;
+            symbol [ rubik_f14_grey %tmp.30 44 83 97 ];
+            %tmp.30 = getv %tmp.29 :rubik_f14_grey;
             %tmp.31 = invoke %tmp.25 %tmp.26(%tmp.30);
             %tmp.32 = as %tmp.31 Graphics.FontReference;
-            symbol [ Graphics %tmp.32 44 104 112 ];
-            symbol [ FontReference %tmp.32 44 113 126 ];
-            lputv %local_Rez_Fonts_rubik_f13_white.4 %tmp.32;
-            symbol [ local_Rez_Fonts_rubik_f13_white %local_Rez_Fonts_rubik_f13_white.4 44 16 47 ];
+            symbol [ Graphics %tmp.32 44 102 110 ];
+            symbol [ FontReference %tmp.32 44 111 124 ];
+            lputv %local_Rez_Fonts_rubik_f14_grey.4 %tmp.32;
+            symbol [ local_Rez_Fonts_rubik_f14_grey %local_Rez_Fonts_rubik_f14_grey.4 44 16 46 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 45 12 ]
             [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_40_73_84_8_stop" ]
-            %local_Rez_Fonts_rubik_f65_grey.5 = local;
-            symbol [ local_Rez_Fonts_rubik_f65_grey %local_Rez_Fonts_rubik_f65_grey.5 45 16 46 ];
-            symbol [ WatchUi %tmp.33 45 50 57 ];
+            %local_Rez_Fonts_rubik_f13_white.5 = local;
+            symbol [ local_Rez_Fonts_rubik_f13_white %local_Rez_Fonts_rubik_f13_white.5 45 16 47 ];
+            symbol [ WatchUi %tmp.33 45 51 58 ];
             %tmp.33 = getm $.Toybox.WatchUi;
-            symbol [ loadResource %tmp.34 45 58 70 ];
+            symbol [ loadResource %tmp.34 45 59 71 ];
             %tmp.34 = getv function %tmp.33 :loadResource;
-            symbol [ $ %tmp.35 45 71 72 ];
+            symbol [ $ %tmp.35 45 72 73 ];
             %tmp.35 = getm $;
-            symbol [ Rez %tmp.36 45 73 76 ];
+            symbol [ Rez %tmp.36 45 74 77 ];
             %tmp.36 = getv %tmp.35 :Rez;
-            symbol [ Fonts %tmp.37 45 77 82 ];
+            symbol [ Fonts %tmp.37 45 78 83 ];
             %tmp.37 = getv %tmp.36 :Fonts;
-            symbol [ rubik_f65_grey %tmp.38 45 83 97 ];
-            %tmp.38 = getv %tmp.37 :rubik_f65_grey;
+            symbol [ rubik_f13_white %tmp.38 45 84 99 ];
+            %tmp.38 = getv %tmp.37 :rubik_f13_white;
             %tmp.39 = invoke %tmp.33 %tmp.34(%tmp.38);
             %tmp.40 = as %tmp.39 Graphics.FontReference;
-            symbol [ Graphics %tmp.40 45 102 110 ];
-            symbol [ FontReference %tmp.40 45 111 124 ];
-            lputv %local_Rez_Fonts_rubik_f65_grey.5 %tmp.40;
-            symbol [ local_Rez_Fonts_rubik_f65_grey %local_Rez_Fonts_rubik_f65_grey.5 45 16 46 ];
+            symbol [ Graphics %tmp.40 45 104 112 ];
+            symbol [ FontReference %tmp.40 45 113 126 ];
+            lputv %local_Rez_Fonts_rubik_f13_white.5 %tmp.40;
+            symbol [ local_Rez_Fonts_rubik_f13_white %local_Rez_Fonts_rubik_f13_white.5 45 16 47 ];
 [ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 46 12 ]
             [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_custom_drawable_11939594661139614796.6 = local;
@@ -244,7 +244,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.78 = aputv %tmp.77 %tmp.74 %tmp.76;
             %tmp.80 = const :font;
             symbol [ font %tmp.80 48 193 197 const ];
-            %tmp.81 = lgetv %local_Rez_Fonts_rubik_f14_grey.3;
+            %tmp.81 = lgetv %local_Rez_Fonts_rubik_f14_grey.4;
             symbol [ local_Rez_Fonts_rubik_f14_grey %tmp.81 48 199 229 ];
             %tmp.82 = dup %tmp.78;
             %tmp.83 = aputv %tmp.82 %tmp.80 %tmp.81;
@@ -301,7 +301,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.123 = aputv %tmp.122 %tmp.119 %tmp.121;
             %tmp.125 = const :font;
             symbol [ font %tmp.125 50 219 223 const ];
-            %tmp.126 = lgetv %local_Rez_Fonts_rubik_f19_white.1;
+            %tmp.126 = lgetv %local_Rez_Fonts_rubik_f19_white.2;
             symbol [ local_Rez_Fonts_rubik_f19_white %tmp.126 50 225 256 ];
             %tmp.127 = dup %tmp.123;
             %tmp.128 = aputv %tmp.127 %tmp.125 %tmp.126;
@@ -358,7 +358,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.168 = aputv %tmp.167 %tmp.164 %tmp.166;
             %tmp.170 = const :font;
             symbol [ font %tmp.170 52 221 225 const ];
-            %tmp.171 = lgetv %local_Rez_Fonts_rubik_f19_white.1;
+            %tmp.171 = lgetv %local_Rez_Fonts_rubik_f19_white.2;
             symbol [ local_Rez_Fonts_rubik_f19_white %tmp.171 52 227 258 ];
             %tmp.172 = dup %tmp.168;
             %tmp.173 = aputv %tmp.172 %tmp.170 %tmp.171;
@@ -407,7 +407,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.207 = aputv %tmp.206 %tmp.203 %tmp.205;
             %tmp.209 = const :font;
             symbol [ font %tmp.209 54 192 196 const ];
-            %tmp.210 = lgetv %local_Rez_Fonts_rubik_f14_grey.3;
+            %tmp.210 = lgetv %local_Rez_Fonts_rubik_f14_grey.4;
             symbol [ local_Rez_Fonts_rubik_f14_grey %tmp.210 54 198 228 ];
             %tmp.211 = dup %tmp.207;
             %tmp.212 = aputv %tmp.211 %tmp.209 %tmp.210;
@@ -456,7 +456,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.246 = aputv %tmp.245 %tmp.242 %tmp.244;
             %tmp.248 = const :font;
             symbol [ font %tmp.248 56 192 196 const ];
-            %tmp.249 = lgetv %local_Rez_Fonts_rubik_f14_grey.3;
+            %tmp.249 = lgetv %local_Rez_Fonts_rubik_f14_grey.4;
             symbol [ local_Rez_Fonts_rubik_f14_grey %tmp.249 56 198 228 ];
             %tmp.250 = dup %tmp.246;
             %tmp.251 = aputv %tmp.250 %tmp.248 %tmp.249;
@@ -505,7 +505,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.285 = aputv %tmp.284 %tmp.281 %tmp.283;
             %tmp.287 = const :font;
             symbol [ font %tmp.287 58 184 188 const ];
-            %tmp.288 = lgetv %local_Rez_Fonts_rubik_f19_white.1;
+            %tmp.288 = lgetv %local_Rez_Fonts_rubik_f19_white.2;
             symbol [ local_Rez_Fonts_rubik_f19_white %tmp.288 58 190 221 ];
             %tmp.289 = dup %tmp.285;
             %tmp.290 = aputv %tmp.289 %tmp.287 %tmp.288;
@@ -554,7 +554,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.324 = aputv %tmp.323 %tmp.320 %tmp.322;
             %tmp.326 = const :font;
             symbol [ font %tmp.326 60 193 197 const ];
-            %tmp.327 = lgetv %local_Rez_Fonts_rubik_f13_white.4;
+            %tmp.327 = lgetv %local_Rez_Fonts_rubik_f13_white.5;
             symbol [ local_Rez_Fonts_rubik_f13_white %tmp.327 60 199 230 ];
             %tmp.328 = dup %tmp.324;
             %tmp.329 = aputv %tmp.328 %tmp.326 %tmp.327;
@@ -603,7 +603,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.363 = aputv %tmp.362 %tmp.359 %tmp.361;
             %tmp.365 = const :font;
             symbol [ font %tmp.365 62 190 194 const ];
-            %tmp.366 = lgetv %local_Rez_Fonts_rubik_f14_grey.3;
+            %tmp.366 = lgetv %local_Rez_Fonts_rubik_f14_grey.4;
             symbol [ local_Rez_Fonts_rubik_f14_grey %tmp.366 62 196 226 ];
             %tmp.367 = dup %tmp.363;
             %tmp.368 = aputv %tmp.367 %tmp.365 %tmp.366;
@@ -652,7 +652,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.402 = aputv %tmp.401 %tmp.398 %tmp.400;
             %tmp.404 = const :font;
             symbol [ font %tmp.404 64 198 202 const ];
-            %tmp.405 = lgetv %local_Rez_Fonts_rubik_f14_grey.3;
+            %tmp.405 = lgetv %local_Rez_Fonts_rubik_f14_grey.4;
             symbol [ local_Rez_Fonts_rubik_f14_grey %tmp.405 64 204 234 ];
             %tmp.406 = dup %tmp.402;
             %tmp.407 = aputv %tmp.406 %tmp.404 %tmp.405;
@@ -676,7 +676,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.419 = const :locX;
             symbol [ locX %tmp.419 66 82 86 const ];
             %tmp.420 = 260;
-            %tmp.421 = 8;
+            %tmp.421 = 7;
             %tmp.422 = 100.0;
             %tmp.423 = div %tmp.421 %tmp.422;
             %tmp.424 = mul %tmp.420 %tmp.423;
@@ -701,7 +701,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.441 = aputv %tmp.440 %tmp.437 %tmp.439;
             %tmp.443 = const :font;
             symbol [ font %tmp.443 66 183 187 const ];
-            %tmp.444 = lgetv %local_Rez_Fonts_rubik_f11_white.2;
+            %tmp.444 = lgetv %local_Rez_Fonts_rubik_f11_white.3;
             symbol [ local_Rez_Fonts_rubik_f11_white %tmp.444 66 189 220 ];
             %tmp.445 = dup %tmp.441;
             %tmp.446 = aputv %tmp.445 %tmp.443 %tmp.444;
@@ -734,7 +734,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.467 = const :locY;
             symbol [ locY %tmp.467 68 111 115 const ];
             %tmp.468 = 260;
-            %tmp.469 = 64;
+            %tmp.469 = 60;
             %tmp.470 = 100.0;
             %tmp.471 = div %tmp.469 %tmp.470;
             %tmp.472 = mul %tmp.468 %tmp.471;
@@ -750,8 +750,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.480 = aputv %tmp.479 %tmp.476 %tmp.478;
             %tmp.482 = const :font;
             symbol [ font %tmp.482 68 185 189 const ];
-            %tmp.483 = lgetv %local_Rez_Fonts_rubik_f65_grey.5;
-            symbol [ local_Rez_Fonts_rubik_f65_grey %tmp.483 68 191 221 ];
+            %tmp.483 = lgetv %local_Rez_Fonts_rubik65.1;
+            symbol [ local_Rez_Fonts_rubik65 %tmp.483 68 191 214 ];
             %tmp.484 = dup %tmp.480;
             %tmp.485 = aputv %tmp.484 %tmp.482 %tmp.483;
             %tmp.447 = newc %tmp.450 (%tmp.485);
@@ -791,7 +791,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.512 = const :locY;
             symbol [ locY %tmp.512 70 140 144 const ];
             %tmp.513 = 260;
-            %tmp.514 = 64;
+            %tmp.514 = 60;
             %tmp.515 = 100.0;
             %tmp.516 = div %tmp.514 %tmp.515;
             %tmp.517 = mul %tmp.513 %tmp.516;
@@ -807,8 +807,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.525 = aputv %tmp.524 %tmp.521 %tmp.523;
             %tmp.527 = const :font;
             symbol [ font %tmp.527 70 213 217 const ];
-            %tmp.528 = lgetv %local_Rez_Fonts_rubik_f65_grey.5;
-            symbol [ local_Rez_Fonts_rubik_f65_grey %tmp.528 70 219 249 ];
+            %tmp.528 = lgetv %local_Rez_Fonts_rubik65.1;
+            symbol [ local_Rez_Fonts_rubik65 %tmp.528 70 219 242 ];
             %tmp.529 = dup %tmp.525;
             %tmp.530 = aputv %tmp.529 %tmp.527 %tmp.528;
             %tmp.486 = newc %tmp.489 (%tmp.530);
@@ -831,7 +831,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.542 = const :locX;
             symbol [ locX %tmp.542 72 86 90 const ];
             %tmp.543 = 260;
-            %tmp.544 = 84;
+            %tmp.544 = 85;
             %tmp.545 = 100.0;
             %tmp.546 = div %tmp.544 %tmp.545;
             %tmp.547 = mul %tmp.543 %tmp.546;
@@ -856,7 +856,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.564 = aputv %tmp.563 %tmp.560 %tmp.562;
             %tmp.566 = const :font;
             symbol [ font %tmp.566 72 188 192 const ];
-            %tmp.567 = lgetv %local_Rez_Fonts_rubik_f19_white.1;
+            %tmp.567 = lgetv %local_Rez_Fonts_rubik_f19_white.2;
             symbol [ local_Rez_Fonts_rubik_f19_white %tmp.567 72 194 225 ];
             %tmp.568 = dup %tmp.564;
             %tmp.569 = aputv %tmp.568 %tmp.566 %tmp.567;
@@ -901,7 +901,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.598 = const :locY;
             symbol [ locY %tmp.598 74 166 170 const ];
             %tmp.599 = 260;
-            %tmp.600 = 84;
+            %tmp.600 = 85;
             %tmp.601 = 100.0;
             %tmp.602 = div %tmp.600 %tmp.601;
             %tmp.603 = mul %tmp.599 %tmp.602;
@@ -921,7 +921,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.611 = div %tmp.609 %tmp.610;
             %tmp.612 = mul %tmp.608 %tmp.611;
             %tmp.613 = 260;
-            %tmp.614 = 84;
+            %tmp.614 = 85;
             %tmp.615 = 100.0;
             %tmp.616 = div %tmp.614 %tmp.615;
             %tmp.617 = mul %tmp.613 %tmp.616;
@@ -952,7 +952,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.638 = const :locY;
             symbol [ locY %tmp.638 77 125 129 const ];
             %tmp.639 = 260;
-            %tmp.640 = 86;
+            %tmp.640 = 87;
             %tmp.641 = 100.0;
             %tmp.642 = div %tmp.640 %tmp.641;
             %tmp.643 = mul %tmp.639 %tmp.642;
@@ -968,7 +968,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.651 = aputv %tmp.650 %tmp.647 %tmp.649;
             %tmp.653 = const :font;
             symbol [ font %tmp.653 77 200 204 const ];
-            %tmp.654 = lgetv %local_Rez_Fonts_rubik_f14_grey.3;
+            %tmp.654 = lgetv %local_Rez_Fonts_rubik_f14_grey.4;
             symbol [ local_Rez_Fonts_rubik_f14_grey %tmp.654 77 206 236 ];
             %tmp.655 = dup %tmp.651;
             %tmp.656 = aputv %tmp.655 %tmp.653 %tmp.654;
@@ -1001,7 +1001,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.677 = const :locY;
             symbol [ locY %tmp.677 79 133 137 const ];
             %tmp.678 = 260;
-            %tmp.679 = 85;
+            %tmp.679 = 86;
             %tmp.680 = 100.0;
             %tmp.681 = div %tmp.679 %tmp.680;
             %tmp.682 = mul %tmp.678 %tmp.681;
@@ -1064,7 +1064,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.725 = const :locY;
             symbol [ locY %tmp.725 81 119 123 const ];
             %tmp.726 = 260;
-            %tmp.727 = 86;
+            %tmp.727 = 87;
             %tmp.728 = 100.0;
             %tmp.729 = div %tmp.727 %tmp.728;
             %tmp.730 = mul %tmp.726 %tmp.729;
@@ -1080,7 +1080,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3992_00_source_Rez_mcg
             %tmp.738 = aputv %tmp.737 %tmp.734 %tmp.736;
             %tmp.740 = const :font;
             symbol [ font %tmp.740 81 194 198 const ];
-            %tmp.741 = lgetv %local_Rez_Fonts_rubik_f14_grey.3;
+            %tmp.741 = lgetv %local_Rez_Fonts_rubik_f14_grey.4;
             symbol [ local_Rez_Fonts_rubik_f14_grey %tmp.741 81 200 230 ];
             %tmp.742 = dup %tmp.738;
             %tmp.743 = aputv %tmp.742 %tmp.740 %tmp.741;

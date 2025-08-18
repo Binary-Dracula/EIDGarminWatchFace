@@ -29,27 +29,27 @@
    <label id="SunsetTime" x="50%" y="53%" font = "@Fonts.rubik_f14_grey" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
 
    <!-- AM / PM -->
-   <label id="AMPM" x="8%" y="66%" font = "@Fonts.rubik_f11_white" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
+   <label id="AMPM" x="7%" y="66%" font = "@Fonts.rubik_f11_white" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
    <!-- 小时 -->
-   <label id="Hour" x="46%" y="64%" font = "@Fonts.rubik_f65_grey" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
+   <label id="Hour" x="46%" y="60%" font = "@Fonts.rubik65" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
 
    <!-- 分钟 -->
-   <label id="Minute" x="54%" y="64%" color="Gfx.COLOR_WHITE" font = "@Fonts.rubik_f65_grey" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
+   <label id="Minute" x="54%" y="60%" color="Gfx.COLOR_WHITE" font = "@Fonts.rubik65" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
    <!-- 秒 -->
-   <label id="Second" x="84%" y="64%" font="@Fonts.rubik_f19_white" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
+   <label id="Second" x="85%" y="64%" font="@Fonts.rubik_f19_white" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
    <!-- 天气图标 -->
-   <bitmap id="WeatherIcon" x="25%" y="84%" filename="../drawables/weather/weather_condition_unknown.png" />
+   <bitmap id="WeatherIcon" x="25%" y="85%" filename="../drawables/weather/weather_condition_unknown.png" />
 
    <!-- 当前温度 -->
-   <label id="Temperature" x="39%" y="86%" font = "@Fonts.rubik_f14_grey" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
+   <label id="Temperature" x="39%" y="87%" font = "@Fonts.rubik_f14_grey" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
 
    <!-- 温度单位 -->
-   <label id="TemperatureUnit" x="43%" y="85%" font="Graphics.FONT_XTINY" text="@Strings.TemperatureUnit" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
+   <label id="TemperatureUnit" x="43%" y="86%" font="Graphics.FONT_XTINY" text="@Strings.TemperatureUnit" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
    <!-- 当前湿度 -->
-   <label id="Humidity" x="68%" y="86%" font = "@Fonts.rubik_f14_grey" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
+   <label id="Humidity" x="68%" y="87%" font = "@Fonts.rubik_f14_grey" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
 
 </layout>
