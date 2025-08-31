@@ -48,9 +48,11 @@ class Tools {
 
   // 绘制总卡路里进度条
   function drawTotalCaloriesProgressBar(dc as Dc) as Void {
-    var targetCalories =
-      Application.Properties.getValue("TargetCalories") as Number;
+    var targetCalories = Application.Properties.getValue("TargetCalories") as Number;
     var currentCalories = getTodayCalories();
+    if (currentCalories > targetCalories) {
+      currentCalories = targetCalories;
+    }
     var progress = currentCalories / targetCalories.toFloat();
     var startX = 44;
     var startY = 79;
@@ -455,5 +457,4 @@ class Tools {
   function getGrayColor() as Lang.Number {
     return Graphics.createColor(1, 195, 195, 195);
   }
-
 }
