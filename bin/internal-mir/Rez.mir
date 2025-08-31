@@ -1,90 +1,90 @@
-[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
 import Toybox.Lang;
-[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
 using Toybox.WatchUi;
-[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
 using Toybox.Graphics;
-[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
 module Rez {
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 7; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
     module Drawables {
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 8; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [BackgroundWhite,9,27,42]; @symbol_type<0> = [ResourceId,9,46,56]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [BackgroundWhite,9,27,42]; @symbol_type<0> = [ResourceId,9,46,56]; ]
         var BackgroundWhite as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [BackgroundGreen,10,27,42]; @symbol_type<0> = [ResourceId,10,46,56]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [BackgroundGreen,10,27,42]; @symbol_type<0> = [ResourceId,10,46,56]; ]
         var BackgroundGreen as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 11; @position = 27; initialized = true; @symbol_vardef = [BackgroundBlue,11,27,41]; @symbol_type<0> = [ResourceId,11,45,55]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 11; @position = 27; initialized = true; @symbol_vardef = [BackgroundBlue,11,27,41]; @symbol_type<0> = [ResourceId,11,45,55]; ]
         var BackgroundBlue as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 12; @position = 27; initialized = true; @symbol_vardef = [BackgroundRed,12,27,40]; @symbol_type<0> = [ResourceId,12,44,54]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 12; @position = 27; initialized = true; @symbol_vardef = [BackgroundRed,12,27,40]; @symbol_type<0> = [ResourceId,12,44,54]; ]
         var BackgroundRed as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [BackgroundPurple,13,27,43]; @symbol_type<0> = [ResourceId,13,47,57]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [BackgroundPurple,13,27,43]; @symbol_type<0> = [ResourceId,13,47,57]; ]
         var BackgroundPurple as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [BackgroundOrange,14,27,43]; @symbol_type<0> = [ResourceId,14,47,57]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [BackgroundOrange,14,27,43]; @symbol_type<0> = [ResourceId,14,47,57]; ]
         var BackgroundOrange as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [BackgroundPink,15,27,41]; @symbol_type<0> = [ResourceId,15,45,55]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [BackgroundPink,15,27,41]; @symbol_type<0> = [ResourceId,15,45,55]; ]
         var BackgroundPink as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionClear,16,27,48]; @symbol_type<0> = [ResourceId,16,52,62]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionClear,16,27,48]; @symbol_type<0> = [ResourceId,16,52,62]; ]
         var WeatherConditionClear as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionCloudy,17,27,49]; @symbol_type<0> = [ResourceId,17,53,63]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionCloudy,17,27,49]; @symbol_type<0> = [ResourceId,17,53,63]; ]
         var WeatherConditionCloudy as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 18; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionRain,18,27,47]; @symbol_type<0> = [ResourceId,18,51,61]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 18; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionRain,18,27,47]; @symbol_type<0> = [ResourceId,18,51,61]; ]
         var WeatherConditionRain as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 19; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionSnow,19,27,47]; @symbol_type<0> = [ResourceId,19,51,61]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 19; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionSnow,19,27,47]; @symbol_type<0> = [ResourceId,19,51,61]; ]
         var WeatherConditionSnow as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 20; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionLightRainSnow,20,27,56]; @symbol_type<0> = [ResourceId,20,60,70]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 20; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionLightRainSnow,20,27,56]; @symbol_type<0> = [ResourceId,20,60,70]; ]
         var WeatherConditionLightRainSnow as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 21; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionFog,21,27,46]; @symbol_type<0> = [ResourceId,21,50,60]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 21; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionFog,21,27,46]; @symbol_type<0> = [ResourceId,21,50,60]; ]
         var WeatherConditionFog as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 22; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionWindy,22,27,48]; @symbol_type<0> = [ResourceId,22,52,62]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 22; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionWindy,22,27,48]; @symbol_type<0> = [ResourceId,22,52,62]; ]
         var WeatherConditionWindy as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 23; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionHail,23,27,47]; @symbol_type<0> = [ResourceId,23,51,61]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 23; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionHail,23,27,47]; @symbol_type<0> = [ResourceId,23,51,61]; ]
         var WeatherConditionHail as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 24; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionDust,24,27,47]; @symbol_type<0> = [ResourceId,24,51,61]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 24; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionDust,24,27,47]; @symbol_type<0> = [ResourceId,24,51,61]; ]
         var WeatherConditionDust as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 25; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionUnknown,25,27,50]; @symbol_type<0> = [ResourceId,25,54,64]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 25; @position = 27; initialized = true; @symbol_vardef = [WeatherConditionUnknown,25,27,50]; @symbol_type<0> = [ResourceId,25,54,64]; ]
         var WeatherConditionUnknown as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 26; @position = 27; initialized = true; @symbol_vardef = [WeatherIcon,26,27,38]; @symbol_type<0> = [ResourceId,26,42,52]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 26; @position = 27; initialized = true; @symbol_vardef = [WeatherIcon,26,27,38]; @symbol_type<0> = [ResourceId,26,42,52]; ]
         var WeatherIcon as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 27; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,27,27,39]; @symbol_type<0> = [ResourceId,27,43,53]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 27; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,27,27,39]; @symbol_type<0> = [ResourceId,27,43,53]; ]
         var LauncherIcon as ResourceId;
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 30; @symbol_moduledef = [Fonts,30,11,16]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 30; @symbol_moduledef = [Fonts,30,11,16]; ]
     module Fonts {
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 30; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 30; ]
         <init> {
         }
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 31; @position = 27; initialized = true; @symbol_vardef = [rubik_f8_grey,31,27,40]; @symbol_type<0> = [ResourceId,31,44,54]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 31; @position = 27; initialized = true; @symbol_vardef = [rubik_f8_grey,31,27,40]; @symbol_type<0> = [ResourceId,31,44,54]; ]
         var rubik_f8_grey as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 32; @position = 27; initialized = true; @symbol_vardef = [rubik_f11_white,32,27,42]; @symbol_type<0> = [ResourceId,32,46,56]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 32; @position = 27; initialized = true; @symbol_vardef = [rubik_f11_white,32,27,42]; @symbol_type<0> = [ResourceId,32,46,56]; ]
         var rubik_f11_white as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 33; @position = 27; initialized = true; @symbol_vardef = [rubik_f13_white,33,27,42]; @symbol_type<0> = [ResourceId,33,46,56]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 33; @position = 27; initialized = true; @symbol_vardef = [rubik_f13_white,33,27,42]; @symbol_type<0> = [ResourceId,33,46,56]; ]
         var rubik_f13_white as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 34; @position = 27; initialized = true; @symbol_vardef = [rubik_f14_grey,34,27,41]; @symbol_type<0> = [ResourceId,34,45,55]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 34; @position = 27; initialized = true; @symbol_vardef = [rubik_f14_grey,34,27,41]; @symbol_type<0> = [ResourceId,34,45,55]; ]
         var rubik_f14_grey as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 35; @position = 27; initialized = true; @symbol_vardef = [rubik_f19_white,35,27,42]; @symbol_type<0> = [ResourceId,35,46,56]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 35; @position = 27; initialized = true; @symbol_vardef = [rubik_f19_white,35,27,42]; @symbol_type<0> = [ResourceId,35,46,56]; ]
         var rubik_f19_white as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 36; @position = 27; initialized = true; @symbol_vardef = [rubik65,36,27,34]; @symbol_type<0> = [ResourceId,36,38,48]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 36; @position = 27; initialized = true; @symbol_vardef = [rubik65,36,27,34]; @symbol_type<0> = [ResourceId,36,38,48]; ]
         var rubik65 as ResourceId;
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 39; @symbol_moduledef = [Layouts,39,11,18]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 39; @symbol_moduledef = [Layouts,39,11,18]; ]
     module Layouts {
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 39; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 39; ]
         <init> {
         }
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 40; @symbol_functiondef = [WatchFace,40,17,26]; @symbol_param<0> = [dc,40,27,29]; @symbol_param<0>_type<0> = [Graphics,40,33,41]; @symbol_param<0>_type<1> = [Dc,40,42,44]; @symbol_return<0> = [Array,40,49,54]; @symbol_return<1> = [WatchUi,40,55,62]; @symbol_return<2> = [Drawable,40,63,71]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 40; @symbol_functiondef = [WatchFace,40,17,26]; @symbol_param<0> = [dc,40,27,29]; @symbol_param<0>_type<0> = [Graphics,40,33,41]; @symbol_param<0>_type<1> = [Dc,40,42,44]; @symbol_return<0> = [Array,40,49,54]; @symbol_return<1> = [WatchUi,40,55,62]; @symbol_return<2> = [Drawable,40,63,71]; ]
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start:
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 41 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start:
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 41 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %local_Rez_Fonts_rubik65.1 = local;
             symbol [ local_Rez_Fonts_rubik65 %local_Rez_Fonts_rubik65.1 41 16 39 ];
             symbol [ WatchUi %tmp.1 41 43 50 ];
@@ -100,13 +100,13 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             symbol [ rubik65 %tmp.6 41 76 83 ];
             %tmp.6 = getv %tmp.5 :rubik65;
             %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
-            %tmp.8 = as %tmp.7 WatchUi.FontResource;
-            symbol [ WatchUi %tmp.8 41 88 95 ];
-            symbol [ FontResource %tmp.8 41 96 108 ];
+            %tmp.8 = as %tmp.7 Graphics.FontReference;
+            symbol [ Graphics %tmp.8 41 88 96 ];
+            symbol [ FontReference %tmp.8 41 97 110 ];
             lputv %local_Rez_Fonts_rubik65.1 %tmp.8;
             symbol [ local_Rez_Fonts_rubik65 %local_Rez_Fonts_rubik65.1 41 16 39 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 42 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 42 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %local_Rez_Fonts_rubik_f19_white.2 = local;
             symbol [ local_Rez_Fonts_rubik_f19_white %local_Rez_Fonts_rubik_f19_white.2 42 16 47 ];
             symbol [ WatchUi %tmp.9 42 51 58 ];
@@ -122,13 +122,13 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             symbol [ rubik_f19_white %tmp.14 42 84 99 ];
             %tmp.14 = getv %tmp.13 :rubik_f19_white;
             %tmp.15 = invoke %tmp.9 %tmp.10(%tmp.14);
-            %tmp.16 = as %tmp.15 WatchUi.FontResource;
-            symbol [ WatchUi %tmp.16 42 104 111 ];
-            symbol [ FontResource %tmp.16 42 112 124 ];
+            %tmp.16 = as %tmp.15 Graphics.FontReference;
+            symbol [ Graphics %tmp.16 42 104 112 ];
+            symbol [ FontReference %tmp.16 42 113 126 ];
             lputv %local_Rez_Fonts_rubik_f19_white.2 %tmp.16;
             symbol [ local_Rez_Fonts_rubik_f19_white %local_Rez_Fonts_rubik_f19_white.2 42 16 47 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 43 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 43 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %local_Rez_Fonts_rubik_f11_white.3 = local;
             symbol [ local_Rez_Fonts_rubik_f11_white %local_Rez_Fonts_rubik_f11_white.3 43 16 47 ];
             symbol [ WatchUi %tmp.17 43 51 58 ];
@@ -144,13 +144,13 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             symbol [ rubik_f11_white %tmp.22 43 84 99 ];
             %tmp.22 = getv %tmp.21 :rubik_f11_white;
             %tmp.23 = invoke %tmp.17 %tmp.18(%tmp.22);
-            %tmp.24 = as %tmp.23 WatchUi.FontResource;
-            symbol [ WatchUi %tmp.24 43 104 111 ];
-            symbol [ FontResource %tmp.24 43 112 124 ];
+            %tmp.24 = as %tmp.23 Graphics.FontReference;
+            symbol [ Graphics %tmp.24 43 104 112 ];
+            symbol [ FontReference %tmp.24 43 113 126 ];
             lputv %local_Rez_Fonts_rubik_f11_white.3 %tmp.24;
             symbol [ local_Rez_Fonts_rubik_f11_white %local_Rez_Fonts_rubik_f11_white.3 43 16 47 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 44 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 44 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %local_Rez_Fonts_rubik_f14_grey.4 = local;
             symbol [ local_Rez_Fonts_rubik_f14_grey %local_Rez_Fonts_rubik_f14_grey.4 44 16 46 ];
             symbol [ WatchUi %tmp.25 44 50 57 ];
@@ -166,13 +166,13 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             symbol [ rubik_f14_grey %tmp.30 44 83 97 ];
             %tmp.30 = getv %tmp.29 :rubik_f14_grey;
             %tmp.31 = invoke %tmp.25 %tmp.26(%tmp.30);
-            %tmp.32 = as %tmp.31 WatchUi.FontResource;
-            symbol [ WatchUi %tmp.32 44 102 109 ];
-            symbol [ FontResource %tmp.32 44 110 122 ];
+            %tmp.32 = as %tmp.31 Graphics.FontReference;
+            symbol [ Graphics %tmp.32 44 102 110 ];
+            symbol [ FontReference %tmp.32 44 111 124 ];
             lputv %local_Rez_Fonts_rubik_f14_grey.4 %tmp.32;
             symbol [ local_Rez_Fonts_rubik_f14_grey %local_Rez_Fonts_rubik_f14_grey.4 44 16 46 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 45 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 45 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %local_Rez_Fonts_rubik_f13_white.5 = local;
             symbol [ local_Rez_Fonts_rubik_f13_white %local_Rez_Fonts_rubik_f13_white.5 45 16 47 ];
             symbol [ WatchUi %tmp.33 45 51 58 ];
@@ -188,13 +188,13 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             symbol [ rubik_f13_white %tmp.38 45 84 99 ];
             %tmp.38 = getv %tmp.37 :rubik_f13_white;
             %tmp.39 = invoke %tmp.33 %tmp.34(%tmp.38);
-            %tmp.40 = as %tmp.39 WatchUi.FontResource;
-            symbol [ WatchUi %tmp.40 45 104 111 ];
-            symbol [ FontResource %tmp.40 45 112 124 ];
+            %tmp.40 = as %tmp.39 Graphics.FontReference;
+            symbol [ Graphics %tmp.40 45 104 112 ];
+            symbol [ FontReference %tmp.40 45 113 126 ];
             lputv %local_Rez_Fonts_rubik_f13_white.5 %tmp.40;
             symbol [ local_Rez_Fonts_rubik_f13_white %local_Rez_Fonts_rubik_f13_white.5 45 16 47 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 46 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 46 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_custom_drawable_11939594661139614796.6 = local;
             symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.6 46 16 66 ];
             symbol [ CustomBackgroundDrawable %tmp.44 46 73 97 ];
@@ -202,8 +202,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.41 = newc %tmp.44 ();
             lputv %rez_cmp_local_custom_drawable_11939594661139614796.6 %tmp.41;
             symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.6 46 16 66 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 48 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 48 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_text_Distance.7 = local;
             symbol [ rez_cmp_local_text_Distance %rez_cmp_local_text_Distance.7 48 16 43 ];
             symbol [ WatchUi %tmp.47 48 50 57 ];
@@ -251,8 +251,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.45 = newc %tmp.48 (%tmp.83);
             lputv %rez_cmp_local_text_Distance.7 %tmp.45;
             symbol [ rez_cmp_local_text_Distance %rez_cmp_local_text_Distance.7 48 16 43 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 50 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 50 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_text_StepCount.8 = local;
             symbol [ rez_cmp_local_text_StepCount %rez_cmp_local_text_StepCount.8 50 16 44 ];
             symbol [ WatchUi %tmp.86 50 51 58 ];
@@ -308,8 +308,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.84 = newc %tmp.87 (%tmp.128);
             lputv %rez_cmp_local_text_StepCount.8 %tmp.84;
             symbol [ rez_cmp_local_text_StepCount %rez_cmp_local_text_StepCount.8 50 16 44 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 52 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 52 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_text_HeartRate.9 = local;
             symbol [ rez_cmp_local_text_HeartRate %rez_cmp_local_text_HeartRate.9 52 16 44 ];
             symbol [ WatchUi %tmp.131 52 51 58 ];
@@ -365,8 +365,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.129 = newc %tmp.132 (%tmp.173);
             lputv %rez_cmp_local_text_HeartRate.9 %tmp.129;
             symbol [ rez_cmp_local_text_HeartRate %rez_cmp_local_text_HeartRate.9 52 16 44 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 54 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 54 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_text_Calories.10 = local;
             symbol [ rez_cmp_local_text_Calories %rez_cmp_local_text_Calories.10 54 16 43 ];
             symbol [ WatchUi %tmp.176 54 50 57 ];
@@ -414,8 +414,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.174 = newc %tmp.177 (%tmp.212);
             lputv %rez_cmp_local_text_Calories.10 %tmp.174;
             symbol [ rez_cmp_local_text_Calories %rez_cmp_local_text_Calories.10 54 16 43 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 56 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 56 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_text_Battery.11 = local;
             symbol [ rez_cmp_local_text_Battery %rez_cmp_local_text_Battery.11 56 16 42 ];
             symbol [ WatchUi %tmp.215 56 49 56 ];
@@ -463,8 +463,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.213 = newc %tmp.216 (%tmp.251);
             lputv %rez_cmp_local_text_Battery.11 %tmp.213;
             symbol [ rez_cmp_local_text_Battery %rez_cmp_local_text_Battery.11 56 16 42 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 58 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 58 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_text_Date.12 = local;
             symbol [ rez_cmp_local_text_Date %rez_cmp_local_text_Date.12 58 16 39 ];
             symbol [ WatchUi %tmp.254 58 46 53 ];
@@ -512,8 +512,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.252 = newc %tmp.255 (%tmp.290);
             lputv %rez_cmp_local_text_Date.12 %tmp.252;
             symbol [ rez_cmp_local_text_Date %rez_cmp_local_text_Date.12 58 16 39 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 60 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 60 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_text_Weekday.13 = local;
             symbol [ rez_cmp_local_text_Weekday %rez_cmp_local_text_Weekday.13 60 16 42 ];
             symbol [ WatchUi %tmp.293 60 49 56 ];
@@ -561,8 +561,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.291 = newc %tmp.294 (%tmp.329);
             lputv %rez_cmp_local_text_Weekday.13 %tmp.291;
             symbol [ rez_cmp_local_text_Weekday %rez_cmp_local_text_Weekday.13 60 16 42 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 62 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 62 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_text_Stress.14 = local;
             symbol [ rez_cmp_local_text_Stress %rez_cmp_local_text_Stress.14 62 16 41 ];
             symbol [ WatchUi %tmp.332 62 48 55 ];
@@ -610,8 +610,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.330 = newc %tmp.333 (%tmp.368);
             lputv %rez_cmp_local_text_Stress.14 %tmp.330;
             symbol [ rez_cmp_local_text_Stress %rez_cmp_local_text_Stress.14 62 16 41 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 64 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 64 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_text_SunsetTime.15 = local;
             symbol [ rez_cmp_local_text_SunsetTime %rez_cmp_local_text_SunsetTime.15 64 16 45 ];
             symbol [ WatchUi %tmp.371 64 52 59 ];
@@ -659,8 +659,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.369 = newc %tmp.372 (%tmp.407);
             lputv %rez_cmp_local_text_SunsetTime.15 %tmp.369;
             symbol [ rez_cmp_local_text_SunsetTime %rez_cmp_local_text_SunsetTime.15 64 16 45 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 66 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 66 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_text_AMPM.16 = local;
             symbol [ rez_cmp_local_text_AMPM %rez_cmp_local_text_AMPM.16 66 16 39 ];
             symbol [ WatchUi %tmp.410 66 46 53 ];
@@ -708,8 +708,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.408 = newc %tmp.411 (%tmp.446);
             lputv %rez_cmp_local_text_AMPM.16 %tmp.408;
             symbol [ rez_cmp_local_text_AMPM %rez_cmp_local_text_AMPM.16 66 16 39 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 68 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 68 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_text_Hour.17 = local;
             symbol [ rez_cmp_local_text_Hour %rez_cmp_local_text_Hour.17 68 16 39 ];
             symbol [ WatchUi %tmp.449 68 46 53 ];
@@ -757,8 +757,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.447 = newc %tmp.450 (%tmp.485);
             lputv %rez_cmp_local_text_Hour.17 %tmp.447;
             symbol [ rez_cmp_local_text_Hour %rez_cmp_local_text_Hour.17 68 16 39 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 70 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 70 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_text_Minute.18 = local;
             symbol [ rez_cmp_local_text_Minute %rez_cmp_local_text_Minute.18 70 16 41 ];
             symbol [ WatchUi %tmp.488 70 48 55 ];
@@ -814,8 +814,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.486 = newc %tmp.489 (%tmp.530);
             lputv %rez_cmp_local_text_Minute.18 %tmp.486;
             symbol [ rez_cmp_local_text_Minute %rez_cmp_local_text_Minute.18 70 16 41 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 72 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 72 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_text_Second.19 = local;
             symbol [ rez_cmp_local_text_Second %rez_cmp_local_text_Second.19 72 16 41 ];
             symbol [ WatchUi %tmp.533 72 48 55 ];
@@ -863,8 +863,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.531 = newc %tmp.534 (%tmp.569);
             lputv %rez_cmp_local_text_Second.19 %tmp.531;
             symbol [ rez_cmp_local_text_Second %rez_cmp_local_text_Second.19 72 16 41 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 74 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 74 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_bitmap_WeatherIcon.20 = local;
             symbol [ rez_cmp_local_bitmap_WeatherIcon %rez_cmp_local_bitmap_WeatherIcon.20 74 16 48 ];
             symbol [ WatchUi %tmp.572 74 55 62 ];
@@ -910,7 +910,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.570 = newc %tmp.573 (%tmp.605);
             lputv %rez_cmp_local_bitmap_WeatherIcon.20 %tmp.570;
             symbol [ rez_cmp_local_bitmap_WeatherIcon %rez_cmp_local_bitmap_WeatherIcon.20 74 16 48 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 75 12 ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 75 12 ]
             %tmp.606 = lgetv %rez_cmp_local_bitmap_WeatherIcon.20;
             symbol [ rez_cmp_local_bitmap_WeatherIcon %tmp.606 75 12 44 ];
             symbol [ setLocation %tmp.607 75 45 56 ];
@@ -926,8 +926,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.616 = div %tmp.614 %tmp.615;
             %tmp.617 = mul %tmp.613 %tmp.616;
             invoke %tmp.606 %tmp.607(%tmp.612, %tmp.617);
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 77 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 77 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_text_Temperature.21 = local;
             symbol [ rez_cmp_local_text_Temperature %rez_cmp_local_text_Temperature.21 77 16 46 ];
             symbol [ WatchUi %tmp.620 77 53 60 ];
@@ -975,8 +975,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.618 = newc %tmp.621 (%tmp.656);
             lputv %rez_cmp_local_text_Temperature.21 %tmp.618;
             symbol [ rez_cmp_local_text_Temperature %rez_cmp_local_text_Temperature.21 77 16 46 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 79 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 79 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_text_TemperatureUnit.22 = local;
             symbol [ rez_cmp_local_text_TemperatureUnit %rez_cmp_local_text_TemperatureUnit.22 79 16 50 ];
             symbol [ WatchUi %tmp.659 79 57 64 ];
@@ -1038,8 +1038,8 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.657 = newc %tmp.660 (%tmp.704);
             lputv %rez_cmp_local_text_TemperatureUnit.22 %tmp.657;
             symbol [ rez_cmp_local_text_TemperatureUnit %rez_cmp_local_text_TemperatureUnit.22 79 16 50 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 81 12 ]
-            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop" ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 81 12 ]
+            [ "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_start" "_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop" ]
             %rez_cmp_local_text_Humidity.23 = local;
             symbol [ rez_cmp_local_text_Humidity %rez_cmp_local_text_Humidity.23 81 16 43 ];
             symbol [ WatchUi %tmp.707 81 50 57 ];
@@ -1087,7 +1087,7 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.705 = newc %tmp.708 (%tmp.743);
             lputv %rez_cmp_local_text_Humidity.23 %tmp.705;
             symbol [ rez_cmp_local_text_Humidity %rez_cmp_local_text_Humidity.23 81 16 43 ];
-[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen" 83 12 ]
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 83 12 ]
             %tmp.744 = newa 18 Array<WatchUi.Drawable>;
             symbol [ Array %tmp.744 83 567 572 ];
             symbol [ WatchUi %tmp.744 83 573 580 ];
@@ -1165,42 +1165,1445 @@ _Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcg
             %tmp.797 = dup %tmp.795;
             %tmp.798 = aputv %tmp.797 17 %tmp.796;
             ret %tmp.798;
-_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B3393_00_source_Rez_mcgen_40_73_84_8_stop:
+_Users_summer_work_garmin_EIDGarminWatchFace_bin_gen_006_B4532_00_source_Rez_mcgen_40_73_84_8_stop:
         }
     }
-    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 87; @symbol_moduledef = [Strings,87,11,18]; ]
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 87; @symbol_moduledef = [Strings,87,11,18]; ]
     module Strings {
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 87; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 87; ]
         <init> {
         }
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 88; @position = 27; initialized = true; @symbol_vardef = [BackgroundColorTitle,88,27,47]; @symbol_type<0> = [ResourceId,88,51,61]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 88; @position = 27; initialized = true; @symbol_vardef = [BackgroundColorTitle,88,27,47]; @symbol_type<0> = [ResourceId,88,51,61]; ]
         var BackgroundColorTitle as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 89; @position = 27; initialized = true; @symbol_vardef = [BackgroundRed,89,27,40]; @symbol_type<0> = [ResourceId,89,44,54]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 89; @position = 27; initialized = true; @symbol_vardef = [BackgroundRed,89,27,40]; @symbol_type<0> = [ResourceId,89,44,54]; ]
         var BackgroundRed as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 90; @position = 27; initialized = true; @symbol_vardef = [TemperatureUnit,90,27,42]; @symbol_type<0> = [ResourceId,90,46,56]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 90; @position = 27; initialized = true; @symbol_vardef = [TemperatureUnit,90,27,42]; @symbol_type<0> = [ResourceId,90,46,56]; ]
         var TemperatureUnit as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 91; @position = 27; initialized = true; @symbol_vardef = [HumidityValue,91,27,40]; @symbol_type<0> = [ResourceId,91,44,54]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 91; @position = 27; initialized = true; @symbol_vardef = [HumidityValue,91,27,40]; @symbol_type<0> = [ResourceId,91,44,54]; ]
         var HumidityValue as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 92; @position = 27; initialized = true; @symbol_vardef = [AppName,92,27,34]; @symbol_type<0> = [ResourceId,92,38,48]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 92; @position = 27; initialized = true; @symbol_vardef = [AppName,92,27,34]; @symbol_type<0> = [ResourceId,92,38,48]; ]
         var AppName as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 93; @position = 27; initialized = true; @symbol_vardef = [BackgroundGreen,93,27,42]; @symbol_type<0> = [ResourceId,93,46,56]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 93; @position = 27; initialized = true; @symbol_vardef = [BackgroundGreen,93,27,42]; @symbol_type<0> = [ResourceId,93,46,56]; ]
         var BackgroundGreen as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 94; @position = 27; initialized = true; @symbol_vardef = [BackgroundOrange,94,27,43]; @symbol_type<0> = [ResourceId,94,47,57]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 94; @position = 27; initialized = true; @symbol_vardef = [BackgroundOrange,94,27,43]; @symbol_type<0> = [ResourceId,94,47,57]; ]
         var BackgroundOrange as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 95; @position = 27; initialized = true; @symbol_vardef = [BackgroundWhite,95,27,42]; @symbol_type<0> = [ResourceId,95,46,56]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 95; @position = 27; initialized = true; @symbol_vardef = [BackgroundWhite,95,27,42]; @symbol_type<0> = [ResourceId,95,46,56]; ]
         var BackgroundWhite as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 96; @position = 27; initialized = true; @symbol_vardef = [BatteryValue,96,27,39]; @symbol_type<0> = [ResourceId,96,43,53]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 96; @position = 27; initialized = true; @symbol_vardef = [BatteryValue,96,27,39]; @symbol_type<0> = [ResourceId,96,43,53]; ]
         var BatteryValue as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 97; @position = 27; initialized = true; @symbol_vardef = [BackgroundPurple,97,27,43]; @symbol_type<0> = [ResourceId,97,47,57]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 97; @position = 27; initialized = true; @symbol_vardef = [BackgroundPurple,97,27,43]; @symbol_type<0> = [ResourceId,97,47,57]; ]
         var BackgroundPurple as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 98; @position = 27; initialized = true; @symbol_vardef = [TargetCaloriesTitle,98,27,46]; @symbol_type<0> = [ResourceId,98,50,60]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 98; @position = 27; initialized = true; @symbol_vardef = [TargetCaloriesTitle,98,27,46]; @symbol_type<0> = [ResourceId,98,50,60]; ]
         var TargetCaloriesTitle as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 99; @position = 27; initialized = true; @symbol_vardef = [BackgroundBlue,99,27,41]; @symbol_type<0> = [ResourceId,99,45,55]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 99; @position = 27; initialized = true; @symbol_vardef = [BackgroundBlue,99,27,41]; @symbol_type<0> = [ResourceId,99,45,55]; ]
         var BackgroundBlue as ResourceId;
-        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 100; @position = 27; initialized = true; @symbol_vardef = [BackgroundPink,100,27,41]; @symbol_type<0> = [ResourceId,100,45,55]; ]
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 100; @position = 27; initialized = true; @symbol_vardef = [BackgroundPink,100,27,41]; @symbol_type<0> = [ResourceId,100,45,55]; ]
         var BackgroundPink as ResourceId;
     }
+    [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 103; @symbol_moduledef = [Styles,103,11,17]; ]
+    module Styles {
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 103; ]
+        <init> {
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 104; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,104,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 104; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 105; @position = 18; @symbol_constdef = [exclude,105,18,25]; @symbol_type<0> = [Boolean,105,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 108; @symbol_moduledef = [system_size__menu_header,108,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 108; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 109; @position = 18; @symbol_constdef = [width,109,18,23]; @symbol_type<0> = [Number,109,27,33]; ]
+            const width as Number = 260;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 110; @position = 18; @symbol_constdef = [height,110,18,24]; @symbol_type<0> = [Number,110,28,34]; ]
+            const height as Number = 78;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 113; @symbol_moduledef = [system_loc__hint_button_left_bottom,113,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 113; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 114; @position = 18; @symbol_constdef = [x,114,18,19]; @symbol_type<0> = [Number,114,23,29]; ]
+            const x as Number = 6;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 115; @position = 18; @symbol_constdef = [y,115,18,19]; @symbol_type<0> = [Number,115,23,29]; ]
+            const y as Number = 165;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 118; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,118,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 118; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 119; @position = 18; @symbol_constdef = [exclude,119,18,25]; @symbol_type<0> = [Boolean,119,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 122; @symbol_moduledef = [prompt_loc__body_no_title,122,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 122; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 123; @position = 18; @symbol_constdef = [x,123,18,19]; @symbol_type<0> = [Number,123,23,29]; ]
+            const x as Number = 26;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 124; @position = 18; @symbol_constdef = [y,124,18,19]; @symbol_type<0> = [Number,124,23,29]; ]
+            const y as Number = 26;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 127; @symbol_moduledef = [system_icon_dark__about,127,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 127; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 128; @position = 18; @symbol_constdef = [filename,128,18,26]; @symbol_type<0> = [String,128,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_dark__about.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 129; @position = 18; @symbol_constdef = [compress,129,18,26]; @symbol_type<0> = [String,129,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 130; @position = 18; @symbol_constdef = [dithering,130,18,27]; @symbol_type<0> = [String,130,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 131; @position = 18; @symbol_constdef = [automaticPalette,131,18,34]; @symbol_type<0> = [String,131,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 134; @symbol_moduledef = [system_icon_light__question,134,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 134; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 135; @position = 18; @symbol_constdef = [filename,135,18,26]; @symbol_type<0> = [String,135,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_light__question.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 136; @position = 18; @symbol_constdef = [dithering,136,18,27]; @symbol_type<0> = [String,136,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 139; @symbol_moduledef = [system_loc__hint_button_left_top,139,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 139; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 140; @position = 18; @symbol_constdef = [exclude,140,18,25]; @symbol_type<0> = [Boolean,140,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 143; @symbol_moduledef = [prompt_font__title,143,15,33]; ]
+        module prompt_font__title {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 143; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 144 18 ]
+                symbol [ Graphics %tmp.799 144 34 42 ];
+                %tmp.799 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.800 144 43 62 ];
+                %tmp.800 = getv %tmp.799 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.801 144 63 71 ];
+                %tmp.801 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.802 144 72 92 ];
+                %tmp.802 = getv %tmp.801 :TEXT_JUSTIFY_VCENTER;
+                %tmp.803 = bitor %tmp.800 %tmp.802;
+                putv self :justification %tmp.803;
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 145 18 ]
+                symbol [ Graphics %tmp.804 145 25 33 ];
+                %tmp.804 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.805 145 34 44 ];
+                %tmp.805 = getv %tmp.804 :FONT_XTINY;
+                putv self :font %tmp.805;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 144; @position = 18; @symbol_constdef = [justification,144,18,31]; ]
+            const justification;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 145; @position = 18; @symbol_constdef = [font,145,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 148; @symbol_moduledef = [system_icon_dark__discard,148,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 148; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 149; @position = 18; @symbol_constdef = [filename,149,18,26]; @symbol_type<0> = [String,149,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_dark__discard.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 150; @position = 18; @symbol_constdef = [compress,150,18,26]; @symbol_type<0> = [String,150,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 151; @position = 18; @symbol_constdef = [dithering,151,18,27]; @symbol_type<0> = [String,151,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 152; @position = 18; @symbol_constdef = [automaticPalette,152,18,34]; @symbol_type<0> = [String,152,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 155; @symbol_moduledef = [system_size__menu_item,155,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 155; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 156; @position = 18; @symbol_constdef = [width,156,18,23]; @symbol_type<0> = [Number,156,27,33]; ]
+            const width as Number = 260;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 157; @position = 18; @symbol_constdef = [height,157,18,24]; @symbol_type<0> = [Number,157,28,34]; ]
+            const height as Number = 83;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 160; @symbol_moduledef = [system_color_dark__text,160,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 160; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 162 18 ]
+                symbol [ Graphics %tmp.806 162 31 39 ];
+                %tmp.806 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.807 162 40 57 ];
+                %tmp.807 = getv %tmp.806 :COLOR_TRANSPARENT;
+                putv self :background %tmp.807;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 161; @position = 18; @symbol_constdef = [color,161,18,23]; @symbol_type<0> = [Number,161,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 162; @position = 18; @symbol_constdef = [background,162,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 165; @symbol_moduledef = [system_icon_destructive__discard,165,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 165; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 166; @position = 18; @symbol_constdef = [filename,166,18,26]; @symbol_type<0> = [String,166,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_destructive__discard.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 167; @position = 18; @symbol_constdef = [dithering,167,18,27]; @symbol_type<0> = [String,167,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 170; @symbol_moduledef = [system_icon_dark__hint_action_menu,170,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 170; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 171; @position = 18; @symbol_constdef = [filename,171,18,26]; @symbol_type<0> = [String,171,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 172; @position = 18; @symbol_constdef = [dithering,172,18,27]; @symbol_type<0> = [String,172,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 175; @symbol_moduledef = [prompt_size__title,175,15,33]; ]
+        module prompt_size__title {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 175; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 176; @position = 18; @symbol_constdef = [width,176,18,23]; @symbol_type<0> = [Number,176,27,33]; ]
+            const width as Number = 208;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 177; @position = 18; @symbol_constdef = [height,177,18,24]; @symbol_type<0> = [Number,177,28,34]; ]
+            const height as Number = 48;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 180; @symbol_moduledef = [confirmation_font__body,180,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 180; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 181 18 ]
+                symbol [ Graphics %tmp.808 181 34 42 ];
+                %tmp.808 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.809 181 43 62 ];
+                %tmp.809 = getv %tmp.808 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.810 181 63 71 ];
+                %tmp.810 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.811 181 72 92 ];
+                %tmp.811 = getv %tmp.810 :TEXT_JUSTIFY_VCENTER;
+                %tmp.812 = bitor %tmp.809 %tmp.811;
+                putv self :justification %tmp.812;
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 182 18 ]
+                symbol [ Graphics %tmp.813 182 25 33 ];
+                %tmp.813 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.814 182 34 43 ];
+                %tmp.814 = getv %tmp.813 :FONT_TINY;
+                putv self :font %tmp.814;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 181; @position = 18; @symbol_constdef = [justification,181,18,31]; ]
+            const justification;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 182; @position = 18; @symbol_constdef = [font,182,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 185; @symbol_moduledef = [system_color_dark__background,185,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 185; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 186; @position = 18; @symbol_constdef = [color,186,18,23]; @symbol_type<0> = [Number,186,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 187; @position = 18; @symbol_constdef = [background,187,18,28]; @symbol_type<0> = [Number,187,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 190; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,190,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 190; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 191; @position = 18; @symbol_constdef = [filename,191,18,26]; @symbol_type<0> = [String,191,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 192; @position = 18; @symbol_constdef = [dithering,192,18,27]; @symbol_type<0> = [String,192,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 195; @symbol_moduledef = [system_size__launch_icon,195,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 195; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 196; @position = 18; @symbol_constdef = [scaleX,196,18,24]; @symbol_type<0> = [Number,196,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 197; @position = 18; @symbol_constdef = [scaleY,197,18,24]; @symbol_type<0> = [Number,197,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 198; @position = 18; @symbol_constdef = [scaleRelativeTo,198,18,33]; @symbol_type<0> = [String,198,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 201; @symbol_moduledef = [confirmation_input__confirm,201,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 201; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 202 18 ]
+                symbol [ WatchUi %tmp.815 202 27 34 ];
+                %tmp.815 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.816 202 35 44 ];
+                %tmp.816 = getv %tmp.815 :KEY_ENTER;
+                putv self :button %tmp.816;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 202; @position = 18; @symbol_constdef = [button,202,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 205; @symbol_moduledef = [prompt_font__body_with_title,205,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 205; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 206 18 ]
+                symbol [ Graphics %tmp.817 206 34 42 ];
+                %tmp.817 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.818 206 43 62 ];
+                %tmp.818 = getv %tmp.817 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.818;
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 207 18 ]
+                symbol [ Graphics %tmp.819 207 25 33 ];
+                %tmp.819 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.820 207 34 43 ];
+                %tmp.820 = getv %tmp.819 :FONT_TINY;
+                putv self :font %tmp.820;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 206; @position = 18; @symbol_constdef = [justification,206,18,31]; ]
+            const justification;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 207; @position = 18; @symbol_constdef = [font,207,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 210; @symbol_moduledef = [confirmation_loc__body,210,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 210; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 211; @position = 18; @symbol_constdef = [x,211,18,19]; @symbol_type<0> = [Number,211,23,29]; ]
+            const x as Number = 52;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 212; @position = 18; @symbol_constdef = [y,212,18,19]; @symbol_type<0> = [Number,212,23,29]; ]
+            const y as Number = 52;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 215; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,215,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 215; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 216; @position = 18; @symbol_constdef = [filename,216,18,26]; @symbol_type<0> = [String,216,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 217; @position = 18; @symbol_constdef = [dithering,217,18,27]; @symbol_type<0> = [String,217,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 220; @symbol_moduledef = [prompt_color_dark__background,220,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 220; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 221; @position = 18; @symbol_constdef = [color,221,18,23]; @symbol_type<0> = [Number,221,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 222; @position = 18; @symbol_constdef = [background,222,18,28]; @symbol_type<0> = [Number,222,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 225; @symbol_moduledef = [system_icon_destructive__hint_action_menu,225,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 225; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 226; @position = 18; @symbol_constdef = [filename,226,18,26]; @symbol_type<0> = [String,226,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 227; @position = 18; @symbol_constdef = [dithering,227,18,27]; @symbol_type<0> = [String,227,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 230; @symbol_moduledef = [system_loc__hint_action_menu,230,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 230; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 231; @position = 18; @symbol_constdef = [x,231,18,19]; @symbol_type<0> = [Number,231,23,29]; ]
+            const x as Number = 206;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 232; @position = 18; @symbol_constdef = [y,232,18,19]; @symbol_type<0> = [Number,232,23,29]; ]
+            const y as Number = 42;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 235; @symbol_moduledef = [confirmation_icon__hint_confirm,235,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 235; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 236; @position = 18; @symbol_constdef = [filename,236,18,26]; @symbol_type<0> = [String,236,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/confirmation_icon__hint_completion_dark.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 237; @position = 18; @symbol_constdef = [dithering,237,18,27]; @symbol_type<0> = [String,237,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 240; @symbol_moduledef = [system_loc__hint_button_left_middle,240,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 240; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 241; @position = 18; @symbol_constdef = [x,241,18,19]; @symbol_type<0> = [Number,241,23,29]; ]
+            const x as Number = 0;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 242; @position = 18; @symbol_constdef = [y,242,18,19]; @symbol_type<0> = [Number,242,23,29]; ]
+            const y as Number = 101;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 245; @symbol_moduledef = [prompt_size__body_no_title,245,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 245; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 246; @position = 18; @symbol_constdef = [width,246,18,23]; @symbol_type<0> = [Number,246,27,33]; ]
+            const width as Number = 208;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 247; @position = 18; @symbol_constdef = [height,247,18,24]; @symbol_type<0> = [Number,247,28,34]; ]
+            const height as Number = 208;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 250; @symbol_moduledef = [system_icon_light__hint_button_left_top,250,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 250; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [filename,251,18,26]; @symbol_type<0> = [String,251,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_light__hint_button_left_top.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 252; @position = 18; @symbol_constdef = [dithering,252,18,27]; @symbol_type<0> = [String,252,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 255; @symbol_moduledef = [prompt_color_light__background,255,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 255; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 256; @position = 18; @symbol_constdef = [color,256,18,23]; @symbol_type<0> = [Number,256,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 257; @position = 18; @symbol_constdef = [background,257,18,28]; @symbol_type<0> = [Number,257,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 260; @symbol_moduledef = [confirmation_input__delete,260,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 260; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 261 18 ]
+                symbol [ WatchUi %tmp.821 261 27 34 ];
+                %tmp.821 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.822 261 35 44 ];
+                %tmp.822 = getv %tmp.821 :KEY_ENTER;
+                putv self :button %tmp.822;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 261; @position = 18; @symbol_constdef = [button,261,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 264; @symbol_moduledef = [system_icon_dark__hint_button_left_top,264,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 264; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [filename,265,18,26]; @symbol_type<0> = [String,265,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_dark__hint_button_left_top.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 266; @position = 18; @symbol_constdef = [dithering,266,18,27]; @symbol_type<0> = [String,266,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 269; @symbol_moduledef = [system_input__action_menu,269,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 269; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 270 18 ]
+                symbol [ WatchUi %tmp.823 270 27 34 ];
+                %tmp.823 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.824 270 35 44 ];
+                %tmp.824 = getv %tmp.823 :KEY_ENTER;
+                putv self :button %tmp.824;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 270; @position = 18; @symbol_constdef = [button,270,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 273; @symbol_moduledef = [system_icon_light__save,273,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 273; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 274; @position = 18; @symbol_constdef = [filename,274,18,26]; @symbol_type<0> = [String,274,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_light__save.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 275; @position = 18; @symbol_constdef = [dithering,275,18,27]; @symbol_type<0> = [String,275,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 278; @symbol_moduledef = [prompt_color_light__body,278,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 278; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 280 18 ]
+                symbol [ Graphics %tmp.825 280 31 39 ];
+                %tmp.825 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.826 280 40 57 ];
+                %tmp.826 = getv %tmp.825 :COLOR_TRANSPARENT;
+                putv self :background %tmp.826;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 279; @position = 18; @symbol_constdef = [color,279,18,23]; @symbol_type<0> = [Number,279,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 280; @position = 18; @symbol_constdef = [background,280,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 283; @symbol_moduledef = [system_loc__subwindow,283,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 283; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [exclude,284,18,25]; @symbol_type<0> = [Boolean,284,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 287; @symbol_moduledef = [system_icon_light__warning,287,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 287; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 288; @position = 18; @symbol_constdef = [filename,288,18,26]; @symbol_type<0> = [String,288,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_light__warning.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 289; @position = 18; @symbol_constdef = [dithering,289,18,27]; @symbol_type<0> = [String,289,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 292; @symbol_moduledef = [confirmation_color_light__body,292,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 292; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 294 18 ]
+                symbol [ Graphics %tmp.827 294 31 39 ];
+                %tmp.827 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.828 294 40 57 ];
+                %tmp.828 = getv %tmp.827 :COLOR_TRANSPARENT;
+                putv self :background %tmp.828;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 293; @position = 18; @symbol_constdef = [color,293,18,23]; @symbol_type<0> = [Number,293,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 294; @position = 18; @symbol_constdef = [background,294,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 297; @symbol_moduledef = [confirmation_icon_light__hint_keep,297,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 297; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 298; @position = 18; @symbol_constdef = [filename,298,18,26]; @symbol_type<0> = [String,298,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/confirmation_icon__hint_keep_light.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 299; @position = 18; @symbol_constdef = [dithering,299,18,27]; @symbol_type<0> = [String,299,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 302; @symbol_moduledef = [activity_color_light__background,302,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 302; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 303; @position = 18; @symbol_constdef = [color,303,18,23]; @symbol_type<0> = [Number,303,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 304; @position = 18; @symbol_constdef = [background,304,18,28]; @symbol_type<0> = [Number,304,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 307; @symbol_moduledef = [system_icon_positive__hint_button_right_top,307,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 307; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 308; @position = 18; @symbol_constdef = [filename,308,18,26]; @symbol_type<0> = [String,308,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 309; @position = 18; @symbol_constdef = [dithering,309,18,27]; @symbol_type<0> = [String,309,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 312; @symbol_moduledef = [system_size__screen,312,15,34]; ]
+        module system_size__screen {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 312; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 313; @position = 18; @symbol_constdef = [width,313,18,23]; @symbol_type<0> = [Number,313,27,33]; ]
+            const width as Number = 260;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 314; @position = 18; @symbol_constdef = [height,314,18,24]; @symbol_type<0> = [Number,314,28,34]; ]
+            const height as Number = 260;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 317; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,317,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 317; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 318; @position = 18; @symbol_constdef = [filename,318,18,26]; @symbol_type<0> = [String,318,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 319; @position = 18; @symbol_constdef = [dithering,319,18,27]; @symbol_type<0> = [String,319,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 322; @symbol_moduledef = [system_color_light__background,322,15,45]; ]
+        module system_color_light__background {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 322; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 323; @position = 18; @symbol_constdef = [color,323,18,23]; @symbol_type<0> = [Number,323,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 324; @position = 18; @symbol_constdef = [background,324,18,28]; @symbol_type<0> = [Number,324,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 327; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,327,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 327; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 328; @position = 18; @symbol_constdef = [filename,328,18,26]; @symbol_type<0> = [String,328,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 329; @position = 18; @symbol_constdef = [dithering,329,18,27]; @symbol_type<0> = [String,329,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 332; @symbol_moduledef = [confirmation_loc__hint_confirm,332,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 332; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 333; @position = 18; @symbol_constdef = [x,333,18,19]; @symbol_type<0> = [Number,333,23,29]; ]
+            const x as Number = 206;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 334; @position = 18; @symbol_constdef = [y,334,18,19]; @symbol_type<0> = [Number,334,23,29]; ]
+            const y as Number = 42;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 337; @symbol_moduledef = [activity_color_dark__text,337,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 337; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 339 18 ]
+                symbol [ Graphics %tmp.829 339 31 39 ];
+                %tmp.829 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.830 339 40 57 ];
+                %tmp.830 = getv %tmp.829 :COLOR_TRANSPARENT;
+                putv self :background %tmp.830;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [color,338,18,23]; @symbol_type<0> = [Number,338,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 339; @position = 18; @symbol_constdef = [background,339,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 342; @symbol_moduledef = [confirmation_input__keep,342,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 342; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 343 18 ]
+                symbol [ WatchUi %tmp.831 343 27 34 ];
+                %tmp.831 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.832 343 35 43 ];
+                %tmp.832 = getv %tmp.831 :KEY_DOWN;
+                putv self :button %tmp.832;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [button,343,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 346; @symbol_moduledef = [prompt_loc__body_with_title,346,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 346; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 347; @position = 18; @symbol_constdef = [x,347,18,19]; @symbol_type<0> = [Number,347,23,29]; ]
+            const x as Number = 26;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [y,348,18,19]; @symbol_type<0> = [Number,348,23,29]; ]
+            const y as Number = 78;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 351; @symbol_moduledef = [system_icon_dark__search,351,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 351; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 352; @position = 18; @symbol_constdef = [filename,352,18,26]; @symbol_type<0> = [String,352,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_dark__search.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 353; @position = 18; @symbol_constdef = [compress,353,18,26]; @symbol_type<0> = [String,353,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 354; @position = 18; @symbol_constdef = [dithering,354,18,27]; @symbol_type<0> = [String,354,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 355; @position = 18; @symbol_constdef = [automaticPalette,355,18,34]; @symbol_type<0> = [String,355,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 358; @symbol_moduledef = [activity_color_light__text,358,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 358; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 360 18 ]
+                symbol [ Graphics %tmp.833 360 31 39 ];
+                %tmp.833 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.834 360 40 57 ];
+                %tmp.834 = getv %tmp.833 :COLOR_TRANSPARENT;
+                putv self :background %tmp.834;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 359; @position = 18; @symbol_constdef = [color,359,18,23]; @symbol_type<0> = [Number,359,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 360; @position = 18; @symbol_constdef = [background,360,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 363; @symbol_moduledef = [confirmation_icon__hint_keep,363,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 363; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 364; @position = 18; @symbol_constdef = [filename,364,18,26]; @symbol_type<0> = [String,364,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/confirmation_icon__hint_keep_dark.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 365; @position = 18; @symbol_constdef = [dithering,365,18,27]; @symbol_type<0> = [String,365,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 368; @symbol_moduledef = [system_icon_dark__save,368,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 368; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 369; @position = 18; @symbol_constdef = [filename,369,18,26]; @symbol_type<0> = [String,369,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_dark__save.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 370; @position = 18; @symbol_constdef = [compress,370,18,26]; @symbol_type<0> = [String,370,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 371; @position = 18; @symbol_constdef = [dithering,371,18,27]; @symbol_type<0> = [String,371,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [automaticPalette,372,18,34]; @symbol_type<0> = [String,372,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 375; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,375,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 375; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 376; @position = 18; @symbol_constdef = [filename,376,18,26]; @symbol_type<0> = [String,376,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [dithering,377,18,27]; @symbol_type<0> = [String,377,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 380; @symbol_moduledef = [system_icon_light__search,380,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 380; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 381; @position = 18; @symbol_constdef = [filename,381,18,26]; @symbol_type<0> = [String,381,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_light__search.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 382; @position = 18; @symbol_constdef = [dithering,382,18,27]; @symbol_type<0> = [String,382,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 385; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,385,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 385; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 386; @position = 18; @symbol_constdef = [filename,386,18,26]; @symbol_type<0> = [String,386,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [dithering,387,18,27]; @symbol_type<0> = [String,387,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 390; @symbol_moduledef = [system_icon_positive__hint_button_left_top,390,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 390; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 391; @position = 18; @symbol_constdef = [filename,391,18,26]; @symbol_type<0> = [String,391,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_positive__hint_button_left_top.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [dithering,392,18,27]; @symbol_type<0> = [String,392,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 395; @symbol_moduledef = [system_loc__hint_button_right_bottom,395,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 395; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 396; @position = 18; @symbol_constdef = [x,396,18,19]; @symbol_type<0> = [Number,396,23,29]; ]
+            const x as Number = 206;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 397; @position = 18; @symbol_constdef = [y,397,18,19]; @symbol_type<0> = [Number,397,23,29]; ]
+            const y as Number = 165;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 400; @symbol_moduledef = [confirmation_icon_dark__hint_reject,400,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 400; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 401; @position = 18; @symbol_constdef = [filename,401,18,26]; @symbol_type<0> = [String,401,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/confirmation_icon__hint_reject_dark.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 402; @position = 18; @symbol_constdef = [dithering,402,18,27]; @symbol_type<0> = [String,402,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 405; @symbol_moduledef = [confirmation_color_dark__body,405,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 405; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 407 18 ]
+                symbol [ Graphics %tmp.835 407 31 39 ];
+                %tmp.835 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.836 407 40 57 ];
+                %tmp.836 = getv %tmp.835 :COLOR_TRANSPARENT;
+                putv self :background %tmp.836;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 406; @position = 18; @symbol_constdef = [color,406,18,23]; @symbol_type<0> = [Number,406,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [background,407,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 410; @symbol_moduledef = [confirmation_icon_light__hint_confirm,410,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 410; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 411; @position = 18; @symbol_constdef = [filename,411,18,26]; @symbol_type<0> = [String,411,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/confirmation_icon__hint_completion_light.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 412; @position = 18; @symbol_constdef = [dithering,412,18,27]; @symbol_type<0> = [String,412,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 415; @symbol_moduledef = [prompt_color_dark__title,415,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 415; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 417 18 ]
+                symbol [ Graphics %tmp.837 417 31 39 ];
+                %tmp.837 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.838 417 40 57 ];
+                %tmp.838 = getv %tmp.837 :COLOR_TRANSPARENT;
+                putv self :background %tmp.838;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 416; @position = 18; @symbol_constdef = [color,416,18,23]; @symbol_type<0> = [Number,416,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 417; @position = 18; @symbol_constdef = [background,417,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 420; @symbol_moduledef = [system_icon_destructive__cancel,420,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 420; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [filename,421,18,26]; @symbol_type<0> = [String,421,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_destructive__cancel.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 422; @position = 18; @symbol_constdef = [dithering,422,18,27]; @symbol_type<0> = [String,422,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 425; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,425,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 425; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 426; @position = 18; @symbol_constdef = [filename,426,18,26]; @symbol_type<0> = [String,426,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [dithering,427,18,27]; @symbol_type<0> = [String,427,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 430; @symbol_moduledef = [prompt_loc__title,430,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 431; @position = 18; @symbol_constdef = [x,431,18,19]; @symbol_type<0> = [Number,431,23,29]; ]
+            const x as Number = 26;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 432; @position = 18; @symbol_constdef = [y,432,18,19]; @symbol_type<0> = [Number,432,23,29]; ]
+            const y as Number = 19;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 435; @symbol_moduledef = [confirmation_font_enhanced_readability__body,435,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 435; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 436; @position = 18; @symbol_constdef = [exclude,436,18,25]; @symbol_type<0> = [Boolean,436,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 439; @symbol_moduledef = [prompt_color_light__title,439,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 439; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 441 18 ]
+                symbol [ Graphics %tmp.839 441 31 39 ];
+                %tmp.839 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.840 441 40 57 ];
+                %tmp.840 = getv %tmp.839 :COLOR_TRANSPARENT;
+                putv self :background %tmp.840;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 440; @position = 18; @symbol_constdef = [color,440,18,23]; @symbol_type<0> = [Number,440,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [background,441,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 444; @symbol_moduledef = [system_icon_dark__hint_button_right_top,444,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 444; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 445; @position = 18; @symbol_constdef = [filename,445,18,26]; @symbol_type<0> = [String,445,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 446; @position = 18; @symbol_constdef = [dithering,446,18,27]; @symbol_type<0> = [String,446,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 449; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,449,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 449; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 450; @position = 18; @symbol_constdef = [filename,450,18,26]; @symbol_type<0> = [String,450,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 451; @position = 18; @symbol_constdef = [dithering,451,18,27]; @symbol_type<0> = [String,451,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 454; @symbol_moduledef = [confirmation_icon_dark__hint_keep,454,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 454; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 455; @position = 18; @symbol_constdef = [filename,455,18,26]; @symbol_type<0> = [String,455,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/confirmation_icon__hint_keep_dark.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 456; @position = 18; @symbol_constdef = [dithering,456,18,27]; @symbol_type<0> = [String,456,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 459; @symbol_moduledef = [system_icon_light__cancel,459,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 459; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 460; @position = 18; @symbol_constdef = [filename,460,18,26]; @symbol_type<0> = [String,460,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_light__cancel.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 461; @position = 18; @symbol_constdef = [dithering,461,18,27]; @symbol_type<0> = [String,461,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 464; @symbol_moduledef = [confirmation_icon_light__hint_reject,464,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 464; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 465; @position = 18; @symbol_constdef = [filename,465,18,26]; @symbol_type<0> = [String,465,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/confirmation_icon__hint_reject_light.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 466; @position = 18; @symbol_constdef = [dithering,466,18,27]; @symbol_type<0> = [String,466,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 469; @symbol_moduledef = [system_icon_light__about,469,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 469; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 470; @position = 18; @symbol_constdef = [filename,470,18,26]; @symbol_type<0> = [String,470,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_light__about.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 471; @position = 18; @symbol_constdef = [dithering,471,18,27]; @symbol_type<0> = [String,471,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 474; @symbol_moduledef = [system_size__toast_icon,474,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 474; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 475; @position = 18; @symbol_constdef = [scaleX,475,18,24]; @symbol_type<0> = [Number,475,28,34]; ]
+            const scaleX as Number = 35;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 476; @position = 18; @symbol_constdef = [scaleY,476,18,24]; @symbol_type<0> = [Number,476,28,34]; ]
+            const scaleY as Number = 35;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 477; @position = 18; @symbol_constdef = [scaleRelativeTo,477,18,33]; @symbol_type<0> = [String,477,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 480; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,480,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 480; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 481; @position = 18; @symbol_constdef = [exclude,481,18,25]; @symbol_type<0> = [Boolean,481,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 484; @symbol_moduledef = [confirmation_icon__hint_reject,484,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 484; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 485; @position = 18; @symbol_constdef = [filename,485,18,26]; @symbol_type<0> = [String,485,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/confirmation_icon__hint_reject_dark.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 486; @position = 18; @symbol_constdef = [dithering,486,18,27]; @symbol_type<0> = [String,486,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 489; @symbol_moduledef = [system_icon_light__hint_action_menu,489,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 489; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 490; @position = 18; @symbol_constdef = [filename,490,18,26]; @symbol_type<0> = [String,490,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 491; @position = 18; @symbol_constdef = [dithering,491,18,27]; @symbol_type<0> = [String,491,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 494; @symbol_moduledef = [system_icon_light__hint_button_right_middle,494,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 494; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 495; @position = 18; @symbol_constdef = [exclude,495,18,25]; @symbol_type<0> = [Boolean,495,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 498; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,498,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 498; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 499; @position = 18; @symbol_constdef = [exclude,499,18,25]; @symbol_type<0> = [Boolean,499,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 502; @symbol_moduledef = [confirmation_loc__hint_reject,502,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 502; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 503; @position = 18; @symbol_constdef = [x,503,18,19]; @symbol_type<0> = [Number,503,23,29]; ]
+            const x as Number = 6;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 504; @position = 18; @symbol_constdef = [y,504,18,19]; @symbol_type<0> = [Number,504,23,29]; ]
+            const y as Number = 165;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 505; @position = 18; @symbol_constdef = [horizontalJustification,505,18,41]; @symbol_type<0> = [String,505,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 508; @symbol_moduledef = [confirmation_icon_dark__hint_delete,508,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 508; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 509; @position = 18; @symbol_constdef = [filename,509,18,26]; @symbol_type<0> = [String,509,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/confirmation_icon__hint_delete_dark.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 510; @position = 18; @symbol_constdef = [dithering,510,18,27]; @symbol_type<0> = [String,510,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 513; @symbol_moduledef = [activity_color_dark__background,513,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 513; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 514; @position = 18; @symbol_constdef = [color,514,18,23]; @symbol_type<0> = [Number,514,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 515; @position = 18; @symbol_constdef = [background,515,18,28]; @symbol_type<0> = [Number,515,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 518; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,518,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 518; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 519; @position = 18; @symbol_constdef = [filename,519,18,26]; @symbol_type<0> = [String,519,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 520; @position = 18; @symbol_constdef = [dithering,520,18,27]; @symbol_type<0> = [String,520,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 523; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,523,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 523; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 524; @position = 18; @symbol_constdef = [filename,524,18,26]; @symbol_type<0> = [String,524,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 525; @position = 18; @symbol_constdef = [dithering,525,18,27]; @symbol_type<0> = [String,525,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 528; @symbol_moduledef = [system_size__menu_icon,528,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 528; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 529; @position = 18; @symbol_constdef = [scaleX,529,18,24]; @symbol_type<0> = [Number,529,28,34]; ]
+            const scaleX as Number = 45;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 530; @position = 18; @symbol_constdef = [scaleY,530,18,24]; @symbol_type<0> = [Number,530,28,34]; ]
+            const scaleY as Number = 82;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 531; @position = 18; @symbol_constdef = [scaleRelativeTo,531,18,33]; @symbol_type<0> = [String,531,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 534; @symbol_moduledef = [system_icon_destructive__warning,534,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 534; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 535; @position = 18; @symbol_constdef = [filename,535,18,26]; @symbol_type<0> = [String,535,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_destructive__warning.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 536; @position = 18; @symbol_constdef = [dithering,536,18,27]; @symbol_type<0> = [String,536,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 539; @symbol_moduledef = [system_loc__hint_button_right_middle,539,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 539; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 540; @position = 18; @symbol_constdef = [exclude,540,18,25]; @symbol_type<0> = [Boolean,540,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 543; @symbol_moduledef = [system_icon_dark__cancel,543,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 543; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 544; @position = 18; @symbol_constdef = [filename,544,18,26]; @symbol_type<0> = [String,544,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_dark__cancel.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 545; @position = 18; @symbol_constdef = [compress,545,18,26]; @symbol_type<0> = [String,545,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 546; @position = 18; @symbol_constdef = [dithering,546,18,27]; @symbol_type<0> = [String,546,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 547; @position = 18; @symbol_constdef = [automaticPalette,547,18,34]; @symbol_type<0> = [String,547,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 550; @symbol_moduledef = [prompt_size__body_with_title,550,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 550; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 551; @position = 18; @symbol_constdef = [width,551,18,23]; @symbol_type<0> = [Number,551,27,33]; ]
+            const width as Number = 208;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 552; @position = 18; @symbol_constdef = [height,552,18,24]; @symbol_type<0> = [Number,552,28,34]; ]
+            const height as Number = 156;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 555; @symbol_moduledef = [system_loc__hint_button_right_top,555,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 555; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 556; @position = 18; @symbol_constdef = [x,556,18,19]; @symbol_type<0> = [Number,556,23,29]; ]
+            const x as Number = 206;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 557; @position = 18; @symbol_constdef = [y,557,18,19]; @symbol_type<0> = [Number,557,23,29]; ]
+            const y as Number = 42;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 560; @symbol_moduledef = [system_color_light__text,560,15,39]; ]
+        module system_color_light__text {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 560; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 562 18 ]
+                symbol [ Graphics %tmp.841 562 31 39 ];
+                %tmp.841 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.842 562 40 57 ];
+                %tmp.842 = getv %tmp.841 :COLOR_TRANSPARENT;
+                putv self :background %tmp.842;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 561; @position = 18; @symbol_constdef = [color,561,18,23]; @symbol_type<0> = [Number,561,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 562; @position = 18; @symbol_constdef = [background,562,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 565; @symbol_moduledef = [system_icon_light__check,565,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 565; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 566; @position = 18; @symbol_constdef = [filename,566,18,26]; @symbol_type<0> = [String,566,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_light__check.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 567; @position = 18; @symbol_constdef = [dithering,567,18,27]; @symbol_type<0> = [String,567,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 570; @symbol_moduledef = [confirmation_input__reject,570,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 570; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 571 18 ]
+                symbol [ WatchUi %tmp.843 571 27 34 ];
+                %tmp.843 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.844 571 35 43 ];
+                %tmp.844 = getv %tmp.843 :KEY_DOWN;
+                putv self :button %tmp.844;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 571; @position = 18; @symbol_constdef = [button,571,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 574; @symbol_moduledef = [system_icon_light__revert,574,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 574; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 575; @position = 18; @symbol_constdef = [filename,575,18,26]; @symbol_type<0> = [String,575,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_light__revert.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 576; @position = 18; @symbol_constdef = [dithering,576,18,27]; @symbol_type<0> = [String,576,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 579; @symbol_moduledef = [system_size__subwindow,579,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 579; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 580; @position = 18; @symbol_constdef = [exclude,580,18,25]; @symbol_type<0> = [Boolean,580,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 583; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,583,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 583; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 584; @position = 18; @symbol_constdef = [filename,584,18,26]; @symbol_type<0> = [String,584,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 585; @position = 18; @symbol_constdef = [dithering,585,18,27]; @symbol_type<0> = [String,585,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 588; @symbol_moduledef = [system_icon_dark__check,588,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 588; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 589; @position = 18; @symbol_constdef = [filename,589,18,26]; @symbol_type<0> = [String,589,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_dark__check.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 590; @position = 18; @symbol_constdef = [compress,590,18,26]; @symbol_type<0> = [String,590,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 591; @position = 18; @symbol_constdef = [dithering,591,18,27]; @symbol_type<0> = [String,591,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [automaticPalette,592,18,34]; @symbol_type<0> = [String,592,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 595; @symbol_moduledef = [confirmation_loc__hint_keep,595,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 595; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 596; @position = 18; @symbol_constdef = [x,596,18,19]; @symbol_type<0> = [Number,596,23,29]; ]
+            const x as Number = 6;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 597; @position = 18; @symbol_constdef = [y,597,18,19]; @symbol_type<0> = [Number,597,23,29]; ]
+            const y as Number = 165;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 598; @position = 18; @symbol_constdef = [horizontalJustification,598,18,41]; @symbol_type<0> = [String,598,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 601; @symbol_moduledef = [confirmation_loc__hint_delete,601,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 601; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 602; @position = 18; @symbol_constdef = [x,602,18,19]; @symbol_type<0> = [Number,602,23,29]; ]
+            const x as Number = 206;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 603; @position = 18; @symbol_constdef = [y,603,18,19]; @symbol_type<0> = [Number,603,23,29]; ]
+            const y as Number = 42;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 606; @symbol_moduledef = [system_icon_positive__hint_action_menu,606,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 606; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 607; @position = 18; @symbol_constdef = [filename,607,18,26]; @symbol_type<0> = [String,607,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 608; @position = 18; @symbol_constdef = [dithering,608,18,27]; @symbol_type<0> = [String,608,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 611; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,611,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 611; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 612; @position = 18; @symbol_constdef = [exclude,612,18,25]; @symbol_type<0> = [Boolean,612,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 615; @symbol_moduledef = [system_icon_light__hint_button_left_middle,615,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 615; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 616; @position = 18; @symbol_constdef = [filename,616,18,26]; @symbol_type<0> = [String,616,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_light__hint_button_left_middle.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 617; @position = 18; @symbol_constdef = [dithering,617,18,27]; @symbol_type<0> = [String,617,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 620; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,620,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 620; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 621; @position = 18; @symbol_constdef = [filename,621,18,26]; @symbol_type<0> = [String,621,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 622; @position = 18; @symbol_constdef = [dithering,622,18,27]; @symbol_type<0> = [String,622,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 625; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,625,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 625; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 626; @position = 18; @symbol_constdef = [filename,626,18,26]; @symbol_type<0> = [String,626,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 627; @position = 18; @symbol_constdef = [dithering,627,18,27]; @symbol_type<0> = [String,627,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 630; @symbol_moduledef = [system_icon_dark__revert,630,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 630; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 631; @position = 18; @symbol_constdef = [filename,631,18,26]; @symbol_type<0> = [String,631,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_dark__revert.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 632; @position = 18; @symbol_constdef = [compress,632,18,26]; @symbol_type<0> = [String,632,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 633; @position = 18; @symbol_constdef = [dithering,633,18,27]; @symbol_type<0> = [String,633,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 634; @position = 18; @symbol_constdef = [automaticPalette,634,18,34]; @symbol_type<0> = [String,634,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 637; @symbol_moduledef = [confirmation_icon_light__hint_delete,637,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 637; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 638; @position = 18; @symbol_constdef = [filename,638,18,26]; @symbol_type<0> = [String,638,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/confirmation_icon__hint_delete_light.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 639; @position = 18; @symbol_constdef = [dithering,639,18,27]; @symbol_type<0> = [String,639,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 642; @symbol_moduledef = [system_icon_dark__question,642,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 642; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 643; @position = 18; @symbol_constdef = [filename,643,18,26]; @symbol_type<0> = [String,643,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_dark__question.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 644; @position = 18; @symbol_constdef = [compress,644,18,26]; @symbol_type<0> = [String,644,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 645; @position = 18; @symbol_constdef = [dithering,645,18,27]; @symbol_type<0> = [String,645,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 646; @position = 18; @symbol_constdef = [automaticPalette,646,18,34]; @symbol_type<0> = [String,646,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 649; @symbol_moduledef = [system_icon_light__discard,649,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 649; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 650; @position = 18; @symbol_constdef = [filename,650,18,26]; @symbol_type<0> = [String,650,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_light__discard.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 651; @position = 18; @symbol_constdef = [dithering,651,18,27]; @symbol_type<0> = [String,651,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 654; @symbol_moduledef = [device_info,654,15,26]; ]
+        module device_info {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 654; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 656 18 ]
+                symbol [ Toybox %tmp.846 656 32 38 ];
+                %tmp.846 = getv ? :Toybox;
+                symbol [ System %tmp.847 656 39 45 ];
+                %tmp.847 = getv %tmp.846 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.848 656 46 64 ];
+                %tmp.848 = getv %tmp.847 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.848;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 655; @position = 18; @symbol_constdef = [screenWidth,655,18,29]; @symbol_type<0> = [Number,655,33,39]; ]
+            const screenWidth as Number = 260;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 656; @position = 18; @symbol_constdef = [screenShape,656,18,29]; ]
+            const screenShape;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 657; @position = 18; @symbol_constdef = [hasNightMode,657,18,30]; @symbol_type<0> = [Boolean,657,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 658; @position = 18; @symbol_constdef = [hasGpu,658,18,24]; @symbol_type<0> = [Boolean,658,28,35]; ]
+            const hasGpu as Boolean = true;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 659; @position = 18; @symbol_constdef = [screenHeight,659,18,30]; @symbol_type<0> = [Number,659,34,40]; ]
+            const screenHeight as Number = 260;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 660; @position = 18; @symbol_constdef = [hasTouchScreen,660,18,32]; @symbol_type<0> = [Boolean,660,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 661; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,661,18,44]; @symbol_type<0> = [Boolean,661,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 664; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,664,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 664; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 665; @position = 18; @symbol_constdef = [filename,665,18,26]; @symbol_type<0> = [String,665,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/confirmation_icon__hint_completion_dark.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 666; @position = 18; @symbol_constdef = [dithering,666,18,27]; @symbol_type<0> = [String,666,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 669; @symbol_moduledef = [prompt_font__body_no_title,669,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 669; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 670 18 ]
+                symbol [ Graphics %tmp.849 670 34 42 ];
+                %tmp.849 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.850 670 43 62 ];
+                %tmp.850 = getv %tmp.849 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.851 670 63 71 ];
+                %tmp.851 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.852 670 72 92 ];
+                %tmp.852 = getv %tmp.851 :TEXT_JUSTIFY_VCENTER;
+                %tmp.853 = bitor %tmp.850 %tmp.852;
+                putv self :justification %tmp.853;
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 671 18 ]
+                symbol [ Graphics %tmp.854 671 25 33 ];
+                %tmp.854 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.855 671 34 43 ];
+                %tmp.855 = getv %tmp.854 :FONT_TINY;
+                putv self :font %tmp.855;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 670; @position = 18; @symbol_constdef = [justification,670,18,31]; ]
+            const justification;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 671; @position = 18; @symbol_constdef = [font,671,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 674; @symbol_moduledef = [prompt_size__title_icon,674,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 674; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 675; @position = 18; @symbol_constdef = [scaleX,675,18,24]; @symbol_type<0> = [Float,675,28,33]; ]
+            const scaleX as Float = 0.1539;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 676; @position = 18; @symbol_constdef = [scaleRelativeTo,676,18,33]; @symbol_type<0> = [String,676,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 679; @symbol_moduledef = [system_icon_dark__warning,679,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 679; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 680; @position = 18; @symbol_constdef = [filename,680,18,26]; @symbol_type<0> = [String,680,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_dark__warning.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 681; @position = 18; @symbol_constdef = [compress,681,18,26]; @symbol_type<0> = [String,681,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 682; @position = 18; @symbol_constdef = [dithering,682,18,27]; @symbol_type<0> = [String,682,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 683; @position = 18; @symbol_constdef = [automaticPalette,683,18,34]; @symbol_type<0> = [String,683,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 686; @symbol_moduledef = [prompt_loc__title_icon,686,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 686; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 687; @position = 18; @symbol_constdef = [x,687,18,19]; @symbol_type<0> = [Number,687,23,29]; ]
+            const x as Number = 130;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 688; @position = 18; @symbol_constdef = [y,688,18,19]; @symbol_type<0> = [Number,688,23,29]; ]
+            const y as Number = 39;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 689; @position = 18; @symbol_constdef = [horizontalJustification,689,18,41]; @symbol_type<0> = [String,689,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 690; @position = 18; @symbol_constdef = [verticalJustification,690,18,39]; @symbol_type<0> = [String,690,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 693; @symbol_moduledef = [prompt_font_enhanced_readability__title,693,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 693; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 694; @position = 18; @symbol_constdef = [exclude,694,18,25]; @symbol_type<0> = [Boolean,694,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 697; @symbol_moduledef = [prompt_color_dark__body,697,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 697; ]
+            <init> {
+[ "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" 699 18 ]
+                symbol [ Graphics %tmp.856 699 31 39 ];
+                %tmp.856 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.857 699 40 57 ];
+                %tmp.857 = getv %tmp.856 :COLOR_TRANSPARENT;
+                putv self :background %tmp.857;
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 698; @position = 18; @symbol_constdef = [color,698,18,23]; @symbol_type<0> = [Number,698,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 699; @position = 18; @symbol_constdef = [background,699,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 702; @symbol_moduledef = [confirmation_icon__hint_delete,702,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 702; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 703; @position = 18; @symbol_constdef = [filename,703,18,26]; @symbol_type<0> = [String,703,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/confirmation_icon__hint_delete_dark.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 704; @position = 18; @symbol_constdef = [dithering,704,18,27]; @symbol_type<0> = [String,704,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 707; @symbol_moduledef = [system_icon_light__hint_button_right_top,707,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 707; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 708; @position = 18; @symbol_constdef = [filename,708,18,26]; @symbol_type<0> = [String,708,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 709; @position = 18; @symbol_constdef = [dithering,709,18,27]; @symbol_type<0> = [String,709,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 712; @symbol_moduledef = [confirmation_size__body,712,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 712; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 713; @position = 18; @symbol_constdef = [width,713,18,23]; @symbol_type<0> = [Number,713,27,33]; ]
+            const width as Number = 156;
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 714; @position = 18; @symbol_constdef = [height,714,18,24]; @symbol_type<0> = [Number,714,28,34]; ]
+            const height as Number = 156;
+        }
+        [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 717; @symbol_moduledef = [system_icon_positive__check,717,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 717; ]
+            <init> {
+            }
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 718; @position = 18; @symbol_constdef = [filename,718,18,26]; @symbol_type<0> = [String,718,30,36]; ]
+            const filename as String = "/Users/summer/Library/Application Support/Garmin/ConnectIQ/Devices/fenix8solar47mm/system_icon_positive__check.svg";
+            [ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 719; @position = 18; @symbol_constdef = [dithering,719,18,27]; @symbol_type<0> = [String,719,31,37]; ]
+            const dithering as String = "none";
+        }
+    }
 }
-[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3393-00/source/Rez.mcgen"; @line = 1; ]
+[ @file = "/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 1; ]
 <init> {
 }

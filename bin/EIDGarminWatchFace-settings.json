@@ -38,7 +38,7 @@
   }, {
     "key" : "TargetCalories",
     "valueType" : "number",
-    "defaultValue" : 2000,
+    "defaultValue" : 1000,
     "configTitle" : "TargetCaloriesTitle",
     "configPrompt" : null,
     "configType" : "numeric",
