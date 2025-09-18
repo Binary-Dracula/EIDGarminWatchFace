@@ -1,0 +1,10 @@
+<fonts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+  <font id="rubik_f8_grey" filename="rubik_f8_grey.fnt" />
+  <font id="rubik_f11_white" filename="rubik_f11_white.fnt" />
+  <font id="rubik_f13_white" filename="rubik_f13_white.fnt" />  
+  <font id="rubik_f14_grey" filename="rubik_f14_grey.fnt" />  
+  <font id="rubik_f19_white" filename="rubik_f19_white.fnt" />
+  <font id="rubik65" filename="rubik65.fnt" />
+
+</fonts>

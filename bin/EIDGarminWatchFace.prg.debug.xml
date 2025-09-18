@@ -4,7 +4,7 @@
     <pcToLineNum>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="1" lineNum="31" parent="globals" pc="268435460" symbol="getApp"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="1" lineNum="32" parent="globals" pc="268435470" symbol="getApp"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435481" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435481" symbol="&lt;init&gt;"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="3" lineNum="5" parent="globals/EIDGarminWatchFaceApp" pc="268435501" symbol="&lt;init&gt;"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="4" lineNum="6" parent="globals/CustomBackgroundDrawable" pc="268435513" symbol="&lt;init&gt;"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="5" lineNum="14" parent="globals/EIDGarminWatchFaceView" pc="268435525" symbol="&lt;init&gt;"/>
@@ -371,32 +371,32 @@
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="61" lineNum="141" parent="globals/EIDGarminWatchFaceView" pc="268440397" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSunsetTime&gt;"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="61" lineNum="142" parent="globals/EIDGarminWatchFaceView" pc="268440412" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSunsetTime&gt;"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="61" lineNum="143" parent="globals/EIDGarminWatchFaceView" pc="268440433" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSunsetTime&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="40" parent="globals/Rez/Layouts" pc="268440455" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="41" parent="globals/Rez/Layouts" pc="268440466" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="42" parent="globals/Rez/Layouts" pc="268440499" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="43" parent="globals/Rez/Layouts" pc="268440532" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="44" parent="globals/Rez/Layouts" pc="268440565" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="45" parent="globals/Rez/Layouts" pc="268440598" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="46" parent="globals/Rez/Layouts" pc="268440631" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="48" parent="globals/Rez/Layouts" pc="268440655" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="50" parent="globals/Rez/Layouts" pc="268440733" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="52" parent="globals/Rez/Layouts" pc="268440818" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="54" parent="globals/Rez/Layouts" pc="268440907" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="56" parent="globals/Rez/Layouts" pc="268440985" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="58" parent="globals/Rez/Layouts" pc="268441063" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="60" parent="globals/Rez/Layouts" pc="268441141" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="62" parent="globals/Rez/Layouts" pc="268441218" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="64" parent="globals/Rez/Layouts" pc="268441296" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="66" parent="globals/Rez/Layouts" pc="268441374" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="68" parent="globals/Rez/Layouts" pc="268441452" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="70" parent="globals/Rez/Layouts" pc="268441529" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="72" parent="globals/Rez/Layouts" pc="268441618" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="74" parent="globals/Rez/Layouts" pc="268441696" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="75" parent="globals/Rez/Layouts" pc="268441783" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="77" parent="globals/Rez/Layouts" pc="268441803" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="79" parent="globals/Rez/Layouts" pc="268441881" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="81" parent="globals/Rez/Layouts" pc="268441983" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4532-00/source/Rez.mcgen" id="62" lineNum="83" parent="globals/Rez/Layouts" pc="268442061" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="40" parent="globals/Rez/Layouts" pc="268440455" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="41" parent="globals/Rez/Layouts" pc="268440466" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="42" parent="globals/Rez/Layouts" pc="268440499" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="43" parent="globals/Rez/Layouts" pc="268440532" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="44" parent="globals/Rez/Layouts" pc="268440565" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="45" parent="globals/Rez/Layouts" pc="268440598" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="46" parent="globals/Rez/Layouts" pc="268440631" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="48" parent="globals/Rez/Layouts" pc="268440655" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="50" parent="globals/Rez/Layouts" pc="268440733" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="52" parent="globals/Rez/Layouts" pc="268440818" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="54" parent="globals/Rez/Layouts" pc="268440907" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="56" parent="globals/Rez/Layouts" pc="268440985" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="58" parent="globals/Rez/Layouts" pc="268441063" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="60" parent="globals/Rez/Layouts" pc="268441141" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="62" parent="globals/Rez/Layouts" pc="268441218" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="64" parent="globals/Rez/Layouts" pc="268441296" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="66" parent="globals/Rez/Layouts" pc="268441374" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="68" parent="globals/Rez/Layouts" pc="268441452" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="70" parent="globals/Rez/Layouts" pc="268441529" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="72" parent="globals/Rez/Layouts" pc="268441618" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="74" parent="globals/Rez/Layouts" pc="268441696" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="75" parent="globals/Rez/Layouts" pc="268441783" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="77" parent="globals/Rez/Layouts" pc="268441803" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="79" parent="globals/Rez/Layouts" pc="268441881" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="81" parent="globals/Rez/Layouts" pc="268441983" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="83" parent="globals/Rez/Layouts" pc="268442061" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="31" method="true" symbol="getTodayCalories"/>
@@ -644,7 +644,7 @@
         <entry endPc="268442155" name="rez_cmp_local_text_TemperatureUnit" stackId="23" startPc="268440466"/>
         <entry endPc="268442155" name="rez_cmp_local_text_Humidity" stackId="24" startPc="268440466"/>
     </localVars>
-    <deviceInfo deviceVersion="decc989a3aea752762ecdbe6b3262a92939e1b36" partNumber="006-B4532-00"/>
+    <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B4536-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="WeatherConditionClear"/>
