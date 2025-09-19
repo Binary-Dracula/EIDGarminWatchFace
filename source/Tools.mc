@@ -89,6 +89,14 @@ class Tools {
     var radius = 24;
     // 粗细
     var thickness = 3;
+
+    if (dc.getWidth() == 454) {
+      centerX = 65;
+      centerY = 225;
+      radius = 42;
+      thickness = 6;
+    }
+
     // 前景色
     var foregroundColor = getGrayColor();
     // 背景色
