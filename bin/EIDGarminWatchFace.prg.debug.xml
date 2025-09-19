@@ -4,7 +4,7 @@
     <pcToLineNum>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="1" lineNum="31" parent="globals" pc="268435460" symbol="getApp"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="1" lineNum="32" parent="globals" pc="268435470" symbol="getApp"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435481" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435481" symbol="&lt;init&gt;"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="3" lineNum="5" parent="globals/EIDGarminWatchFaceApp" pc="268435501" symbol="&lt;init&gt;"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="4" lineNum="6" parent="globals/CustomBackgroundDrawable" pc="268435513" symbol="&lt;init&gt;"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="5" lineNum="14" parent="globals/EIDGarminWatchFaceView" pc="268435525" symbol="&lt;init&gt;"/>
@@ -387,32 +387,32 @@
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="61" lineNum="141" parent="globals/EIDGarminWatchFaceView" pc="268440504" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSunsetTime&gt;"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="61" lineNum="142" parent="globals/EIDGarminWatchFaceView" pc="268440519" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSunsetTime&gt;"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="61" lineNum="143" parent="globals/EIDGarminWatchFaceView" pc="268440540" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSunsetTime&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="39" parent="globals/Rez/Layouts" pc="268440562" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="40" parent="globals/Rez/Layouts" pc="268440573" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="41" parent="globals/Rez/Layouts" pc="268440606" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="42" parent="globals/Rez/Layouts" pc="268440639" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="43" parent="globals/Rez/Layouts" pc="268440672" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="44" parent="globals/Rez/Layouts" pc="268440705" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="45" parent="globals/Rez/Layouts" pc="268440738" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="47" parent="globals/Rez/Layouts" pc="268440762" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="49" parent="globals/Rez/Layouts" pc="268440840" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="51" parent="globals/Rez/Layouts" pc="268440925" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="53" parent="globals/Rez/Layouts" pc="268441014" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="55" parent="globals/Rez/Layouts" pc="268441092" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="57" parent="globals/Rez/Layouts" pc="268441170" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="59" parent="globals/Rez/Layouts" pc="268441248" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="61" parent="globals/Rez/Layouts" pc="268441325" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="63" parent="globals/Rez/Layouts" pc="268441403" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="65" parent="globals/Rez/Layouts" pc="268441481" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="67" parent="globals/Rez/Layouts" pc="268441559" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="69" parent="globals/Rez/Layouts" pc="268441636" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="71" parent="globals/Rez/Layouts" pc="268441725" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="73" parent="globals/Rez/Layouts" pc="268441803" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="74" parent="globals/Rez/Layouts" pc="268441890" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="76" parent="globals/Rez/Layouts" pc="268441910" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="78" parent="globals/Rez/Layouts" pc="268441988" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="80" parent="globals/Rez/Layouts" pc="268442090" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="82" parent="globals/Rez/Layouts" pc="268442168" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="44" parent="globals/Rez/Layouts" pc="268440562" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="45" parent="globals/Rez/Layouts" pc="268440573" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="46" parent="globals/Rez/Layouts" pc="268440606" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="47" parent="globals/Rez/Layouts" pc="268440639" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="48" parent="globals/Rez/Layouts" pc="268440672" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="49" parent="globals/Rez/Layouts" pc="268440705" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="50" parent="globals/Rez/Layouts" pc="268440738" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="52" parent="globals/Rez/Layouts" pc="268440762" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="54" parent="globals/Rez/Layouts" pc="268440840" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="56" parent="globals/Rez/Layouts" pc="268440925" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="58" parent="globals/Rez/Layouts" pc="268441014" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="60" parent="globals/Rez/Layouts" pc="268441092" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="62" parent="globals/Rez/Layouts" pc="268441170" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="64" parent="globals/Rez/Layouts" pc="268441248" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="66" parent="globals/Rez/Layouts" pc="268441325" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="68" parent="globals/Rez/Layouts" pc="268441403" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="70" parent="globals/Rez/Layouts" pc="268441481" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="72" parent="globals/Rez/Layouts" pc="268441559" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="74" parent="globals/Rez/Layouts" pc="268441636" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="76" parent="globals/Rez/Layouts" pc="268441725" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="78" parent="globals/Rez/Layouts" pc="268441803" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="79" parent="globals/Rez/Layouts" pc="268441890" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="81" parent="globals/Rez/Layouts" pc="268441910" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="83" parent="globals/Rez/Layouts" pc="268441988" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="85" parent="globals/Rez/Layouts" pc="268442090" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="87" parent="globals/Rez/Layouts" pc="268442168" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="31" method="true" symbol="getTodayCalories"/>
@@ -432,18 +432,22 @@
         <entry id="14" method="true" symbol="drawStressArc"/>
         <entry id="8389683" method="true" symbol="onSettingsChanged"/>
         <entry id="42" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHeartRate&gt;"/>
-        <entry field="true" id="82" symbol="TargetCaloriesTitle"/>
+        <entry field="true" id="87" symbol="TargetCaloriesTitle"/>
         <entry id="32" method="true" symbol="getWeatherIcon"/>
         <entry id="18" method="true" symbol="getStress"/>
         <entry id="48" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStress&gt;"/>
         <entry field="true" id="58" symbol="BackgroundPurple"/>
         <entry id="8388924" module="true" symbol="Gregorian"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="77" symbol="rubik_f19_white"/>
+        <entry field="true" id="82" symbol="rubik_f34"/>
+        <entry field="true" id="81" symbol="rubik_f25"/>
+        <entry field="true" id="80" symbol="rubik_f23"/>
+        <entry field="true" id="79" symbol="rubik_f20"/>
+        <entry field="true" id="78" symbol="rubik_f19_white"/>
         <entry id="45" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setMinute&gt;"/>
         <entry field="true" id="59" symbol="BackgroundRed"/>
         <entry id="37" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setAMPM&gt;"/>
-        <entry field="true" id="78" symbol="AppName"/>
+        <entry field="true" id="83" symbol="AppName"/>
         <entry id="8" object="true" symbol="EIDGarminWatchFaceApp"/>
         <entry id="39" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setCalories&gt;"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
@@ -456,14 +460,14 @@
         <entry field="true" id="70" symbol="WeatherConditionUnknown"/>
         <entry id="41" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDistance&gt;"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="83" symbol="TemperatureUnit"/>
+        <entry field="true" id="88" symbol="TemperatureUnit"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry id="35" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawStressArc&gt;"/>
         <entry id="46" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry field="true" id="76" symbol="rubik_f14_grey"/>
+        <entry field="true" id="77" symbol="rubik_f14_grey"/>
         <entry id="8391489" module="true" symbol="Weather"/>
         <entry id="15" method="true" symbol="drawTotalCaloriesProgressBar"/>
         <entry field="true" id="65" symbol="WeatherConditionFog"/>
@@ -471,7 +475,7 @@
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
         <entry id="8389275" method="true" symbol="getApp"/>
-        <entry field="true" id="74" symbol="rubik_f11_white"/>
+        <entry field="true" id="75" symbol="rubik_f11_white"/>
         <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="30" method="true" symbol="getSystemWeekday"/>
         <entry field="true" id="56" symbol="BackgroundOrange"/>
@@ -487,6 +491,7 @@
         <entry id="27" method="true" symbol="getSystemStepCount"/>
         <entry id="28" method="true" symbol="getSystemSunsetTime"/>
         <entry field="true" id="68" symbol="WeatherConditionRain"/>
+        <entry field="true" id="74" symbol="rubik_f114"/>
         <entry id="51" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeatherIcon&gt;"/>
         <entry field="true" id="55" symbol="BackgroundGreen"/>
         <entry id="8389377" method="true" symbol="onExitSleep"/>
@@ -500,7 +505,7 @@
         <entry id="52" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeekday&gt;"/>
         <entry id="23" method="true" symbol="getSystemHour"/>
         <entry id="17" method="true" symbol="getGrayColor"/>
-        <entry field="true" id="75" symbol="rubik_f13_white"/>
+        <entry field="true" id="76" symbol="rubik_f13_white"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8389068" method="true" symbol="draw"/>
         <entry id="50" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setTemperature&gt;"/>
@@ -509,16 +514,16 @@
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="47" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStepCount&gt;"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry field="true" id="79" symbol="BackgroundColorTitle"/>
+        <entry field="true" id="84" symbol="BackgroundColorTitle"/>
         <entry field="true" id="67" symbol="WeatherConditionLightRainSnow"/>
         <entry id="24" method="true" symbol="getSystemHumidity"/>
         <entry id="44" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHumidity&gt;"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry field="true" id="81" symbol="HumidityValue"/>
+        <entry field="true" id="86" symbol="HumidityValue"/>
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry field="true" id="54" symbol="BackgroundBlue"/>
-        <entry field="true" id="80" symbol="BatteryValue"/>
+        <entry field="true" id="85" symbol="BatteryValue"/>
         <entry id="8388641" module="true" symbol="Math"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
@@ -636,11 +641,11 @@
         <entry endPc="268440499" name="stepLabel" stackId="1" startPc="268440451"/>
         <entry endPc="268440560" name="sunsetTimeLabel" stackId="1" startPc="268440504"/>
         <entry arg="true" endPc="268442262" name="dc" stackId="1" startPc="268440562"/>
-        <entry endPc="268442262" name="local_Rez_Fonts_rubik65" stackId="2" startPc="268440573"/>
-        <entry endPc="268442262" name="local_Rez_Fonts_rubik_f19_white" stackId="3" startPc="268440573"/>
-        <entry endPc="268442262" name="local_Rez_Fonts_rubik_f11_white" stackId="4" startPc="268440573"/>
-        <entry endPc="268442262" name="local_Rez_Fonts_rubik_f14_grey" stackId="5" startPc="268440573"/>
-        <entry endPc="268442262" name="local_Rez_Fonts_rubik_f13_white" stackId="6" startPc="268440573"/>
+        <entry endPc="268442262" name="local_Rez_Fonts_rubik_f114" stackId="2" startPc="268440573"/>
+        <entry endPc="268442262" name="local_Rez_Fonts_rubik_f34" stackId="3" startPc="268440573"/>
+        <entry endPc="268442262" name="local_Rez_Fonts_rubik_f23" stackId="4" startPc="268440573"/>
+        <entry endPc="268442262" name="local_Rez_Fonts_rubik_f25" stackId="5" startPc="268440573"/>
+        <entry endPc="268442262" name="local_Rez_Fonts_rubik_f20" stackId="6" startPc="268440573"/>
         <entry endPc="268442262" name="rez_cmp_local_custom_drawable_11939594661139614796" stackId="7" startPc="268440573"/>
         <entry endPc="268442262" name="rez_cmp_local_text_Distance" stackId="8" startPc="268440573"/>
         <entry endPc="268442262" name="rez_cmp_local_text_StepCount" stackId="9" startPc="268440573"/>
@@ -660,11 +665,13 @@
         <entry endPc="268442262" name="rez_cmp_local_text_TemperatureUnit" stackId="23" startPc="268440573"/>
         <entry endPc="268442262" name="rez_cmp_local_text_Humidity" stackId="24" startPc="268440573"/>
     </localVars>
-    <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B3992-00"/>
+    <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B4536-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rubik_f20"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="WeatherConditionClear"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="WeatherIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rubik_f23"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundPurple"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundRed"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BackgroundPink"/>
@@ -681,9 +688,11 @@
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="WeatherConditionSnow"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rubik_f11_white"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BatteryValue"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rubik_f25"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TargetCaloriesTitle"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundOrange"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="WeatherConditionRain"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rubik_f34"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="HumidityValue"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BackgroundWhite"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rubik_f19_white"/>
@@ -699,6 +708,7 @@
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundPink"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="WeatherConditionLightRainSnow"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TemperatureUnit"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rubik_f114"/>
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
@@ -710,7 +720,7 @@
         <dataEntry label="globals/Rez/Drawables" offset="867" parentId="Rez" symbolId="Drawables" type="module"/>
         <dataEntry label="globals/Rez/Layouts" offset="1064" parentId="Rez" symbolId="Layouts" type="module"/>
         <dataEntry label="globals/Rez/Fonts" offset="1099" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1170" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1215" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
