@@ -28,7 +28,6 @@ module Rez {
     } // Drawables
 
     module Fonts {
-        (:initialized) var rubik_f8_grey as ResourceId;
         (:initialized) var rubik_f11_white as ResourceId;
         (:initialized) var rubik_f13_white as ResourceId;
         (:initialized) var rubik_f14_grey as ResourceId;

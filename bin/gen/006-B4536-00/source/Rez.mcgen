@@ -28,57 +28,61 @@ module Rez {
     } // Drawables
 
     module Fonts {
-        (:initialized) var rubik_f8_grey as ResourceId;
         (:initialized) var rubik_f11_white as ResourceId;
         (:initialized) var rubik_f13_white as ResourceId;
         (:initialized) var rubik_f14_grey as ResourceId;
         (:initialized) var rubik_f19_white as ResourceId;
         (:initialized) var rubik65 as ResourceId;
+        (:initialized) var rubik_f20 as ResourceId;
+        (:initialized) var rubik_f23 as ResourceId;
+        (:initialized) var rubik_f25 as ResourceId;
+        (:initialized) var rubik_f34 as ResourceId;
+        (:initialized) var rubik_f114 as ResourceId;
     } // Fonts
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var local_Rez_Fonts_rubik65 = (WatchUi.loadResource($.Rez.Fonts.rubik65) as Graphics.FontReference);
-            var local_Rez_Fonts_rubik_f19_white = (WatchUi.loadResource($.Rez.Fonts.rubik_f19_white) as Graphics.FontReference);
-            var local_Rez_Fonts_rubik_f11_white = (WatchUi.loadResource($.Rez.Fonts.rubik_f11_white) as Graphics.FontReference);
-            var local_Rez_Fonts_rubik_f14_grey = (WatchUi.loadResource($.Rez.Fonts.rubik_f14_grey) as Graphics.FontReference);
-            var local_Rez_Fonts_rubik_f13_white = (WatchUi.loadResource($.Rez.Fonts.rubik_f13_white) as Graphics.FontReference);
+            var local_Rez_Fonts_rubik_f114 = (WatchUi.loadResource($.Rez.Fonts.rubik_f114) as Graphics.FontReference);
+            var local_Rez_Fonts_rubik_f34 = (WatchUi.loadResource($.Rez.Fonts.rubik_f34) as Graphics.FontReference);
+            var local_Rez_Fonts_rubik_f23 = (WatchUi.loadResource($.Rez.Fonts.rubik_f23) as Graphics.FontReference);
+            var local_Rez_Fonts_rubik_f25 = (WatchUi.loadResource($.Rez.Fonts.rubik_f25) as Graphics.FontReference);
+            var local_Rez_Fonts_rubik_f20 = (WatchUi.loadResource($.Rez.Fonts.rubik_f20) as Graphics.FontReference);
             var rez_cmp_local_custom_drawable_11939594661139614796 = new CustomBackgroundDrawable();
 
-            var rez_cmp_local_text_Distance = new WatchUi.Text({:identifier=>"Distance", :locX=>(454 * (50 / 100.0)), :locY=>(454 * (6 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_rubik_f14_grey});
+            var rez_cmp_local_text_Distance = new WatchUi.Text({:identifier=>"Distance", :locX=>(454 * (50 / 100.0)), :locY=>(454 * (5 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_rubik_f34});
 
-            var rez_cmp_local_text_StepCount = new WatchUi.Text({:identifier=>"StepCount", :color=>Gfx.COLOR_BLACK, :locX=>(454 * (24 / 100.0)), :locY=>(454 * (16 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f19_white});
+            var rez_cmp_local_text_StepCount = new WatchUi.Text({:identifier=>"StepCount", :color=>Gfx.COLOR_BLACK, :locX=>(454 * (24 / 100.0)), :locY=>(454 * (17 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f34});
 
-            var rez_cmp_local_text_HeartRate = new WatchUi.Text({:identifier=>"HeartRate", :color=>Gfx.COLOR_WHITE, :locX=>(454 * (71 / 100.0)), :locY=>(454 * (17 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_rubik_f19_white});
+            var rez_cmp_local_text_HeartRate = new WatchUi.Text({:identifier=>"HeartRate", :color=>Gfx.COLOR_WHITE, :locX=>(454 * (70 / 100.0)), :locY=>(454 * (18 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_rubik_f34});
 
-            var rez_cmp_local_text_Calories = new WatchUi.Text({:identifier=>"Calories", :locX=>(454 * (42 / 100.0)), :locY=>(454 * (28 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f14_grey});
+            var rez_cmp_local_text_Calories = new WatchUi.Text({:identifier=>"Calories", :locX=>(454 * (42 / 100.0)), :locY=>(454 * (28 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f25});
 
-            var rez_cmp_local_text_Battery = new WatchUi.Text({:identifier=>"Battery", :locX=>(454 * (15 / 100.0)), :locY=>(454 * (46 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_rubik_f14_grey});
+            var rez_cmp_local_text_Battery = new WatchUi.Text({:identifier=>"Battery", :locX=>(454 * (15 / 100.0)), :locY=>(454 * (46 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_rubik_f25});
 
-            var rez_cmp_local_text_Date = new WatchUi.Text({:identifier=>"Date", :locX=>(454 * (28 / 100.0)), :locY=>(454 * (40 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f19_white});
+            var rez_cmp_local_text_Date = new WatchUi.Text({:identifier=>"Date", :locX=>(454 * (28 / 100.0)), :locY=>(454 * (40 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f34});
 
-            var rez_cmp_local_text_Weekday = new WatchUi.Text({:identifier=>"Weekday", :locX=>(454 * (72 / 100.0)), :locY=>(454 * (41.5 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>local_Rez_Fonts_rubik_f13_white});
+            var rez_cmp_local_text_Weekday = new WatchUi.Text({:identifier=>"Weekday", :locX=>(454 * (72 / 100.0)), :locY=>(454 * (41.5 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>local_Rez_Fonts_rubik_f23});
 
-            var rez_cmp_local_text_Stress = new WatchUi.Text({:identifier=>"Stress", :locX=>(454 * (85 / 100.0)), :locY=>(454 * (46 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_rubik_f14_grey});
+            var rez_cmp_local_text_Stress = new WatchUi.Text({:identifier=>"Stress", :locX=>(454 * (85 / 100.0)), :locY=>(454 * (46 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_rubik_f25});
 
-            var rez_cmp_local_text_SunsetTime = new WatchUi.Text({:identifier=>"SunsetTime", :locX=>(454 * (49.5 / 100.0)), :locY=>(454 * (54 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_rubik_f14_grey});
+            var rez_cmp_local_text_SunsetTime = new WatchUi.Text({:identifier=>"SunsetTime", :locX=>(454 * (49.5 / 100.0)), :locY=>(454 * (54 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_rubik_f25});
 
-            var rez_cmp_local_text_AMPM = new WatchUi.Text({:identifier=>"AMPM", :locX=>(454 * (7 / 100.0)), :locY=>(454 * (66 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f11_white});
+            var rez_cmp_local_text_AMPM = new WatchUi.Text({:identifier=>"AMPM", :locX=>(454 * (7 / 100.0)), :locY=>(454 * (66 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f20});
 
-            var rez_cmp_local_text_Hour = new WatchUi.Text({:identifier=>"Hour", :locX=>(454 * (46 / 100.0)), :locY=>(454 * (58.5 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>local_Rez_Fonts_rubik65});
+            var rez_cmp_local_text_Hour = new WatchUi.Text({:identifier=>"Hour", :locX=>(454 * (46 / 100.0)), :locY=>(454 * (63 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>local_Rez_Fonts_rubik_f114});
 
-            var rez_cmp_local_text_Minute = new WatchUi.Text({:identifier=>"Minute", :color=>Gfx.COLOR_WHITE, :locX=>(454 * (54 / 100.0)), :locY=>(454 * (58.5 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik65});
+            var rez_cmp_local_text_Minute = new WatchUi.Text({:identifier=>"Minute", :color=>Gfx.COLOR_WHITE, :locX=>(454 * (55 / 100.0)), :locY=>(454 * (63 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f114});
 
-            var rez_cmp_local_text_Second = new WatchUi.Text({:identifier=>"Second", :locX=>(454 * (85 / 100.0)), :locY=>(454 * (64 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f19_white});
+            var rez_cmp_local_text_Second = new WatchUi.Text({:identifier=>"Second", :locX=>(454 * (85 / 100.0)), :locY=>(454 * (64 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f34});
 
             var rez_cmp_local_bitmap_WeatherIcon = new WatchUi.Bitmap({:identifier=>"WeatherIcon", :rezId=>$.Rez.Drawables.WeatherIcon, :locX=>(454 * (25 / 100.0)), :locY=>(454 * (84 / 100.0))});
             rez_cmp_local_bitmap_WeatherIcon.setLocation((454 * (25 / 100.0)), (454 * (84 / 100.0)));
 
-            var rez_cmp_local_text_Temperature = new WatchUi.Text({:identifier=>"Temperature", :locX=>(454 * (39 / 100.0)), :locY=>(454 * (86 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_rubik_f14_grey});
+            var rez_cmp_local_text_Temperature = new WatchUi.Text({:identifier=>"Temperature", :locX=>(454 * (39 / 100.0)), :locY=>(454 * (86 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_rubik_f25});
 
             var rez_cmp_local_text_TemperatureUnit = new WatchUi.Text({:identifier=>"TemperatureUnit", :locX=>(454 * (43 / 100.0)), :locY=>(454 * (86 / 100.0)), :text=>$.Rez.Strings.TemperatureUnit, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_XTINY});
 
-            var rez_cmp_local_text_Humidity = new WatchUi.Text({:identifier=>"Humidity", :locX=>(454 * (68 / 100.0)), :locY=>(454 * (86 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_rubik_f14_grey});
+            var rez_cmp_local_text_Humidity = new WatchUi.Text({:identifier=>"Humidity", :locX=>(454 * (68 / 100.0)), :locY=>(454 * (86 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_rubik_f25});
 
             return [rez_cmp_local_custom_drawable_11939594661139614796, rez_cmp_local_text_Distance, rez_cmp_local_text_StepCount, rez_cmp_local_text_HeartRate, rez_cmp_local_text_Calories, rez_cmp_local_text_Battery, rez_cmp_local_text_Date, rez_cmp_local_text_Weekday, rez_cmp_local_text_Stress, rez_cmp_local_text_SunsetTime, rez_cmp_local_text_AMPM, rez_cmp_local_text_Hour, rez_cmp_local_text_Minute, rez_cmp_local_text_Second, rez_cmp_local_bitmap_WeatherIcon, rez_cmp_local_text_Temperature, rez_cmp_local_text_TemperatureUnit, rez_cmp_local_text_Humidity] as Array<WatchUi.Drawable>;
         }
