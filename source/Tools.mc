@@ -56,11 +56,20 @@ class Tools {
     var progress = currentCalories / targetCalories.toFloat();
     var startX = 44;
     var startY = 79;
-    var totalLength = 53 * progress;
+    var totalLength = 53;
+    var penWidth = 4;
+
+    if (dc.getWidth() == 454) {
+      startX = 76;
+      startY = 139;
+      totalLength = 100;
+      penWidth = 6;
+    }
+
     dc.clear();
     dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-    dc.setPenWidth(4);
-    dc.drawLine(startX, startY, startX + totalLength, startY);
+    dc.setPenWidth(penWidth);
+    dc.drawLine(startX, startY, startX + totalLength * progress, startY);
   }
 
   // 获取当前电量百分比
