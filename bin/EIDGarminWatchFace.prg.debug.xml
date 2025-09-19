@@ -4,7 +4,7 @@
     <pcToLineNum>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="1" lineNum="31" parent="globals" pc="268435460" symbol="getApp"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="1" lineNum="32" parent="globals" pc="268435470" symbol="getApp"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435481" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435481" symbol="&lt;init&gt;"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="3" lineNum="5" parent="globals/EIDGarminWatchFaceApp" pc="268435501" symbol="&lt;init&gt;"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="4" lineNum="6" parent="globals/CustomBackgroundDrawable" pc="268435513" symbol="&lt;init&gt;"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="5" lineNum="14" parent="globals/EIDGarminWatchFaceView" pc="268435525" symbol="&lt;init&gt;"/>
@@ -26,11 +26,11 @@
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="6" lineNum="109" parent="globals/Tools" pc="268435652" symbol="drawBatteryArc"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="6" lineNum="111" parent="globals/Tools" pc="268435657" symbol="drawBatteryArc"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="6" lineNum="113" parent="globals/Tools" pc="268435667" symbol="drawBatteryArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="7" lineNum="217" parent="globals/Tools" pc="268435700" symbol="getAMPM"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="7" lineNum="218" parent="globals/Tools" pc="268435703" symbol="getAMPM"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="7" lineNum="219" parent="globals/Tools" pc="268435715" symbol="getAMPM"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="7" lineNum="220" parent="globals/Tools" pc="268435720" symbol="getAMPM"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="7" lineNum="222" parent="globals/Tools" pc="268435729" symbol="getAMPM"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="7" lineNum="225" parent="globals/Tools" pc="268435700" symbol="getAMPM"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="7" lineNum="226" parent="globals/Tools" pc="268435703" symbol="getAMPM"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="7" lineNum="227" parent="globals/Tools" pc="268435715" symbol="getAMPM"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="7" lineNum="228" parent="globals/Tools" pc="268435720" symbol="getAMPM"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="7" lineNum="230" parent="globals/Tools" pc="268435729" symbol="getAMPM"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="8" lineNum="13" parent="globals/Tools" pc="268435756" symbol="getSystemDistance"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="8" lineNum="14" parent="globals/Tools" pc="268435759" symbol="getSystemDistance"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="8" lineNum="15" parent="globals/Tools" pc="268435776" symbol="getSystemDistance"/>
@@ -41,14 +41,14 @@
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="9" lineNum="34" parent="globals/Tools" pc="268435840" symbol="getSystemHeartRate"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="9" lineNum="35" parent="globals/Tools" pc="268435853" symbol="getSystemHeartRate"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="9" lineNum="37" parent="globals/Tools" pc="268435859" symbol="getSystemHeartRate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="10" lineNum="227" parent="globals/Tools" pc="268435862" symbol="getSystemHour"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="10" lineNum="228" parent="globals/Tools" pc="268435865" symbol="getSystemHour"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="10" lineNum="229" parent="globals/Tools" pc="268435877" symbol="getSystemHour"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="10" lineNum="230" parent="globals/Tools" pc="268435885" symbol="getSystemHour"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="10" lineNum="231" parent="globals/Tools" pc="268435890" symbol="getSystemHour"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="10" lineNum="233" parent="globals/Tools" pc="268435908" symbol="getSystemHour"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="10" lineNum="234" parent="globals/Tools" pc="268435916" symbol="getSystemHour"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="10" lineNum="236" parent="globals/Tools" pc="268435926" symbol="getSystemHour"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="10" lineNum="235" parent="globals/Tools" pc="268435862" symbol="getSystemHour"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="10" lineNum="236" parent="globals/Tools" pc="268435865" symbol="getSystemHour"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="10" lineNum="237" parent="globals/Tools" pc="268435877" symbol="getSystemHour"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="10" lineNum="238" parent="globals/Tools" pc="268435885" symbol="getSystemHour"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="10" lineNum="239" parent="globals/Tools" pc="268435890" symbol="getSystemHour"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="10" lineNum="241" parent="globals/Tools" pc="268435908" symbol="getSystemHour"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="10" lineNum="242" parent="globals/Tools" pc="268435916" symbol="getSystemHour"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="10" lineNum="244" parent="globals/Tools" pc="268435926" symbol="getSystemHour"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="11" lineNum="156" parent="globals/Tools" pc="268435942" symbol="getStress"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="11" lineNum="157" parent="globals/Tools" pc="268435945" symbol="getStress"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="11" lineNum="158" parent="globals/Tools" pc="268435962" symbol="getStress"/>
@@ -87,327 +87,332 @@
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="171" parent="globals/Tools" pc="268436280" symbol="drawStressArc"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="173" parent="globals/Tools" pc="268436284" symbol="drawStressArc"/>
         <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="175" parent="globals/Tools" pc="268436288" symbol="drawStressArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="177" parent="globals/Tools" pc="268436296" symbol="drawStressArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="179" parent="globals/Tools" pc="268436300" symbol="drawStressArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="181" parent="globals/Tools" pc="268436314" symbol="drawStressArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="183" parent="globals/Tools" pc="268436318" symbol="drawStressArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="185" parent="globals/Tools" pc="268436323" symbol="drawStressArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="187" parent="globals/Tools" pc="268436333" symbol="drawStressArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="16" lineNum="241" parent="globals/Tools" pc="268436366" symbol="getSystemMinute"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="16" lineNum="242" parent="globals/Tools" pc="268436369" symbol="getSystemMinute"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="16" lineNum="243" parent="globals/Tools" pc="268436381" symbol="getSystemMinute"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="17" lineNum="247" parent="globals/Tools" pc="268436401" symbol="getSystemSecond"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="17" lineNum="248" parent="globals/Tools" pc="268436404" symbol="getSystemSecond"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="17" lineNum="249" parent="globals/Tools" pc="268436416" symbol="getSystemSecond"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="18" lineNum="407" parent="globals/Tools" pc="268436436" symbol="getSystemHumidity"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="18" lineNum="408" parent="globals/Tools" pc="268436439" symbol="getSystemHumidity"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="18" lineNum="410" parent="globals/Tools" pc="268436451" symbol="getSystemHumidity"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="18" lineNum="411" parent="globals/Tools" pc="268436457" symbol="getSystemHumidity"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="18" lineNum="413" parent="globals/Tools" pc="268436481" symbol="getSystemHumidity"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="426" parent="globals/Tools" pc="268436487" symbol="drawRoundedArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="437" parent="globals/Tools" pc="268436490" symbol="drawRoundedArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="439" parent="globals/Tools" pc="268436498" symbol="drawRoundedArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="441" parent="globals/Tools" pc="268436510" symbol="drawRoundedArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="445" parent="globals/Tools" pc="268436524" symbol="drawRoundedArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="456" parent="globals/Tools" pc="268436545" symbol="drawRoundedArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="457" parent="globals/Tools" pc="268436566" symbol="drawRoundedArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="460" parent="globals/Tools" pc="268436587" symbol="drawRoundedArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="461" parent="globals/Tools" pc="268436609" symbol="drawRoundedArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="464" parent="globals/Tools" pc="268436631" symbol="drawRoundedArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="465" parent="globals/Tools" pc="268436653" symbol="drawRoundedArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="468" parent="globals/Tools" pc="268436675" symbol="drawRoundedArc"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="50" parent="globals/Tools" pc="268436686" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="51" parent="globals/Tools" pc="268436689" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="52" parent="globals/Tools" pc="268436708" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="53" parent="globals/Tools" pc="268436716" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="54" parent="globals/Tools" pc="268436724" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="56" parent="globals/Tools" pc="268436731" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="57" parent="globals/Tools" pc="268436743" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="58" parent="globals/Tools" pc="268436747" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="59" parent="globals/Tools" pc="268436751" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="60" parent="globals/Tools" pc="268436755" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="62" parent="globals/Tools" pc="268436759" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="63" parent="globals/Tools" pc="268436773" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="64" parent="globals/Tools" pc="268436777" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="65" parent="globals/Tools" pc="268436782" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="66" parent="globals/Tools" pc="268436786" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="69" parent="globals/Tools" pc="268436793" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="70" parent="globals/Tools" pc="268436801" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="71" parent="globals/Tools" pc="268436818" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="72" parent="globals/Tools" pc="268436830" symbol="drawTotalCaloriesProgressBar"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="253" parent="globals/Tools" pc="268436855" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="254" parent="globals/Tools" pc="268436858" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="257" parent="globals/Tools" pc="268436870" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="260" parent="globals/Tools" pc="268436903" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="261" parent="globals/Tools" pc="268436909" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="262" parent="globals/Tools" pc="268436918" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="264" parent="globals/Tools" pc="268436920" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="265" parent="globals/Tools" pc="268436935" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="266" parent="globals/Tools" pc="268436951" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="267" parent="globals/Tools" pc="268436967" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="268" parent="globals/Tools" pc="268436983" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="276" parent="globals/Tools" pc="268436999" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="277" parent="globals/Tools" pc="268437015" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="278" parent="globals/Tools" pc="268437031" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="286" parent="globals/Tools" pc="268437047" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="287" parent="globals/Tools" pc="268437063" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="288" parent="globals/Tools" pc="268437079" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="289" parent="globals/Tools" pc="268437095" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="290" parent="globals/Tools" pc="268437111" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="291" parent="globals/Tools" pc="268437127" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="292" parent="globals/Tools" pc="268437143" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="293" parent="globals/Tools" pc="268437159" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="294" parent="globals/Tools" pc="268437175" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="295" parent="globals/Tools" pc="268437191" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="303" parent="globals/Tools" pc="268437207" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="304" parent="globals/Tools" pc="268437223" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="305" parent="globals/Tools" pc="268437239" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="310" parent="globals/Tools" pc="268437255" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="311" parent="globals/Tools" pc="268437271" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="312" parent="globals/Tools" pc="268437287" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="313" parent="globals/Tools" pc="268437303" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="314" parent="globals/Tools" pc="268437319" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="315" parent="globals/Tools" pc="268437335" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="323" parent="globals/Tools" pc="268437351" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="324" parent="globals/Tools" pc="268437367" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="325" parent="globals/Tools" pc="268437383" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="326" parent="globals/Tools" pc="268437399" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="327" parent="globals/Tools" pc="268437415" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="328" parent="globals/Tools" pc="268437431" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="329" parent="globals/Tools" pc="268437447" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="330" parent="globals/Tools" pc="268437463" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="331" parent="globals/Tools" pc="268437479" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="339" parent="globals/Tools" pc="268437495" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="340" parent="globals/Tools" pc="268437511" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="341" parent="globals/Tools" pc="268437527" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="342" parent="globals/Tools" pc="268437543" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="343" parent="globals/Tools" pc="268437559" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="344" parent="globals/Tools" pc="268437575" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="352" parent="globals/Tools" pc="268437591" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="353" parent="globals/Tools" pc="268437607" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="354" parent="globals/Tools" pc="268437623" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="355" parent="globals/Tools" pc="268437639" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="356" parent="globals/Tools" pc="268437655" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="364" parent="globals/Tools" pc="268437671" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="365" parent="globals/Tools" pc="268437687" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="373" parent="globals/Tools" pc="268437703" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="374" parent="globals/Tools" pc="268437719" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="375" parent="globals/Tools" pc="268437735" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="383" parent="globals/Tools" pc="268437751" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="384" parent="globals/Tools" pc="268437767" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="385" parent="globals/Tools" pc="268437783" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="270" parent="globals/Tools" pc="268437786" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="273" parent="globals/Tools" pc="268437819" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="280" parent="globals/Tools" pc="268437822" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="283" parent="globals/Tools" pc="268437855" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="297" parent="globals/Tools" pc="268437858" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="300" parent="globals/Tools" pc="268437891" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="307" parent="globals/Tools" pc="268437894" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="317" parent="globals/Tools" pc="268437897" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="320" parent="globals/Tools" pc="268437930" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="333" parent="globals/Tools" pc="268437933" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="336" parent="globals/Tools" pc="268437966" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="346" parent="globals/Tools" pc="268437969" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="349" parent="globals/Tools" pc="268438002" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="358" parent="globals/Tools" pc="268438005" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="361" parent="globals/Tools" pc="268438038" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="367" parent="globals/Tools" pc="268438041" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="370" parent="globals/Tools" pc="268438074" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="377" parent="globals/Tools" pc="268438077" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="380" parent="globals/Tools" pc="268438110" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="387" parent="globals/Tools" pc="268438113" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="390" parent="globals/Tools" pc="268438146" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="393" parent="globals/Tools" pc="268438153" symbol="getWeatherIcon"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="22" lineNum="76" parent="globals/Tools" pc="268438156" symbol="getSystemBattery"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="22" lineNum="78" parent="globals/Tools" pc="268438159" symbol="getSystemBattery"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="22" lineNum="79" parent="globals/Tools" pc="268438176" symbol="getSystemBattery"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="201" parent="globals/Tools" pc="268438191" symbol="getSystemSunsetTime"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="202" parent="globals/Tools" pc="268438194" symbol="getSystemSunsetTime"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="203" parent="globals/Tools" pc="268438211" symbol="getSystemSunsetTime"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="204" parent="globals/Tools" pc="268438223" symbol="getSystemSunsetTime"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="205" parent="globals/Tools" pc="268438229" symbol="getSystemSunsetTime"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="206" parent="globals/Tools" pc="268438247" symbol="getSystemSunsetTime"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="207" parent="globals/Tools" pc="268438253" symbol="getSystemSunsetTime"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="208" parent="globals/Tools" pc="268438270" symbol="getSystemSunsetTime"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="213" parent="globals/Tools" pc="268438322" symbol="getSystemSunsetTime"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="25" lineNum="474" parent="globals/Tools" pc="268438328" symbol="getGrayColor"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="25" lineNum="475" parent="globals/Tools" pc="268438330" symbol="getGrayColor"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="26" lineNum="41" parent="globals/Tools" pc="268438354" symbol="getTodayCalories"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="26" lineNum="42" parent="globals/Tools" pc="268438357" symbol="getTodayCalories"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="26" lineNum="43" parent="globals/Tools" pc="268438374" symbol="getTodayCalories"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="26" lineNum="44" parent="globals/Tools" pc="268438387" symbol="getTodayCalories"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="26" lineNum="46" parent="globals/Tools" pc="268438393" symbol="getTodayCalories"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="27" lineNum="397" parent="globals/Tools" pc="268438397" symbol="getSystemTemperature"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="27" lineNum="398" parent="globals/Tools" pc="268438400" symbol="getSystemTemperature"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="27" lineNum="400" parent="globals/Tools" pc="268438412" symbol="getSystemTemperature"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="27" lineNum="401" parent="globals/Tools" pc="268438418" symbol="getSystemTemperature"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="27" lineNum="403" parent="globals/Tools" pc="268438442" symbol="getSystemTemperature"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="28" lineNum="12" parent="globals/EIDGarminWatchFaceApp" pc="268438448" symbol="onStart"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="29" lineNum="25" parent="globals/EIDGarminWatchFaceApp" pc="268438451" symbol="onSettingsChanged"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="29" lineNum="26" parent="globals/EIDGarminWatchFaceApp" pc="268438453" symbol="onSettingsChanged"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="30" lineNum="20" parent="globals/EIDGarminWatchFaceApp" pc="268438465" symbol="getInitialView"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="30" lineNum="21" parent="globals/EIDGarminWatchFaceApp" pc="268438467" symbol="getInitialView"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="31" lineNum="7" parent="globals/EIDGarminWatchFaceApp" pc="268438493" symbol="initialize"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="31" lineNum="8" parent="globals/EIDGarminWatchFaceApp" pc="268438495" symbol="initialize"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="32" lineNum="16" parent="globals/EIDGarminWatchFaceApp" pc="268438508" symbol="onStop"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="22" parent="globals/CustomBackgroundDrawable" pc="268438511" symbol="getBackgroundBitmap"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="23" parent="globals/CustomBackgroundDrawable" pc="268438514" symbol="getBackgroundBitmap"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="24" parent="globals/CustomBackgroundDrawable" pc="268438533" symbol="getBackgroundBitmap"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="25" parent="globals/CustomBackgroundDrawable" pc="268438535" symbol="getBackgroundBitmap"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="27" parent="globals/CustomBackgroundDrawable" pc="268438551" symbol="getBackgroundBitmap"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="29" parent="globals/CustomBackgroundDrawable" pc="268438567" symbol="getBackgroundBitmap"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="31" parent="globals/CustomBackgroundDrawable" pc="268438583" symbol="getBackgroundBitmap"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="33" parent="globals/CustomBackgroundDrawable" pc="268438599" symbol="getBackgroundBitmap"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="35" parent="globals/CustomBackgroundDrawable" pc="268438615" symbol="getBackgroundBitmap"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="37" parent="globals/CustomBackgroundDrawable" pc="268438631" symbol="getBackgroundBitmap"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="26" parent="globals/CustomBackgroundDrawable" pc="268438634" symbol="getBackgroundBitmap"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="28" parent="globals/CustomBackgroundDrawable" pc="268438666" symbol="getBackgroundBitmap"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="30" parent="globals/CustomBackgroundDrawable" pc="268438698" symbol="getBackgroundBitmap"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="32" parent="globals/CustomBackgroundDrawable" pc="268438730" symbol="getBackgroundBitmap"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="34" parent="globals/CustomBackgroundDrawable" pc="268438762" symbol="getBackgroundBitmap"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="36" parent="globals/CustomBackgroundDrawable" pc="268438794" symbol="getBackgroundBitmap"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="39" parent="globals/CustomBackgroundDrawable" pc="268438826" symbol="getBackgroundBitmap"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="34" lineNum="8" parent="globals/CustomBackgroundDrawable" pc="268438860" symbol="initialize"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="34" lineNum="9" parent="globals/CustomBackgroundDrawable" pc="268438862" symbol="initialize"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="35" lineNum="12" parent="globals/CustomBackgroundDrawable" pc="268438893" symbol="draw"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="35" lineNum="13" parent="globals/CustomBackgroundDrawable" pc="268438896" symbol="draw"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="35" lineNum="14" parent="globals/CustomBackgroundDrawable" pc="268438904" symbol="draw"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="36" lineNum="111" parent="globals/EIDGarminWatchFaceView" pc="268438919" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawBatteryArc&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="36" lineNum="112" parent="globals/EIDGarminWatchFaceView" pc="268438921" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawBatteryArc&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="37" lineNum="88" parent="globals/EIDGarminWatchFaceView" pc="268438938" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setCalories&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="37" lineNum="89" parent="globals/EIDGarminWatchFaceView" pc="268438941" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setCalories&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="37" lineNum="90" parent="globals/EIDGarminWatchFaceView" pc="268438956" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setCalories&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="37" lineNum="91" parent="globals/EIDGarminWatchFaceView" pc="268438977" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setCalories&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="38" lineNum="211" parent="globals/EIDGarminWatchFaceView" pc="268439012" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHumidity&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="38" lineNum="212" parent="globals/EIDGarminWatchFaceView" pc="268439015" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHumidity&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="38" lineNum="213" parent="globals/EIDGarminWatchFaceView" pc="268439030" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHumidity&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="38" lineNum="214" parent="globals/EIDGarminWatchFaceView" pc="268439051" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHumidity&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="39" lineNum="100" parent="globals/EIDGarminWatchFaceView" pc="268439123" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setBattery&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="39" lineNum="101" parent="globals/EIDGarminWatchFaceView" pc="268439126" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setBattery&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="39" lineNum="102" parent="globals/EIDGarminWatchFaceView" pc="268439141" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setBattery&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="39" lineNum="103" parent="globals/EIDGarminWatchFaceView" pc="268439162" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setBattery&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="40" lineNum="147" parent="globals/EIDGarminWatchFaceView" pc="268439234" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setAMPM&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="40" lineNum="148" parent="globals/EIDGarminWatchFaceView" pc="268439237" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setAMPM&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="40" lineNum="149" parent="globals/EIDGarminWatchFaceView" pc="268439252" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setAMPM&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="41" lineNum="197" parent="globals/EIDGarminWatchFaceView" pc="268439277" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeatherIcon&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="41" lineNum="198" parent="globals/EIDGarminWatchFaceView" pc="268439280" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeatherIcon&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="41" lineNum="199" parent="globals/EIDGarminWatchFaceView" pc="268439293" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeatherIcon&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="41" lineNum="200" parent="globals/EIDGarminWatchFaceView" pc="268439308" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeatherIcon&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="42" lineNum="160" parent="globals/EIDGarminWatchFaceView" pc="268439321" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setMinute&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="42" lineNum="161" parent="globals/EIDGarminWatchFaceView" pc="268439324" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setMinute&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="42" lineNum="162" parent="globals/EIDGarminWatchFaceView" pc="268439339" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setMinute&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="43" lineNum="128" parent="globals/EIDGarminWatchFaceView" pc="268439361" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStress&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="43" lineNum="129" parent="globals/EIDGarminWatchFaceView" pc="268439364" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStress&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="43" lineNum="130" parent="globals/EIDGarminWatchFaceView" pc="268439379" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStress&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="43" lineNum="131" parent="globals/EIDGarminWatchFaceView" pc="268439400" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStress&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="44" lineNum="204" parent="globals/EIDGarminWatchFaceView" pc="268439435" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setTemperature&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="44" lineNum="205" parent="globals/EIDGarminWatchFaceView" pc="268439438" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setTemperature&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="44" lineNum="206" parent="globals/EIDGarminWatchFaceView" pc="268439453" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setTemperature&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="44" lineNum="207" parent="globals/EIDGarminWatchFaceView" pc="268439474" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setTemperature&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="48" lineNum="22" parent="globals/EIDGarminWatchFaceView" pc="268439496" symbol="onLayout"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="48" lineNum="23" parent="globals/EIDGarminWatchFaceView" pc="268439498" symbol="onLayout"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="49" lineNum="135" parent="globals/EIDGarminWatchFaceView" pc="268439532" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawStressArc&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="49" lineNum="136" parent="globals/EIDGarminWatchFaceView" pc="268439534" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawStressArc&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="50" lineNum="153" parent="globals/EIDGarminWatchFaceView" pc="268439551" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHour&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="50" lineNum="154" parent="globals/EIDGarminWatchFaceView" pc="268439554" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHour&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="50" lineNum="155" parent="globals/EIDGarminWatchFaceView" pc="268439569" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHour&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="50" lineNum="156" parent="globals/EIDGarminWatchFaceView" pc="268439590" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHour&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="166" parent="globals/EIDGarminWatchFaceView" pc="268439615" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="167" parent="globals/EIDGarminWatchFaceView" pc="268439618" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="169" parent="globals/EIDGarminWatchFaceView" pc="268439633" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="171" parent="globals/EIDGarminWatchFaceView" pc="268439652" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="172" parent="globals/EIDGarminWatchFaceView" pc="268439654" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="175" parent="globals/EIDGarminWatchFaceView" pc="268439670" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="178" parent="globals/EIDGarminWatchFaceView" pc="268439686" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="181" parent="globals/EIDGarminWatchFaceView" pc="268439702" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="184" parent="globals/EIDGarminWatchFaceView" pc="268439718" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="187" parent="globals/EIDGarminWatchFaceView" pc="268439734" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="190" parent="globals/EIDGarminWatchFaceView" pc="268439750" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="173" parent="globals/EIDGarminWatchFaceView" pc="268439753" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="174" parent="globals/EIDGarminWatchFaceView" pc="268439784" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="176" parent="globals/EIDGarminWatchFaceView" pc="268439787" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="177" parent="globals/EIDGarminWatchFaceView" pc="268439819" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="179" parent="globals/EIDGarminWatchFaceView" pc="268439822" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="180" parent="globals/EIDGarminWatchFaceView" pc="268439853" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="182" parent="globals/EIDGarminWatchFaceView" pc="268439856" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="183" parent="globals/EIDGarminWatchFaceView" pc="268439889" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="185" parent="globals/EIDGarminWatchFaceView" pc="268439892" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="186" parent="globals/EIDGarminWatchFaceView" pc="268439924" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="188" parent="globals/EIDGarminWatchFaceView" pc="268439927" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="189" parent="globals/EIDGarminWatchFaceView" pc="268439958" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="191" parent="globals/EIDGarminWatchFaceView" pc="268439961" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="193" parent="globals/EIDGarminWatchFaceView" pc="268439995" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="52" lineNum="69" parent="globals/EIDGarminWatchFaceView" pc="268440017" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDistance&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="52" lineNum="70" parent="globals/EIDGarminWatchFaceView" pc="268440020" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDistance&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="52" lineNum="71" parent="globals/EIDGarminWatchFaceView" pc="268440035" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDistance&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="52" lineNum="72" parent="globals/EIDGarminWatchFaceView" pc="268440056" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDistance&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="53" lineNum="95" parent="globals/EIDGarminWatchFaceView" pc="268440078" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawTotalCaloriesProgressBar&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="53" lineNum="96" parent="globals/EIDGarminWatchFaceView" pc="268440080" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawTotalCaloriesProgressBar&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="55" lineNum="82" parent="globals/EIDGarminWatchFaceView" pc="268440097" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHeartRate&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="55" lineNum="83" parent="globals/EIDGarminWatchFaceView" pc="268440100" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHeartRate&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="55" lineNum="84" parent="globals/EIDGarminWatchFaceView" pc="268440115" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHeartRate&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="56" lineNum="122" parent="globals/EIDGarminWatchFaceView" pc="268440150" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeekday&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="56" lineNum="123" parent="globals/EIDGarminWatchFaceView" pc="268440153" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeekday&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="56" lineNum="124" parent="globals/EIDGarminWatchFaceView" pc="268440168" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeekday&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="57" lineNum="116" parent="globals/EIDGarminWatchFaceView" pc="268440190" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDate&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="57" lineNum="117" parent="globals/EIDGarminWatchFaceView" pc="268440193" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDate&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="57" lineNum="118" parent="globals/EIDGarminWatchFaceView" pc="268440208" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDate&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="58" lineNum="17" parent="globals/EIDGarminWatchFaceView" pc="268440230" symbol="initialize"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="58" lineNum="18" parent="globals/EIDGarminWatchFaceView" pc="268440232" symbol="initialize"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="32" parent="globals/EIDGarminWatchFaceView" pc="268440245" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="34" parent="globals/EIDGarminWatchFaceView" pc="268440247" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="36" parent="globals/EIDGarminWatchFaceView" pc="268440267" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="37" parent="globals/EIDGarminWatchFaceView" pc="268440274" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="38" parent="globals/EIDGarminWatchFaceView" pc="268440281" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="39" parent="globals/EIDGarminWatchFaceView" pc="268440288" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="40" parent="globals/EIDGarminWatchFaceView" pc="268440295" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="41" parent="globals/EIDGarminWatchFaceView" pc="268440306" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="42" parent="globals/EIDGarminWatchFaceView" pc="268440313" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="43" parent="globals/EIDGarminWatchFaceView" pc="268440324" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="44" parent="globals/EIDGarminWatchFaceView" pc="268440331" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="45" parent="globals/EIDGarminWatchFaceView" pc="268440338" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="46" parent="globals/EIDGarminWatchFaceView" pc="268440345" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="47" parent="globals/EIDGarminWatchFaceView" pc="268440356" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="48" parent="globals/EIDGarminWatchFaceView" pc="268440363" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="49" parent="globals/EIDGarminWatchFaceView" pc="268440370" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="50" parent="globals/EIDGarminWatchFaceView" pc="268440377" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="51" parent="globals/EIDGarminWatchFaceView" pc="268440384" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="52" parent="globals/EIDGarminWatchFaceView" pc="268440391" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="53" parent="globals/EIDGarminWatchFaceView" pc="268440398" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="54" parent="globals/EIDGarminWatchFaceView" pc="268440405" symbol="onUpdate"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="60" lineNum="76" parent="globals/EIDGarminWatchFaceView" pc="268440413" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStepCount&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="60" lineNum="77" parent="globals/EIDGarminWatchFaceView" pc="268440416" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStepCount&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="60" lineNum="78" parent="globals/EIDGarminWatchFaceView" pc="268440431" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStepCount&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="61" lineNum="140" parent="globals/EIDGarminWatchFaceView" pc="268440466" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSunsetTime&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="61" lineNum="141" parent="globals/EIDGarminWatchFaceView" pc="268440469" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSunsetTime&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="61" lineNum="142" parent="globals/EIDGarminWatchFaceView" pc="268440484" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSunsetTime&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="61" lineNum="143" parent="globals/EIDGarminWatchFaceView" pc="268440505" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSunsetTime&gt;"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="44" parent="globals/Rez/Layouts" pc="268440527" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="45" parent="globals/Rez/Layouts" pc="268440538" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="46" parent="globals/Rez/Layouts" pc="268440571" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="47" parent="globals/Rez/Layouts" pc="268440604" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="48" parent="globals/Rez/Layouts" pc="268440637" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="49" parent="globals/Rez/Layouts" pc="268440670" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="50" parent="globals/Rez/Layouts" pc="268440703" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="52" parent="globals/Rez/Layouts" pc="268440727" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="54" parent="globals/Rez/Layouts" pc="268440805" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="56" parent="globals/Rez/Layouts" pc="268440890" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="58" parent="globals/Rez/Layouts" pc="268440979" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="60" parent="globals/Rez/Layouts" pc="268441057" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="62" parent="globals/Rez/Layouts" pc="268441135" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="64" parent="globals/Rez/Layouts" pc="268441213" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="66" parent="globals/Rez/Layouts" pc="268441290" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="68" parent="globals/Rez/Layouts" pc="268441368" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="70" parent="globals/Rez/Layouts" pc="268441446" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="72" parent="globals/Rez/Layouts" pc="268441524" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="74" parent="globals/Rez/Layouts" pc="268441601" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="76" parent="globals/Rez/Layouts" pc="268441690" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="78" parent="globals/Rez/Layouts" pc="268441768" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="79" parent="globals/Rez/Layouts" pc="268441855" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="81" parent="globals/Rez/Layouts" pc="268441875" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="83" parent="globals/Rez/Layouts" pc="268441953" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="85" parent="globals/Rez/Layouts" pc="268442055" symbol="WatchFace"/>
-        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B4536-00/source/Rez.mcgen" id="62" lineNum="87" parent="globals/Rez/Layouts" pc="268442133" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="176" parent="globals/Tools" pc="268436302" symbol="drawStressArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="177" parent="globals/Tools" pc="268436307" symbol="drawStressArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="178" parent="globals/Tools" pc="268436312" symbol="drawStressArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="179" parent="globals/Tools" pc="268436316" symbol="drawStressArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="183" parent="globals/Tools" pc="268436323" symbol="drawStressArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="185" parent="globals/Tools" pc="268436331" symbol="drawStressArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="187" parent="globals/Tools" pc="268436335" symbol="drawStressArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="189" parent="globals/Tools" pc="268436349" symbol="drawStressArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="191" parent="globals/Tools" pc="268436353" symbol="drawStressArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="193" parent="globals/Tools" pc="268436358" symbol="drawStressArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="15" lineNum="195" parent="globals/Tools" pc="268436368" symbol="drawStressArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="16" lineNum="249" parent="globals/Tools" pc="268436401" symbol="getSystemMinute"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="16" lineNum="250" parent="globals/Tools" pc="268436404" symbol="getSystemMinute"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="16" lineNum="251" parent="globals/Tools" pc="268436416" symbol="getSystemMinute"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="17" lineNum="255" parent="globals/Tools" pc="268436436" symbol="getSystemSecond"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="17" lineNum="256" parent="globals/Tools" pc="268436439" symbol="getSystemSecond"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="17" lineNum="257" parent="globals/Tools" pc="268436451" symbol="getSystemSecond"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="18" lineNum="415" parent="globals/Tools" pc="268436471" symbol="getSystemHumidity"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="18" lineNum="416" parent="globals/Tools" pc="268436474" symbol="getSystemHumidity"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="18" lineNum="418" parent="globals/Tools" pc="268436486" symbol="getSystemHumidity"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="18" lineNum="419" parent="globals/Tools" pc="268436492" symbol="getSystemHumidity"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="18" lineNum="421" parent="globals/Tools" pc="268436516" symbol="getSystemHumidity"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="434" parent="globals/Tools" pc="268436522" symbol="drawRoundedArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="445" parent="globals/Tools" pc="268436525" symbol="drawRoundedArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="447" parent="globals/Tools" pc="268436533" symbol="drawRoundedArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="449" parent="globals/Tools" pc="268436545" symbol="drawRoundedArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="453" parent="globals/Tools" pc="268436559" symbol="drawRoundedArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="464" parent="globals/Tools" pc="268436580" symbol="drawRoundedArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="465" parent="globals/Tools" pc="268436601" symbol="drawRoundedArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="468" parent="globals/Tools" pc="268436622" symbol="drawRoundedArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="469" parent="globals/Tools" pc="268436644" symbol="drawRoundedArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="472" parent="globals/Tools" pc="268436666" symbol="drawRoundedArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="473" parent="globals/Tools" pc="268436688" symbol="drawRoundedArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="19" lineNum="476" parent="globals/Tools" pc="268436710" symbol="drawRoundedArc"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="50" parent="globals/Tools" pc="268436721" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="51" parent="globals/Tools" pc="268436724" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="52" parent="globals/Tools" pc="268436743" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="53" parent="globals/Tools" pc="268436751" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="54" parent="globals/Tools" pc="268436759" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="56" parent="globals/Tools" pc="268436766" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="57" parent="globals/Tools" pc="268436778" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="58" parent="globals/Tools" pc="268436782" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="59" parent="globals/Tools" pc="268436786" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="60" parent="globals/Tools" pc="268436790" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="62" parent="globals/Tools" pc="268436794" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="63" parent="globals/Tools" pc="268436808" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="64" parent="globals/Tools" pc="268436812" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="65" parent="globals/Tools" pc="268436817" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="66" parent="globals/Tools" pc="268436821" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="69" parent="globals/Tools" pc="268436828" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="70" parent="globals/Tools" pc="268436836" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="71" parent="globals/Tools" pc="268436853" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="20" lineNum="72" parent="globals/Tools" pc="268436865" symbol="drawTotalCaloriesProgressBar"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="261" parent="globals/Tools" pc="268436890" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="262" parent="globals/Tools" pc="268436893" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="265" parent="globals/Tools" pc="268436905" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="268" parent="globals/Tools" pc="268436938" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="269" parent="globals/Tools" pc="268436944" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="270" parent="globals/Tools" pc="268436953" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="272" parent="globals/Tools" pc="268436955" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="273" parent="globals/Tools" pc="268436970" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="274" parent="globals/Tools" pc="268436986" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="275" parent="globals/Tools" pc="268437002" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="276" parent="globals/Tools" pc="268437018" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="284" parent="globals/Tools" pc="268437034" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="285" parent="globals/Tools" pc="268437050" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="286" parent="globals/Tools" pc="268437066" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="294" parent="globals/Tools" pc="268437082" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="295" parent="globals/Tools" pc="268437098" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="296" parent="globals/Tools" pc="268437114" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="297" parent="globals/Tools" pc="268437130" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="298" parent="globals/Tools" pc="268437146" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="299" parent="globals/Tools" pc="268437162" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="300" parent="globals/Tools" pc="268437178" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="301" parent="globals/Tools" pc="268437194" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="302" parent="globals/Tools" pc="268437210" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="303" parent="globals/Tools" pc="268437226" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="311" parent="globals/Tools" pc="268437242" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="312" parent="globals/Tools" pc="268437258" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="313" parent="globals/Tools" pc="268437274" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="318" parent="globals/Tools" pc="268437290" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="319" parent="globals/Tools" pc="268437306" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="320" parent="globals/Tools" pc="268437322" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="321" parent="globals/Tools" pc="268437338" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="322" parent="globals/Tools" pc="268437354" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="323" parent="globals/Tools" pc="268437370" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="331" parent="globals/Tools" pc="268437386" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="332" parent="globals/Tools" pc="268437402" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="333" parent="globals/Tools" pc="268437418" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="334" parent="globals/Tools" pc="268437434" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="335" parent="globals/Tools" pc="268437450" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="336" parent="globals/Tools" pc="268437466" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="337" parent="globals/Tools" pc="268437482" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="338" parent="globals/Tools" pc="268437498" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="339" parent="globals/Tools" pc="268437514" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="347" parent="globals/Tools" pc="268437530" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="348" parent="globals/Tools" pc="268437546" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="349" parent="globals/Tools" pc="268437562" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="350" parent="globals/Tools" pc="268437578" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="351" parent="globals/Tools" pc="268437594" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="352" parent="globals/Tools" pc="268437610" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="360" parent="globals/Tools" pc="268437626" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="361" parent="globals/Tools" pc="268437642" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="362" parent="globals/Tools" pc="268437658" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="363" parent="globals/Tools" pc="268437674" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="364" parent="globals/Tools" pc="268437690" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="372" parent="globals/Tools" pc="268437706" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="373" parent="globals/Tools" pc="268437722" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="381" parent="globals/Tools" pc="268437738" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="382" parent="globals/Tools" pc="268437754" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="383" parent="globals/Tools" pc="268437770" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="391" parent="globals/Tools" pc="268437786" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="392" parent="globals/Tools" pc="268437802" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="393" parent="globals/Tools" pc="268437818" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="278" parent="globals/Tools" pc="268437821" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="281" parent="globals/Tools" pc="268437854" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="288" parent="globals/Tools" pc="268437857" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="291" parent="globals/Tools" pc="268437890" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="305" parent="globals/Tools" pc="268437893" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="308" parent="globals/Tools" pc="268437926" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="315" parent="globals/Tools" pc="268437929" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="325" parent="globals/Tools" pc="268437932" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="328" parent="globals/Tools" pc="268437965" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="341" parent="globals/Tools" pc="268437968" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="344" parent="globals/Tools" pc="268438001" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="354" parent="globals/Tools" pc="268438004" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="357" parent="globals/Tools" pc="268438037" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="366" parent="globals/Tools" pc="268438040" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="369" parent="globals/Tools" pc="268438073" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="375" parent="globals/Tools" pc="268438076" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="378" parent="globals/Tools" pc="268438109" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="385" parent="globals/Tools" pc="268438112" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="388" parent="globals/Tools" pc="268438145" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="395" parent="globals/Tools" pc="268438148" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="398" parent="globals/Tools" pc="268438181" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="21" lineNum="401" parent="globals/Tools" pc="268438188" symbol="getWeatherIcon"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="22" lineNum="76" parent="globals/Tools" pc="268438191" symbol="getSystemBattery"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="22" lineNum="78" parent="globals/Tools" pc="268438194" symbol="getSystemBattery"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="22" lineNum="79" parent="globals/Tools" pc="268438211" symbol="getSystemBattery"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="209" parent="globals/Tools" pc="268438226" symbol="getSystemSunsetTime"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="210" parent="globals/Tools" pc="268438229" symbol="getSystemSunsetTime"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="211" parent="globals/Tools" pc="268438246" symbol="getSystemSunsetTime"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="212" parent="globals/Tools" pc="268438258" symbol="getSystemSunsetTime"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="213" parent="globals/Tools" pc="268438264" symbol="getSystemSunsetTime"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="214" parent="globals/Tools" pc="268438282" symbol="getSystemSunsetTime"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="215" parent="globals/Tools" pc="268438288" symbol="getSystemSunsetTime"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="216" parent="globals/Tools" pc="268438305" symbol="getSystemSunsetTime"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="23" lineNum="221" parent="globals/Tools" pc="268438357" symbol="getSystemSunsetTime"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="25" lineNum="482" parent="globals/Tools" pc="268438363" symbol="getGrayColor"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="25" lineNum="483" parent="globals/Tools" pc="268438365" symbol="getGrayColor"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="26" lineNum="41" parent="globals/Tools" pc="268438389" symbol="getTodayCalories"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="26" lineNum="42" parent="globals/Tools" pc="268438392" symbol="getTodayCalories"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="26" lineNum="43" parent="globals/Tools" pc="268438409" symbol="getTodayCalories"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="26" lineNum="44" parent="globals/Tools" pc="268438422" symbol="getTodayCalories"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="26" lineNum="46" parent="globals/Tools" pc="268438428" symbol="getTodayCalories"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="27" lineNum="405" parent="globals/Tools" pc="268438432" symbol="getSystemTemperature"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="27" lineNum="406" parent="globals/Tools" pc="268438435" symbol="getSystemTemperature"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="27" lineNum="408" parent="globals/Tools" pc="268438447" symbol="getSystemTemperature"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="27" lineNum="409" parent="globals/Tools" pc="268438453" symbol="getSystemTemperature"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/Tools.mc" id="27" lineNum="411" parent="globals/Tools" pc="268438477" symbol="getSystemTemperature"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="28" lineNum="12" parent="globals/EIDGarminWatchFaceApp" pc="268438483" symbol="onStart"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="29" lineNum="25" parent="globals/EIDGarminWatchFaceApp" pc="268438486" symbol="onSettingsChanged"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="29" lineNum="26" parent="globals/EIDGarminWatchFaceApp" pc="268438488" symbol="onSettingsChanged"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="30" lineNum="20" parent="globals/EIDGarminWatchFaceApp" pc="268438500" symbol="getInitialView"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="30" lineNum="21" parent="globals/EIDGarminWatchFaceApp" pc="268438502" symbol="getInitialView"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="31" lineNum="7" parent="globals/EIDGarminWatchFaceApp" pc="268438528" symbol="initialize"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="31" lineNum="8" parent="globals/EIDGarminWatchFaceApp" pc="268438530" symbol="initialize"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceApp.mc" id="32" lineNum="16" parent="globals/EIDGarminWatchFaceApp" pc="268438543" symbol="onStop"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="22" parent="globals/CustomBackgroundDrawable" pc="268438546" symbol="getBackgroundBitmap"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="23" parent="globals/CustomBackgroundDrawable" pc="268438549" symbol="getBackgroundBitmap"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="24" parent="globals/CustomBackgroundDrawable" pc="268438568" symbol="getBackgroundBitmap"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="25" parent="globals/CustomBackgroundDrawable" pc="268438570" symbol="getBackgroundBitmap"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="27" parent="globals/CustomBackgroundDrawable" pc="268438586" symbol="getBackgroundBitmap"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="29" parent="globals/CustomBackgroundDrawable" pc="268438602" symbol="getBackgroundBitmap"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="31" parent="globals/CustomBackgroundDrawable" pc="268438618" symbol="getBackgroundBitmap"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="33" parent="globals/CustomBackgroundDrawable" pc="268438634" symbol="getBackgroundBitmap"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="35" parent="globals/CustomBackgroundDrawable" pc="268438650" symbol="getBackgroundBitmap"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="37" parent="globals/CustomBackgroundDrawable" pc="268438666" symbol="getBackgroundBitmap"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="26" parent="globals/CustomBackgroundDrawable" pc="268438669" symbol="getBackgroundBitmap"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="28" parent="globals/CustomBackgroundDrawable" pc="268438701" symbol="getBackgroundBitmap"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="30" parent="globals/CustomBackgroundDrawable" pc="268438733" symbol="getBackgroundBitmap"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="32" parent="globals/CustomBackgroundDrawable" pc="268438765" symbol="getBackgroundBitmap"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="34" parent="globals/CustomBackgroundDrawable" pc="268438797" symbol="getBackgroundBitmap"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="36" parent="globals/CustomBackgroundDrawable" pc="268438829" symbol="getBackgroundBitmap"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="33" lineNum="39" parent="globals/CustomBackgroundDrawable" pc="268438861" symbol="getBackgroundBitmap"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="34" lineNum="8" parent="globals/CustomBackgroundDrawable" pc="268438895" symbol="initialize"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="34" lineNum="9" parent="globals/CustomBackgroundDrawable" pc="268438897" symbol="initialize"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="35" lineNum="12" parent="globals/CustomBackgroundDrawable" pc="268438928" symbol="draw"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="35" lineNum="13" parent="globals/CustomBackgroundDrawable" pc="268438931" symbol="draw"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/CustomBackgroundDrawable.mc" id="35" lineNum="14" parent="globals/CustomBackgroundDrawable" pc="268438939" symbol="draw"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="36" lineNum="111" parent="globals/EIDGarminWatchFaceView" pc="268438954" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawBatteryArc&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="36" lineNum="112" parent="globals/EIDGarminWatchFaceView" pc="268438956" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawBatteryArc&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="37" lineNum="88" parent="globals/EIDGarminWatchFaceView" pc="268438973" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setCalories&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="37" lineNum="89" parent="globals/EIDGarminWatchFaceView" pc="268438976" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setCalories&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="37" lineNum="90" parent="globals/EIDGarminWatchFaceView" pc="268438991" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setCalories&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="37" lineNum="91" parent="globals/EIDGarminWatchFaceView" pc="268439012" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setCalories&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="38" lineNum="211" parent="globals/EIDGarminWatchFaceView" pc="268439047" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHumidity&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="38" lineNum="212" parent="globals/EIDGarminWatchFaceView" pc="268439050" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHumidity&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="38" lineNum="213" parent="globals/EIDGarminWatchFaceView" pc="268439065" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHumidity&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="38" lineNum="214" parent="globals/EIDGarminWatchFaceView" pc="268439086" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHumidity&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="39" lineNum="100" parent="globals/EIDGarminWatchFaceView" pc="268439158" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setBattery&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="39" lineNum="101" parent="globals/EIDGarminWatchFaceView" pc="268439161" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setBattery&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="39" lineNum="102" parent="globals/EIDGarminWatchFaceView" pc="268439176" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setBattery&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="39" lineNum="103" parent="globals/EIDGarminWatchFaceView" pc="268439197" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setBattery&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="40" lineNum="147" parent="globals/EIDGarminWatchFaceView" pc="268439269" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setAMPM&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="40" lineNum="148" parent="globals/EIDGarminWatchFaceView" pc="268439272" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setAMPM&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="40" lineNum="149" parent="globals/EIDGarminWatchFaceView" pc="268439287" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setAMPM&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="41" lineNum="197" parent="globals/EIDGarminWatchFaceView" pc="268439312" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeatherIcon&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="41" lineNum="198" parent="globals/EIDGarminWatchFaceView" pc="268439315" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeatherIcon&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="41" lineNum="199" parent="globals/EIDGarminWatchFaceView" pc="268439328" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeatherIcon&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="41" lineNum="200" parent="globals/EIDGarminWatchFaceView" pc="268439343" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeatherIcon&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="42" lineNum="160" parent="globals/EIDGarminWatchFaceView" pc="268439356" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setMinute&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="42" lineNum="161" parent="globals/EIDGarminWatchFaceView" pc="268439359" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setMinute&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="42" lineNum="162" parent="globals/EIDGarminWatchFaceView" pc="268439374" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setMinute&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="43" lineNum="128" parent="globals/EIDGarminWatchFaceView" pc="268439396" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStress&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="43" lineNum="129" parent="globals/EIDGarminWatchFaceView" pc="268439399" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStress&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="43" lineNum="130" parent="globals/EIDGarminWatchFaceView" pc="268439414" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStress&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="43" lineNum="131" parent="globals/EIDGarminWatchFaceView" pc="268439435" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStress&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="44" lineNum="204" parent="globals/EIDGarminWatchFaceView" pc="268439470" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setTemperature&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="44" lineNum="205" parent="globals/EIDGarminWatchFaceView" pc="268439473" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setTemperature&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="44" lineNum="206" parent="globals/EIDGarminWatchFaceView" pc="268439488" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setTemperature&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="44" lineNum="207" parent="globals/EIDGarminWatchFaceView" pc="268439509" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setTemperature&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="48" lineNum="22" parent="globals/EIDGarminWatchFaceView" pc="268439531" symbol="onLayout"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="48" lineNum="23" parent="globals/EIDGarminWatchFaceView" pc="268439533" symbol="onLayout"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="49" lineNum="135" parent="globals/EIDGarminWatchFaceView" pc="268439567" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawStressArc&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="49" lineNum="136" parent="globals/EIDGarminWatchFaceView" pc="268439569" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawStressArc&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="50" lineNum="153" parent="globals/EIDGarminWatchFaceView" pc="268439586" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHour&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="50" lineNum="154" parent="globals/EIDGarminWatchFaceView" pc="268439589" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHour&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="50" lineNum="155" parent="globals/EIDGarminWatchFaceView" pc="268439604" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHour&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="50" lineNum="156" parent="globals/EIDGarminWatchFaceView" pc="268439625" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHour&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="166" parent="globals/EIDGarminWatchFaceView" pc="268439650" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="167" parent="globals/EIDGarminWatchFaceView" pc="268439653" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="169" parent="globals/EIDGarminWatchFaceView" pc="268439668" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="171" parent="globals/EIDGarminWatchFaceView" pc="268439687" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="172" parent="globals/EIDGarminWatchFaceView" pc="268439689" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="175" parent="globals/EIDGarminWatchFaceView" pc="268439705" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="178" parent="globals/EIDGarminWatchFaceView" pc="268439721" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="181" parent="globals/EIDGarminWatchFaceView" pc="268439737" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="184" parent="globals/EIDGarminWatchFaceView" pc="268439753" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="187" parent="globals/EIDGarminWatchFaceView" pc="268439769" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="190" parent="globals/EIDGarminWatchFaceView" pc="268439785" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="173" parent="globals/EIDGarminWatchFaceView" pc="268439788" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="174" parent="globals/EIDGarminWatchFaceView" pc="268439819" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="176" parent="globals/EIDGarminWatchFaceView" pc="268439822" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="177" parent="globals/EIDGarminWatchFaceView" pc="268439854" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="179" parent="globals/EIDGarminWatchFaceView" pc="268439857" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="180" parent="globals/EIDGarminWatchFaceView" pc="268439888" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="182" parent="globals/EIDGarminWatchFaceView" pc="268439891" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="183" parent="globals/EIDGarminWatchFaceView" pc="268439924" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="185" parent="globals/EIDGarminWatchFaceView" pc="268439927" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="186" parent="globals/EIDGarminWatchFaceView" pc="268439959" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="188" parent="globals/EIDGarminWatchFaceView" pc="268439962" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="189" parent="globals/EIDGarminWatchFaceView" pc="268439993" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="191" parent="globals/EIDGarminWatchFaceView" pc="268439996" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="51" lineNum="193" parent="globals/EIDGarminWatchFaceView" pc="268440030" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="52" lineNum="69" parent="globals/EIDGarminWatchFaceView" pc="268440052" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDistance&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="52" lineNum="70" parent="globals/EIDGarminWatchFaceView" pc="268440055" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDistance&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="52" lineNum="71" parent="globals/EIDGarminWatchFaceView" pc="268440070" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDistance&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="52" lineNum="72" parent="globals/EIDGarminWatchFaceView" pc="268440091" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDistance&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="53" lineNum="95" parent="globals/EIDGarminWatchFaceView" pc="268440113" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawTotalCaloriesProgressBar&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="53" lineNum="96" parent="globals/EIDGarminWatchFaceView" pc="268440115" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawTotalCaloriesProgressBar&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="55" lineNum="82" parent="globals/EIDGarminWatchFaceView" pc="268440132" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHeartRate&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="55" lineNum="83" parent="globals/EIDGarminWatchFaceView" pc="268440135" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHeartRate&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="55" lineNum="84" parent="globals/EIDGarminWatchFaceView" pc="268440150" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHeartRate&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="56" lineNum="122" parent="globals/EIDGarminWatchFaceView" pc="268440185" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeekday&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="56" lineNum="123" parent="globals/EIDGarminWatchFaceView" pc="268440188" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeekday&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="56" lineNum="124" parent="globals/EIDGarminWatchFaceView" pc="268440203" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeekday&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="57" lineNum="116" parent="globals/EIDGarminWatchFaceView" pc="268440225" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDate&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="57" lineNum="117" parent="globals/EIDGarminWatchFaceView" pc="268440228" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDate&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="57" lineNum="118" parent="globals/EIDGarminWatchFaceView" pc="268440243" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDate&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="58" lineNum="17" parent="globals/EIDGarminWatchFaceView" pc="268440265" symbol="initialize"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="58" lineNum="18" parent="globals/EIDGarminWatchFaceView" pc="268440267" symbol="initialize"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="32" parent="globals/EIDGarminWatchFaceView" pc="268440280" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="34" parent="globals/EIDGarminWatchFaceView" pc="268440282" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="36" parent="globals/EIDGarminWatchFaceView" pc="268440302" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="37" parent="globals/EIDGarminWatchFaceView" pc="268440309" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="38" parent="globals/EIDGarminWatchFaceView" pc="268440316" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="39" parent="globals/EIDGarminWatchFaceView" pc="268440323" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="40" parent="globals/EIDGarminWatchFaceView" pc="268440330" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="41" parent="globals/EIDGarminWatchFaceView" pc="268440341" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="42" parent="globals/EIDGarminWatchFaceView" pc="268440348" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="43" parent="globals/EIDGarminWatchFaceView" pc="268440359" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="44" parent="globals/EIDGarminWatchFaceView" pc="268440366" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="45" parent="globals/EIDGarminWatchFaceView" pc="268440373" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="46" parent="globals/EIDGarminWatchFaceView" pc="268440380" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="47" parent="globals/EIDGarminWatchFaceView" pc="268440391" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="48" parent="globals/EIDGarminWatchFaceView" pc="268440398" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="49" parent="globals/EIDGarminWatchFaceView" pc="268440405" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="50" parent="globals/EIDGarminWatchFaceView" pc="268440412" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="51" parent="globals/EIDGarminWatchFaceView" pc="268440419" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="52" parent="globals/EIDGarminWatchFaceView" pc="268440426" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="53" parent="globals/EIDGarminWatchFaceView" pc="268440433" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="59" lineNum="54" parent="globals/EIDGarminWatchFaceView" pc="268440440" symbol="onUpdate"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="60" lineNum="76" parent="globals/EIDGarminWatchFaceView" pc="268440448" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStepCount&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="60" lineNum="77" parent="globals/EIDGarminWatchFaceView" pc="268440451" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStepCount&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="60" lineNum="78" parent="globals/EIDGarminWatchFaceView" pc="268440466" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStepCount&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="61" lineNum="140" parent="globals/EIDGarminWatchFaceView" pc="268440501" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSunsetTime&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="61" lineNum="141" parent="globals/EIDGarminWatchFaceView" pc="268440504" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSunsetTime&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="61" lineNum="142" parent="globals/EIDGarminWatchFaceView" pc="268440519" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSunsetTime&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/source/EIDGarminWatchFaceView.mc" id="61" lineNum="143" parent="globals/EIDGarminWatchFaceView" pc="268440540" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSunsetTime&gt;"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="39" parent="globals/Rez/Layouts" pc="268440562" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="40" parent="globals/Rez/Layouts" pc="268440573" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="41" parent="globals/Rez/Layouts" pc="268440606" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="42" parent="globals/Rez/Layouts" pc="268440639" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="43" parent="globals/Rez/Layouts" pc="268440672" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="44" parent="globals/Rez/Layouts" pc="268440705" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="45" parent="globals/Rez/Layouts" pc="268440738" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="47" parent="globals/Rez/Layouts" pc="268440762" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="49" parent="globals/Rez/Layouts" pc="268440840" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="51" parent="globals/Rez/Layouts" pc="268440925" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="53" parent="globals/Rez/Layouts" pc="268441014" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="55" parent="globals/Rez/Layouts" pc="268441092" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="57" parent="globals/Rez/Layouts" pc="268441170" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="59" parent="globals/Rez/Layouts" pc="268441248" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="61" parent="globals/Rez/Layouts" pc="268441325" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="63" parent="globals/Rez/Layouts" pc="268441403" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="65" parent="globals/Rez/Layouts" pc="268441481" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="67" parent="globals/Rez/Layouts" pc="268441559" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="69" parent="globals/Rez/Layouts" pc="268441636" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="71" parent="globals/Rez/Layouts" pc="268441725" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="73" parent="globals/Rez/Layouts" pc="268441803" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="74" parent="globals/Rez/Layouts" pc="268441890" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="76" parent="globals/Rez/Layouts" pc="268441910" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="78" parent="globals/Rez/Layouts" pc="268441988" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="80" parent="globals/Rez/Layouts" pc="268442090" symbol="WatchFace"/>
+        <entry filename="/Users/summer/work/garmin/EIDGarminWatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="62" lineNum="82" parent="globals/Rez/Layouts" pc="268442168" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="31" method="true" symbol="getTodayCalories"/>
@@ -427,22 +432,18 @@
         <entry id="14" method="true" symbol="drawStressArc"/>
         <entry id="8389683" method="true" symbol="onSettingsChanged"/>
         <entry id="42" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHeartRate&gt;"/>
-        <entry field="true" id="87" symbol="TargetCaloriesTitle"/>
+        <entry field="true" id="82" symbol="TargetCaloriesTitle"/>
         <entry id="32" method="true" symbol="getWeatherIcon"/>
         <entry id="18" method="true" symbol="getStress"/>
         <entry id="48" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStress&gt;"/>
         <entry field="true" id="58" symbol="BackgroundPurple"/>
         <entry id="8388924" module="true" symbol="Gregorian"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="82" symbol="rubik_f34"/>
-        <entry field="true" id="81" symbol="rubik_f25"/>
-        <entry field="true" id="80" symbol="rubik_f23"/>
-        <entry field="true" id="79" symbol="rubik_f20"/>
-        <entry field="true" id="78" symbol="rubik_f19_white"/>
+        <entry field="true" id="77" symbol="rubik_f19_white"/>
         <entry id="45" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setMinute&gt;"/>
         <entry field="true" id="59" symbol="BackgroundRed"/>
         <entry id="37" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setAMPM&gt;"/>
-        <entry field="true" id="83" symbol="AppName"/>
+        <entry field="true" id="78" symbol="AppName"/>
         <entry id="8" object="true" symbol="EIDGarminWatchFaceApp"/>
         <entry id="39" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setCalories&gt;"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
@@ -455,14 +456,14 @@
         <entry field="true" id="70" symbol="WeatherConditionUnknown"/>
         <entry id="41" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDistance&gt;"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="88" symbol="TemperatureUnit"/>
+        <entry field="true" id="83" symbol="TemperatureUnit"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry id="35" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawStressArc&gt;"/>
         <entry id="46" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;"/>
-        <entry field="true" id="77" symbol="rubik_f14_grey"/>
+        <entry field="true" id="76" symbol="rubik_f14_grey"/>
         <entry id="8391489" module="true" symbol="Weather"/>
         <entry id="15" method="true" symbol="drawTotalCaloriesProgressBar"/>
         <entry field="true" id="65" symbol="WeatherConditionFog"/>
@@ -470,7 +471,7 @@
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
         <entry id="8389275" method="true" symbol="getApp"/>
-        <entry field="true" id="75" symbol="rubik_f11_white"/>
+        <entry field="true" id="74" symbol="rubik_f11_white"/>
         <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="30" method="true" symbol="getSystemWeekday"/>
         <entry field="true" id="56" symbol="BackgroundOrange"/>
@@ -486,7 +487,6 @@
         <entry id="27" method="true" symbol="getSystemStepCount"/>
         <entry id="28" method="true" symbol="getSystemSunsetTime"/>
         <entry field="true" id="68" symbol="WeatherConditionRain"/>
-        <entry field="true" id="74" symbol="rubik_f114"/>
         <entry id="51" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeatherIcon&gt;"/>
         <entry field="true" id="55" symbol="BackgroundGreen"/>
         <entry id="8389377" method="true" symbol="onExitSleep"/>
@@ -500,7 +500,7 @@
         <entry id="52" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeekday&gt;"/>
         <entry id="23" method="true" symbol="getSystemHour"/>
         <entry id="17" method="true" symbol="getGrayColor"/>
-        <entry field="true" id="76" symbol="rubik_f13_white"/>
+        <entry field="true" id="75" symbol="rubik_f13_white"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8389068" method="true" symbol="draw"/>
         <entry id="50" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setTemperature&gt;"/>
@@ -509,16 +509,16 @@
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="47" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStepCount&gt;"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry field="true" id="84" symbol="BackgroundColorTitle"/>
+        <entry field="true" id="79" symbol="BackgroundColorTitle"/>
         <entry field="true" id="67" symbol="WeatherConditionLightRainSnow"/>
         <entry id="24" method="true" symbol="getSystemHumidity"/>
         <entry id="44" method="true" symbol="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHumidity&gt;"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry field="true" id="86" symbol="HumidityValue"/>
+        <entry field="true" id="81" symbol="HumidityValue"/>
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry field="true" id="54" symbol="BackgroundBlue"/>
-        <entry field="true" id="85" symbol="BatteryValue"/>
+        <entry field="true" id="80" symbol="BatteryValue"/>
         <entry id="8388641" module="true" symbol="Math"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
@@ -561,112 +561,110 @@
         <entry endPc="268436019" name="steps" stackId="1" startPc="268435980"/>
         <entry endPc="268436217" name="today" stackId="1" startPc="268436023"/>
         <entry endPc="268436266" name="today" stackId="1" startPc="268436222"/>
-        <entry arg="true" endPc="268436365" name="dc" stackId="1" startPc="268436267"/>
-        <entry endPc="268436364" name="centerX" stackId="2" startPc="268436270"/>
-        <entry endPc="268436364" name="centerY" stackId="3" startPc="268436270"/>
-        <entry endPc="268436364" name="radius" stackId="4" startPc="268436270"/>
-        <entry endPc="268436364" name="thickness" stackId="5" startPc="268436270"/>
-        <entry endPc="268436364" name="foregroundColor" stackId="6" startPc="268436270"/>
-        <entry endPc="268436364" name="backgroundColor" stackId="7" startPc="268436270"/>
-        <entry endPc="268436364" name="stressPercent" stackId="8" startPc="268436270"/>
-        <entry endPc="268436364" name="startAngle" stackId="9" startPc="268436270"/>
-        <entry endPc="268436364" name="totalAngleSpan" stackId="10" startPc="268436270"/>
-        <entry endPc="268436364" name="endAngle" stackId="11" startPc="268436270"/>
-        <entry endPc="268436400" name="clockTime" stackId="1" startPc="268436369"/>
+        <entry arg="true" endPc="268436400" name="dc" stackId="1" startPc="268436267"/>
+        <entry endPc="268436399" name="centerX" stackId="2" startPc="268436270"/>
+        <entry endPc="268436399" name="centerY" stackId="3" startPc="268436270"/>
+        <entry endPc="268436399" name="radius" stackId="4" startPc="268436270"/>
+        <entry endPc="268436399" name="thickness" stackId="5" startPc="268436270"/>
+        <entry endPc="268436399" name="foregroundColor" stackId="6" startPc="268436270"/>
+        <entry endPc="268436399" name="backgroundColor" stackId="7" startPc="268436270"/>
+        <entry endPc="268436399" name="stressPercent" stackId="8" startPc="268436270"/>
+        <entry endPc="268436399" name="startAngle" stackId="9" startPc="268436270"/>
+        <entry endPc="268436399" name="totalAngleSpan" stackId="10" startPc="268436270"/>
+        <entry endPc="268436399" name="endAngle" stackId="11" startPc="268436270"/>
         <entry endPc="268436435" name="clockTime" stackId="1" startPc="268436404"/>
-        <entry endPc="268436486" name="currentWeatherConditions" stackId="1" startPc="268436439"/>
-        <entry arg="true" endPc="268436685" name="dc" stackId="1" startPc="268436487"/>
-        <entry arg="true" endPc="268436685" name="centerX" stackId="2" startPc="268436487"/>
-        <entry arg="true" endPc="268436685" name="centerY" stackId="3" startPc="268436487"/>
-        <entry arg="true" endPc="268436685" name="radius" stackId="4" startPc="268436487"/>
-        <entry arg="true" endPc="268436685" name="penWidth" stackId="5" startPc="268436487"/>
-        <entry arg="true" endPc="268436685" name="foregroundColor" stackId="6" startPc="268436487"/>
-        <entry arg="true" endPc="268436685" name="backgroudColor" stackId="7" startPc="268436487"/>
-        <entry arg="true" endPc="268436685" name="startAngle" stackId="8" startPc="268436487"/>
-        <entry arg="true" endPc="268436685" name="endAngle" stackId="9" startPc="268436487"/>
-        <entry endPc="268436684" name="startRad" stackId="10" startPc="268436490"/>
-        <entry endPc="268436684" name="endRad" stackId="11" startPc="268436490"/>
-        <entry endPc="268436684" name="startX" stackId="12" startPc="268436490"/>
-        <entry endPc="268436684" name="startY" stackId="13" startPc="268436490"/>
-        <entry endPc="268436684" name="endX" stackId="14" startPc="268436490"/>
-        <entry endPc="268436684" name="endY" stackId="15" startPc="268436490"/>
-        <entry endPc="268436684" name="capRadius" stackId="16" startPc="268436490"/>
-        <entry arg="true" endPc="268436854" name="dc" stackId="1" startPc="268436686"/>
-        <entry endPc="268436853" name="targetCalories" stackId="2" startPc="268436689"/>
-        <entry endPc="268436853" name="currentCalories" stackId="3" startPc="268436689"/>
-        <entry endPc="268436853" name="progress" stackId="4" startPc="268436689"/>
-        <entry endPc="268436853" name="startX" stackId="5" startPc="268436689"/>
-        <entry endPc="268436853" name="startY" stackId="6" startPc="268436689"/>
-        <entry endPc="268436853" name="totalLength" stackId="7" startPc="268436689"/>
-        <entry endPc="268436853" name="penWidth" stackId="8" startPc="268436689"/>
-        <entry endPc="268438155" name="currentWeatherConditions" stackId="1" startPc="268436858"/>
-        <entry endPc="268438155" name="weatherIconResource" stackId="2" startPc="268436858"/>
-        <entry endPc="268438149" name="condition" stackId="3" startPc="268436909"/>
-        <entry endPc="268438190" name="battery" stackId="1" startPc="268438159"/>
-        <entry endPc="268438327" name="curLocation" stackId="1" startPc="268438194"/>
-        <entry endPc="268438327" name="today" stackId="2" startPc="268438194"/>
-        <entry endPc="268438318" name="sunset" stackId="3" startPc="268438229"/>
-        <entry endPc="268438315" name="sunsetInfo" stackId="4" startPc="268438253"/>
-        <entry endPc="268438396" name="calories" stackId="1" startPc="268438357"/>
-        <entry endPc="268438447" name="currentWeatherConditions" stackId="1" startPc="268438400"/>
-        <entry endPc="268438858" name="backgroundImage" stackId="1" startPc="268438514"/>
-        <entry arg="true" endPc="268438918" name="dc" stackId="1" startPc="268438893"/>
-        <entry endPc="268438917" name="backgroundBitmap" stackId="2" startPc="268438896"/>
-        <entry arg="true" endPc="268438937" name="dc" stackId="1" startPc="268438919"/>
-        <entry endPc="268439010" name="caloriesLabel" stackId="1" startPc="268438941"/>
-        <entry endPc="268439121" name="humidityLabel" stackId="1" startPc="268439015"/>
-        <entry endPc="268439232" name="batteryLabel" stackId="1" startPc="268439126"/>
-        <entry endPc="268439275" name="ampmLabel" stackId="1" startPc="268439237"/>
-        <entry endPc="268439319" name="weatherIconResource" stackId="1" startPc="268439280"/>
-        <entry endPc="268439319" name="weatherIcon" stackId="2" startPc="268439280"/>
-        <entry endPc="268439359" name="minuteLabel" stackId="1" startPc="268439324"/>
-        <entry endPc="268439433" name="stressLabel" stackId="1" startPc="268439364"/>
-        <entry endPc="268439494" name="temperatureLabel" stackId="1" startPc="268439438"/>
-        <entry arg="true" endPc="268439531" name="dc" stackId="1" startPc="268439496"/>
-        <entry arg="true" endPc="268439550" name="dc" stackId="1" startPc="268439532"/>
-        <entry endPc="268439613" name="hourLabel" stackId="1" startPc="268439554"/>
-        <entry endPc="268440015" name="secondLabel" stackId="1" startPc="268439618"/>
-        <entry endPc="268440015" name="backgroundType" stackId="2" startPc="268439618"/>
-        <entry endPc="268440076" name="distanceLabel" stackId="1" startPc="268440020"/>
-        <entry arg="true" endPc="268440096" name="dc" stackId="1" startPc="268440078"/>
-        <entry endPc="268440148" name="heartRateLabel" stackId="1" startPc="268440100"/>
-        <entry endPc="268440188" name="weekdayLabel" stackId="1" startPc="268440153"/>
-        <entry endPc="268440228" name="dateLabel" stackId="1" startPc="268440193"/>
-        <entry arg="true" endPc="268440412" name="dc" stackId="1" startPc="268440245"/>
-        <entry endPc="268440464" name="stepLabel" stackId="1" startPc="268440416"/>
-        <entry endPc="268440525" name="sunsetTimeLabel" stackId="1" startPc="268440469"/>
-        <entry arg="true" endPc="268442227" name="dc" stackId="1" startPc="268440527"/>
-        <entry endPc="268442227" name="local_Rez_Fonts_rubik_f114" stackId="2" startPc="268440538"/>
-        <entry endPc="268442227" name="local_Rez_Fonts_rubik_f34" stackId="3" startPc="268440538"/>
-        <entry endPc="268442227" name="local_Rez_Fonts_rubik_f23" stackId="4" startPc="268440538"/>
-        <entry endPc="268442227" name="local_Rez_Fonts_rubik_f25" stackId="5" startPc="268440538"/>
-        <entry endPc="268442227" name="local_Rez_Fonts_rubik_f20" stackId="6" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_custom_drawable_11939594661139614796" stackId="7" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_text_Distance" stackId="8" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_text_StepCount" stackId="9" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_text_HeartRate" stackId="10" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_text_Calories" stackId="11" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_text_Battery" stackId="12" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_text_Date" stackId="13" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_text_Weekday" stackId="14" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_text_Stress" stackId="15" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_text_SunsetTime" stackId="16" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_text_AMPM" stackId="17" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_text_Hour" stackId="18" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_text_Minute" stackId="19" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_text_Second" stackId="20" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_bitmap_WeatherIcon" stackId="21" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_text_Temperature" stackId="22" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_text_TemperatureUnit" stackId="23" startPc="268440538"/>
-        <entry endPc="268442227" name="rez_cmp_local_text_Humidity" stackId="24" startPc="268440538"/>
+        <entry endPc="268436470" name="clockTime" stackId="1" startPc="268436439"/>
+        <entry endPc="268436521" name="currentWeatherConditions" stackId="1" startPc="268436474"/>
+        <entry arg="true" endPc="268436720" name="dc" stackId="1" startPc="268436522"/>
+        <entry arg="true" endPc="268436720" name="centerX" stackId="2" startPc="268436522"/>
+        <entry arg="true" endPc="268436720" name="centerY" stackId="3" startPc="268436522"/>
+        <entry arg="true" endPc="268436720" name="radius" stackId="4" startPc="268436522"/>
+        <entry arg="true" endPc="268436720" name="penWidth" stackId="5" startPc="268436522"/>
+        <entry arg="true" endPc="268436720" name="foregroundColor" stackId="6" startPc="268436522"/>
+        <entry arg="true" endPc="268436720" name="backgroudColor" stackId="7" startPc="268436522"/>
+        <entry arg="true" endPc="268436720" name="startAngle" stackId="8" startPc="268436522"/>
+        <entry arg="true" endPc="268436720" name="endAngle" stackId="9" startPc="268436522"/>
+        <entry endPc="268436719" name="startRad" stackId="10" startPc="268436525"/>
+        <entry endPc="268436719" name="endRad" stackId="11" startPc="268436525"/>
+        <entry endPc="268436719" name="startX" stackId="12" startPc="268436525"/>
+        <entry endPc="268436719" name="startY" stackId="13" startPc="268436525"/>
+        <entry endPc="268436719" name="endX" stackId="14" startPc="268436525"/>
+        <entry endPc="268436719" name="endY" stackId="15" startPc="268436525"/>
+        <entry endPc="268436719" name="capRadius" stackId="16" startPc="268436525"/>
+        <entry arg="true" endPc="268436889" name="dc" stackId="1" startPc="268436721"/>
+        <entry endPc="268436888" name="targetCalories" stackId="2" startPc="268436724"/>
+        <entry endPc="268436888" name="currentCalories" stackId="3" startPc="268436724"/>
+        <entry endPc="268436888" name="progress" stackId="4" startPc="268436724"/>
+        <entry endPc="268436888" name="startX" stackId="5" startPc="268436724"/>
+        <entry endPc="268436888" name="startY" stackId="6" startPc="268436724"/>
+        <entry endPc="268436888" name="totalLength" stackId="7" startPc="268436724"/>
+        <entry endPc="268436888" name="penWidth" stackId="8" startPc="268436724"/>
+        <entry endPc="268438190" name="currentWeatherConditions" stackId="1" startPc="268436893"/>
+        <entry endPc="268438190" name="weatherIconResource" stackId="2" startPc="268436893"/>
+        <entry endPc="268438184" name="condition" stackId="3" startPc="268436944"/>
+        <entry endPc="268438225" name="battery" stackId="1" startPc="268438194"/>
+        <entry endPc="268438362" name="curLocation" stackId="1" startPc="268438229"/>
+        <entry endPc="268438362" name="today" stackId="2" startPc="268438229"/>
+        <entry endPc="268438353" name="sunset" stackId="3" startPc="268438264"/>
+        <entry endPc="268438350" name="sunsetInfo" stackId="4" startPc="268438288"/>
+        <entry endPc="268438431" name="calories" stackId="1" startPc="268438392"/>
+        <entry endPc="268438482" name="currentWeatherConditions" stackId="1" startPc="268438435"/>
+        <entry endPc="268438893" name="backgroundImage" stackId="1" startPc="268438549"/>
+        <entry arg="true" endPc="268438953" name="dc" stackId="1" startPc="268438928"/>
+        <entry endPc="268438952" name="backgroundBitmap" stackId="2" startPc="268438931"/>
+        <entry arg="true" endPc="268438972" name="dc" stackId="1" startPc="268438954"/>
+        <entry endPc="268439045" name="caloriesLabel" stackId="1" startPc="268438976"/>
+        <entry endPc="268439156" name="humidityLabel" stackId="1" startPc="268439050"/>
+        <entry endPc="268439267" name="batteryLabel" stackId="1" startPc="268439161"/>
+        <entry endPc="268439310" name="ampmLabel" stackId="1" startPc="268439272"/>
+        <entry endPc="268439354" name="weatherIconResource" stackId="1" startPc="268439315"/>
+        <entry endPc="268439354" name="weatherIcon" stackId="2" startPc="268439315"/>
+        <entry endPc="268439394" name="minuteLabel" stackId="1" startPc="268439359"/>
+        <entry endPc="268439468" name="stressLabel" stackId="1" startPc="268439399"/>
+        <entry endPc="268439529" name="temperatureLabel" stackId="1" startPc="268439473"/>
+        <entry arg="true" endPc="268439566" name="dc" stackId="1" startPc="268439531"/>
+        <entry arg="true" endPc="268439585" name="dc" stackId="1" startPc="268439567"/>
+        <entry endPc="268439648" name="hourLabel" stackId="1" startPc="268439589"/>
+        <entry endPc="268440050" name="secondLabel" stackId="1" startPc="268439653"/>
+        <entry endPc="268440050" name="backgroundType" stackId="2" startPc="268439653"/>
+        <entry endPc="268440111" name="distanceLabel" stackId="1" startPc="268440055"/>
+        <entry arg="true" endPc="268440131" name="dc" stackId="1" startPc="268440113"/>
+        <entry endPc="268440183" name="heartRateLabel" stackId="1" startPc="268440135"/>
+        <entry endPc="268440223" name="weekdayLabel" stackId="1" startPc="268440188"/>
+        <entry endPc="268440263" name="dateLabel" stackId="1" startPc="268440228"/>
+        <entry arg="true" endPc="268440447" name="dc" stackId="1" startPc="268440280"/>
+        <entry endPc="268440499" name="stepLabel" stackId="1" startPc="268440451"/>
+        <entry endPc="268440560" name="sunsetTimeLabel" stackId="1" startPc="268440504"/>
+        <entry arg="true" endPc="268442262" name="dc" stackId="1" startPc="268440562"/>
+        <entry endPc="268442262" name="local_Rez_Fonts_rubik65" stackId="2" startPc="268440573"/>
+        <entry endPc="268442262" name="local_Rez_Fonts_rubik_f19_white" stackId="3" startPc="268440573"/>
+        <entry endPc="268442262" name="local_Rez_Fonts_rubik_f11_white" stackId="4" startPc="268440573"/>
+        <entry endPc="268442262" name="local_Rez_Fonts_rubik_f14_grey" stackId="5" startPc="268440573"/>
+        <entry endPc="268442262" name="local_Rez_Fonts_rubik_f13_white" stackId="6" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_custom_drawable_11939594661139614796" stackId="7" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_text_Distance" stackId="8" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_text_StepCount" stackId="9" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_text_HeartRate" stackId="10" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_text_Calories" stackId="11" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_text_Battery" stackId="12" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_text_Date" stackId="13" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_text_Weekday" stackId="14" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_text_Stress" stackId="15" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_text_SunsetTime" stackId="16" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_text_AMPM" stackId="17" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_text_Hour" stackId="18" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_text_Minute" stackId="19" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_text_Second" stackId="20" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_bitmap_WeatherIcon" stackId="21" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_text_Temperature" stackId="22" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_text_TemperatureUnit" stackId="23" startPc="268440573"/>
+        <entry endPc="268442262" name="rez_cmp_local_text_Humidity" stackId="24" startPc="268440573"/>
     </localVars>
-    <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B4536-00"/>
+    <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B3992-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rubik_f20"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="WeatherConditionClear"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="WeatherIcon"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rubik_f23"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundPurple"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundRed"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BackgroundPink"/>
@@ -683,11 +681,9 @@
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="WeatherConditionSnow"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rubik_f11_white"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BatteryValue"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rubik_f25"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TargetCaloriesTitle"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundOrange"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="WeatherConditionRain"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rubik_f34"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="HumidityValue"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BackgroundWhite"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rubik_f19_white"/>
@@ -703,7 +699,6 @@
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundPink"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="WeatherConditionLightRainSnow"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TemperatureUnit"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rubik_f114"/>
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
@@ -715,7 +710,7 @@
         <dataEntry label="globals/Rez/Drawables" offset="867" parentId="Rez" symbolId="Drawables" type="module"/>
         <dataEntry label="globals/Rez/Layouts" offset="1064" parentId="Rez" symbolId="Layouts" type="module"/>
         <dataEntry label="globals/Rez/Fonts" offset="1099" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1215" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1170" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
@@ -778,20 +773,20 @@
         <functionEntry accessMode="public" endPc="268436266" name="getSystemDay" parent="Tools" startPc="268436219">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436365" name="drawStressArc" parent="Tools" startPc="268436267">
+        <functionEntry accessMode="public" endPc="268436400" name="drawStressArc" parent="Tools" startPc="268436267">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436400" name="getSystemMinute" parent="Tools" startPc="268436366">
+        <functionEntry accessMode="public" endPc="268436435" name="getSystemMinute" parent="Tools" startPc="268436401">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436435" name="getSystemSecond" parent="Tools" startPc="268436401">
+        <functionEntry accessMode="public" endPc="268436470" name="getSystemSecond" parent="Tools" startPc="268436436">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436486" name="getSystemHumidity" parent="Tools" startPc="268436436">
+        <functionEntry accessMode="public" endPc="268436521" name="getSystemHumidity" parent="Tools" startPc="268436471">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436685" name="drawRoundedArc" parent="Tools" startPc="268436487">
+        <functionEntry accessMode="public" endPc="268436720" name="drawRoundedArc" parent="Tools" startPc="268436522">
             <param id="dc"/>
             <param id="centerX"/>
             <param id="centerY"/>
@@ -803,84 +798,84 @@
             <param id="endAngle"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436854" name="drawTotalCaloriesProgressBar" parent="Tools" startPc="268436686">
+        <functionEntry accessMode="public" endPc="268436889" name="drawTotalCaloriesProgressBar" parent="Tools" startPc="268436721">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438155" name="getWeatherIcon" parent="Tools" startPc="268436855">
+        <functionEntry accessMode="public" endPc="268438190" name="getWeatherIcon" parent="Tools" startPc="268436890">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438190" name="getSystemBattery" parent="Tools" startPc="268438156">
+        <functionEntry accessMode="public" endPc="268438225" name="getSystemBattery" parent="Tools" startPc="268438191">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438327" name="getSystemSunsetTime" parent="Tools" startPc="268438191">
+        <functionEntry accessMode="public" endPc="268438362" name="getSystemSunsetTime" parent="Tools" startPc="268438226">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="initialize" parent="Tools">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438353" name="getGrayColor" parent="Tools" startPc="268438328">
+        <functionEntry accessMode="public" endPc="268438388" name="getGrayColor" parent="Tools" startPc="268438363">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438396" name="getTodayCalories" parent="Tools" startPc="268438354">
+        <functionEntry accessMode="public" endPc="268438431" name="getTodayCalories" parent="Tools" startPc="268438389">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438447" name="getSystemTemperature" parent="Tools" startPc="268438397">
+        <functionEntry accessMode="public" endPc="268438482" name="getSystemTemperature" parent="Tools" startPc="268438432">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438450" name="onStart" parent="EIDGarminWatchFaceApp" startPc="268438448">
+        <functionEntry accessMode="public" endPc="268438485" name="onStart" parent="EIDGarminWatchFaceApp" startPc="268438483">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438464" name="onSettingsChanged" parent="EIDGarminWatchFaceApp" startPc="268438451">
+        <functionEntry accessMode="public" endPc="268438499" name="onSettingsChanged" parent="EIDGarminWatchFaceApp" startPc="268438486">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438492" name="getInitialView" parent="EIDGarminWatchFaceApp" startPc="268438465">
+        <functionEntry accessMode="public" endPc="268438527" name="getInitialView" parent="EIDGarminWatchFaceApp" startPc="268438500">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438507" name="initialize" parent="EIDGarminWatchFaceApp" startPc="268438493">
+        <functionEntry accessMode="public" endPc="268438542" name="initialize" parent="EIDGarminWatchFaceApp" startPc="268438528">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438510" name="onStop" parent="EIDGarminWatchFaceApp" startPc="268438508">
+        <functionEntry accessMode="public" endPc="268438545" name="onStop" parent="EIDGarminWatchFaceApp" startPc="268438543">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438859" name="getBackgroundBitmap" parent="CustomBackgroundDrawable" startPc="268438511">
+        <functionEntry accessMode="public" endPc="268438894" name="getBackgroundBitmap" parent="CustomBackgroundDrawable" startPc="268438546">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438892" name="initialize" parent="CustomBackgroundDrawable" startPc="268438860">
+        <functionEntry accessMode="public" endPc="268438927" name="initialize" parent="CustomBackgroundDrawable" startPc="268438895">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438918" name="draw" parent="CustomBackgroundDrawable" startPc="268438893">
+        <functionEntry accessMode="public" endPc="268438953" name="draw" parent="CustomBackgroundDrawable" startPc="268438928">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268438937" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawBatteryArc&gt;" parent="EIDGarminWatchFaceView" startPc="268438919">
+        <functionEntry accessMode="private" endPc="268438972" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawBatteryArc&gt;" parent="EIDGarminWatchFaceView" startPc="268438954">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268439011" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setCalories&gt;" parent="EIDGarminWatchFaceView" startPc="268438938">
+        <functionEntry accessMode="private" endPc="268439046" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setCalories&gt;" parent="EIDGarminWatchFaceView" startPc="268438973">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268439122" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHumidity&gt;" parent="EIDGarminWatchFaceView" startPc="268439012">
+        <functionEntry accessMode="private" endPc="268439157" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHumidity&gt;" parent="EIDGarminWatchFaceView" startPc="268439047">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268439233" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setBattery&gt;" parent="EIDGarminWatchFaceView" startPc="268439123">
+        <functionEntry accessMode="private" endPc="268439268" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setBattery&gt;" parent="EIDGarminWatchFaceView" startPc="268439158">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268439276" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setAMPM&gt;" parent="EIDGarminWatchFaceView" startPc="268439234">
+        <functionEntry accessMode="private" endPc="268439311" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setAMPM&gt;" parent="EIDGarminWatchFaceView" startPc="268439269">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268439320" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeatherIcon&gt;" parent="EIDGarminWatchFaceView" startPc="268439277">
+        <functionEntry accessMode="private" endPc="268439355" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeatherIcon&gt;" parent="EIDGarminWatchFaceView" startPc="268439312">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268439360" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setMinute&gt;" parent="EIDGarminWatchFaceView" startPc="268439321">
+        <functionEntry accessMode="private" endPc="268439395" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setMinute&gt;" parent="EIDGarminWatchFaceView" startPc="268439356">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268439434" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStress&gt;" parent="EIDGarminWatchFaceView" startPc="268439361">
+        <functionEntry accessMode="private" endPc="268439469" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStress&gt;" parent="EIDGarminWatchFaceView" startPc="268439396">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268439495" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setTemperature&gt;" parent="EIDGarminWatchFaceView" startPc="268439435">
+        <functionEntry accessMode="private" endPc="268439530" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setTemperature&gt;" parent="EIDGarminWatchFaceView" startPc="268439470">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="EIDGarminWatchFaceView">
@@ -892,53 +887,53 @@
         <functionEntry accessMode="public" name="onShow" parent="EIDGarminWatchFaceView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439531" name="onLayout" parent="EIDGarminWatchFaceView" startPc="268439496">
+        <functionEntry accessMode="public" endPc="268439566" name="onLayout" parent="EIDGarminWatchFaceView" startPc="268439531">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268439550" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawStressArc&gt;" parent="EIDGarminWatchFaceView" startPc="268439532">
+        <functionEntry accessMode="private" endPc="268439585" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawStressArc&gt;" parent="EIDGarminWatchFaceView" startPc="268439567">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268439614" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHour&gt;" parent="EIDGarminWatchFaceView" startPc="268439551">
+        <functionEntry accessMode="private" endPc="268439649" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHour&gt;" parent="EIDGarminWatchFaceView" startPc="268439586">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268440016" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;" parent="EIDGarminWatchFaceView" startPc="268439615">
+        <functionEntry accessMode="private" endPc="268440051" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSecond&gt;" parent="EIDGarminWatchFaceView" startPc="268439650">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268440077" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDistance&gt;" parent="EIDGarminWatchFaceView" startPc="268440017">
+        <functionEntry accessMode="private" endPc="268440112" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDistance&gt;" parent="EIDGarminWatchFaceView" startPc="268440052">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268440096" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawTotalCaloriesProgressBar&gt;" parent="EIDGarminWatchFaceView" startPc="268440078">
+        <functionEntry accessMode="private" endPc="268440131" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;drawTotalCaloriesProgressBar&gt;" parent="EIDGarminWatchFaceView" startPc="268440113">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onEnterSleep" parent="EIDGarminWatchFaceView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268440149" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHeartRate&gt;" parent="EIDGarminWatchFaceView" startPc="268440097">
+        <functionEntry accessMode="private" endPc="268440184" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setHeartRate&gt;" parent="EIDGarminWatchFaceView" startPc="268440132">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268440189" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeekday&gt;" parent="EIDGarminWatchFaceView" startPc="268440150">
+        <functionEntry accessMode="private" endPc="268440224" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setWeekday&gt;" parent="EIDGarminWatchFaceView" startPc="268440185">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268440229" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDate&gt;" parent="EIDGarminWatchFaceView" startPc="268440190">
+        <functionEntry accessMode="private" endPc="268440264" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setDate&gt;" parent="EIDGarminWatchFaceView" startPc="268440225">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440244" name="initialize" parent="EIDGarminWatchFaceView" startPc="268440230">
+        <functionEntry accessMode="public" endPc="268440279" name="initialize" parent="EIDGarminWatchFaceView" startPc="268440265">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440412" name="onUpdate" parent="EIDGarminWatchFaceView" startPc="268440245">
+        <functionEntry accessMode="public" endPc="268440447" name="onUpdate" parent="EIDGarminWatchFaceView" startPc="268440280">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268440465" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStepCount&gt;" parent="EIDGarminWatchFaceView" startPc="268440413">
+        <functionEntry accessMode="private" endPc="268440500" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setStepCount&gt;" parent="EIDGarminWatchFaceView" startPc="268440448">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268440526" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSunsetTime&gt;" parent="EIDGarminWatchFaceView" startPc="268440466">
+        <functionEntry accessMode="private" endPc="268440561" name="&lt;globals/EIDGarminWatchFaceView/&lt;&gt;setSunsetTime&gt;" parent="EIDGarminWatchFaceView" startPc="268440501">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442227" name="WatchFace" parent="Layouts" startPc="268440527">
+        <functionEntry accessMode="public" endPc="268442262" name="WatchFace" parent="Layouts" startPc="268440562">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

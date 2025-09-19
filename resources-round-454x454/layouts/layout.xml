@@ -2,7 +2,7 @@
 
    <drawable class="CustomBackgroundDrawable"/>
    <!-- 距离 -->
-   <label id="Distance" x="50%" y="5%" font = "@Fonts.rubik_f34" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
+   <label id="Distance" x="50%" y="4.5%" font = "@Fonts.rubik_f34" justification = "Graphics.TEXT_JUSTIFY_CENTER"/>
 
    <!-- 步数 -->
    <label id="StepCount" x="24%" y="17%" color="Gfx.COLOR_BLACK" font = "@Fonts.rubik_f34" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
@@ -32,7 +32,7 @@
    <label id="AMPM" x="7%" y="66%" font = "@Fonts.rubik_f20" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>
 
    <!-- 小时 -->
-   <label id="Hour" x="46%" y="63%" font = "@Fonts.rubik_f114" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
+   <label id="Hour" x="45%" y="63%" font = "@Fonts.rubik_f114" justification = "Graphics.TEXT_JUSTIFY_RIGHT"/>
 
    <!-- 分钟 -->
    <label id="Minute" x="55%" y="63%" color="Gfx.COLOR_WHITE" font = "@Fonts.rubik_f114" justification = "Graphics.TEXT_JUSTIFY_LEFT"/>

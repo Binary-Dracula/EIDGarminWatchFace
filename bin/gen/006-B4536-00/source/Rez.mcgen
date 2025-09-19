@@ -49,7 +49,7 @@ module Rez {
             var local_Rez_Fonts_rubik_f20 = (WatchUi.loadResource($.Rez.Fonts.rubik_f20) as Graphics.FontReference);
             var rez_cmp_local_custom_drawable_11939594661139614796 = new CustomBackgroundDrawable();
 
-            var rez_cmp_local_text_Distance = new WatchUi.Text({:identifier=>"Distance", :locX=>(454 * (50 / 100.0)), :locY=>(454 * (5 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_rubik_f34});
+            var rez_cmp_local_text_Distance = new WatchUi.Text({:identifier=>"Distance", :locX=>(454 * (50 / 100.0)), :locY=>(454 * (4.5 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_rubik_f34});
 
             var rez_cmp_local_text_StepCount = new WatchUi.Text({:identifier=>"StepCount", :color=>Gfx.COLOR_BLACK, :locX=>(454 * (24 / 100.0)), :locY=>(454 * (17 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f34});
 
@@ -69,7 +69,7 @@ module Rez {
 
             var rez_cmp_local_text_AMPM = new WatchUi.Text({:identifier=>"AMPM", :locX=>(454 * (7 / 100.0)), :locY=>(454 * (66 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f20});
 
-            var rez_cmp_local_text_Hour = new WatchUi.Text({:identifier=>"Hour", :locX=>(454 * (46 / 100.0)), :locY=>(454 * (63 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>local_Rez_Fonts_rubik_f114});
+            var rez_cmp_local_text_Hour = new WatchUi.Text({:identifier=>"Hour", :locX=>(454 * (45 / 100.0)), :locY=>(454 * (63 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>local_Rez_Fonts_rubik_f114});
 
             var rez_cmp_local_text_Minute = new WatchUi.Text({:identifier=>"Minute", :color=>Gfx.COLOR_WHITE, :locX=>(454 * (55 / 100.0)), :locY=>(454 * (63 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>local_Rez_Fonts_rubik_f114});
 
